@@ -1,0 +1,18 @@
+[0.204s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[0.302s] [100%] Built target oculus_sender
+[0.525s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[0.806s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[0.896s] Built target tests
+[1.022s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[1.427s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24
+[1.575s] [100%] Built target oculus_sender
+[1.586s] [36mInstall the project...[0m
+[1.602s] -- Install configuration: "Release"
+[1.602s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[1.602s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[1.603s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[1.603s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[1.603s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[1.603s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[1.603s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[1.764s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24

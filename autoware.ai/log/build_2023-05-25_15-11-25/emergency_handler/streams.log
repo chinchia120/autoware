@@ -1,0 +1,199 @@
+[0.310s] Invoking command in '/home/point001/autoware.ai/build/emergency_handler': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/emergency_handler -- -j24 -l24
+[0.409s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.410s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.410s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.410s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.410s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.410s] [  0%] Built target std_msgs_generate_messages_py
+[0.410s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.410s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[0.410s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[0.410s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.410s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.410s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.410s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.410s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.411s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.411s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.411s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.411s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.411s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.411s] [  0%] Built target std_msgs_generate_messages_eus
+[0.411s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.411s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[0.411s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.417s] [  0%] Built target roscpp_generate_messages_eus
+[0.422s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.425s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.428s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.429s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.429s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.429s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.433s] [  0%] Built target roscpp_generate_messages_cpp
+[0.442s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.442s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.442s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.442s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.448s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.448s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.448s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.448s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[0.449s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.450s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.451s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.461s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.461s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.461s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.461s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.462s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.470s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.470s] [  0%] Built target roscpp_generate_messages_py
+[0.470s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.473s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.473s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.473s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[0.478s] [  0%] Built target roscpp_generate_messages_lisp
+[0.479s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.513s] [ 37%] Built target system_status_filter
+[0.538s] [100%] Built target emergency_handler
+[0.678s] Invoked command in '/home/point001/autoware.ai/build/emergency_handler' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/emergency_handler -- -j24 -l24
+[1.681s] Invoking command in '/home/point001/autoware.ai/build/emergency_handler': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/emergency_handler --target tests -- -j24 -l24
+[1.819s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.822s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[1.827s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.827s] [ 10%] Built target autoware_msgs_generate_messages_eus
+[1.827s] [ 20%] Built target gtest
+[1.828s] [ 20%] Built target autoware_system_msgs_generate_messages_cpp
+[1.828s] [ 20%] Built target actionlib_msgs_generate_messages_nodejs
+[1.829s] [ 20%] Built target sensor_msgs_generate_messages_lisp
+[1.829s] [ 20%] Built target geometry_msgs_generate_messages_nodejs
+[1.832s] [ 20%] Built target geometry_msgs_generate_messages_lisp
+[1.834s] [ 20%] Built target autoware_msgs_generate_messages_lisp
+[1.836s] [ 20%] Built target std_msgs_generate_messages_nodejs
+[1.842s] [ 20%] Built target jsk_footstep_msgs_generate_messages_py
+[1.843s] [ 20%] Built target std_msgs_generate_messages_py
+[1.843s] [ 20%] Built target jsk_recognition_msgs_generate_messages_lisp
+[1.843s] [ 20%] Built target rosgraph_msgs_generate_messages_eus
+[1.845s] [ 20%] Built target std_msgs_generate_messages_eus
+[1.845s] [ 20%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.848s] [ 20%] Built target autoware_system_msgs_generate_messages_lisp
+[1.848s] [ 20%] Built target autoware_msgs_generate_messages_cpp
+[1.850s] [ 20%] Built target geometry_msgs_generate_messages_py
+[1.854s] [ 20%] Built target roscpp_generate_messages_nodejs
+[1.858s] [ 20%] Built target jsk_recognition_msgs_generate_messages_py
+[1.867s] [ 20%] Built target sensor_msgs_generate_messages_cpp
+[1.867s] [ 20%] Built target std_msgs_generate_messages_lisp
+[1.871s] [ 20%] Built target geometry_msgs_generate_messages_cpp
+[1.873s] [ 20%] Built target actionlib_msgs_generate_messages_eus
+[1.876s] [ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[1.876s] [ 20%] Built target rosgraph_msgs_generate_messages_py
+[1.878s] [ 20%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.881s] [ 20%] Built target jsk_footstep_msgs_generate_messages_lisp
+[1.884s] [ 20%] Built target roscpp_generate_messages_cpp
+[1.885s] [ 20%] Built target pcl_msgs_generate_messages_py
+[1.885s] [ 20%] Built target autoware_msgs_generate_messages_nodejs
+[1.886s] [ 20%] Built target roscpp_generate_messages_eus
+[1.888s] [ 20%] Built target sensor_msgs_generate_messages_py
+[1.890s] [ 20%] Built target sensor_msgs_generate_messages_nodejs
+[1.891s] [ 20%] Built target autoware_msgs_generate_messages_py
+[1.900s] [ 20%] Built target autoware_system_msgs_generate_messages_py
+[1.904s] [ 20%] Built target sensor_msgs_generate_messages_eus
+[1.908s] [ 20%] Built target pcl_msgs_generate_messages_eus
+[1.908s] [ 20%] Built target pcl_msgs_generate_messages_lisp
+[1.908s] [ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.908s] [ 20%] Built target jsk_footstep_msgs_generate_messages_cpp
+[1.908s] [ 20%] Built target pcl_msgs_generate_messages_cpp
+[1.909s] [ 20%] Built target jsk_footstep_msgs_generate_messages_eus
+[1.913s] [ 20%] Built target actionlib_msgs_generate_messages_cpp
+[1.913s] [ 20%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[1.919s] [ 20%] Built target pcl_msgs_generate_messages_nodejs
+[1.920s] [ 20%] Built target autoware_system_msgs_generate_messages_nodejs
+[1.921s] [ 20%] Built target roscpp_generate_messages_py
+[1.929s] [ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[1.929s] [ 20%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.931s] [ 20%] Built target actionlib_msgs_generate_messages_py
+[1.931s] [ 20%] Built target roscpp_generate_messages_lisp
+[1.931s] [ 20%] Built target actionlib_msgs_generate_messages_lisp
+[1.968s] [ 50%] Built target system_status_filter
+[2.037s] [100%] Built target test_emergency_handler
+[2.085s] [100%] Built target tests
+[2.118s] Invoked command in '/home/point001/autoware.ai/build/emergency_handler' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/emergency_handler --target tests -- -j24 -l24
+[2.457s] Invoking command in '/home/point001/autoware.ai/build/emergency_handler': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/emergency_handler --target install -- -j24 -l24
+[2.676s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[2.676s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.676s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.680s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.680s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.682s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.682s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.684s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.685s] [  0%] Built target std_msgs_generate_messages_eus
+[2.686s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.686s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[2.687s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.687s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[2.688s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.690s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.690s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[2.691s] [  0%] Built target autoware_msgs_generate_messages_eus
+[2.701s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[2.701s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[2.704s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[2.706s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[2.707s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[2.708s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.709s] [  0%] Built target std_msgs_generate_messages_py
+[2.710s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.722s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.723s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[2.723s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.723s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[2.726s] [  0%] Built target roscpp_generate_messages_eus
+[2.728s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.729s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.729s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.731s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[2.733s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[2.740s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[2.741s] [  0%] Built target autoware_msgs_generate_messages_py
+[2.746s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[2.746s] [  0%] Built target pcl_msgs_generate_messages_py
+[2.747s] [  0%] Built target roscpp_generate_messages_cpp
+[2.747s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[2.750s] [  0%] Built target sensor_msgs_generate_messages_py
+[2.751s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.760s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[2.766s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.766s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[2.766s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[2.767s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.767s] [  0%] Built target roscpp_generate_messages_lisp
+[2.768s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.769s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.778s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.779s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[2.780s] [  0%] Built target roscpp_generate_messages_py
+[2.781s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[2.836s] [ 37%] Built target system_status_filter
+[2.865s] [100%] Built target emergency_handler
+[2.885s] [36mInstall the project...[0m
+[2.891s] -- Install configuration: "Release"
+[2.894s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/lib/pkgconfig/emergency_handler.pc
+[2.894s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/cmake/emergency_handlerConfig.cmake
+[2.894s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/cmake/emergency_handlerConfig-version.cmake
+[2.894s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/package.xml
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/lib/emergency_handler/emergency_handler
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/lib/libsystem_status_filter.so
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler/libsystem_status_filter.h
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler/emergency_stop_planner.h
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler/emergency_planner.h
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler/libvital_monitor.h
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler/emergency_handler.h
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/include/emergency_handler/system_status_filter.h
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/launch
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/launch/emergency_handler.launch
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/config
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/config/emergency_handler.yaml
+[2.895s] -- Up-to-date: /home/point001/autoware.ai/install/emergency_handler/share/emergency_handler/config/README.md
+[2.992s] Invoked command in '/home/point001/autoware.ai/build/emergency_handler' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/emergency_handler --target install -- -j24 -l24

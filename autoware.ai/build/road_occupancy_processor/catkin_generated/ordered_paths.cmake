@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/point001/autoware.ai/install/vector_map/lib;/opt/ros/melodic/lib")

@@ -1,0 +1,325 @@
+[0.175s] Invoking command in '/home/point001/autoware.ai/build/lidar_euclidean_cluster_detect': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/vector_map_server:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/vector_map_server/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_euclidean_cluster_detect -- -j24 -l24
+[0.555s] [ 20%] [34m[1mBuilding NVCC (Device) object CMakeFiles/gpu_euclidean_clustering.dir/nodes/lidar_euclidean_cluster_detect/gpu_euclidean_clustering_generated_gpu_euclidean_clustering.cu.o[0m
+[0.571s] [ 20%] Built target tf_generate_messages_eus
+[0.575s] [ 20%] Built target people_msgs_generate_messages_py
+[0.576s] [ 20%] Built target rviz_generate_messages_cpp
+[0.586s] [ 20%] Built target vector_map_msgs_generate_messages_lisp
+[0.590s] [ 20%] Built target map_msgs_generate_messages_eus
+[0.599s] [ 20%] Built target vector_map_msgs_generate_messages_py
+[0.605s] [ 20%] Built target map_msgs_generate_messages_lisp
+[0.605s] [ 20%] Built target vector_map_msgs_generate_messages_nodejs
+[0.619s] [ 20%] Built target rviz_generate_messages_eus
+[0.619s] [ 20%] Built target bond_generate_messages_nodejs
+[0.619s] [ 20%] Built target vector_map_server_generate_messages_nodejs
+[0.619s] [ 20%] Built target bond_generate_messages_py
+[0.620s] [ 20%] Built target rviz_generate_messages_py
+[0.623s] [ 20%] Built target people_msgs_generate_messages_eus
+[0.623s] [ 20%] Built target vector_map_msgs_generate_messages_cpp
+[0.624s] [ 20%] Built target people_msgs_generate_messages_lisp
+[0.624s] [ 20%] Built target vector_map_msgs_generate_messages_eus
+[0.624s] [ 20%] Built target bond_generate_messages_eus
+[0.624s] [ 20%] Built target people_msgs_generate_messages_cpp
+[0.625s] [ 20%] Built target nodelet_generate_messages_nodejs
+[0.627s] [ 20%] Built target bond_generate_messages_cpp
+[0.628s] [ 20%] Built target bond_generate_messages_lisp
+[0.655s] [ 20%] Built target nodelet_generate_messages_cpp
+[0.670s] [ 20%] Built target nodelet_generate_messages_eus
+[0.684s] [ 20%] Built target dynamic_reconfigure_generate_messages_eus
+[0.685s] [ 20%] Built target dynamic_reconfigure_generate_messages_py
+[0.687s] [ 20%] Built target jsk_hark_msgs_generate_messages_eus
+[0.689s] [ 20%] Built target vector_map_server_generate_messages_cpp
+[0.689s] [ 20%] Built target jsk_hark_msgs_generate_messages_py
+[0.699s] [ 20%] Built target map_msgs_generate_messages_py
+[0.699s] [ 20%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.700s] [ 20%] Built target people_msgs_generate_messages_nodejs
+[0.701s] [ 20%] Built target pcl_ros_gencfg
+[0.701s] [ 20%] Built target jsk_recognition_utils_gencfg
+[0.702s] [ 20%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.704s] [ 20%] Built target rviz_generate_messages_nodejs
+[0.708s] [ 20%] Built target jsk_rviz_plugins_generate_messages_lisp
+[0.708s] [ 20%] Built target jsk_hark_msgs_generate_messages_nodejs
+[0.712s] [ 20%] Built target visualization_msgs_generate_messages_nodejs
+[0.712s] [ 20%] Built target jsk_rviz_plugins_generate_messages_py
+[0.713s] [ 20%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[0.721s] [ 20%] Built target rviz_generate_messages_lisp
+[0.722s] [ 20%] Built target jsk_rviz_plugins_gencfg
+[0.727s] [ 20%] Built target tf2_msgs_generate_messages_nodejs
+[0.728s] [ 20%] Built target visualization_msgs_generate_messages_py
+[0.737s] [ 20%] Built target tf2_msgs_generate_messages_cpp
+[0.737s] [ 20%] Built target visualization_msgs_generate_messages_eus
+[0.745s] [ 20%] Built target vector_map_server_generate_messages_eus
+[0.745s] [ 20%] Built target actionlib_generate_messages_py
+[0.746s] [ 20%] Built target roscpp_generate_messages_cpp
+[0.749s] [ 20%] Built target actionlib_generate_messages_cpp
+[0.756s] [ 20%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.764s] [ 20%] Built target tf2_msgs_generate_messages_py
+[0.766s] [ 20%] Built target map_msgs_generate_messages_cpp
+[0.774s] [ 20%] Built target pcl_msgs_generate_messages_eus
+[0.776s] [ 20%] Built target sensor_msgs_generate_messages_nodejs
+[0.778s] [ 20%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.781s] [ 20%] Built target tf_generate_messages_nodejs
+[0.783s] [ 20%] Built target tf_generate_messages_py
+[0.784s] [ 20%] Built target geometry_msgs_generate_messages_py
+[0.786s] [ 20%] Built target sensor_msgs_generate_messages_eus
+[0.787s] [ 20%] Built target jsk_hark_msgs_generate_messages_lisp
+[0.797s] [ 20%] Built target rosgraph_msgs_generate_messages_eus
+[0.802s] [ 20%] Built target tf_generate_messages_lisp
+[0.806s] [ 20%] Built target autoware_msgs_generate_messages_py
+[0.821s] [ 20%] Built target topic_tools_generate_messages_cpp
+[0.824s] [ 20%] Built target jsk_recognition_msgs_generate_messages_py
+[0.825s] [ 20%] Built target nodelet_generate_messages_lisp
+[0.825s] [ 20%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.829s] [ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[0.835s] [ 20%] Built target std_msgs_generate_messages_nodejs
+[0.841s] [ 20%] Built target autoware_msgs_generate_messages_cpp
+[0.845s] [ 20%] Built target jsk_rviz_plugins_generate_messages_eus
+[0.848s] [ 20%] Built target sensor_msgs_generate_messages_cpp
+[0.869s] [ 20%] Built target std_msgs_generate_messages_py
+[0.870s] [ 20%] Built target nodelet_generate_messages_py
+[0.870s] [ 20%] Built target sensor_msgs_generate_messages_py
+[0.874s] [ 20%] Built target std_msgs_generate_messages_cpp
+[0.883s] [ 20%] Built target std_msgs_generate_messages_lisp
+[0.883s] [ 20%] Built target roscpp_generate_messages_nodejs
+[0.889s] [ 20%] Built target geometry_msgs_generate_messages_nodejs
+[0.892s] [ 20%] Built target jsk_footstep_msgs_generate_messages_py
+[0.912s] [ 20%] Built target autoware_msgs_generate_messages_lisp
+[0.915s] [ 20%] Built target geometry_msgs_generate_messages_lisp
+[0.916s] [ 20%] Built target geometry_msgs_generate_messages_eus
+[0.924s] [ 20%] Built target actionlib_generate_messages_eus
+[0.929s] [ 20%] Built target nav_msgs_generate_messages_nodejs
+[0.930s] [ 20%] Built target jsk_rviz_plugins_generate_messages_cpp
+[0.931s] [ 20%] Built target pcl_msgs_generate_messages_py
+[0.935s] [ 20%] Built target actionlib_generate_messages_lisp
+[0.938s] [ 20%] Built target geometry_msgs_generate_messages_cpp
+[0.948s] [ 20%] Built target topic_tools_generate_messages_eus
+[0.948s] [ 20%] Built target autoware_msgs_generate_messages_nodejs
+[0.956s] [ 20%] Built target visualization_msgs_generate_messages_cpp
+[0.965s] [ 20%] Built target pcl_msgs_generate_messages_cpp
+[0.965s] [ 20%] Built target visualization_msgs_generate_messages_lisp
+[0.976s] [ 20%] Built target autoware_msgs_generate_messages_eus
+[0.978s] [ 20%] Built target vector_map_server_generate_messages_lisp
+[0.978s] [ 20%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.993s] [ 20%] Built target actionlib_msgs_generate_messages_py
+[0.997s] [ 20%] Built target actionlib_msgs_generate_messages_lisp
+[0.998s] [ 20%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.998s] [ 20%] Built target std_msgs_generate_messages_eus
+[0.999s] [ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.015s] [ 20%] Built target grid_map_msgs_generate_messages_lisp
+[1.015s] [ 20%] Built target grid_map_msgs_generate_messages_eus
+[1.016s] [ 20%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[1.036s] [ 20%] Built target grid_map_msgs_generate_messages_nodejs
+[1.039s] [ 20%] Built target nav_msgs_generate_messages_eus
+[1.046s] [ 20%] Built target tf2_msgs_generate_messages_eus
+[1.048s] [ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[1.057s] [ 20%] Built target grid_map_msgs_generate_messages_cpp
+[1.057s] [ 20%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.069s] [ 20%] Built target roscpp_generate_messages_lisp
+[1.069s] [ 20%] Built target std_srvs_generate_messages_cpp
+[1.070s] [ 20%] Built target jsk_hark_msgs_generate_messages_cpp
+[1.078s] [ 20%] Built target std_srvs_generate_messages_eus
+[1.079s] [ 20%] Built target rosgraph_msgs_generate_messages_py
+[1.080s] [ 20%] Built target actionlib_msgs_generate_messages_eus
+[1.088s] [ 20%] Built target roscpp_generate_messages_eus
+[1.098s] [ 20%] Built target grid_map_msgs_generate_messages_py
+[1.098s] [ 20%] Built target pcl_msgs_generate_messages_nodejs
+[1.098s] [ 20%] Built target roscpp_generate_messages_py
+[1.099s] [ 20%] Built target vector_map_server_generate_messages_py
+[1.114s] [ 20%] Built target nav_msgs_generate_messages_py
+[1.124s] [ 20%] Built target sensor_msgs_generate_messages_lisp
+[1.130s] [ 20%] Built target dynamic_reconfigure_gencfg
+[1.130s] [ 20%] Built target nav_msgs_generate_messages_lisp
+[1.136s] [ 20%] Built target nodelet_topic_tools_gencfg
+[1.137s] [ 20%] Built target _catkin_empty_exported_target
+[1.140s] [ 20%] Built target std_srvs_generate_messages_lisp
+[1.143s] [ 20%] Built target topic_tools_generate_messages_lisp
+[1.143s] [ 20%] Built target tf2_msgs_generate_messages_lisp
+[1.144s] [ 20%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.153s] [ 20%] Built target map_msgs_generate_messages_nodejs
+[1.156s] [ 20%] Built target nav_msgs_generate_messages_cpp
+[1.156s] [ 20%] Built target topic_tools_generate_messages_nodejs
+[1.158s] [ 20%] Built target std_srvs_generate_messages_nodejs
+[1.159s] [ 20%] Built target std_srvs_generate_messages_py
+[1.171s] [ 20%] Built target topic_tools_generate_messages_py
+[1.171s] [ 20%] Built target actionlib_generate_messages_nodejs
+[1.171s] [ 20%] Built target actionlib_msgs_generate_messages_nodejs
+[1.173s] [ 20%] Built target actionlib_msgs_generate_messages_cpp
+[1.177s] [ 20%] Built target pcl_msgs_generate_messages_lisp
+[1.201s] [ 20%] Built target tf_generate_messages_cpp
+[1.201s] [ 20%] Built target jsk_footstep_msgs_generate_messages_cpp
+[6.603s] [ 40%] [32m[1mLinking CXX shared library devel/lib/libgpu_euclidean_clustering.so[0m
+[6.735s] [ 40%] Built target gpu_euclidean_clustering
+[6.788s] [ 60%] [32m[1mLinking CXX executable devel/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect[0m
+[16.161s] [100%] Built target lidar_euclidean_cluster_detect
+[16.170s] Invoked command in '/home/point001/autoware.ai/build/lidar_euclidean_cluster_detect' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/vector_map_server:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/vector_map_server/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_euclidean_cluster_detect -- -j24 -l24
+[16.255s] Invoking command in '/home/point001/autoware.ai/build/lidar_euclidean_cluster_detect': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/vector_map_server:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/vector_map_server/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_euclidean_cluster_detect --target tests -- -j24 -l24
+[16.314s] Built target tests
+[16.322s] Invoked command in '/home/point001/autoware.ai/build/lidar_euclidean_cluster_detect' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/vector_map_server:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/vector_map_server/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_euclidean_cluster_detect --target tests -- -j24 -l24
+[16.409s] Invoking command in '/home/point001/autoware.ai/build/lidar_euclidean_cluster_detect': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/vector_map_server:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/vector_map_server/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_euclidean_cluster_detect --target install -- -j24 -l24
+[16.478s] [ 40%] Built target gpu_euclidean_clustering
+[16.491s] [ 40%] Built target nodelet_generate_messages_eus
+[16.504s] [ 40%] Built target nodelet_generate_messages_cpp
+[16.519s] [ 40%] Built target dynamic_reconfigure_generate_messages_py
+[16.534s] [ 40%] Built target dynamic_reconfigure_generate_messages_nodejs
+[16.548s] [ 40%] Built target people_msgs_generate_messages_nodejs
+[16.562s] [ 40%] Built target dynamic_reconfigure_generate_messages_lisp
+[16.576s] [ 40%] Built target dynamic_reconfigure_generate_messages_eus
+[16.590s] [ 40%] Built target map_msgs_generate_messages_py
+[16.603s] [ 40%] Built target pcl_ros_gencfg
+[16.620s] [ 40%] Built target jsk_hark_msgs_generate_messages_py
+[16.635s] [ 40%] Built target rviz_generate_messages_nodejs
+[16.651s] [ 40%] Built target jsk_hark_msgs_generate_messages_nodejs
+[16.666s] [ 40%] Built target jsk_hark_msgs_generate_messages_eus
+[16.679s] [ 40%] Built target jsk_rviz_plugins_generate_messages_py
+[16.694s] [ 40%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[16.708s] [ 40%] Built target jsk_recognition_utils_gencfg
+[16.722s] [ 40%] Built target jsk_rviz_plugins_generate_messages_lisp
+[16.738s] [ 40%] Built target rviz_generate_messages_lisp
+[16.754s] [ 40%] Built target jsk_rviz_plugins_gencfg
+[16.768s] [ 40%] Built target visualization_msgs_generate_messages_py
+[16.782s] [ 40%] Built target visualization_msgs_generate_messages_nodejs
+[16.797s] [ 40%] Built target vector_map_server_generate_messages_cpp
+[16.811s] [ 40%] Built target visualization_msgs_generate_messages_eus
+[16.828s] [ 40%] Built target tf2_msgs_generate_messages_nodejs
+[16.842s] [ 40%] Built target tf2_msgs_generate_messages_cpp
+[16.858s] [ 40%] Built target map_msgs_generate_messages_cpp
+[16.871s] [ 40%] Built target tf2_msgs_generate_messages_py
+[16.885s] [ 40%] Built target actionlib_generate_messages_py
+[16.899s] [ 40%] Built target actionlib_generate_messages_cpp
+[16.913s] [ 40%] Built target dynamic_reconfigure_generate_messages_cpp
+[16.927s] [ 40%] Built target tf_generate_messages_py
+[16.942s] [ 40%] Built target tf_generate_messages_nodejs
+[16.956s] [ 40%] Built target tf_generate_messages_lisp
+[16.972s] [ 40%] Built target geometry_msgs_generate_messages_py
+[16.986s] [ 40%] Built target sensor_msgs_generate_messages_nodejs
+[17.001s] [ 40%] Built target vector_map_server_generate_messages_eus
+[17.014s] [ 40%] Built target roscpp_generate_messages_cpp
+[17.029s] [ 40%] Built target pcl_msgs_generate_messages_eus
+[17.044s] [ 40%] Built target rosgraph_msgs_generate_messages_eus
+[17.059s] [ 40%] Built target jsk_recognition_msgs_generate_messages_lisp
+[17.076s] [ 40%] Built target jsk_recognition_msgs_generate_messages_eus
+[17.091s] [ 40%] Built target std_msgs_generate_messages_py
+[17.106s] [ 40%] Built target nodelet_generate_messages_lisp
+[17.122s] [ 40%] Built target autoware_msgs_generate_messages_py
+[17.135s] [ 40%] Built target jsk_hark_msgs_generate_messages_lisp
+[17.149s] [ 40%] Built target std_msgs_generate_messages_nodejs
+[17.163s] [ 40%] Built target sensor_msgs_generate_messages_eus
+[17.177s] [ 40%] Built target sensor_msgs_generate_messages_cpp
+[17.191s] [ 40%] Built target autoware_msgs_generate_messages_cpp
+[17.205s] [ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[17.220s] [ 40%] Built target topic_tools_generate_messages_cpp
+[17.236s] [ 40%] Built target jsk_recognition_msgs_generate_messages_py
+[17.249s] [ 40%] Built target nodelet_generate_messages_py
+[17.264s] [ 40%] Built target sensor_msgs_generate_messages_py
+[17.277s] [ 40%] Built target std_msgs_generate_messages_cpp
+[17.292s] [ 40%] Built target jsk_footstep_msgs_generate_messages_py
+[17.307s] [ 40%] Built target nav_msgs_generate_messages_nodejs
+[17.320s] [ 40%] Built target geometry_msgs_generate_messages_eus
+[17.335s] [ 40%] Built target jsk_rviz_plugins_generate_messages_cpp
+[17.350s] [ 40%] Built target std_msgs_generate_messages_lisp
+[17.364s] [ 40%] Built target roscpp_generate_messages_nodejs
+[17.379s] [ 40%] Built target geometry_msgs_generate_messages_nodejs
+[17.392s] [ 40%] Built target jsk_rviz_plugins_generate_messages_eus
+[17.407s] [ 40%] Built target actionlib_generate_messages_eus
+[17.421s] [ 40%] Built target pcl_msgs_generate_messages_py
+[17.435s] [ 40%] Built target geometry_msgs_generate_messages_lisp
+[17.450s] [ 40%] Built target actionlib_generate_messages_lisp
+[17.464s] [ 40%] Built target geometry_msgs_generate_messages_cpp
+[17.478s] [ 40%] Built target pcl_msgs_generate_messages_cpp
+[17.493s] [ 40%] Built target autoware_msgs_generate_messages_eus
+[17.507s] [ 40%] Built target autoware_msgs_generate_messages_lisp
+[17.522s] [ 40%] Built target topic_tools_generate_messages_eus
+[17.537s] [ 40%] Built target visualization_msgs_generate_messages_lisp
+[17.552s] [ 40%] Built target std_msgs_generate_messages_eus
+[17.567s] [ 40%] Built target autoware_msgs_generate_messages_nodejs
+[17.581s] [ 40%] Built target jsk_footstep_msgs_generate_messages_eus
+[17.596s] [ 40%] Built target actionlib_msgs_generate_messages_py
+[17.609s] [ 40%] Built target visualization_msgs_generate_messages_cpp
+[17.623s] [ 40%] Built target tf2_msgs_generate_messages_eus
+[17.637s] [ 40%] Built target nav_msgs_generate_messages_eus
+[17.653s] [ 40%] Built target vector_map_server_generate_messages_lisp
+[17.670s] [ 40%] Built target jsk_footstep_msgs_generate_messages_lisp
+[17.680s] [ 40%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[17.694s] [ 40%] Built target grid_map_msgs_generate_messages_nodejs
+[17.707s] [ 40%] Built target std_srvs_generate_messages_cpp
+[17.721s] [ 40%] Built target actionlib_msgs_generate_messages_lisp
+[17.734s] [ 40%] Built target grid_map_msgs_generate_messages_lisp
+[17.749s] [ 40%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[17.762s] [ 40%] Built target std_srvs_generate_messages_eus
+[17.776s] [ 40%] Built target roscpp_generate_messages_lisp
+[17.789s] [ 40%] Built target grid_map_msgs_generate_messages_eus
+[17.803s] [ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[17.817s] [ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[17.830s] [ 40%] Built target vector_map_server_generate_messages_py
+[17.844s] [ 40%] Built target roscpp_generate_messages_eus
+[17.857s] [ 40%] Built target actionlib_msgs_generate_messages_eus
+[17.871s] [ 40%] Built target rosgraph_msgs_generate_messages_py
+[17.883s] [ 40%] Built target roscpp_generate_messages_py
+[17.896s] [ 40%] Built target grid_map_msgs_generate_messages_cpp
+[17.910s] [ 40%] Built target jsk_hark_msgs_generate_messages_cpp
+[17.924s] [ 40%] Built target grid_map_msgs_generate_messages_py
+[17.938s] [ 40%] Built target sensor_msgs_generate_messages_lisp
+[17.952s] [ 40%] Built target nav_msgs_generate_messages_cpp
+[17.966s] [ 40%] Built target pcl_msgs_generate_messages_nodejs
+[17.979s] [ 40%] Built target nav_msgs_generate_messages_lisp
+[17.993s] [ 40%] Built target dynamic_reconfigure_gencfg
+[18.007s] [ 40%] Built target tf2_msgs_generate_messages_lisp
+[18.020s] [ 40%] Built target nav_msgs_generate_messages_py
+[18.034s] [ 40%] Built target _catkin_empty_exported_target
+[18.047s] [ 40%] Built target std_srvs_generate_messages_lisp
+[18.063s] [ 40%] Built target jsk_recognition_msgs_generate_messages_cpp
+[18.077s] [ 40%] Built target topic_tools_generate_messages_lisp
+[18.091s] [ 40%] Built target std_srvs_generate_messages_nodejs
+[18.104s] [ 40%] Built target std_srvs_generate_messages_py
+[18.118s] [ 40%] Built target topic_tools_generate_messages_nodejs
+[18.131s] [ 40%] Built target map_msgs_generate_messages_nodejs
+[18.145s] [ 40%] Built target nodelet_topic_tools_gencfg
+[18.158s] [ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[18.172s] [ 40%] Built target topic_tools_generate_messages_py
+[18.184s] [ 40%] Built target actionlib_generate_messages_nodejs
+[18.198s] [ 40%] Built target pcl_msgs_generate_messages_lisp
+[18.212s] [ 40%] Built target tf_generate_messages_cpp
+[18.225s] [ 40%] Built target jsk_footstep_msgs_generate_messages_cpp
+[18.238s] [ 40%] Built target actionlib_msgs_generate_messages_cpp
+[18.252s] [ 40%] Built target map_msgs_generate_messages_eus
+[18.266s] [ 40%] Built target nodelet_generate_messages_nodejs
+[18.280s] [ 40%] Built target bond_generate_messages_cpp
+[18.294s] [ 40%] Built target bond_generate_messages_eus
+[18.307s] [ 40%] Built target bond_generate_messages_lisp
+[18.322s] [ 40%] Built target bond_generate_messages_nodejs
+[18.337s] [ 40%] Built target bond_generate_messages_py
+[18.351s] [ 40%] Built target vector_map_msgs_generate_messages_nodejs
+[18.364s] [ 40%] Built target people_msgs_generate_messages_cpp
+[18.378s] [ 40%] Built target people_msgs_generate_messages_eus
+[18.392s] [ 40%] Built target rviz_generate_messages_eus
+[18.405s] [ 40%] Built target people_msgs_generate_messages_lisp
+[18.418s] [ 40%] Built target people_msgs_generate_messages_py
+[18.431s] [ 40%] Built target rviz_generate_messages_cpp
+[18.445s] [ 40%] Built target rviz_generate_messages_py
+[18.459s] [ 40%] Built target map_msgs_generate_messages_lisp
+[18.472s] [ 40%] Built target vector_map_server_generate_messages_nodejs
+[18.485s] [ 40%] Built target vector_map_msgs_generate_messages_cpp
+[18.499s] [ 40%] Built target vector_map_msgs_generate_messages_eus
+[18.512s] [ 40%] Built target vector_map_msgs_generate_messages_lisp
+[18.526s] [ 40%] Built target vector_map_msgs_generate_messages_py
+[18.541s] [ 40%] Built target tf_generate_messages_eus
+[18.577s] [100%] Built target lidar_euclidean_cluster_detect
+[18.593s] [36mInstall the project...[0m
+[18.603s] -- Install configuration: "Release"
+[18.603s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/lib/pkgconfig/lidar_euclidean_cluster_detect.pc
+[18.603s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/cmake/lidar_euclidean_cluster_detectConfig.cmake
+[18.603s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/cmake/lidar_euclidean_cluster_detectConfig-version.cmake
+[18.603s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/package.xml
+[18.603s] -- Installing: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/lib/libgpu_euclidean_clustering.so
+[18.604s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect
+[18.604s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/cluster.h
+[18.605s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/gencolors.cpp
+[18.605s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/gpu_euclidean_clustering.h
+[18.605s] -- Installing: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect
+[18.606s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect" to ""
+[18.606s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch
+[18.606s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/lidar_euclidean_cluster_detect.launch
+[18.606s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/euclidean_clustering_Exp.launch
+[18.606s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/lidar_euclidean_cluster_detect_param.launch
+[18.606s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/config
+[18.606s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/config/params.yaml
+[18.609s] Invoked command in '/home/point001/autoware.ai/build/lidar_euclidean_cluster_detect' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/vector_map_server:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/vector_map_server/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_euclidean_cluster_detect --target install -- -j24 -l24

@@ -1,0 +1,82 @@
+[0.221s] Invoking command in '/home/point001/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake --build /home/point001/autoware.ai/build/mrt_cmake_modules -- -j24 -l24
+[1.032s] Invoked command in '/home/point001/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/mrt_cmake_modules -- -j24 -l24
+[1.243s] Invoking command in '/home/point001/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake --build /home/point001/autoware.ai/build/mrt_cmake_modules --target tests -- -j24 -l24
+[1.360s] Built target tests
+[1.389s] Invoked command in '/home/point001/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/mrt_cmake_modules --target tests -- -j24 -l24
+[1.554s] Invoking command in '/home/point001/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake --build /home/point001/autoware.ai/build/mrt_cmake_modules --target install -- -j24 -l24
+[1.638s] [36mInstall the project...[0m
+[1.654s] -- Install configuration: "Release"
+[1.655s] + cd /home/point001/autoware.ai/src/vendor/mrt_cmake_modules
+[1.655s] + mkdir -p /home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages
+[1.655s] + /usr/bin/env PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:/home/point001/autoware.ai/build/mrt_cmake_modules/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/lanelet2_python/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/kitti_player/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/point001/autoware.ai/build/mrt_cmake_modules /usr/bin/python2 /home/point001/autoware.ai/src/vendor/mrt_cmake_modules/setup.py build --build-base /home/point001/autoware.ai/build/mrt_cmake_modules install --root=/ --install-layout=deb --prefix=/home/point001/autoware.ai/install/mrt_cmake_modules --install-scripts=/home/point001/autoware.ai/install/mrt_cmake_modules/bin
+[1.705s] running build
+[1.705s] running build_py
+[1.706s] running install
+[1.706s] running install_lib
+[1.706s] running install_egg_info
+[1.706s] Removing /home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages/mrt_cmake_modules-1.0.0.egg-info
+[1.706s] Writing /home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages/mrt_cmake_modules-1.0.0.egg-info
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig/mrt_cmake_modules.pc
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig-version.cmake
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/package.xml
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules
+[1.712s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtf2c.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindPoco.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindPCAP.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtnlopt.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/Findlibgps.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtVTK.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/CatkinMockForConan.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/MRTCoverage.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtTesseract.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/Findpugixml.cmake
+[1.713s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtCTensorflow.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindSqlite3.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/Findgtest.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindTinyXML.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtMetis.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindAutoDeps.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtebus-sdk.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindGlog.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/Findyaml-cpp.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindTBB.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtSDL2.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtCereal.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtQt5.cmake
+[1.714s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtTensorflow.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindPNG++.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/Findrange-v3.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindFlann.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtSuiteSparse.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/MrtParamGenerator.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtCeres.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindG2O.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/GatherDeps.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindGTKMM.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtCUDA.cmake
+[1.715s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/UseMrtAutoTarget.cmake
+[1.716s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindClangTidy.cmake
+[1.716s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtLeptonica.cmake
+[1.716s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtQt4.cmake
+[1.716s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindCairo.cmake
+[1.717s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindIpopt.cmake
+[1.719s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMinpack.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindIGL.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindGTest-headers.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtPCL.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindBoostPython.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtbenchmark.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/UseMrtStdCompilerFlags.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindQwt.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtOpenCV.cmake
+[1.720s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindEigen2.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtCaffe.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindMrtANN.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindRapidXML.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindGeographicLib.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindAravis.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/Modules/FindOSG.cmake
+[1.721s] -- Up-to-date: /home/point001/autoware.ai/install/mrt_cmake_modules/share/mrt_cmake_modules/scripts/generate_cmake_dependency_file.py
+[1.754s] Invoked command in '/home/point001/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/mrt_cmake_modules --target install -- -j24 -l24

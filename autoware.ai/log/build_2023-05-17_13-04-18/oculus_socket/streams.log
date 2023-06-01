@@ -1,0 +1,22 @@
+[0.311s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[0.434s] [35m[1mScanning dependencies of target oculus_sender[0m
+[0.503s] [ 50%] [32mBuilding CXX object CMakeFiles/oculus_sender.dir/nodes/oculus_sender/oculus_sender.cpp.o[0m
+[8.029s] [100%] [32m[1mLinking CXX executable devel/lib/oculus_socket/oculus_sender[0m
+[8.625s] [100%] Built target oculus_sender
+[8.758s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[10.248s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[10.443s] Built target tests
+[10.556s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[11.235s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24
+[11.447s] [100%] Built target oculus_sender
+[11.493s] [36mInstall the project...[0m
+[11.518s] -- Install configuration: "Release"
+[11.518s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[11.518s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[11.518s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[11.518s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[11.519s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[11.519s] -- Set runtime path of "/home/point001/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender" to ""
+[11.519s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[11.519s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[11.530s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24

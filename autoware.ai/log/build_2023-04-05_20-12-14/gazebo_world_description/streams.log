@@ -1,0 +1,58 @@
+[0.070s] Invoking command in '/home/point001/autoware.ai/build/gazebo_world_description': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/visualization/gazebo_world_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/gazebo_world_description
+[0.477s] -- The C compiler identification is GNU 7.5.0
+[0.679s] -- The CXX compiler identification is GNU 7.5.0
+[0.683s] -- Check for working C compiler: /usr/bin/cc
+[1.041s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.043s] -- Detecting C compiler ABI info
+[1.182s] -- Detecting C compiler ABI info - done
+[1.194s] -- Detecting C compile features
+[1.609s] -- Detecting C compile features - done
+[1.617s] -- Check for working CXX compiler: /usr/bin/c++
+[1.707s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.707s] -- Detecting CXX compiler ABI info
+[1.810s] -- Detecting CXX compiler ABI info - done
+[1.820s] -- Detecting CXX compile features
+[2.242s] -- Detecting CXX compile features - done
+[2.244s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/gazebo_world_description/devel
+[2.244s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[2.244s] -- This workspace overlays: /opt/ros/melodic
+[2.270s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.270s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.270s] -- Using Debian Python package layout
+[2.270s] -- Using empy: /usr/bin/empy
+[2.517s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.517s] -- Call enable_testing()
+[2.521s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/gazebo_world_description/test_results
+[2.540s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.540s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.592s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.594s] -- Looking for pthread.h
+[2.938s] -- Looking for pthread.h - found
+[2.938s] -- Looking for pthread_create
+[3.095s] -- Looking for pthread_create - not found
+[3.095s] -- Looking for pthread_create in pthreads
+[3.380s] -- Looking for pthread_create in pthreads - not found
+[3.380s] -- Looking for pthread_create in pthread
+[3.497s] -- Looking for pthread_create in pthread - found
+[3.498s] -- Found Threads: TRUE  
+[3.503s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.555s] -- catkin 0.7.29
+[3.555s] -- BUILD_SHARED_LIBS is on
+[4.465s] -- Configuring done
+[4.476s] -- Generating done
+[4.478s] -- Build files have been written to: /home/point001/autoware.ai/build/gazebo_world_description
+[4.487s] Invoked command in '/home/point001/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/visualization/gazebo_world_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/gazebo_world_description
+[4.491s] Invoking command in '/home/point001/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/point001/autoware.ai/build/gazebo_world_description -- -j24 -l24
+[4.719s] Invoked command in '/home/point001/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/gazebo_world_description -- -j24 -l24
+[5.076s] Invoking command in '/home/point001/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/point001/autoware.ai/build/gazebo_world_description --target tests -- -j24 -l24
+[5.304s] [35m[1mScanning dependencies of target tests[0m
+[5.371s] Built target tests
+[5.441s] Invoked command in '/home/point001/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/gazebo_world_description --target tests -- -j24 -l24
+[5.770s] Invoking command in '/home/point001/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/point001/autoware.ai/build/gazebo_world_description --target install -- -j24 -l24
+[6.011s] [36mInstall the project...[0m
+[6.047s] -- Install configuration: "Release"
+[6.047s] -- Installing: /home/point001/autoware.ai/install/gazebo_world_description/lib/pkgconfig/gazebo_world_description.pc
+[6.048s] -- Installing: /home/point001/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig.cmake
+[6.048s] -- Installing: /home/point001/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig-version.cmake
+[6.048s] -- Installing: /home/point001/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/package.xml
+[6.136s] Invoked command in '/home/point001/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/gazebo_world_description --target install -- -j24 -l24

@@ -1,0 +1,25 @@
+[0.231s] Invoking command in '/home/point001/autoware.ai/build/microstrain_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver -- -j24 -l24
+[0.312s] [ 76%] Built target microstrain_driver
+[0.341s] [ 88%] Built target 3dm_gx5_15_node
+[0.347s] [100%] Built target 3dm_gx5_45_node
+[0.545s] Invoked command in '/home/point001/autoware.ai/build/microstrain_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver -- -j24 -l24
+[0.831s] Invoking command in '/home/point001/autoware.ai/build/microstrain_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target tests -- -j24 -l24
+[0.886s] Built target tests
+[0.999s] Invoked command in '/home/point001/autoware.ai/build/microstrain_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target tests -- -j24 -l24
+[1.521s] Invoking command in '/home/point001/autoware.ai/build/microstrain_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target install -- -j24 -l24
+[1.606s] [ 76%] Built target microstrain_driver
+[1.657s] [ 88%] Built target 3dm_gx5_15_node
+[1.668s] [100%] Built target 3dm_gx5_45_node
+[1.709s] [36mInstall the project...[0m
+[1.722s] -- Install configuration: "Release"
+[1.722s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/pkgconfig/microstrain_driver.pc
+[1.722s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig.cmake
+[1.722s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig-version.cmake
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/package.xml
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/libmicrostrain_driver.so
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch
+[1.723s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch
+[1.954s] Invoked command in '/home/point001/autoware.ai/build/microstrain_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target install -- -j24 -l24

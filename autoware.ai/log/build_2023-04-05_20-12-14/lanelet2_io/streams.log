@@ -1,0 +1,158 @@
+[0.032s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_io': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lanelet2_io
+[0.097s] -- The C compiler identification is GNU 7.5.0
+[0.147s] -- The CXX compiler identification is GNU 7.5.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.208s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.209s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.284s] -- Detecting C compile features
+[0.504s] -- Detecting C compile features - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.581s] -- Detecting CXX compiler ABI info
+[0.665s] -- Detecting CXX compiler ABI info - done
+[0.674s] -- Detecting CXX compile features
+[1.016s] -- Detecting CXX compile features - done
+[1.020s] -- MRT_ARCH not set and X86 target detected (x86_64)
+[1.020s] -- Setting -march to sandybridge
+[1.274s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.346s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.351s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.351s] -- Performing Test FLAG_AVAILABLE
+[1.431s] -- Performing Test FLAG_AVAILABLE - Success
+[1.432s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/lanelet2_io/devel
+[1.433s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/lanelet2_core;/home/point001/autoware.ai/install/mrt_cmake_modules;/opt/ros/melodic
+[1.433s] -- This workspace overlays: /home/point001/autoware.ai/install/lanelet2_core;/home/point001/autoware.ai/install/mrt_cmake_modules;/opt/ros/melodic
+[1.448s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.448s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.448s] -- Using Debian Python package layout
+[1.449s] -- Using empy: /usr/bin/empy
+[1.591s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.592s] -- Call enable_testing()
+[1.593s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/lanelet2_io/test_results
+[1.606s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.606s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.618s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.618s] -- Looking for pthread.h
+[1.683s] -- Looking for pthread.h - found
+[1.684s] -- Looking for pthread_create
+[1.746s] -- Looking for pthread_create - found
+[1.747s] -- Found Threads: TRUE  
+[1.752s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.788s] -- catkin 0.7.29
+[1.788s] -- BUILD_SHARED_LIBS is on
+[2.134s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[2.266s] -- Boost version: 1.65.1
+[2.267s] -- Found the following Boost libraries:
+[2.267s] --   wserialization
+[2.267s] --   thread
+[2.267s] --   random
+[2.267s] --   serialization
+[2.267s] --   log_setup
+[2.267s] --   prg_exec_monitor
+[2.267s] --   wave
+[2.267s] --   system
+[2.267s] --   signals
+[2.267s] --   chrono
+[2.267s] --   filesystem
+[2.268s] --   locale
+[2.268s] --   timer
+[2.268s] --   date_time
+[2.268s] --   regex
+[2.268s] --   graph
+[2.268s] --   program_options
+[2.268s] --   unit_test_framework
+[2.268s] --   log
+[2.268s] --   atomic
+[2.391s] -- Adding library "lanelet2_io" with source src/BinHandler.cpp;src/Factory.cpp;src/Io.cpp;src/OsmFile.cpp;src/OsmHandlerLoad.cpp;src/OsmHandlerWrite.cpp
+[2.392s] -- Marking targets "lanelet2_io" of package "lanelet2_io" for installation
+[2.392s] -- Marking HEADER FILES in "include" folder of package "lanelet2_io" for installation
+[2.393s] -- Adding gtest unittest "lanelet2_io-TestBinHandler-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io/test
+[2.394s] -- Adding gtest unittest "lanelet2_io-TestLanelet2Io-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io/test
+[2.396s] -- Adding gtest unittest "lanelet2_io-TestOsmFile-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io/test
+[2.397s] -- Adding gtest unittest "lanelet2_io-TestOsmHandler-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io/test
+[2.398s] -- Adding gtest unittest "lanelet2_io-TestSimpleUsage-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io/test
+[2.400s] -- Adding nosetests in folder test
+[2.403s] -- Configuring done
+[2.453s] -- Generating done
+[2.458s] -- Build files have been written to: /home/point001/autoware.ai/build/lanelet2_io
+[2.469s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_io' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_io -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lanelet2_io
+[2.470s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_io': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_io -- -j24 -l24
+[2.516s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[2.527s] [  0%] Built target _catkin_empty_exported_target
+[2.538s] [35m[1mScanning dependencies of target lanelet2_io[0m
+[2.584s] [ 14%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/BinHandler.cpp.o[0m
+[2.584s] [ 28%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/Io.cpp.o[0m
+[2.585s] [ 42%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/OsmHandlerLoad.cpp.o[0m
+[2.586s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/OsmFile.cpp.o[0m
+[2.587s] [ 71%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/Factory.cpp.o[0m
+[2.591s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/OsmHandlerWrite.cpp.o[0m
+[11.888s] [100%] [32m[1mLinking CXX shared library devel/lib/liblanelet2_io.so[0m
+[11.978s] [100%] Built target lanelet2_io
+[11.990s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_io' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_io -- -j24 -l24
+[12.037s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_io': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_io --target tests -- -j24 -l24
+[12.087s] [35m[1mScanning dependencies of target gtest[0m
+[12.095s] [  0%] Built target _catkin_empty_exported_target
+[12.106s] [  4%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.128s] [ 38%] Built target lanelet2_io
+[15.909s] [ 42%] [32m[1mLinking CXX shared library libgtest.so[0m
+[15.953s] [ 42%] Built target gtest
+[15.964s] [35m[1mScanning dependencies of target gtest_main[0m
+[15.980s] [ 47%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.388s] [ 52%] [32m[1mLinking CXX shared library libgtest_main.so[0m
+[16.422s] [ 52%] Built target gtest_main
+[16.431s] [35m[1mScanning dependencies of target lanelet2_io-TestOsmHandler-test[0m
+[16.431s] [35m[1mScanning dependencies of target lanelet2_io-TestBinHandler-test[0m
+[16.434s] [35m[1mScanning dependencies of target lanelet2_io-TestLanelet2Io-test[0m
+[16.434s] [35m[1mScanning dependencies of target lanelet2_io-TestOsmFile-test[0m
+[16.434s] [35m[1mScanning dependencies of target lanelet2_io-TestSimpleUsage-test[0m
+[16.449s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_io-TestOsmFile-test.dir/test/TestOsmFile.cpp.o[0m
+[16.467s] [ 61%] [32mBuilding CXX object CMakeFiles/lanelet2_io-TestOsmHandler-test.dir/test/TestOsmHandler.cpp.o[0m
+[16.469s] [ 66%] [32mBuilding CXX object CMakeFiles/lanelet2_io-TestBinHandler-test.dir/test/TestBinHandler.cpp.o[0m
+[16.484s] [ 71%] [32mBuilding CXX object CMakeFiles/lanelet2_io-TestSimpleUsage-test.dir/test/TestSimpleUsage.cpp.o[0m
+[16.485s] [ 76%] [32mBuilding CXX object CMakeFiles/lanelet2_io-TestLanelet2Io-test.dir/test/TestLanelet2Io.cpp.o[0m
+[18.334s] [ 80%] [32m[1mLinking CXX executable devel/lib/lanelet2_io/lanelet2_io-TestOsmFile-test[0m
+[18.384s] [ 80%] Built target lanelet2_io-TestOsmFile-test
+[18.969s] [ 85%] [32m[1mLinking CXX executable devel/lib/lanelet2_io/lanelet2_io-TestSimpleUsage-test[0m
+[19.019s] CMakeFiles/lanelet2_io-TestSimpleUsage-test.dir/test/TestSimpleUsage.cpp.o:TestSimpleUsage.cpp:function lanelet2_io_exampleUsage_Test::TestBody(): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+[19.019s] [ 90%] [32m[1mLinking CXX executable devel/lib/lanelet2_io/lanelet2_io-TestLanelet2Io-test[0m
+[19.028s] [ 90%] Built target lanelet2_io-TestSimpleUsage-test
+[19.058s] CMakeFiles/lanelet2_io-TestLanelet2Io-test.dir/test/TestLanelet2Io.cpp.o:TestLanelet2Io.cpp:function lanelet2_io_exceptionTest_Test::TestBody(): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+[19.065s] [ 90%] Built target lanelet2_io-TestLanelet2Io-test
+[21.262s] [ 95%] [32m[1mLinking CXX executable devel/lib/lanelet2_io/lanelet2_io-TestOsmHandler-test[0m
+[21.318s] CMakeFiles/lanelet2_io-TestOsmHandler-test.dir/test/TestOsmHandler.cpp.o:TestOsmHandler.cpp:function OsmHandler_writeMapWithLaneletAndAreaToFile_Test::TestBody(): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+[21.329s] [ 95%] Built target lanelet2_io-TestOsmHandler-test
+[25.536s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_io/lanelet2_io-TestBinHandler-test[0m
+[25.588s] CMakeFiles/lanelet2_io-TestBinHandler-test.dir/test/TestBinHandler.cpp.o:TestBinHandler.cpp:function BinHandler_explicitIO_Test::TestBody(): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+[25.588s] CMakeFiles/lanelet2_io-TestBinHandler-test.dir/test/TestBinHandler.cpp.o:TestBinHandler.cpp:function BinHandler_extension_Test::TestBody(): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+[25.596s] [100%] Built target lanelet2_io-TestBinHandler-test
+[25.603s] [35m[1mScanning dependencies of target tests[0m
+[25.613s] [100%] Built target tests
+[25.623s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_io' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_io --target tests -- -j24 -l24
+[25.664s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_io': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_io --target install -- -j24 -l24
+[25.700s] [  0%] Built target _catkin_empty_exported_target
+[25.726s] [100%] Built target lanelet2_io
+[25.740s] [36mInstall the project...[0m
+[25.746s] -- Install configuration: "Release"
+[25.747s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig/lanelet2_io.pc
+[25.747s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioConfig.cmake
+[25.747s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioConfig-version.cmake
+[25.747s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/share/lanelet2_io/package.xml
+[25.747s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/lib/liblanelet2_io.so
+[25.748s] -- Set runtime path of "/home/point001/autoware.ai/install/lanelet2_io/lib/liblanelet2_io.so" to ""
+[25.748s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io
+[25.748s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/Projection.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/internal
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/Exceptions.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/Io.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/Configuration.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/OsmFile.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/Serialize.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/BinHandler.h
+[25.749s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/Parser.h
+[25.750s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/Writer.h
+[25.750s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/OsmHandler.h
+[25.750s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/Factory.h
+[25.750s] -- Installing: /home/point001/autoware.ai/install/lanelet2_io/include/lanelet2_io/io_handlers/IoHandler.h
+[25.751s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_io' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_io --target install -- -j24 -l24

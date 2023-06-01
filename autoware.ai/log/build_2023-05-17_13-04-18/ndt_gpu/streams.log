@@ -1,0 +1,330 @@
+[0.230s] Invoking command in '/home/point001/autoware.ai/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_gpu -- -j24 -l24
+[0.445s] [ 14%] [34m[1mBuilding NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_MatrixDevice.cu.o[0m
+[0.482s] [ 28%] [34m[1mBuilding NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_SymmetricEigenSolver.cu.o[0m
+[0.482s] [ 42%] [34m[1mBuilding NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_NormalDistributionsTransform.cu.o[0m
+[0.491s] [ 57%] [34m[1mBuilding NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_Registration.cu.o[0m
+[0.504s] [ 71%] [34m[1mBuilding NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_MatrixHost.cu.o[0m
+[0.558s] [ 85%] [34m[1mBuilding NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_VoxelGrid.cu.o[0m
+[0.822s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[0.822s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[0.822s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[0.822s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[0.822s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[0.822s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[0.822s]   ^~~~~~~
+[0.822s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[0.822s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[0.822s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[0.822s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[0.823s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[0.823s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[0.823s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[0.823s]   ^~~~~~~
+[1.097s] ptxas info    : 0 bytes gmem
+[1.098s] ptxas info    : 0 bytes gmem
+[1.304s] ptxas info    : 0 bytes gmem
+[1.304s] ptxas info    : Compiling entry function 'copyMatrixDevToDev' for 'sm_52'
+[1.304s] ptxas info    : Function properties for copyMatrixDevToDev
+[1.304s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[1.304s] ptxas info    : Used 7 registers, 368 bytes cmem[0]
+[1.713s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[1.714s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[1.714s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[1.714s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[1.714s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[1.714s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[1.714s]   ^~~~~~~
+[1.973s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[1.974s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[1.974s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[1.974s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[1.974s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[1.974s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[1.974s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[1.974s]   ^~~~~~~
+[2.908s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[2.908s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[2.908s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[2.908s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[2.908s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[2.909s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[2.909s]   ^~~~~~~
+[3.397s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[3.397s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[3.397s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[3.398s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[3.398s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[3.398s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[3.398s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[3.398s]   ^~~~~~~
+[4.060s] ptxas info    : 14 bytes gmem, 272 bytes cmem[3]
+[4.060s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fINS_10device_ptrIiEEPiNS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESE_lEEvT0_T1_' for 'sm_52'
+[4.060s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fINS_10device_ptrIiEEPiNS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESE_lEEvT0_T1_
+[4.060s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.060s] ptxas info    : Used 8 registers, 352 bytes cmem[0]
+[4.061s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fIPKiNS_10device_ptrIiEENS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESF_lEEvT0_T1_' for 'sm_52'
+[4.061s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fIPKiNS_10device_ptrIiEENS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESF_lEEvT0_T1_
+[4.061s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.061s] ptxas info    : Used 12 registers, 352 bytes cmem[0]
+[4.061s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9ScanAgentINS_10device_ptrIiEES6_NS_4plusIiEEiiNS_6detail17integral_constantIbLb0EEEEES6_S6_S8_iNS0_3cub13ScanTileStateIiLb1EEENS3_22AddInitToExclusiveScanIiS8_EEEEvT0_T1_T2_T3_T4_T5_' for 'sm_52'
+[4.062s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9ScanAgentINS_10device_ptrIiEES6_NS_4plusIiEEiiNS_6detail17integral_constantIbLb0EEEEES6_S6_S8_iNS0_3cub13ScanTileStateIiLb1EEENS3_22AddInitToExclusiveScanIiS8_EEEEvT0_T1_T2_T3_T4_T5_
+[4.062s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.063s] ptxas info    : Used 47 registers, 360 bytes cmem[0], 4 bytes cmem[2]
+[4.063s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9InitAgentINS0_3cub13ScanTileStateIiLb1EEEiEES7_iEEvT0_T1_' for 'sm_52'
+[4.063s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9InitAgentINS0_3cub13ScanTileStateIiLb1EEEiEES7_iEEvT0_T1_
+[4.063s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.065s] ptxas info    : Used 10 registers, 332 bytes cmem[0]
+[4.066s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub3cub11EmptyKernelIvEEvv' for 'sm_52'
+[4.066s] ptxas info    : Function properties for _ZN6thrust8cuda_cub3cub11EmptyKernelIvEEvv
+[4.066s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.066s] ptxas info    : Used 2 registers, 320 bytes cmem[0]
+[4.066s] ptxas info    : Compiling entry function 'verifyDistances' for 'sm_52'
+[4.066s] ptxas info    : Function properties for verifyDistances
+[4.067s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.067s] ptxas info    : Used 11 registers, 348 bytes cmem[0]
+[4.067s] ptxas info    : Compiling entry function 'nearestPointSearch' for 'sm_52'
+[4.067s] ptxas info    : Function properties for nearestPointSearch
+[4.067s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.067s] ptxas info    : Used 28 registers, 448 bytes cmem[0], 16 bytes cmem[2]
+[4.067s] ptxas info    : Compiling entry function 'nearestOctreeNodeSearch' for 'sm_52'
+[4.067s] ptxas info    : Function properties for nearestOctreeNodeSearch
+[4.067s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.067s] ptxas info    : Used 56 registers, 408 bytes cmem[0], 20 bytes cmem[2]
+[4.067s] ptxas info    : Compiling entry function 'scatterPointsToVoxels' for 'sm_52'
+[4.067s] ptxas info    : Function properties for scatterPointsToVoxels
+[4.067s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.068s] ptxas info    : Used 19 registers, 408 bytes cmem[0], 12 bytes cmem[2]
+[4.068s] ptxas info    : Compiling entry function 'insertPointsToGrid' for 'sm_52'
+[4.068s] ptxas info    : Function properties for insertPointsToGrid
+[4.068s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.068s] ptxas info    : Used 19 registers, 400 bytes cmem[0], 12 bytes cmem[2]
+[4.068s] ptxas info    : Compiling entry function 'buildParent' for 'sm_52'
+[4.068s] ptxas info    : Function properties for buildParent
+[4.068s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.068s] ptxas info    : Used 32 registers, 380 bytes cmem[0], 32 bytes cmem[2]
+[4.068s] ptxas info    : Compiling entry function 'collectValidVoxelCount' for 'sm_52'
+[4.068s] ptxas info    : Function properties for collectValidVoxelCount
+[4.068s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.068s] ptxas info    : Used 10 registers, 348 bytes cmem[0]
+[4.068s] ptxas info    : Compiling entry function 'collectValidVoxels' for 'sm_52'
+[4.069s] ptxas info    : Function properties for collectValidVoxels
+[4.069s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.069s] ptxas info    : Used 11 registers, 356 bytes cmem[0]
+[4.069s] ptxas info    : Compiling entry function 'inspectCandidateVoxels' for 'sm_52'
+[4.069s] ptxas info    : Function properties for inspectCandidateVoxels
+[4.069s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.069s] ptxas info    : Used 39 registers, 424 bytes cmem[0], 20 bytes cmem[2]
+[4.069s] ptxas info    : Compiling entry function 'updateCandidateVoxelIds' for 'sm_52'
+[4.069s] ptxas info    : Function properties for updateCandidateVoxelIds
+[4.069s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.069s] ptxas info    : Used 32 registers, 400 bytes cmem[0]
+[4.069s] ptxas info    : Compiling entry function 'collectValidPoints' for 'sm_52'
+[4.069s] ptxas info    : Function properties for collectValidPoints
+[4.070s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.070s] ptxas info    : Used 11 registers, 348 bytes cmem[0]
+[4.070s] ptxas info    : Compiling entry function 'findBoundariesOfCandidateVoxels' for 'sm_52'
+[4.070s] ptxas info    : Function properties for findBoundariesOfCandidateVoxels
+[4.070s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.070s] ptxas info    : Used 27 registers, 448 bytes cmem[0], 12 bytes cmem[2]
+[4.070s] ptxas info    : Compiling entry function 'findMin' for 'sm_52'
+[4.070s] ptxas info    : Function properties for findMin
+[4.070s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.070s] ptxas info    : Used 17 registers, 352 bytes cmem[0]
+[4.070s] ptxas info    : Compiling entry function 'findMax' for 'sm_52'
+[4.070s] ptxas info    : Function properties for findMax
+[4.070s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.070s] ptxas info    : Used 17 registers, 352 bytes cmem[0]
+[4.071s] ptxas info    : Compiling entry function 'updateEval2' for 'sm_52'
+[4.071s] ptxas info    : Function properties for updateEval2
+[4.071s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.071s] ptxas info    : Used 20 registers, 344 bytes cmem[0], 8 bytes cmem[2]
+[4.071s] ptxas info    : Compiling entry function 'updateEval' for 'sm_52'
+[4.071s] ptxas info    : Function properties for updateEval
+[4.071s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.071s] ptxas info    : Used 20 registers, 408 bytes cmem[0]
+[4.071s] ptxas info    : Compiling entry function 'computeEvec2' for 'sm_52'
+[4.071s] ptxas info    : Function properties for computeEvec2
+[4.071s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.071s] ptxas info    : Used 32 registers, 408 bytes cmem[0]
+[4.071s] ptxas info    : Compiling entry function 'computeEvec11' for 'sm_52'
+[4.072s] ptxas info    : Function properties for computeEvec11
+[4.072s]     16 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.072s] ptxas info    : Used 40 registers, 408 bytes cmem[0], 52 bytes cmem[2]
+[4.072s] ptxas info    : Compiling entry function 'computeEvec10' for 'sm_52'
+[4.072s] ptxas info    : Function properties for computeEvec10
+[4.072s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.072s] ptxas info    : Used 48 registers, 408 bytes cmem[0], 28 bytes cmem[2]
+[4.072s] ptxas info    : Compiling entry function 'computeEvec01' for 'sm_52'
+[4.072s] ptxas info    : Function properties for computeEvec01
+[4.072s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.072s] ptxas info    : Used 40 registers, 408 bytes cmem[0], 44 bytes cmem[2]
+[4.073s] ptxas info    : Compiling entry function 'computeEvec00' for 'sm_52'
+[4.073s] ptxas info    : Function properties for computeEvec00
+[4.073s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.073s] ptxas info    : Used 56 registers, 408 bytes cmem[0]
+[4.073s] ptxas info    : Compiling entry function 'computeEigenvalues' for 'sm_52'
+[4.073s] ptxas info    : Function properties for computeEigenvalues
+[4.073s]     48 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.073s] ptxas info    : Used 55 registers, 408 bytes cmem[0], 332 bytes cmem[2]
+[4.073s] ptxas info    : Function properties for __internal_trig_reduction_slowpathd
+[4.073s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.074s] ptxas info    : Compiling entry function 'normalize' for 'sm_52'
+[4.074s] ptxas info    : Function properties for normalize
+[4.074s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.074s] ptxas info    : Used 56 registers, 408 bytes cmem[0], 20 bytes cmem[2]
+[4.074s] ptxas info    : Compiling entry function 'initBoolean' for 'sm_52'
+[4.074s] ptxas info    : Function properties for initBoolean
+[4.074s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.074s] ptxas info    : Used 8 registers, 332 bytes cmem[0]
+[4.074s] ptxas info    : Compiling entry function 'computeInverseCovariance' for 'sm_52'
+[4.074s] ptxas info    : Function properties for computeInverseCovariance
+[4.074s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.074s] ptxas info    : Used 40 registers, 352 bytes cmem[0], 20 bytes cmem[2]
+[4.074s] ptxas info    : Compiling entry function 'updateCovarianceS1' for 'sm_52'
+[4.074s] ptxas info    : Function properties for updateCovarianceS1
+[4.074s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.075s] ptxas info    : Used 32 registers, 368 bytes cmem[0]
+[4.075s] ptxas info    : Compiling entry function 'updateCovarianceS0' for 'sm_52'
+[4.075s] ptxas info    : Function properties for updateCovarianceS0
+[4.075s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.075s] ptxas info    : Used 26 registers, 356 bytes cmem[0]
+[4.075s] ptxas info    : Compiling entry function 'computeInverseEigenvectors' for 'sm_52'
+[4.075s] ptxas info    : Function properties for computeInverseEigenvectors
+[4.075s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.075s] ptxas info    : Used 40 registers, 356 bytes cmem[0], 20 bytes cmem[2]
+[4.075s] ptxas info    : Compiling entry function 'updateVoxelCovariance' for 'sm_52'
+[4.075s] ptxas info    : Function properties for updateVoxelCovariance
+[4.075s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.075s] ptxas info    : Used 48 registers, 360 bytes cmem[0], 32 bytes cmem[2]
+[4.075s] ptxas info    : Compiling entry function 'updateVoxelCentroid' for 'sm_52'
+[4.076s] ptxas info    : Function properties for updateVoxelCentroid
+[4.076s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.076s] ptxas info    : Used 30 registers, 340 bytes cmem[0], 32 bytes cmem[2]
+[4.076s] ptxas info    : Compiling entry function 'initCentroidAndCovariance' for 'sm_52'
+[4.076s] ptxas info    : Function properties for initCentroidAndCovariance
+[4.076s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[4.077s] ptxas info    : Used 46 registers, 380 bytes cmem[0], 8 bytes cmem[2]
+[5.653s] ptxas info    : 0 bytes gmem
+[5.653s] ptxas info    : Compiling entry function '_ZN3gpu12convertInputIN3pcl8PointXYZEEEvPT_PfS5_S5_i' for 'sm_52'
+[5.653s] ptxas info    : Function properties for _ZN3gpu12convertInputIN3pcl8PointXYZEEEvPT_PfS5_S5_i
+[5.653s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[5.653s] ptxas info    : Used 14 registers, 356 bytes cmem[0]
+[5.653s] ptxas info    : Compiling entry function '_ZN3gpu12convertInputIN3pcl9PointXYZIEEEvPT_PfS5_S5_i' for 'sm_52'
+[5.653s] ptxas info    : Function properties for _ZN3gpu12convertInputIN3pcl9PointXYZIEEEvPT_PfS5_S5_i
+[5.653s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[5.653s] ptxas info    : Used 14 registers, 356 bytes cmem[0]
+[5.858s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[5.858s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[5.858s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[5.858s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[5.858s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[5.859s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[5.859s]   ^~~~~~~
+[16.139s] ptxas info    : 12 bytes gmem
+[16.139s] ptxas info    : Compiling entry function '_ZN3gpu6gpuSumIiEEvPT_ii' for 'sm_52'
+[16.139s] ptxas info    : Function properties for _ZN3gpu6gpuSumIiEEvPT_ii
+[16.139s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.139s] ptxas info    : Used 10 registers, 336 bytes cmem[0]
+[16.139s] ptxas info    : Compiling entry function '_ZN3gpu6gpuSumIdEEvPT_ii' for 'sm_52'
+[16.139s] ptxas info    : Function properties for _ZN3gpu6gpuSumIdEEvPT_ii
+[16.139s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.139s] ptxas info    : Used 11 registers, 336 bytes cmem[0]
+[16.139s] ptxas info    : Compiling entry function '_ZN3gpu12gpuTransformEPfS0_S0_S0_S0_S0_iNS_12MatrixDeviceE' for 'sm_52'
+[16.140s] ptxas info    : Function properties for _ZN3gpu12gpuTransformEPfS0_S0_S0_S0_S0_iNS_12MatrixDeviceE
+[16.140s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.140s] ptxas info    : Used 40 registers, 400 bytes cmem[0]
+[16.140s] ptxas info    : Compiling entry function '_ZN3gpu8sumScoreEPdii' for 'sm_52'
+[16.140s] ptxas info    : Function properties for _ZN3gpu8sumScoreEPdii
+[16.140s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.140s] ptxas info    : Used 12 registers, 336 bytes cmem[0]
+[16.140s] ptxas info    : Compiling entry function '_ZN3gpu9matrixSumEPdiiiii' for 'sm_52'
+[16.140s] ptxas info    : Function properties for _ZN3gpu9matrixSumEPdiiiii
+[16.140s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.140s] ptxas info    : Used 13 registers, 348 bytes cmem[0]
+[16.141s] ptxas info    : Compiling entry function '_ZN3gpu20computeHessianListS2EPfS0_S0_PiS1_S1_iPdS2_S2_dS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i' for 'sm_52'
+[16.141s] ptxas info    : Function properties for _ZN3gpu20computeHessianListS2EPfS0_S0_PiS1_S1_iPdS2_S2_dS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i
+[16.141s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.141s] ptxas info    : Used 40 registers, 508 bytes cmem[0]
+[16.141s] ptxas info    : Compiling entry function '_ZN3gpu20computeHessianListS1EPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_i' for 'sm_52'
+[16.141s] ptxas info    : Function properties for _ZN3gpu20computeHessianListS1EPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_i
+[16.141s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.141s] ptxas info    : Used 55 registers, 460 bytes cmem[0]
+[16.141s] ptxas info    : Compiling entry function '_ZN3gpu20computeHessianListS0EPfS0_S0_PiS1_S1_iPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i' for 'sm_52'
+[16.141s] ptxas info    : Function properties for _ZN3gpu20computeHessianListS0EPfS0_S0_PiS1_S1_iPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i
+[16.141s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.141s] ptxas info    : Used 32 registers, 492 bytes cmem[0]
+[16.141s] ptxas info    : Compiling entry function '_ZN3gpu15computeCovDxdPiEPiS0_S0_iPdiddS1_S1_i' for 'sm_52'
+[16.142s] ptxas info    : Function properties for _ZN3gpu15computeCovDxdPiEPiS0_S0_iPdiddS1_S1_i
+[16.142s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.142s] ptxas info    : Used 32 registers, 404 bytes cmem[0]
+[16.142s] ptxas info    : Compiling entry function '_ZN3gpu12updateExCovXEPddi' for 'sm_52'
+[16.142s] ptxas info    : Function properties for _ZN3gpu12updateExCovXEPddi
+[16.142s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.142s] ptxas info    : Used 8 registers, 340 bytes cmem[0]
+[16.142s] ptxas info    : Compiling entry function '_ZN3gpu13computeExCovXEPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[16.142s] ptxas info    : Function properties for _ZN3gpu13computeExCovXEPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_
+[16.142s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.142s] ptxas info    : Used 32 registers, 496 bytes cmem[0], 112 bytes cmem[2]
+[16.143s] ptxas info    : Compiling entry function '_ZN3gpu24computeScoreGradientListEPfS0_S0_PiS1_S1_iPdS2_S2_iS2_S2_diS2_' for 'sm_52'
+[16.143s] ptxas info    : Function properties for _ZN3gpu24computeScoreGradientListEPfS0_S0_PiS1_S1_iPdS2_S2_iS2_S2_diS2_
+[16.143s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.143s] ptxas info    : Used 40 registers, 448 bytes cmem[0]
+[16.143s] ptxas info    : Compiling entry function '_ZN3gpu16computeScoreListEPiS0_iPddS1_' for 'sm_52'
+[16.143s] ptxas info    : Function properties for _ZN3gpu16computeScoreListEPiS0_iPddS1_
+[16.143s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.143s] ptxas info    : Used 32 registers, 368 bytes cmem[0]
+[16.143s] ptxas info    : Compiling entry function '_ZN3gpu20computePointHessian2EPfS0_S0_iPiiPdS2_S2_S2_' for 'sm_52'
+[16.144s] ptxas info    : Function properties for _ZN3gpu20computePointHessian2EPfS0_S0_iPiiPdS2_S2_S2_
+[16.144s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.144s] ptxas info    : Used 32 registers, 72 bytes smem, 400 bytes cmem[0]
+[16.144s] ptxas info    : Compiling entry function '_ZN3gpu20computePointHessian1EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[16.144s] ptxas info    : Function properties for _ZN3gpu20computePointHessian1EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_
+[16.144s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.144s] ptxas info    : Used 56 registers, 144 bytes smem, 448 bytes cmem[0]
+[16.144s] ptxas info    : Compiling entry function '_ZN3gpu20computePointHessian0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[16.144s] ptxas info    : Function properties for _ZN3gpu20computePointHessian0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_
+[16.145s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.145s] ptxas info    : Used 56 registers, 144 bytes smem, 496 bytes cmem[0]
+[16.145s] ptxas info    : Compiling entry function '_ZN3gpu22computePointGradients1EPfS0_S0_iPiiPdS2_S2_S2_S2_' for 'sm_52'
+[16.145s] ptxas info    : Function properties for _ZN3gpu22computePointGradients1EPfS0_S0_iPiiPdS2_S2_S2_S2_
+[16.146s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.146s] ptxas info    : Used 40 registers, 96 bytes smem, 408 bytes cmem[0]
+[16.146s] ptxas info    : Compiling entry function '_ZN3gpu22computePointGradients0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[16.146s] ptxas info    : Function properties for _ZN3gpu22computePointGradients0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_
+[16.146s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[16.146s] ptxas info    : Used 40 registers, 96 bytes smem, 432 bytes cmem[0]
+[16.336s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[16.336s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[16.336s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[16.337s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[16.337s]                  from /home/point001/autoware.ai/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[16.337s] /usr/local/cuda-10.0/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[16.337s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[16.337s]   ^~~~~~~
+[35.336s] [100%] [32m[1mLinking CXX shared library devel/lib/libndt_gpu.so[0m
+[35.933s] [100%] Built target ndt_gpu
+[35.942s] Invoked command in '/home/point001/autoware.ai/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_gpu -- -j24 -l24
+[35.975s] Invoking command in '/home/point001/autoware.ai/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_gpu --target tests -- -j24 -l24
+[36.040s] Built target tests
+[36.053s] Invoked command in '/home/point001/autoware.ai/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_gpu --target tests -- -j24 -l24
+[36.085s] Invoking command in '/home/point001/autoware.ai/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_gpu --target install -- -j24 -l24
+[36.211s] [100%] Built target ndt_gpu
+[36.228s] [36mInstall the project...[0m
+[36.237s] -- Install configuration: "Release"
+[36.237s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig/ndt_gpu.pc
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig.cmake
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig-version.cmake
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/share/ndt_gpu/package.xml
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/VoxelGrid.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/MatrixDevice.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/MatrixHost.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/debug.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/Registration.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/Matrix.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/SymmetricEigenSolver.h
+[36.238s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_gpu/include/ndt_gpu/common.h
+[36.238s] -- Installing: /home/point001/autoware.ai/install/ndt_gpu/lib/libndt_gpu.so
+[36.240s] -- Set runtime path of "/home/point001/autoware.ai/install/ndt_gpu/lib/libndt_gpu.so" to ""
+[36.244s] Invoked command in '/home/point001/autoware.ai/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_gpu --target install -- -j24 -l24

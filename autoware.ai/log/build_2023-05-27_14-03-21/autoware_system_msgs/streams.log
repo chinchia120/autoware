@@ -1,0 +1,117 @@
+[0.237s] Invoking command in '/home/point001/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_system_msgs -- -j24 -l24
+[0.718s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.718s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.718s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.718s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.718s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.718s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatus
+[0.718s] [  0%] Built target std_msgs_generate_messages_py
+[0.718s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_SystemStatus
+[0.718s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.718s] [  0%] Built target std_msgs_generate_messages_eus
+[0.718s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.718s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_NodeStatus
+[0.719s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_HardwareStatus
+[0.719s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.719s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatusArray
+[0.877s] [ 18%] Built target autoware_system_msgs_generate_messages_nodejs
+[0.932s] [ 37%] Built target autoware_system_msgs_generate_messages_cpp
+[0.936s] [ 59%] Built target autoware_system_msgs_generate_messages_eus
+[0.977s] [ 81%] Built target autoware_system_msgs_generate_messages_py
+[1.021s] [100%] Built target autoware_system_msgs_generate_messages_lisp
+[1.166s] [100%] Built target autoware_system_msgs_generate_messages
+[1.236s] Invoked command in '/home/point001/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_system_msgs -- -j24 -l24
+[1.376s] Invoking command in '/home/point001/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_system_msgs --target tests -- -j24 -l24
+[1.510s] Built target tests
+[1.592s] Invoked command in '/home/point001/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_system_msgs --target tests -- -j24 -l24
+[1.741s] Invoking command in '/home/point001/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_system_msgs --target install -- -j24 -l24
+[1.842s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.858s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.863s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.863s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.863s] [  0%] Built target std_msgs_generate_messages_eus
+[1.869s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.870s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.872s] [  0%] Built target std_msgs_generate_messages_py
+[1.876s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.877s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.892s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_SystemStatus
+[1.894s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatusArray
+[1.909s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_NodeStatus
+[1.911s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatus
+[1.931s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_HardwareStatus
+[1.980s] [ 22%] Built target autoware_system_msgs_generate_messages_py
+[2.001s] [ 40%] Built target autoware_system_msgs_generate_messages_nodejs
+[2.030s] [ 59%] Built target autoware_system_msgs_generate_messages_lisp
+[2.038s] [ 81%] Built target autoware_system_msgs_generate_messages_eus
+[2.048s] [100%] Built target autoware_system_msgs_generate_messages_cpp
+[2.127s] [100%] Built target autoware_system_msgs_generate_messages
+[2.175s] [36mInstall the project...[0m
+[2.191s] -- Install configuration: "Release"
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/msg/DiagnosticStatus.msg
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/msg/DiagnosticStatusArray.msg
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/msg/HardwareStatus.msg
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/msg/NodeStatus.msg
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/msg/SystemStatus.msg
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs-msg-paths.cmake
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/include/autoware_system_msgs
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/include/autoware_system_msgs/DiagnosticStatus.h
+[2.192s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/include/autoware_system_msgs/HardwareStatus.h
+[2.193s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/include/autoware_system_msgs/SystemStatus.h
+[2.193s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/include/autoware_system_msgs/NodeStatus.h
+[2.193s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/include/autoware_system_msgs/DiagnosticStatusArray.h
+[2.193s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/manifest.l
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/DiagnosticStatusArray.l
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/SystemStatus.l
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/HardwareStatus.l
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/DiagnosticStatus.l
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/NodeStatus.l
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_SystemStatus.lisp
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_HardwareStatus.lisp
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/HardwareStatus.lisp
+[2.194s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_DiagnosticStatus.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_NodeStatus.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/SystemStatus.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/DiagnosticStatusArray.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_DiagnosticStatusArray.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/NodeStatus.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/DiagnosticStatus.lisp
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/autoware_system_msgs-msg.asd
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/_index.js
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg
+[2.195s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/DiagnosticStatusArray.js
+[2.196s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/_index.js
+[2.196s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/HardwareStatus.js
+[2.196s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/DiagnosticStatus.js
+[2.196s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/SystemStatus.js
+[2.199s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/NodeStatus.js
+[2.215s] Listing /home/point001/autoware.ai/build/autoware_system_msgs/devel/lib/python2.7/dist-packages/autoware_system_msgs ...
+[2.215s] Listing /home/point001/autoware.ai/build/autoware_system_msgs/devel/lib/python2.7/dist-packages/autoware_system_msgs/msg ...
+[2.215s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs
+[2.215s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_DiagnosticStatusArray.py
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_SystemStatus.pyc
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_DiagnosticStatusArray.pyc
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_NodeStatus.py
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_HardwareStatus.py
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_HardwareStatus.pyc
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_NodeStatus.pyc
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/__init__.py
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_DiagnosticStatus.pyc
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/__init__.pyc
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_SystemStatus.py
+[2.216s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/msg/_DiagnosticStatus.py
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/__init__.py
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages/autoware_system_msgs/__init__.pyc
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig/autoware_system_msgs.pc
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs-msg-extras.cmake
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgsConfig.cmake
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgsConfig-version.cmake
+[2.217s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_system_msgs/share/autoware_system_msgs/package.xml
+[2.523s] Invoked command in '/home/point001/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_system_msgs --target install -- -j24 -l24

@@ -1,0 +1,726 @@
+[0.087s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/core_perception/lidar_localizer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lidar_localizer
+[0.162s] -- The C compiler identification is GNU 7.5.0
+[0.238s] -- The CXX compiler identification is GNU 7.5.0
+[0.244s] -- Check for working C compiler: /usr/bin/cc
+[0.330s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.330s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.453s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.739s] -- Check for working CXX compiler: /usr/bin/c++
+[0.839s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.840s] -- Detecting CXX compiler ABI info
+[0.942s] -- Detecting CXX compiler ABI info - done
+[0.953s] -- Detecting CXX compile features
+[1.400s] -- Detecting CXX compile features - done
+[1.416s] -- Checking for module 'eigen3'
+[1.456s] --   Found eigen3, version 3.3.7
+[1.562s] -- Found eigen: /usr/local/include/eigen3  
+[1.622s] -- Looking for pthread.h
+[1.723s] -- Looking for pthread.h - found
+[1.723s] -- Looking for pthread_create
+[1.808s] -- Looking for pthread_create - not found
+[1.808s] -- Looking for pthread_create in pthreads
+[1.887s] -- Looking for pthread_create in pthreads - not found
+[1.887s] -- Looking for pthread_create in pthread
+[1.965s] -- Looking for pthread_create in pthread - found
+[1.966s] -- Found Threads: TRUE  
+[2.020s] -- Boost version: 1.65.1
+[2.020s] -- Found the following Boost libraries:
+[2.020s] --   system
+[2.020s] --   filesystem
+[2.020s] --   thread
+[2.021s] --   date_time
+[2.021s] --   iostreams
+[2.021s] --   serialization
+[2.021s] --   chrono
+[2.021s] --   atomic
+[2.021s] --   regex
+[2.023s] -- Checking for module 'libopenni'
+[2.048s] --   Found libopenni, version 1.5.4.0
+[2.104s] -- Found openni: /usr/lib/libOpenNI.so  
+[2.105s] -- Checking for module 'libopenni2'
+[2.123s] --   Found libopenni2, version 2.2.0.3
+[2.176s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.182s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[2.182s] ** WARNING ** io features related to ensenso will be disabled
+[2.186s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[2.186s] ** WARNING ** io features related to davidSDK will be disabled
+[2.187s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[2.187s] ** WARNING ** io features related to dssdk will be disabled
+[2.187s] ** WARNING ** io features related to pcap will be disabled
+[2.187s] ** WARNING ** io features related to png will be disabled
+[2.272s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.272s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.272s] but this file does not exist.  Possible reasons include:
+[2.272s] * The file was deleted, renamed, or moved to another location.
+[2.272s] * An install or uninstall procedure did not complete successfully.
+[2.273s] * The installation package was faulty and contained
+[2.273s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[2.273s] but not all the files it references.
+[2.273s] 
+[2.273s] -- The imported target "vtk" references the file
+[2.273s]    "/usr/bin/vtk"
+[2.273s] but this file does not exist.  Possible reasons include:
+[2.273s] * The file was deleted, renamed, or moved to another location.
+[2.273s] * An install or uninstall procedure did not complete successfully.
+[2.273s] * The installation package was faulty and contained
+[2.274s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[2.274s] but not all the files it references.
+[2.274s] 
+[2.353s] -- Found libusb-1.0: /usr/include  
+[2.353s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.353s] -- Checking for module 'flann'
+[2.372s] --   Found flann, version 1.9.1
+[2.448s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[2.504s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[2.504s] ** WARNING ** visualization features related to ensenso will be disabled
+[2.507s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[2.507s] ** WARNING ** visualization features related to davidSDK will be disabled
+[2.508s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[2.508s] ** WARNING ** visualization features related to dssdk will be disabled
+[2.510s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[2.510s] ** WARNING ** visualization features related to rssdk will be disabled
+[2.558s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.604s] -- looking for PCL_COMMON
+[2.606s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.606s] -- looking for PCL_OCTREE
+[2.607s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.607s] -- looking for PCL_IO
+[2.609s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.609s] -- looking for PCL_KDTREE
+[2.611s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.611s] -- looking for PCL_SEARCH
+[2.613s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.613s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.615s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.615s] -- looking for PCL_FILTERS
+[2.621s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.622s] -- looking for PCL_2D
+[2.622s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[2.622s] -- looking for PCL_GEOMETRY
+[2.622s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[2.623s] -- looking for PCL_FEATURES
+[2.623s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.623s] -- looking for PCL_ML
+[2.625s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.625s] -- looking for PCL_SEGMENTATION
+[2.631s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.631s] -- looking for PCL_VISUALIZATION
+[2.631s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.631s] -- looking for PCL_SURFACE
+[2.632s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.632s] -- looking for PCL_REGISTRATION
+[2.634s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.634s] -- looking for PCL_KEYPOINTS
+[2.636s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.637s] -- looking for PCL_TRACKING
+[2.639s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.639s] -- looking for PCL_RECOGNITION
+[2.645s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.645s] -- looking for PCL_STEREO
+[2.645s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.645s] -- looking for PCL_APPS
+[2.646s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.649s] -- looking for PCL_IN_HAND_SCANNER
+[2.650s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[2.650s] -- looking for PCL_MODELER
+[2.651s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[2.651s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.652s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[2.652s] -- looking for PCL_OUTOFCORE
+[2.654s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.654s] -- looking for PCL_PEOPLE
+[2.656s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.690s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[2.986s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.078s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.079s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.095s] -- Found CUDA: /usr/local/cuda-10.0 (found version "10.0") 
+[3.100s] -- CUDA compilation status: 1.
+[3.113s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/lidar_localizer/devel
+[3.113s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/ndt_gpu;/home/point001/autoware.ai/install/autoware_health_checker;/home/point001/autoware.ai/install/ros_observer;/home/point001/autoware.ai/install/pcl_omp_registration;/home/point001/autoware.ai/install/ndt_tku;/home/point001/autoware.ai/install/ndt_cpu;/home/point001/autoware.ai/install/autoware_system_msgs;/home/point001/autoware.ai/install/autoware_msgs;/home/point001/autoware.ai/install/autoware_config_msgs;/home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.113s] -- This workspace overlays: /home/point001/autoware.ai/install/ndt_gpu;/home/point001/autoware.ai/install/autoware_health_checker;/home/point001/autoware.ai/install/ros_observer;/home/point001/autoware.ai/install/pcl_omp_registration;/home/point001/autoware.ai/install/ndt_tku;/home/point001/autoware.ai/install/ndt_cpu;/home/point001/autoware.ai/install/autoware_system_msgs;/home/point001/autoware.ai/install/autoware_msgs;/home/point001/autoware.ai/install/autoware_config_msgs;/home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.132s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.132s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.132s] -- Using Debian Python package layout
+[3.132s] -- Using empy: /usr/bin/empy
+[3.294s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.294s] -- Call enable_testing()
+[3.296s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/lidar_localizer/test_results
+[3.313s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.313s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.334s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.341s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.389s] -- catkin 0.7.29
+[3.389s] -- BUILD_SHARED_LIBS is on
+[3.694s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[6.489s] -- Configuring done
+[6.859s] -- Generating done
+[6.882s] -- Build files have been written to: /home/point001/autoware.ai/build/lidar_localizer
+[6.893s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/core_perception/lidar_localizer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lidar_localizer
+[6.897s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer -- -j24 -l24
+[6.957s] [35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[6.969s] [  0%] Built target nodelet_generate_messages_cpp
+[6.980s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[6.992s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[7.004s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[7.016s] [  0%] Built target tf_generate_messages_cpp
+[7.025s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[7.038s] [  0%] Built target actionlib_generate_messages_nodejs
+[7.047s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[7.059s] [  0%] Built target pcl_msgs_generate_messages_eus
+[7.068s] [35m[1mScanning dependencies of target people_msgs_generate_messages_nodejs[0m
+[7.077s] [  0%] Built target people_msgs_generate_messages_nodejs
+[7.085s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[7.096s] [  0%] Built target actionlib_generate_messages_eus
+[7.108s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[7.120s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[7.129s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[7.142s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.153s] [35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[7.165s] [  0%] Built target nodelet_generate_messages_py
+[7.177s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[7.189s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[7.201s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[7.212s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.224s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[7.236s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.248s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[7.260s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[7.272s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[7.284s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[7.295s] [35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_eus[0m
+[7.307s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[7.319s] [35m[1mScanning dependencies of target jsk_rviz_plugins_gencfg[0m
+[7.332s] [  0%] Built target jsk_rviz_plugins_gencfg
+[7.344s] [35m[1mScanning dependencies of target rviz_generate_messages_lisp[0m
+[7.357s] [  0%] Built target rviz_generate_messages_lisp
+[7.369s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[7.381s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[7.393s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[7.406s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.418s] [35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_cpp[0m
+[7.429s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[7.441s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[7.453s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[7.464s] [35m[1mScanning dependencies of target jsk_recognition_utils_gencfg[0m
+[7.473s] [  0%] Built target jsk_recognition_utils_gencfg
+[7.484s] [35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_lisp[0m
+[7.497s] [  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[7.509s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[7.521s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[7.531s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[7.546s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[7.561s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[7.575s] [  0%] Built target roscpp_generate_messages_eus
+[7.589s] [35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_py[0m
+[7.601s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[7.614s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[7.628s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[7.642s] [35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[7.654s] [  0%] Built target bond_generate_messages_nodejs
+[7.666s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_lisp[0m
+[7.679s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[7.692s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[7.705s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[7.718s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[7.731s] [  0%] Built target topic_tools_generate_messages_py
+[7.746s] [35m[1mScanning dependencies of target map_msgs_generate_messages_nodejs[0m
+[7.756s] [  0%] Built target map_msgs_generate_messages_nodejs
+[7.767s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[7.779s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[7.792s] [35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_cpp[0m
+[7.804s] [  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[7.817s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[7.829s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.842s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[7.855s] [  0%] Built target std_msgs_generate_messages_py
+[7.869s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[7.881s] [  0%] Built target autoware_msgs_generate_messages_py
+[7.892s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[7.903s] [  0%] Built target std_msgs_generate_messages_eus
+[7.915s] [35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[7.928s] [  0%] Built target nodelet_generate_messages_lisp
+[7.939s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[7.952s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[7.963s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[7.976s] [  0%] Built target roscpp_generate_messages_lisp
+[7.988s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[8.001s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[8.013s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[8.026s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[8.037s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[8.049s] [  0%] Built target nav_msgs_generate_messages_cpp
+[8.061s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[8.074s] [  0%] Built target std_srvs_generate_messages_cpp
+[8.087s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[8.099s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[8.112s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_eus[0m
+[8.125s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[8.139s] [35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_cpp[0m
+[8.151s] [  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[8.163s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[8.176s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[8.189s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[8.202s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[8.214s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[8.224s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[8.233s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[8.245s] [  0%] Built target nav_msgs_generate_messages_lisp
+[8.257s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[8.269s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[8.280s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[8.292s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[8.301s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[8.314s] [  0%] Built target autoware_msgs_generate_messages_eus
+[8.323s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[8.336s] [  0%] Built target topic_tools_generate_messages_lisp
+[8.348s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[8.359s] [  0%] Built target std_srvs_generate_messages_eus
+[8.370s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[8.380s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[8.392s] [35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_nodejs[0m
+[8.404s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[8.417s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[8.426s] [  0%] Built target tf_generate_messages_nodejs
+[8.437s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_cpp[0m
+[8.448s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[8.461s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[8.476s] [  0%] Built target geometry_msgs_generate_messages_eus
+[8.487s] [35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[8.499s] [  0%] Built target nodelet_topic_tools_gencfg
+[8.507s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[8.520s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[8.533s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[8.544s] [  0%] Built target actionlib_generate_messages_lisp
+[8.557s] [35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_eus[0m
+[8.572s] [  0%] Built target jsk_hark_msgs_generate_messages_eus
+[8.584s] [35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_py[0m
+[8.597s] [  0%] Built target jsk_rviz_plugins_generate_messages_py
+[8.605s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[8.617s] [  0%] Built target geometry_msgs_generate_messages_py
+[8.627s] [35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_lisp[0m
+[8.638s] [  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[8.650s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[8.662s] [  0%] Built target std_msgs_generate_messages_cpp
+[8.673s] [35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[8.687s] [  0%] Built target dynamic_reconfigure_gencfg
+[8.697s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[8.709s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[8.722s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[8.733s] [  0%] Built target nav_msgs_generate_messages_py
+[8.750s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[8.759s] [  0%] Built target roscpp_generate_messages_py
+[8.777s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[8.790s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[8.800s] [35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[8.812s] [  0%] Built target nodelet_generate_messages_eus
+[8.823s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[8.834s] [  0%] Built target roscpp_generate_messages_cpp
+[8.844s] [35m[1mScanning dependencies of target map_msgs_generate_messages_eus[0m
+[8.854s] [  0%] Built target map_msgs_generate_messages_eus
+[8.869s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[8.882s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[8.893s] [35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[8.905s] [  0%] Built target nodelet_generate_messages_nodejs
+[8.918s] [35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[8.929s] [  0%] Built target bond_generate_messages_cpp
+[8.941s] [35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[8.953s] [  0%] Built target bond_generate_messages_lisp
+[8.966s] [35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[8.978s] [  0%] Built target bond_generate_messages_py
+[8.991s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[9.004s] [  0%] Built target std_srvs_generate_messages_lisp
+[9.015s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_py[0m
+[9.028s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[9.040s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[9.053s] [  0%] Built target std_srvs_generate_messages_nodejs
+[9.066s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[9.076s] [  0%] Built target std_srvs_generate_messages_py
+[9.088s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[9.100s] [  0%] Built target topic_tools_generate_messages_cpp
+[9.115s] [35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[9.127s] [  0%] Built target bond_generate_messages_eus
+[9.140s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[9.153s] [  0%] Built target topic_tools_generate_messages_eus
+[9.165s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[9.176s] [  0%] Built target tf_generate_messages_py
+[9.188s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[9.199s] [  0%] Built target topic_tools_generate_messages_nodejs
+[9.209s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[9.221s] [  0%] Built target tf_generate_messages_lisp
+[9.230s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[9.239s] [  0%] Built target actionlib_generate_messages_py
+[9.248s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[9.259s] [  0%] Built target tf2_msgs_generate_messages_py
+[9.271s] [35m[1mScanning dependencies of target map_msgs_generate_messages_cpp[0m
+[9.284s] [  0%] Built target map_msgs_generate_messages_cpp
+[9.293s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[9.301s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[9.313s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[9.325s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[9.338s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[9.351s] [  0%] Built target tf2_msgs_generate_messages_eus
+[9.359s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[9.371s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[9.385s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[9.394s] [  0%] Built target nav_msgs_generate_messages_eus
+[9.404s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[9.412s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[9.422s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[9.434s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[9.449s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[9.462s] [  0%] Built target visualization_msgs_generate_messages_eus
+[9.472s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[9.485s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[9.496s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[9.508s] [  0%] Built target visualization_msgs_generate_messages_py
+[9.520s] [35m[1mScanning dependencies of target people_msgs_generate_messages_cpp[0m
+[9.529s] [  0%] Built target people_msgs_generate_messages_cpp
+[9.541s] [35m[1mScanning dependencies of target people_msgs_generate_messages_eus[0m
+[9.552s] [  0%] Built target people_msgs_generate_messages_eus
+[9.563s] [35m[1mScanning dependencies of target rviz_generate_messages_eus[0m
+[9.575s] [  0%] Built target rviz_generate_messages_eus
+[9.583s] [35m[1mScanning dependencies of target people_msgs_generate_messages_lisp[0m
+[9.595s] [  0%] Built target people_msgs_generate_messages_lisp
+[9.610s] [35m[1mScanning dependencies of target rviz_generate_messages_py[0m
+[9.622s] [  0%] Built target rviz_generate_messages_py
+[9.634s] [35m[1mScanning dependencies of target map_msgs_generate_messages_lisp[0m
+[9.644s] [  0%] Built target map_msgs_generate_messages_lisp
+[9.655s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[9.664s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[9.673s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_py[0m
+[9.686s] [  0%] Built target velodyne_msgs_generate_messages_py
+[9.698s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[9.706s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[9.718s] [35m[1mScanning dependencies of target rviz_generate_messages_cpp[0m
+[9.727s] [  0%] Built target rviz_generate_messages_cpp
+[9.739s] [35m[1mScanning dependencies of target velodyne_driver_gencfg[0m
+[9.751s] [  0%] Built target velodyne_driver_gencfg
+[9.759s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[9.767s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[9.776s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[9.786s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[9.797s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[9.805s] [  0%] Built target roscpp_generate_messages_nodejs
+[9.816s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_eus[0m
+[9.829s] [  0%] Built target velodyne_msgs_generate_messages_eus
+[9.839s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_lisp[0m
+[9.850s] [  0%] Built target velodyne_msgs_generate_messages_lisp
+[9.860s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[9.872s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[9.883s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_nodejs[0m
+[9.892s] [  0%] Built target velodyne_msgs_generate_messages_nodejs
+[9.903s] [35m[1mScanning dependencies of target people_msgs_generate_messages_py[0m
+[9.915s] [  0%] Built target people_msgs_generate_messages_py
+[9.926s] [35m[1mScanning dependencies of target map_msgs_generate_messages_py[0m
+[9.938s] [  0%] Built target map_msgs_generate_messages_py
+[9.947s] [35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_py[0m
+[9.958s] [  0%] Built target jsk_hark_msgs_generate_messages_py
+[9.966s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[9.975s] [  0%] Built target actionlib_generate_messages_cpp
+[9.986s] [35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_lisp[0m
+[9.997s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[10.009s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[10.020s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[10.030s] [35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_eus[0m
+[10.041s] [  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[10.049s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[10.061s] [  0%] Built target pcl_msgs_generate_messages_py
+[10.069s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[10.082s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[10.091s] [35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_nodejs[0m
+[10.103s] [  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[10.114s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[10.126s] [  0%] Built target actionlib_msgs_generate_messages_py
+[10.135s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[10.144s] [  0%] Built target std_msgs_generate_messages_nodejs
+[10.155s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[10.166s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[10.174s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[10.185s] [  0%] Built target tf_generate_messages_eus
+[10.194s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[10.206s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[10.220s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[10.232s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[10.246s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[10.246s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_nodejs[0m
+[10.258s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[10.258s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[10.270s] [35m[1mScanning dependencies of target velodyne_pointcloud_gencfg[0m
+[10.270s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[10.283s] [  0%] Built target std_msgs_generate_messages_lisp
+[10.283s] [  0%] Built target velodyne_pointcloud_gencfg
+[10.295s] [35m[1mScanning dependencies of target rviz_generate_messages_nodejs[0m
+[10.298s] [35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_nodejs[0m
+[10.306s] [  0%] Built target rviz_generate_messages_nodejs
+[10.312s] [  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[10.318s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_cpp[0m
+[10.325s] [35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[10.329s] [  0%] Built target velodyne_msgs_generate_messages_cpp
+[10.336s] [  0%] Built target pcl_ros_gencfg
+[10.344s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[10.352s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[10.355s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[10.365s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[10.378s] [35m[1mScanning dependencies of target icp_matching[0m
+[10.480s] [  5%] [32mBuilding CXX object CMakeFiles/icp_matching.dir/nodes/icp_matching/icp_matching.cpp.o[0m
+[23.019s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[23.019s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[23.019s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/ransac.h:44[m[K,
+[23.019s]                  from [01m[K/usr/include/pcl-1.8/pcl/registration/icp.h:45[m[K,
+[23.019s]                  from [01m[K/home/point001/autoware.ai/src/autoware/core_perception/lidar_localizer/nodes/icp_matching/icp_matching.cpp:49[m[K:
+[23.019s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[23.020s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[23.020s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[23.020s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[23.020s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[39.477s] [ 10%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/icp_matching[0m
+[42.923s] [ 10%] Built target icp_matching
+[42.937s] [35m[1mScanning dependencies of target ndt_matching_monitor_lib[0m
+[42.937s] [35m[1mScanning dependencies of target ndt_mapping_tku[0m
+[42.937s] [35m[1mScanning dependencies of target approximate_ndt_mapping[0m
+[42.937s] [35m[1mScanning dependencies of target ndt_mapping[0m
+[42.937s] [35m[1mScanning dependencies of target ndt_matching[0m
+[42.937s] [35m[1mScanning dependencies of target queue_counter[0m
+[42.937s] [35m[1mScanning dependencies of target ndt_matching_tku[0m
+[42.937s] [35m[1mScanning dependencies of target mapping[0m
+[42.969s] [ 15%] [32mBuilding CXX object CMakeFiles/queue_counter.dir/nodes/queue_counter/queue_counter.cpp.o[0m
+[43.021s] [ 20%] [32mBuilding CXX object CMakeFiles/ndt_matching_monitor_lib.dir/nodes/ndt_matching_monitor/ndt_matching_monitor.cpp.o[0m
+[43.029s] [ 25%] [32mBuilding CXX object CMakeFiles/ndt_matching_tku.dir/nodes/ndt_matching_tku/ndt_matching_tku.cpp.o[0m
+[43.029s] [ 30%] [32mBuilding CXX object CMakeFiles/ndt_mapping_tku.dir/nodes/ndt_mapping_tku/ndt_mapping_tku.cpp.o[0m
+[43.039s] [ 35%] [32mBuilding CXX object CMakeFiles/mapping.dir/nodes/ndt_mapping_tku/mapping.cpp.o[0m
+[43.044s] [ 40%] [32mBuilding CXX object CMakeFiles/approximate_ndt_mapping.dir/nodes/approximate_ndt_mapping/approximate_ndt_mapping.cpp.o[0m
+[43.059s] [ 45%] [32mBuilding CXX object CMakeFiles/ndt_mapping.dir/nodes/ndt_mapping/ndt_mapping.cpp.o[0m
+[43.066s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_matching.dir/nodes/ndt_matching/ndt_matching.cpp.o[0m
+[45.640s] [ 55%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/queue_counter[0m
+[46.378s] [ 55%] Built target queue_counter
+[51.701s] [ 60%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/ndt_matching_tku[0m
+[52.223s] [ 60%] Built target ndt_matching_tku
+[53.934s] [ 65%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/ndt_mapping_tku[0m
+[55.020s] [ 70%] [32m[1mLinking CXX shared library devel/lib/libndt_matching_monitor_lib.so[0m
+[55.375s] [ 75%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/mapping[0m
+[55.737s] [ 75%] Built target ndt_matching_monitor_lib
+[55.746s] [35m[1mScanning dependencies of target ndt_matching_monitor[0m
+[55.807s] [ 80%] [32mBuilding CXX object CMakeFiles/ndt_matching_monitor.dir/nodes/ndt_matching_monitor/ndt_matching_monitor_node.cpp.o[0m
+[55.858s] [ 80%] Built target mapping
+[56.855s] [ 80%] Built target ndt_mapping_tku
+[64.766s] [ 85%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/ndt_matching_monitor[0m
+[65.166s] [ 90%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/approximate_ndt_mapping[0m
+[65.240s] [ 90%] Built target ndt_matching_monitor
+[66.546s] [ 95%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/ndt_mapping[0m
+[67.641s] [100%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/ndt_matching[0m
+[67.956s] [100%] Built target approximate_ndt_mapping
+[69.326s] [100%] Built target ndt_mapping
+[70.084s] [100%] Built target ndt_matching
+[70.093s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer -- -j24 -l24
+[70.176s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target tests -- -j24 -l24
+[70.230s] [35m[1mScanning dependencies of target gtest[0m
+[70.250s] [ 25%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[73.398s] [ 50%] [32m[1mLinking CXX shared library libgtest.so[0m
+[73.448s] [ 50%] Built target gtest
+[73.456s] [35m[1mScanning dependencies of target test_launch_ndt_matching[0m
+[73.479s] [ 75%] [32mBuilding CXX object CMakeFiles/test_launch_ndt_matching.dir/test/src/test_launch_ndt_matching.cpp.o[0m
+[74.584s] [100%] [32m[1mLinking CXX executable devel/lib/lidar_localizer/test_launch_ndt_matching[0m
+[74.866s] [100%] Built target test_launch_ndt_matching
+[74.873s] [35m[1mScanning dependencies of target tests[0m
+[74.880s] [100%] Built target tests
+[74.888s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target tests -- -j24 -l24
+[74.972s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target install -- -j24 -l24
+[75.025s] [  0%] Built target nodelet_generate_messages_cpp
+[75.026s] [  0%] Built target std_msgs_generate_messages_lisp
+[75.026s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[75.026s] [  0%] Built target velodyne_msgs_generate_messages_cpp
+[75.026s] [  0%] Built target rviz_generate_messages_nodejs
+[75.026s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[75.026s] [  0%] Built target pcl_ros_gencfg
+[75.027s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[75.027s] [  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[75.027s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[75.027s] [  0%] Built target actionlib_msgs_generate_messages_py
+[75.027s] [  0%] Built target pcl_msgs_generate_messages_py
+[75.028s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[75.028s] [  0%] Built target std_msgs_generate_messages_nodejs
+[75.028s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[75.028s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[75.028s] [  0%] Built target tf_generate_messages_eus
+[75.029s] [  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[75.029s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[75.029s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[75.029s] [  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[75.030s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[75.032s] [  0%] Built target velodyne_pointcloud_gencfg
+[75.034s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[75.048s] [  0%] Built target people_msgs_generate_messages_nodejs
+[75.048s] [  0%] Built target tf_generate_messages_cpp
+[75.049s] [  0%] Built target actionlib_generate_messages_nodejs
+[75.049s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[75.049s] [  0%] Built target sensor_msgs_generate_messages_eus
+[75.050s] [  0%] Built target pcl_msgs_generate_messages_eus
+[75.050s] [  0%] Built target actionlib_generate_messages_eus
+[75.050s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[75.050s] [  0%] Built target sensor_msgs_generate_messages_py
+[75.050s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[75.051s] [  0%] Built target nodelet_generate_messages_py
+[75.051s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[75.051s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[75.054s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[75.054s] [  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[75.054s] [  0%] Built target jsk_recognition_utils_gencfg
+[75.054s] [  0%] Built target rviz_generate_messages_lisp
+[75.055s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[75.055s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[75.056s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[75.057s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[75.057s] [  0%] Built target jsk_rviz_plugins_gencfg
+[75.057s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[75.059s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[75.069s] [  0%] Built target roscpp_generate_messages_eus
+[75.073s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[75.073s] [  0%] Built target std_msgs_generate_messages_py
+[75.073s] [  0%] Built target bond_generate_messages_nodejs
+[75.073s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[75.073s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[75.075s] [  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[75.075s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[75.075s] [  0%] Built target topic_tools_generate_messages_py
+[75.076s] [  0%] Built target nodelet_generate_messages_lisp
+[75.076s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[75.076s] [  0%] Built target map_msgs_generate_messages_nodejs
+[75.077s] [  0%] Built target autoware_msgs_generate_messages_py
+[75.077s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[75.077s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[75.078s] [  0%] Built target std_msgs_generate_messages_eus
+[75.079s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[75.079s] [  0%] Built target roscpp_generate_messages_lisp
+[75.080s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[75.080s] [  0%] Built target nav_msgs_generate_messages_cpp
+[75.082s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[75.082s] [  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[75.083s] [  0%] Built target std_srvs_generate_messages_cpp
+[75.083s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[75.094s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[75.094s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[75.096s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[75.097s] [  0%] Built target topic_tools_generate_messages_lisp
+[75.097s] [  0%] Built target nav_msgs_generate_messages_lisp
+[75.098s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[75.098s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[75.099s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[75.099s] [  0%] Built target tf_generate_messages_nodejs
+[75.099s] [  0%] Built target autoware_msgs_generate_messages_eus
+[75.100s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[75.100s] [  0%] Built target geometry_msgs_generate_messages_eus
+[75.102s] [  0%] Built target std_srvs_generate_messages_eus
+[75.103s] [  0%] Built target nodelet_topic_tools_gencfg
+[75.103s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[75.104s] [  0%] Built target actionlib_generate_messages_lisp
+[75.104s] [  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[75.104s] [  0%] Built target jsk_hark_msgs_generate_messages_eus
+[75.105s] [  0%] Built target geometry_msgs_generate_messages_py
+[75.105s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[75.105s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[75.106s] [  0%] Built target jsk_rviz_plugins_generate_messages_py
+[75.106s] [  0%] Built target dynamic_reconfigure_gencfg
+[75.106s] [  0%] Built target std_msgs_generate_messages_cpp
+[75.119s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[75.119s] [  0%] Built target nav_msgs_generate_messages_py
+[75.119s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[75.119s] [  0%] Built target roscpp_generate_messages_py
+[75.121s] [  0%] Built target nodelet_generate_messages_nodejs
+[75.122s] [  0%] Built target nodelet_generate_messages_eus
+[75.123s] [  0%] Built target bond_generate_messages_lisp
+[75.123s] [  0%] Built target std_srvs_generate_messages_lisp
+[75.124s] [  0%] Built target bond_generate_messages_py
+[75.124s] [  0%] Built target roscpp_generate_messages_cpp
+[75.124s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[75.125s] [  0%] Built target map_msgs_generate_messages_eus
+[75.125s] [  0%] Built target bond_generate_messages_cpp
+[75.126s] [  0%] Built target std_srvs_generate_messages_py
+[75.127s] [  0%] Built target std_srvs_generate_messages_nodejs
+[75.127s] [  0%] Built target topic_tools_generate_messages_cpp
+[75.127s] [  0%] Built target topic_tools_generate_messages_eus
+[75.127s] [  0%] Built target tf_generate_messages_py
+[75.128s] [  0%] Built target topic_tools_generate_messages_nodejs
+[75.128s] [  0%] Built target bond_generate_messages_eus
+[75.129s] [  0%] Built target tf_generate_messages_lisp
+[75.131s] [  0%] Built target map_msgs_generate_messages_cpp
+[75.131s] [  0%] Built target actionlib_generate_messages_py
+[75.131s] [  0%] Built target tf2_msgs_generate_messages_py
+[75.141s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[75.142s] [  0%] Built target tf2_msgs_generate_messages_eus
+[75.144s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[75.146s] [  0%] Built target nav_msgs_generate_messages_eus
+[75.146s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[75.146s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[75.147s] [  0%] Built target people_msgs_generate_messages_eus
+[75.147s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[75.147s] [  0%] Built target people_msgs_generate_messages_cpp
+[75.147s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[75.147s] [  0%] Built target visualization_msgs_generate_messages_py
+[75.148s] [  0%] Built target people_msgs_generate_messages_lisp
+[75.148s] [  0%] Built target rviz_generate_messages_eus
+[75.149s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[75.150s] [  0%] Built target rviz_generate_messages_py
+[75.150s] [  0%] Built target velodyne_msgs_generate_messages_py
+[75.151s] [  0%] Built target rviz_generate_messages_cpp
+[75.151s] [  0%] Built target map_msgs_generate_messages_lisp
+[75.152s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[75.152s] [  0%] Built target visualization_msgs_generate_messages_eus
+[75.154s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[75.155s] [  0%] Built target velodyne_driver_gencfg
+[75.156s] [  0%] Built target roscpp_generate_messages_nodejs
+[75.156s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[75.161s] [  0%] Built target velodyne_msgs_generate_messages_lisp
+[75.162s] [  0%] Built target velodyne_msgs_generate_messages_eus
+[75.164s] [  0%] Built target jsk_hark_msgs_generate_messages_py
+[75.164s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[75.164s] [  0%] Built target velodyne_msgs_generate_messages_nodejs
+[75.164s] [  0%] Built target people_msgs_generate_messages_py
+[75.165s] [  0%] Built target map_msgs_generate_messages_py
+[75.166s] [  0%] Built target actionlib_generate_messages_cpp
+[75.194s] [ 10%] Built target queue_counter
+[75.195s] [ 20%] Built target mapping
+[75.197s] [ 30%] Built target ndt_mapping_tku
+[75.198s] [ 40%] Built target icp_matching
+[75.199s] [ 50%] Built target ndt_matching_tku
+[75.200s] [ 60%] Built target ndt_matching_monitor_lib
+[75.202s] [ 70%] Built target ndt_mapping
+[75.203s] [ 80%] Built target approximate_ndt_mapping
+[75.204s] [ 90%] Built target ndt_matching
+[75.228s] [100%] Built target ndt_matching_monitor
+[75.247s] [36mInstall the project...[0m
+[75.253s] -- Install configuration: "Release"
+[75.253s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/pkgconfig/lidar_localizer.pc
+[75.253s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/cmake/lidar_localizerConfig.cmake
+[75.253s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/cmake/lidar_localizerConfig-version.cmake
+[75.253s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/package.xml
+[75.253s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/approximate_ndt_mapping
+[75.268s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/approximate_ndt_mapping" to ""
+[75.268s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/icp_matching
+[75.282s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/icp_matching" to ""
+[75.282s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/mapping
+[75.289s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/mapping" to ""
+[75.289s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_mapping
+[75.304s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_mapping" to ""
+[75.304s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_mapping_tku
+[75.309s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_mapping_tku" to ""
+[75.309s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_matching
+[75.324s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_matching" to ""
+[75.325s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_matching_monitor
+[75.329s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_matching_monitor" to ""
+[75.329s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/libndt_matching_monitor_lib.so
+[75.335s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/libndt_matching_monitor_lib.so" to ""
+[75.335s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/queue_counter
+[75.336s] -- Set runtime path of "/home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/queue_counter" to ""
+[75.336s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch
+[75.336s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_monitor.launch
+[75.336s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping_tku.launch
+[75.336s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku.launch
+[75.337s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching.launch
+[75.337s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku_org.launch
+[75.337s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/approximate_ndt_mapping.launch
+[75.337s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping.launch
+[75.337s] -- Installing: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/icp_matching.launch
+[75.339s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target install -- -j24 -l24

@@ -1,0 +1,181 @@
+[0.217s] Invoking command in '/home/point001/autoware.ai/build/gnss_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss_localizer -- -j24 -l24
+[0.342s] [  0%] Built target actionlib_generate_messages_eus
+[0.342s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.342s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.342s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.342s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.342s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.342s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.342s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.342s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.342s] [  0%] Built target std_msgs_generate_messages_py
+[0.342s] [  0%] Built target tf_generate_messages_cpp
+[0.343s] [  0%] Built target actionlib_generate_messages_lisp
+[0.343s] [  0%] Built target actionlib_generate_messages_py
+[0.343s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.343s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.343s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.343s] [  0%] Built target actionlib_generate_messages_cpp
+[0.343s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.343s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.343s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.343s] [  0%] Built target roscpp_generate_messages_cpp
+[0.343s] [  0%] Built target std_msgs_generate_messages_eus
+[0.343s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.344s] [  0%] Built target nmea_msgs_generate_messages_eus
+[0.344s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.347s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.350s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.355s] [  0%] Built target tf_generate_messages_lisp
+[0.355s] [  0%] Built target tf_generate_messages_py
+[0.356s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.356s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[0.361s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.362s] [  0%] Built target nmea_msgs_generate_messages_py
+[0.362s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.365s] [  0%] Built target roscpp_generate_messages_py
+[0.374s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.375s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[0.375s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.375s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.378s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.378s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.378s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[0.378s] [  0%] Built target roscpp_generate_messages_lisp
+[0.378s] [  0%] Built target tf_generate_messages_nodejs
+[0.378s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.379s] [  0%] Built target roscpp_generate_messages_eus
+[0.384s] [  0%] Built target tf_generate_messages_eus
+[0.384s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.387s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.394s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.423s] [35m[1mScanning dependencies of target nmea2tfpose[0m
+[0.434s] [ 20%] [32m[1mLinking CXX executable devel/lib/gnss_localizer/fix2tfpose[0m
+[0.442s] [ 40%] [32mBuilding CXX object CMakeFiles/nmea2tfpose.dir/nodes/nmea2tfpose/nmea2tfpose_core.cpp.o[0m
+[0.666s] [ 60%] Built target fix2tfpose
+[4.699s] [ 80%] [32m[1mLinking CXX executable devel/lib/gnss_localizer/nmea2tfpose[0m
+[4.967s] [100%] Built target nmea2tfpose
+[5.078s] Invoked command in '/home/point001/autoware.ai/build/gnss_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss_localizer -- -j24 -l24
+[5.679s] Invoking command in '/home/point001/autoware.ai/build/gnss_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss_localizer --target tests -- -j24 -l24
+[6.035s] [  0%] Built target tf2_msgs_generate_messages_eus
+[6.048s] [  0%] Built target actionlib_generate_messages_lisp
+[6.049s] [  0%] Built target actionlib_generate_messages_cpp
+[6.050s] [  0%] Built target tf_generate_messages_cpp
+[6.051s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.054s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.054s] [  0%] Built target actionlib_generate_messages_eus
+[6.061s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[6.076s] [  0%] Built target std_msgs_generate_messages_py
+[6.076s] [  0%] Built target actionlib_generate_messages_py
+[6.090s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[6.092s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[6.092s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.093s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[6.096s] [ 50%] Built target gtest
+[6.112s] [ 50%] Built target geometry_msgs_generate_messages_py
+[6.113s] [ 50%] Built target rosgraph_msgs_generate_messages_nodejs
+[6.113s] [ 50%] Built target sensor_msgs_generate_messages_nodejs
+[6.115s] [ 50%] Built target nmea_msgs_generate_messages_eus
+[6.117s] [ 50%] Built target sensor_msgs_generate_messages_py
+[6.124s] [ 50%] Built target tf2_msgs_generate_messages_py
+[6.132s] [ 50%] Built target std_msgs_generate_messages_cpp
+[6.136s] [ 50%] Built target tf_generate_messages_py
+[6.142s] [ 50%] Built target sensor_msgs_generate_messages_cpp
+[6.142s] [ 50%] Built target std_msgs_generate_messages_eus
+[6.142s] [ 50%] Built target actionlib_msgs_generate_messages_eus
+[6.143s] [ 50%] Built target tf_generate_messages_lisp
+[6.147s] [ 50%] Built target sensor_msgs_generate_messages_lisp
+[6.148s] [ 50%] Built target geometry_msgs_generate_messages_nodejs
+[6.155s] [ 50%] Built target roscpp_generate_messages_cpp
+[6.155s] [ 50%] Built target geometry_msgs_generate_messages_lisp
+[6.159s] [ 50%] Built target nmea_msgs_generate_messages_lisp
+[6.176s] [ 50%] Built target std_msgs_generate_messages_nodejs
+[6.176s] [ 50%] Built target actionlib_generate_messages_nodejs
+[6.176s] [ 50%] Built target actionlib_msgs_generate_messages_nodejs
+[6.177s] [ 50%] Built target roscpp_generate_messages_lisp
+[6.177s] [ 50%] Built target tf_generate_messages_nodejs
+[6.189s] [ 50%] Built target nmea_msgs_generate_messages_py
+[6.195s] [ 50%] Built target nmea_msgs_generate_messages_nodejs
+[6.195s] [ 50%] Built target sensor_msgs_generate_messages_eus
+[6.196s] [ 50%] Built target roscpp_generate_messages_py
+[6.200s] [ 50%] Built target rosgraph_msgs_generate_messages_cpp
+[6.201s] [ 50%] Built target rosgraph_msgs_generate_messages_py
+[6.209s] [ 50%] Built target roscpp_generate_messages_eus
+[6.214s] [ 50%] Built target nmea_msgs_generate_messages_cpp
+[6.230s] [ 50%] Built target geometry_msgs_generate_messages_eus
+[6.231s] [ 50%] Built target rosgraph_msgs_generate_messages_eus
+[6.238s] [ 50%] Built target tf_generate_messages_eus
+[6.238s] [ 50%] Built target roscpp_generate_messages_nodejs
+[6.245s] [ 50%] Built target geometry_msgs_generate_messages_cpp
+[6.271s] [ 50%] Built target rosgraph_msgs_generate_messages_lisp
+[6.416s] [ 75%] [32m[1mLinking CXX executable devel/lib/gnss_localizer/nmea_test[0m
+[6.719s] [100%] Built target nmea_test
+[6.822s] [100%] Built target tests
+[7.065s] Invoked command in '/home/point001/autoware.ai/build/gnss_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss_localizer --target tests -- -j24 -l24
+[7.495s] Invoking command in '/home/point001/autoware.ai/build/gnss_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss_localizer --target install -- -j24 -l24
+[7.644s] [  0%] Built target tf_generate_messages_cpp
+[7.662s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[7.663s] [  0%] Built target actionlib_generate_messages_lisp
+[7.683s] [  0%] Built target actionlib_generate_messages_eus
+[7.683s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.683s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[7.684s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.684s] [  0%] Built target nmea_msgs_generate_messages_eus
+[7.684s] [  0%] Built target roscpp_generate_messages_cpp
+[7.684s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.684s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[7.684s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[7.694s] [  0%] Built target actionlib_generate_messages_cpp
+[7.706s] [  0%] Built target std_msgs_generate_messages_py
+[7.721s] [  0%] Built target tf2_msgs_generate_messages_eus
+[7.729s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[7.731s] [  0%] Built target actionlib_msgs_generate_messages_py
+[7.761s] [  0%] Built target roscpp_generate_messages_py
+[7.761s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[7.761s] [  0%] Built target tf2_msgs_generate_messages_py
+[7.762s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.763s] [  0%] Built target geometry_msgs_generate_messages_py
+[7.763s] [  0%] Built target std_msgs_generate_messages_eus
+[7.771s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[7.778s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.781s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[7.789s] [  0%] Built target roscpp_generate_messages_lisp
+[7.790s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.795s] [  0%] Built target actionlib_generate_messages_nodejs
+[7.800s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.805s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.820s] [  0%] Built target roscpp_generate_messages_nodejs
+[7.820s] [  0%] Built target tf_generate_messages_lisp
+[7.821s] [  0%] Built target actionlib_generate_messages_py
+[7.829s] [  0%] Built target tf_generate_messages_py
+[7.831s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.833s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.844s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.854s] [  0%] Built target tf_generate_messages_nodejs
+[7.856s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[7.856s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[7.861s] [  0%] Built target roscpp_generate_messages_eus
+[7.863s] [  0%] Built target tf_generate_messages_eus
+[7.871s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[7.872s] [  0%] Built target nmea_msgs_generate_messages_py
+[7.875s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[7.878s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.881s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.883s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.912s] [  0%] Built target std_msgs_generate_messages_nodejs
+[8.066s] [ 60%] Built target nmea2tfpose
+[8.080s] [100%] Built target fix2tfpose
+[8.216s] [36mInstall the project...[0m
+[8.295s] -- Install configuration: "Release"
+[8.295s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/lib/pkgconfig/gnss_localizer.pc
+[8.295s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig.cmake
+[8.295s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig-version.cmake
+[8.296s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/share/gnss_localizer/package.xml
+[8.299s] -- Installing: /home/point001/autoware.ai/install/gnss_localizer/lib/gnss_localizer/nmea2tfpose
+[8.301s] -- Set runtime path of "/home/point001/autoware.ai/install/gnss_localizer/lib/gnss_localizer/nmea2tfpose" to ""
+[8.308s] -- Installing: /home/point001/autoware.ai/install/gnss_localizer/lib/gnss_localizer/fix2tfpose
+[8.311s] -- Set runtime path of "/home/point001/autoware.ai/install/gnss_localizer/lib/gnss_localizer/fix2tfpose" to ""
+[8.313s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch
+[8.313s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/nmea2tfpose.launch
+[8.313s] -- Up-to-date: /home/point001/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/fix2tfpose.launch
+[8.332s] Invoked command in '/home/point001/autoware.ai/build/gnss_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss_localizer --target install -- -j24 -l24

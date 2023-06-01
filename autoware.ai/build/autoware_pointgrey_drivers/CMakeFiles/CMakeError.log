@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c592c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c592c.dir/build.make CMakeFiles/cmTC_c592c.dir/build
+make[1]: Entering directory '/home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c592c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c592c.dir/CheckSymbolExists.c.o   -c /home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c592c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c592c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c592c.dir/CheckSymbolExists.c.o  -o cmTC_c592c 
+CMakeFiles/cmTC_c592c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c592c.dir/build.make:97: recipe for target 'cmTC_c592c' failed
+make[1]: *** [cmTC_c592c] Error 1
+make[1]: Leaving directory '/home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c592c/fast' failed
+make: *** [cmTC_c592c/fast] Error 2
+
+File /home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69ebc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69ebc.dir/build.make CMakeFiles/cmTC_69ebc.dir/build
+make[1]: Entering directory '/home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69ebc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69ebc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69ebc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69ebc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_69ebc.dir/CheckFunctionExists.c.o  -o cmTC_69ebc -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69ebc.dir/build.make:97: recipe for target 'cmTC_69ebc' failed
+make[1]: *** [cmTC_69ebc] Error 1
+make[1]: Leaving directory '/home/point001/autoware.ai/build/autoware_pointgrey_drivers/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69ebc/fast' failed
+make: *** [cmTC_69ebc/fast] Error 2
+
+

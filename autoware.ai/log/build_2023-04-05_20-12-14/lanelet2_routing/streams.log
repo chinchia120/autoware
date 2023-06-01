@@ -1,0 +1,155 @@
+[0.011s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lanelet2_routing
+[0.063s] -- The C compiler identification is GNU 7.5.0
+[0.104s] -- The CXX compiler identification is GNU 7.5.0
+[0.107s] -- Check for working C compiler: /usr/bin/cc
+[0.163s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.163s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.231s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.460s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.534s] -- Detecting CXX compile features
+[0.788s] -- Detecting CXX compile features - done
+[0.791s] -- MRT_ARCH not set and X86 target detected (x86_64)
+[0.791s] -- Setting -march to sandybridge
+[0.978s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.039s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.039s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.043s] -- Performing Test FLAG_AVAILABLE
+[1.097s] -- Performing Test FLAG_AVAILABLE - Success
+[1.098s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/lanelet2_routing/devel
+[1.098s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/lanelet2_traffic_rules;/home/point001/autoware.ai/install/lanelet2_core;/home/point001/autoware.ai/install/mrt_cmake_modules;/opt/ros/melodic
+[1.098s] -- This workspace overlays: /home/point001/autoware.ai/install/lanelet2_traffic_rules;/home/point001/autoware.ai/install/lanelet2_core;/home/point001/autoware.ai/install/mrt_cmake_modules;/opt/ros/melodic
+[1.108s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.108s] -- Using Debian Python package layout
+[1.108s] -- Using empy: /usr/bin/empy
+[1.211s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.211s] -- Call enable_testing()
+[1.212s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/lanelet2_routing/test_results
+[1.225s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.225s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.234s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.235s] -- Looking for pthread.h
+[1.287s] -- Looking for pthread.h - found
+[1.287s] -- Looking for pthread_create
+[1.339s] -- Looking for pthread_create - found
+[1.340s] -- Found Threads: TRUE  
+[1.343s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.371s] -- catkin 0.7.29
+[1.371s] -- BUILD_SHARED_LIBS is on
+[1.764s] -- Boost version: 1.65.1
+[1.765s] -- Found the following Boost libraries:
+[1.765s] --   wserialization
+[1.765s] --   thread
+[1.765s] --   random
+[1.765s] --   serialization
+[1.765s] --   log_setup
+[1.765s] --   prg_exec_monitor
+[1.765s] --   wave
+[1.765s] --   system
+[1.765s] --   signals
+[1.765s] --   chrono
+[1.765s] --   filesystem
+[1.765s] --   locale
+[1.765s] --   timer
+[1.765s] --   date_time
+[1.765s] --   regex
+[1.766s] --   graph
+[1.766s] --   program_options
+[1.766s] --   unit_test_framework
+[1.766s] --   log
+[1.766s] --   atomic
+[1.856s] -- Adding library "lanelet2_routing" with source src/LaneletPath.cpp;src/Route.cpp;src/RouteBuilder.cpp;src/RoutingCost.cpp;src/RoutingGraph.cpp;src/RoutingGraphBuilder.cpp
+[1.856s] -- Marking targets "lanelet2_routing" of package "lanelet2_routing" for installation
+[1.856s] -- Marking HEADER FILES in "include" folder of package "lanelet2_routing" for installation
+[1.856s] -- Marking SHARED CONTENT FOLDER "res" of package "lanelet2_routing" for installation
+[1.857s] -- Adding gtest unittest "lanelet2_routing-test_relations-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[1.858s] -- Adding gtest unittest "lanelet2_routing-test_route-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[1.859s] -- Adding gtest unittest "lanelet2_routing-test_routing-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[1.860s] -- Adding gtest unittest "lanelet2_routing-test_routing_graph_container-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[1.861s] -- Adding gtest unittest "lanelet2_routing-test_routing_visualization-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[1.862s] -- Adding nosetests in folder test
+[1.864s] -- Configuring done
+[1.897s] -- Generating done
+[1.901s] -- Build files have been written to: /home/point001/autoware.ai/build/lanelet2_routing
+[1.904s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_routing -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lanelet2_routing
+[1.907s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_routing -- -j24 -l24
+[1.936s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[1.944s] [  0%] Built target _catkin_empty_exported_target
+[1.952s] [35m[1mScanning dependencies of target lanelet2_routing[0m
+[1.997s] [ 28%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/Route.cpp.o[0m
+[1.997s] [ 28%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/LaneletPath.cpp.o[0m
+[1.999s] [ 42%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RoutingGraph.cpp.o[0m
+[2.000s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RouteBuilder.cpp.o[0m
+[2.000s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RoutingGraphBuilder.cpp.o[0m
+[2.000s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RoutingCost.cpp.o[0m
+[13.389s] [100%] [32m[1mLinking CXX shared library devel/lib/liblanelet2_routing.so[0m
+[13.435s] [100%] Built target lanelet2_routing
+[13.442s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_routing -- -j24 -l24
+[13.479s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_routing --target tests -- -j24 -l24
+[13.515s] [35m[1mScanning dependencies of target gtest[0m
+[13.521s] [  0%] Built target _catkin_empty_exported_target
+[13.527s] [  4%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.547s] [ 38%] Built target lanelet2_routing
+[16.950s] [ 42%] [32m[1mLinking CXX shared library libgtest.so[0m
+[16.985s] [ 42%] Built target gtest
+[16.992s] [35m[1mScanning dependencies of target gtest_main[0m
+[17.003s] [ 47%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[17.379s] [ 52%] [32m[1mLinking CXX shared library libgtest_main.so[0m
+[17.406s] [ 52%] Built target gtest_main
+[17.413s] [35m[1mScanning dependencies of target lanelet2_routing-test_routing_visualization-test[0m
+[17.413s] [35m[1mScanning dependencies of target lanelet2_routing-test_routing_graph_container-test[0m
+[17.413s] [35m[1mScanning dependencies of target lanelet2_routing-test_routing-test[0m
+[17.414s] [35m[1mScanning dependencies of target lanelet2_routing-test_route-test[0m
+[17.414s] [35m[1mScanning dependencies of target lanelet2_routing-test_relations-test[0m
+[17.449s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_route-test.dir/test/test_route.cpp.o[0m
+[17.449s] [ 61%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_relations-test.dir/test/test_relations.cpp.o[0m
+[17.449s] [ 66%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_routing-test.dir/test/test_routing.cpp.o[0m
+[17.451s] [ 71%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_routing_visualization-test.dir/test/test_routing_visualization.cpp.o[0m
+[17.452s] [ 76%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_routing_graph_container-test.dir/test/test_routing_graph_container.cpp.o[0m
+[22.156s] [ 80%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_routing_visualization-test[0m
+[22.196s] [ 80%] Built target lanelet2_routing-test_routing_visualization-test
+[22.802s] [ 85%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_routing-test[0m
+[22.845s] [ 85%] Built target lanelet2_routing-test_routing-test
+[23.429s] [ 90%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_relations-test[0m
+[23.469s] [ 90%] Built target lanelet2_routing-test_relations-test
+[24.661s] [ 95%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_route-test[0m
+[24.704s] [ 95%] Built target lanelet2_routing-test_route-test
+[25.128s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_routing_graph_container-test[0m
+[25.166s] [100%] Built target lanelet2_routing-test_routing_graph_container-test
+[25.173s] [35m[1mScanning dependencies of target tests[0m
+[25.180s] [100%] Built target tests
+[25.187s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_routing --target tests -- -j24 -l24
+[25.224s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_routing --target install -- -j24 -l24
+[25.257s] [  0%] Built target _catkin_empty_exported_target
+[25.282s] [100%] Built target lanelet2_routing
+[25.295s] [36mInstall the project...[0m
+[25.300s] -- Install configuration: "Release"
+[25.300s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig/lanelet2_routing.pc
+[25.300s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/cmake/lanelet2_routingConfig.cmake
+[25.300s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/cmake/lanelet2_routingConfig-version.cmake
+[25.300s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/package.xml
+[25.300s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/lib/liblanelet2_routing.so
+[25.301s] -- Set runtime path of "/home/point001/autoware.ai/install/lanelet2_routing/lib/liblanelet2_routing.so" to ""
+[25.301s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing
+[25.301s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingCost.h
+[25.301s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Route.h
+[25.301s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Forward.h
+[25.301s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/LaneletPath.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Graph.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/internal
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/internal/RoutingGraphBuilder.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/internal/RouteBuilder.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Exceptions.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RouteElement.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingGraphContainer.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingGraphVisualization.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingGraph.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/ShortestPath.h
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/res
+[25.302s] -- Installing: /home/point001/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/res/routing.mapcss
+[25.304s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_routing --target install -- -j24 -l24

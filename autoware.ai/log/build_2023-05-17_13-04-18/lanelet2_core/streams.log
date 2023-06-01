@@ -1,0 +1,98 @@
+[0.235s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core -- -j24 -l24
+[0.488s] [  0%] Built target _catkin_empty_exported_target
+[0.609s] [100%] Built target lanelet2_core
+[0.902s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core -- -j24 -l24
+[1.054s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target tests -- -j24 -l24
+[1.244s] [  0%] Built target _catkin_empty_exported_target
+[1.291s] [  5%] Built target gtest
+[1.351s] [ 11%] Built target gtest_main
+[1.358s] [ 37%] Built target lanelet2_core
+[1.419s] [ 42%] Built target lanelet2_core-test_polygon-test
+[1.430s] [ 48%] Built target lanelet2_core-test_lanelet_sequence-test
+[1.433s] [ 54%] Built target lanelet2_core-test_attribute-test
+[1.437s] [ 60%] Built target lanelet2_core-test_lanelet_map_geometry-test
+[1.439s] [ 65%] Built target lanelet2_core-test_point-test
+[1.440s] [ 71%] Built target lanelet2_core-test_linestring-test
+[1.444s] [ 77%] Built target lanelet2_core-test_regulatory_element-test
+[1.462s] [ 82%] Built target lanelet2_core-test_lanelet_or_area-test
+[1.463s] [ 88%] Built target lanelet2_core-test_lanelet_map-test
+[1.463s] [ 94%] Built target lanelet2_core-test_lanelet-test
+[1.470s] [100%] Built target lanelet2_core-test_area-test
+[1.509s] [100%] Built target tests
+[1.569s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target tests -- -j24 -l24
+[2.459s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target install -- -j24 -l24
+[2.564s] [  0%] Built target _catkin_empty_exported_target
+[2.564s] [100%] Built target lanelet2_core
+[2.586s] [36mInstall the project...[0m
+[2.599s] -- Install configuration: "Release"
+[2.599s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig/lanelet2_core.pc
+[2.599s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig.cmake
+[2.599s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig-version.cmake
+[2.599s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/package.xml
+[2.599s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/lib/liblanelet2_core.so
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/Attribute.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Area.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LineStringOrPolygon.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LaneletOrArea.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LaneletSequence.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/CompoundPolygon.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Traits.h
+[2.600s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/GPSPoint.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/CompoundLineString.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Point.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LineString.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Primitive.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/BoundingBox.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Lanelet.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/BasicRegulatoryElements.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/RegulatoryElement.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Polygon.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Area.h
+[2.601s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/GeometryHelper.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Point.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/LineString.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Area.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/LineString.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Lanelet.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Polygon.h
+[2.602s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/LaneletMap.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/BoundingBox.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Lanelet.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/RegulatoryElement.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Polygon.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/LaneletMap.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/Forward.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/Exceptions.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/ReverseAndForwardIterator.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Units.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/TransformIterator.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/CompoundIterator.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Utilities.h
+[2.603s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Optional.h
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/HybridMap.h
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/LaneletMap.h
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/res
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/res/qtcreator_debugging_helpers.py
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/res/lanelet_gdb.py
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LaneletAndAreaTagging.md
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LaneletPrimitives.md
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/area.png
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/regulatory_element.png
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/max_hose_problem_small.png
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/linestring.png
+[2.604s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/architecture.png
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/lanelet.png
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/lanelet2_example_image.png
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/RegulatoryElementTagging.md
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/GeometryPrimer.md
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/Lanelet1Compability.md
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LinestringTagging.md
+[2.605s] -- Up-to-date: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/Architecture.md
+[2.795s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target install -- -j24 -l24

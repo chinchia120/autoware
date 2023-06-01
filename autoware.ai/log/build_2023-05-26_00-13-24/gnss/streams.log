@@ -1,0 +1,42 @@
+[0.213s] Invoking command in '/home/point001/autoware.ai/build/gnss': /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss -- -j24 -l24
+[0.704s] [35m[1mScanning dependencies of target gnss[0m
+[0.704s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss.dir/src/geo_pos_conv.cpp.o[0m
+[0.954s] [100%] [32m[1mLinking CXX shared library devel/lib/libgnss.so[0m
+[1.174s] [100%] Built target gnss
+[1.229s] Invoked command in '/home/point001/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss -- -j24 -l24
+[1.392s] Invoking command in '/home/point001/autoware.ai/build/gnss': /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss --target tests -- -j24 -l24
+[1.526s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.527s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.527s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.528s] [  0%] Built target roscpp_generate_messages_eus
+[1.535s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.535s] [  0%] Built target roscpp_generate_messages_lisp
+[1.536s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.544s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.544s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.546s] [  0%] Built target std_msgs_generate_messages_eus
+[1.547s] [ 40%] Built target gtest
+[1.550s] [ 40%] Built target roscpp_generate_messages_cpp
+[1.553s] [ 40%] Built target std_msgs_generate_messages_py
+[1.555s] [ 40%] Built target roscpp_generate_messages_py
+[1.555s] [ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.559s] [ 40%] Built target roscpp_generate_messages_nodejs
+[1.580s] [35m[1mScanning dependencies of target test_gnss[0m
+[1.600s] [ 60%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/src/geo_pos_conv.cpp.o[0m
+[1.713s] [ 80%] [32m[1mLinking CXX executable devel/lib/gnss/test_gnss[0m
+[1.924s] [100%] Built target test_gnss
+[2.000s] [100%] Built target tests
+[2.240s] Invoked command in '/home/point001/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss --target tests -- -j24 -l24
+[2.860s] Invoking command in '/home/point001/autoware.ai/build/gnss': /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss --target install -- -j24 -l24
+[3.197s] [100%] Built target gnss
+[3.240s] [36mInstall the project...[0m
+[3.256s] -- Install configuration: "Release"
+[3.256s] -- Up-to-date: /home/point001/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+[3.256s] -- Up-to-date: /home/point001/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+[3.256s] -- Up-to-date: /home/point001/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+[3.256s] -- Up-to-date: /home/point001/autoware.ai/install/gnss/share/gnss/package.xml
+[3.256s] -- Up-to-date: /home/point001/autoware.ai/install/gnss/include/gnss
+[3.256s] -- Up-to-date: /home/point001/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+[3.256s] -- Installing: /home/point001/autoware.ai/install/gnss/lib/libgnss.so
+[3.256s] -- Set runtime path of "/home/point001/autoware.ai/install/gnss/lib/libgnss.so" to ""
+[3.493s] Invoked command in '/home/point001/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/gnss --target install -- -j24 -l24

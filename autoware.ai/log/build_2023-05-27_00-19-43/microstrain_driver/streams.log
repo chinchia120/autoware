@@ -1,0 +1,25 @@
+[0.406s] Invoking command in '/home/point001/autoware.ai/build/microstrain_driver': /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver -- -j24 -l24
+[0.533s] [ 76%] Built target microstrain_driver
+[0.594s] [ 88%] Built target 3dm_gx5_45_node
+[0.605s] [100%] Built target 3dm_gx5_15_node
+[0.660s] Invoked command in '/home/point001/autoware.ai/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver -- -j24 -l24
+[1.308s] Invoking command in '/home/point001/autoware.ai/build/microstrain_driver': /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target tests -- -j24 -l24
+[1.543s] Built target tests
+[1.799s] Invoked command in '/home/point001/autoware.ai/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target tests -- -j24 -l24
+[2.443s] Invoking command in '/home/point001/autoware.ai/build/microstrain_driver': /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target install -- -j24 -l24
+[2.598s] [ 76%] Built target microstrain_driver
+[2.758s] [ 88%] Built target 3dm_gx5_15_node
+[2.825s] [100%] Built target 3dm_gx5_45_node
+[2.915s] [36mInstall the project...[0m
+[2.952s] -- Install configuration: "Release"
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/pkgconfig/microstrain_driver.pc
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig.cmake
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig-version.cmake
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/package.xml
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/libmicrostrain_driver.so
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
+[2.952s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch
+[2.953s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch
+[2.953s] -- Up-to-date: /home/point001/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch
+[3.152s] Invoked command in '/home/point001/autoware.ai/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/microstrain_driver --target install -- -j24 -l24

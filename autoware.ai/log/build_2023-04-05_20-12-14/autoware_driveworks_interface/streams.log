@@ -1,0 +1,62 @@
+[0.032s] Invoking command in '/home/point001/autoware.ai/build/autoware_driveworks_interface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/autoware_driveworks_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_driveworks_interface
+[0.107s] -- The C compiler identification is GNU 7.5.0
+[0.171s] -- The CXX compiler identification is GNU 7.5.0
+[0.175s] -- Check for working C compiler: /usr/bin/cc
+[0.256s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.256s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.359s] -- Detecting C compile features
+[0.621s] -- Detecting C compile features - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++
+[0.733s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.733s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.854s] -- Detecting CXX compile features
+[1.302s] -- Detecting CXX compile features - done
+[1.304s] -- CUDA compilation status: 1.
+[1.306s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/autoware_driveworks_interface/devel
+[1.306s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/autoware_msgs;/home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.306s] -- This workspace overlays: /home/point001/autoware.ai/install/autoware_msgs;/home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.323s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.324s] -- Using Debian Python package layout
+[1.325s] -- Using empy: /usr/bin/empy
+[1.500s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.500s] -- Call enable_testing()
+[1.503s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/autoware_driveworks_interface/test_results
+[1.526s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.526s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.542s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.543s] -- Looking for pthread.h
+[1.652s] -- Looking for pthread.h - found
+[1.652s] -- Looking for pthread_create
+[1.771s] -- Looking for pthread_create - not found
+[1.771s] -- Looking for pthread_create in pthreads
+[1.853s] -- Looking for pthread_create in pthreads - not found
+[1.853s] -- Looking for pthread_create in pthread
+[1.949s] -- Looking for pthread_create in pthread - found
+[1.949s] -- Found Threads: TRUE  
+[1.951s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.999s] -- catkin 0.7.29
+[1.999s] -- BUILD_SHARED_LIBS is on
+[2.190s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.299s] -- Found CUDA: /usr/local/cuda-10.0 (found version "10.0") 
+[2.452s] autoware_driveworks_interface won't be built, CUDA and aarch64 are required.
+[2.452s] -- Configuring done
+[2.475s] -- Generating done
+[2.484s] -- Build files have been written to: /home/point001/autoware.ai/build/autoware_driveworks_interface
+[2.499s] Invoked command in '/home/point001/autoware.ai/build/autoware_driveworks_interface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/autoware_driveworks_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_driveworks_interface
+[2.503s] Invoking command in '/home/point001/autoware.ai/build/autoware_driveworks_interface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_driveworks_interface -- -j24 -l24
+[2.602s] Invoked command in '/home/point001/autoware.ai/build/autoware_driveworks_interface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_driveworks_interface -- -j24 -l24
+[2.752s] Invoking command in '/home/point001/autoware.ai/build/autoware_driveworks_interface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_driveworks_interface --target tests -- -j24 -l24
+[2.826s] [35m[1mScanning dependencies of target tests[0m
+[2.838s] Built target tests
+[2.854s] Invoked command in '/home/point001/autoware.ai/build/autoware_driveworks_interface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_driveworks_interface --target tests -- -j24 -l24
+[3.011s] Invoking command in '/home/point001/autoware.ai/build/autoware_driveworks_interface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_driveworks_interface --target install -- -j24 -l24
+[3.085s] [36mInstall the project...[0m
+[3.099s] -- Install configuration: "Release"
+[3.099s] -- Installing: /home/point001/autoware.ai/install/autoware_driveworks_interface/lib/pkgconfig/autoware_driveworks_interface.pc
+[3.099s] -- Installing: /home/point001/autoware.ai/install/autoware_driveworks_interface/share/autoware_driveworks_interface/cmake/autoware_driveworks_interfaceConfig.cmake
+[3.099s] -- Installing: /home/point001/autoware.ai/install/autoware_driveworks_interface/share/autoware_driveworks_interface/cmake/autoware_driveworks_interfaceConfig-version.cmake
+[3.099s] -- Installing: /home/point001/autoware.ai/install/autoware_driveworks_interface/share/autoware_driveworks_interface/package.xml
+[3.103s] Invoked command in '/home/point001/autoware.ai/build/autoware_driveworks_interface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_driveworks_interface --target install -- -j24 -l24

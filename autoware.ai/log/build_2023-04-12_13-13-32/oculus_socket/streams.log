@@ -1,0 +1,18 @@
+[0.219s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[0.356s] [100%] Built target oculus_sender
+[0.491s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[1.107s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[1.264s] Built target tests
+[1.391s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[1.864s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24
+[2.069s] [100%] Built target oculus_sender
+[2.158s] [36mInstall the project...[0m
+[2.174s] -- Install configuration: "Release"
+[2.174s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[2.174s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[2.174s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[2.174s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[2.175s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[2.175s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[2.175s] -- Up-to-date: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[2.349s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24

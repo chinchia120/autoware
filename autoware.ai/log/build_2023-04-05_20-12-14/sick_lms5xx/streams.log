@@ -1,0 +1,838 @@
+[0.068s] Invoking command in '/home/point001/autoware.ai/build/sick_lms5xx': /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/sick_lms5xx
+[0.358s] -- The C compiler identification is GNU 7.5.0
+[0.509s] -- The CXX compiler identification is GNU 7.5.0
+[0.515s] -- Check for working C compiler: /usr/bin/cc
+[0.732s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.732s] -- Detecting C compiler ABI info
+[0.916s] -- Detecting C compiler ABI info - done
+[0.923s] -- Detecting C compile features
+[1.445s] -- Detecting C compile features - done
+[1.448s] -- Check for working CXX compiler: /usr/bin/c++
+[1.683s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.683s] -- Detecting CXX compiler ABI info
+[1.860s] -- Detecting CXX compiler ABI info - done
+[1.873s] -- Detecting CXX compile features
+[2.647s] -- Detecting CXX compile features - done
+[2.649s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/sick_lms5xx/devel
+[2.649s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[2.649s] -- This workspace overlays: /opt/ros/melodic
+[2.665s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.666s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.666s] -- Using Debian Python package layout
+[2.666s] -- Using empy: /usr/bin/empy
+[2.840s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.840s] -- Call enable_testing()
+[2.842s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/sick_lms5xx/test_results
+[2.863s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.864s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.880s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.886s] -- Looking for pthread.h
+[2.979s] -- Looking for pthread.h - found
+[2.983s] -- Looking for pthread_create
+[3.081s] -- Looking for pthread_create - not found
+[3.081s] -- Looking for pthread_create in pthreads
+[3.181s] -- Looking for pthread_create in pthreads - not found
+[3.181s] -- Looking for pthread_create in pthread
+[3.268s] -- Looking for pthread_create in pthread - found
+[3.269s] -- Found Threads: TRUE  
+[3.274s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.322s] -- catkin 0.7.29
+[3.322s] -- BUILD_SHARED_LIBS is on
+[3.552s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.796s] -- Configuring done
+[3.829s] -- Generating done
+[3.839s] -- Build files have been written to: /home/point001/autoware.ai/build/sick_lms5xx
+[3.901s] Invoked command in '/home/point001/autoware.ai/build/sick_lms5xx' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/sick_lms5xx
+[3.907s] Invoking command in '/home/point001/autoware.ai/build/sick_lms5xx': /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_lms5xx -- -j24 -l24
+[3.967s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[3.988s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.999s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[4.013s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.025s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[4.042s] [  0%] Built target roscpp_generate_messages_nodejs
+[4.060s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[4.075s] [  0%] Built target roscpp_generate_messages_eus
+[4.088s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[4.103s] [  0%] Built target roscpp_generate_messages_lisp
+[4.116s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[4.132s] [  0%] Built target tf_generate_messages_lisp
+[4.142s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[4.155s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.168s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.186s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.200s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[4.211s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.226s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[4.238s] [  0%] Built target tf_generate_messages_py
+[4.250s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[4.265s] [  0%] Built target sensor_msgs_generate_messages_py
+[4.278s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[4.296s] [  0%] Built target tf_generate_messages_nodejs
+[4.309s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.324s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.335s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[4.348s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[4.361s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[4.373s] [  0%] Built target sensor_msgs_generate_messages_eus
+[4.389s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[4.400s] [  0%] Built target tf_generate_messages_cpp
+[4.414s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.428s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.448s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[4.461s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[4.471s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[4.482s] [  0%] Built target actionlib_generate_messages_cpp
+[4.493s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[4.516s] [  0%] Built target roscpp_generate_messages_cpp
+[4.528s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[4.542s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[4.551s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[4.563s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.573s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[4.585s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.603s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.614s] [  0%] Built target std_msgs_generate_messages_py
+[4.629s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[4.645s] [  0%] Built target roscpp_generate_messages_py
+[4.658s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[4.673s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[4.687s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[4.701s] [  0%] Built target tf_generate_messages_eus
+[4.715s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[4.736s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.749s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[4.765s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.778s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.790s] [  0%] Built target std_msgs_generate_messages_eus
+[4.802s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[4.817s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.833s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[4.847s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.860s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[4.871s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[4.884s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[4.900s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.916s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[4.933s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.949s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[4.964s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.978s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[4.993s] [  0%] Built target actionlib_generate_messages_eus
+[5.006s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[5.021s] [  0%] Built target actionlib_generate_messages_lisp
+[5.042s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[5.059s] [  0%] Built target actionlib_generate_messages_nodejs
+[5.078s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[5.089s] [  0%] Built target actionlib_generate_messages_py
+[5.106s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[5.119s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[5.133s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[5.156s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[5.165s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[5.184s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[5.203s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[5.218s] [  0%] Built target tf2_msgs_generate_messages_py
+[5.235s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[5.252s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[5.275s] [35m[1mScanning dependencies of target lms511_node[0m
+[5.310s] [ 20%] [32mBuilding CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/lms5xx_node.cpp.o[0m
+[6.349s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0[m[K,
+[6.349s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40[m[K:
+[6.349s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.349s]      void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.349s]                              [01;35m[K^~~~~[m[K
+[6.350s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.350s]      void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+[6.350s]                              [01;35m[K^~~~~[m[K
+[6.350s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.350s]      void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.350s]                                   [01;35m[K^~~~~[m[K
+[6.350s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.350s]      void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.350s]                                      [01;35m[K^~~~~[m[K
+[6.350s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.350s]        [01;35m[Kthrow[m[K( SickIOException );
+[6.350s]        [01;35m[K^~~~~[m[K
+[6.351s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.351s]  K_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+[6.351s]                                                                      [01;35m[K^~~~~[m[K
+[6.351s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:112:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.351s]                         const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+[6.351s]                                                                  [01;35m[K^~~~~[m[K
+[6.351s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0[m[K,
+[6.351s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40[m[K:
+[6.351s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:124:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.351s]                                       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+[6.351s]                                                                      [01;35m[K^~~~~[m[K
+[6.351s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.352s]  SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.352s]                                                                      [01;35m[K^~~~~[m[K
+[6.352s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.352s]   SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.352s]                                                                      [01;35m[K^~~~~[m[K
+[6.352s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.352s]  IDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[6.352s]                                                                      [01;35m[K^~~~~[m[K
+[6.352s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.352s]  R< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+[6.352s]                                                                      [01;35m[K^~~~~[m[K
+[6.353s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.353s]      [01;35m[Kthrow[m[K( SickIOException ) {
+[6.353s]      [01;35m[K^~~~~[m[K
+[6.353s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:302:112:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.353s]                             const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+[6.353s]                                                                      [01;35m[K^~~~~[m[K
+[6.353s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:340:112:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.353s]                             const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+[6.353s]                                                                      [01;35m[K^~~~~[m[K
+[6.353s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:405:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.353s]                                                                      [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[6.353s]                                                                      [01;35m[K^~~~~[m[K
+[6.356s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:25:0[m[K,
+[6.357s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34[m[K,
+[6.357s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40[m[K:
+[6.357s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.357s]      void ParseMessage( const uint8_t * const message_buffer ) [01;35m[Kthrow[m[K ( SickIOException );
+[6.357s]                                                                [01;35m[K^~~~~[m[K
+[6.357s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0[m[K,
+[6.357s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34[m[K,
+[6.358s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40[m[K:
+[6.358s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.358s]     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.358s]                                                                      [01;35m[K^~~~~[m[K
+[6.358s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.358s]      void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.358s]                                                       [01;35m[K^~~~~[m[K
+[6.358s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.358s]      void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.358s]                                                      [01;35m[K^~~~~[m[K
+[6.359s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.359s]      bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.359s]                                                                     [01;35m[K^~~~~[m[K
+[6.359s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.359s]      void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.359s]                          [01;35m[K^~~~~[m[K
+[6.359s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.359s]      void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.359s]                                [01;35m[K^~~~~[m[K
+[6.359s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.360s]      void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.360s]                                [01;35m[K^~~~~[m[K
+[6.360s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.360s]      ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.360s]                            [01;35m[K^~~~~[m[K
+[6.360s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.360s]  int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[6.360s]                                                                      [01;35m[K^~~~~[m[K
+[6.360s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0[m[K,
+[6.361s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34[m[K,
+[6.361s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40[m[K:
+[6.361s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.361s]      void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.361s]                                       [01;35m[K^~~~~[m[K
+[6.361s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.361s]      void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+[6.361s]                                       [01;35m[K^~~~~[m[K
+[6.362s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.362s]  >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+[6.362s]                                                                      [01;35m[K^~~~~[m[K
+[6.362s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.362s]  LASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[6.362s]                                                                      [01;35m[K^~~~~[m[K
+[6.362s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.362s]  CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[6.362s]                                                                      [01;35m[K^~~~~[m[K
+[6.362s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.362s]  _CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.362s]                                                                      [01;35m[K^~~~~[m[K
+[6.362s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.362s]  BufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[6.362s]                                                                      [01;35m[K^~~~~[m[K
+[6.363s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.363s]  Monitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.363s]                                                                      [01;35m[K^~~~~[m[K
+[6.363s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.363s]  Monitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.363s]                                                                      [01;35m[K^~~~~[m[K
+[6.363s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.363s]  onitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.363s]                                                                      [01;35m[K^~~~~[m[K
+[6.363s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.363s]  < SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.363s]                                                                      [01;35m[K^~~~~[m[K
+[6.364s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.364s]  < SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[6.364s]                                                                      [01;35m[K^~~~~[m[K
+[6.364s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.364s]      [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+[6.364s]      [01;35m[K^~~~~[m[K
+[6.364s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34:0[m[K,
+[6.364s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40[m[K:
+[6.364s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:43:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.364s]  oid GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+[6.364s]                                                                      [01;35m[K^~~~~[m[K
+[6.364s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.364s]      void _flushTCPRecvBuffer( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.364s]                                        [01;35m[K^~~~~[m[K
+[6.365s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:0[m[K:
+[6.365s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:137:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.365s]      void Initialize( const bool disp_banner = true ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+[6.365s]                                                       [01;35m[K^~~~~[m[K
+[6.365s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:141:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.365s]                             const sick_lms_5xx_scan_res_t scan_res ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[6.365s]                                                                      [01;35m[K^~~~~[m[K
+[6.365s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:144:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.365s]      void SetSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[6.365s]                                                                     [01;35m[K^~~~~[m[K
+[6.365s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:147:55:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.365s]      sick_lms_5xx_scan_freq_t GetSickScanFreq( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.365s]                                                        [01;35m[K^~~~~[m[K
+[6.366s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:150:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.366s]      sick_lms_5xx_scan_res_t GetSickScanRes( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.366s]                                                      [01;35m[K^~~~~[m[K
+[6.366s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:153:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.366s]      double GetSickStartAngle( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.366s]                                        [01;35m[K^~~~~[m[K
+[6.366s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:156:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.366s]      double GetSickStopAngle( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.366s]                                       [01;35m[K^~~~~[m[K
+[6.366s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:159:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.366s]  tSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+[6.367s]                                                                      [01;35m[K^~~~~[m[K
+[6.367s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:173:72:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.367s]                             unsigned int * const dev_status = NULL ) [01;35m[Kthrow[m[K ( SickIOException, SickConfigException, SickTimeoutException );
+[6.367s]                                                                      [01;35m[K^~~~~[m[K
+[6.367s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:176:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.367s]      void Uninitialize( const bool disp_banner = true ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException, SickThreadException );
+[6.367s]                                                         [01;35m[K^~~~~[m[K
+[6.367s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:239:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.367s]      void _setupConnection( ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+[6.367s]                               [01;35m[K^~~~~[m[K
+[6.368s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:242:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.368s]      void _reinitialize( ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+[6.368s]                            [01;35m[K^~~~~[m[K
+[6.368s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:245:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.368s]      void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+[6.368s]                                  [01;35m[K^~~~~[m[K
+[6.368s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:248:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.368s]      void _updateSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[6.368s]                                [01;35m[K^~~~~[m[K
+[6.368s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:251:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.368s]      void _getSickScanConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[6.368s]                                 [01;35m[K^~~~~[m[K
+[6.369s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:256:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.369s]                        const int start_angle, const int stop_angle ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[6.369s]                                                                      [01;35m[K^~~~~[m[K
+[6.369s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:259:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.369s]      void _setAuthorizedClientAccessMode( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickErrorException, SickIOException );
+[6.369s]                                             [01;35m[K^~~~~[m[K
+[6.369s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:262:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.369s]      void _writeToEEPROM( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[6.369s]                             [01;35m[K^~~~~[m[K
+[6.369s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:265:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.369s]     void _sendMessage( const SickLMS5xxMessage &send_message ) const [01;35m[Kthrow[m[K ( SickIOException );
+[6.369s]                                                                      [01;35m[K^~~~~[m[K
+[6.370s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:273:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.370s]                                   const unsigned int num_tries = 1 ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+[6.370s]                                                                      [01;35m[K^~~~~[m[K
+[6.370s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:276:64:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.370s]      void _recvMessage( SickLMS5xxMessage &sick_message ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+[6.370s]                                                                 [01;35m[K^~~~~[m[K
+[6.370s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:279:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.370s]      void _startMeasuring( ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[6.370s]                              [01;35m[K^~~~~[m[K
+[6.370s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:282:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.370s]      void _stopMeasuring( ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[6.371s]                             [01;35m[K^~~~~[m[K
+[6.371s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:285:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.371s]      void _requestDataStream( ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickConfigException, SickIOException );
+[6.371s]                                 [01;35m[K^~~~~[m[K
+[6.371s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:288:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.371s]      void _startStopStreamingMeasurements( bool start ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[6.371s]                                                         [01;35m[K^~~~~[m[K
+[6.371s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:291:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.371s]   unsigned int timeout_value = DEFAULT_SICK_LMS_5XX_STATUS_TIMEOUT ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[6.371s]                                                                      [01;35m[K^~~~~[m[K
+[6.371s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:294:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.371s]  tSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+[6.372s]                                                                      [01;35m[K^~~~~[m[K
+[6.372s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:297:69:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.372s]      void _setSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[6.372s]                                                                      [01;35m[K^~~~~[m[K
+[6.372s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:300:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[6.372s]      void _restoreMeasuringMode( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[6.372s]                                    [01;35m[K^~~~~[m[K
+[8.239s] [ 40%] [32mBuilding CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/SickLMS5xxMessage.cc.o[0m
+[8.477s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxMessage.cc:24:0[m[K:
+[8.477s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.477s]      void ParseMessage( const uint8_t * const message_buffer ) [01;35m[Kthrow[m[K ( SickIOException );
+[8.477s]                                                                [01;35m[K^~~~~[m[K
+[8.477s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxMessage.cc:122:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.477s]  LMS5xxMessage::ParseMessage( const uint8_t * const message_buffer ) [01;35m[Kthrow[m[K (SickIOException) {
+[8.477s]                                                                      [01;35m[K^~~~~[m[K
+[8.742s] [ 60%] [32mBuilding CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/SickLMS5xxBufferMonitor.cc.o[0m
+[8.981s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:25:0[m[K,
+[8.981s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25[m[K:
+[8.981s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.981s]      void ParseMessage( const uint8_t * const message_buffer ) [01;35m[Kthrow[m[K ( SickIOException );
+[8.981s]                                                                [01;35m[K^~~~~[m[K
+[8.982s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0[m[K,
+[8.982s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25[m[K:
+[8.982s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.982s]     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.982s]                                                                      [01;35m[K^~~~~[m[K
+[8.982s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.982s]      void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.982s]                                                       [01;35m[K^~~~~[m[K
+[8.982s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.983s]      void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.983s]                                                      [01;35m[K^~~~~[m[K
+[8.983s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.983s]      bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.983s]                                                                     [01;35m[K^~~~~[m[K
+[8.983s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.984s]      void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.984s]                          [01;35m[K^~~~~[m[K
+[8.984s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.984s]      void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.984s]                                [01;35m[K^~~~~[m[K
+[8.984s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.984s]      void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.984s]                                [01;35m[K^~~~~[m[K
+[8.984s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.984s]      ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.984s]                            [01;35m[K^~~~~[m[K
+[8.985s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.985s]  int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[8.985s]                                                                      [01;35m[K^~~~~[m[K
+[8.985s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0[m[K,
+[8.986s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25[m[K:
+[8.986s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.986s]      void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.986s]                                       [01;35m[K^~~~~[m[K
+[8.986s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.986s]      void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+[8.987s]                                       [01;35m[K^~~~~[m[K
+[8.987s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.987s]  >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+[8.987s]                                                                      [01;35m[K^~~~~[m[K
+[8.987s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.987s]  LASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[8.987s]                                                                      [01;35m[K^~~~~[m[K
+[8.987s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.987s]  CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[8.987s]                                                                      [01;35m[K^~~~~[m[K
+[8.987s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.987s]  _CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[8.988s]                                                                      [01;35m[K^~~~~[m[K
+[8.988s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.988s]  BufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[8.988s]                                                                      [01;35m[K^~~~~[m[K
+[8.988s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.988s]  Monitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[8.988s]                                                                      [01;35m[K^~~~~[m[K
+[8.988s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.988s]  Monitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[8.988s]                                                                      [01;35m[K^~~~~[m[K
+[8.988s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.989s]  onitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[8.989s]                                                                      [01;35m[K^~~~~[m[K
+[8.989s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.989s]  < SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[8.989s]                                                                      [01;35m[K^~~~~[m[K
+[8.989s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.989s]  < SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[8.989s]                                                                      [01;35m[K^~~~~[m[K
+[8.989s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.989s]      [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+[8.989s]      [01;35m[K^~~~~[m[K
+[8.990s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25:0[m[K:
+[8.990s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:43:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.990s]  oid GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+[8.990s]                                                                      [01;35m[K^~~~~[m[K
+[8.990s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.990s]      void _flushTCPRecvBuffer( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[8.990s]                                        [01;35m[K^~~~~[m[K
+[8.990s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:42:97:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.990s]  or::GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException ) {
+[8.990s]                                                                      [01;35m[K^~~~~[m[K
+[8.991s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:102:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[8.991s]    void SickLMS5xxBufferMonitor::_flushTCPRecvBuffer( ) const [01;35m[Kthrow[m[K (SickIOException) {
+[8.991s]                                                               [01;35m[K^~~~~[m[K
+[9.259s] [ 80%] [32mBuilding CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/SickLMS5xx.cc.o[0m
+[9.514s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0[m[K,
+[9.514s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39[m[K:
+[9.514s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.514s]      void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.514s]                              [01;35m[K^~~~~[m[K
+[9.515s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.515s]      void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+[9.515s]                              [01;35m[K^~~~~[m[K
+[9.515s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.515s]      void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.515s]                                   [01;35m[K^~~~~[m[K
+[9.515s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.515s]      void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.515s]                                      [01;35m[K^~~~~[m[K
+[9.515s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.515s]        [01;35m[Kthrow[m[K( SickIOException );
+[9.516s]        [01;35m[K^~~~~[m[K
+[9.516s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.516s]  K_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+[9.516s]                                                                      [01;35m[K^~~~~[m[K
+[9.516s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:112:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.516s]                         const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+[9.516s]                                                                  [01;35m[K^~~~~[m[K
+[9.516s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0[m[K,
+[9.516s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39[m[K:
+[9.516s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:124:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.517s]                                       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+[9.517s]                                                                      [01;35m[K^~~~~[m[K
+[9.517s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.517s]  SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.517s]                                                                      [01;35m[K^~~~~[m[K
+[9.517s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.517s]   SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.517s]                                                                      [01;35m[K^~~~~[m[K
+[9.518s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.518s]  IDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[9.518s]                                                                      [01;35m[K^~~~~[m[K
+[9.518s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.518s]  R< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+[9.518s]                                                                      [01;35m[K^~~~~[m[K
+[9.518s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.518s]      [01;35m[Kthrow[m[K( SickIOException ) {
+[9.518s]      [01;35m[K^~~~~[m[K
+[9.518s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:302:112:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.518s]                             const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+[9.518s]                                                                      [01;35m[K^~~~~[m[K
+[9.518s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:340:112:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.519s]                             const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+[9.519s]                                                                      [01;35m[K^~~~~[m[K
+[9.519s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:405:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.519s]                                                                      [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.519s]                                                                      [01;35m[K^~~~~[m[K
+[9.521s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:25:0[m[K,
+[9.521s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34[m[K,
+[9.521s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39[m[K:
+[9.521s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.521s]      void ParseMessage( const uint8_t * const message_buffer ) [01;35m[Kthrow[m[K ( SickIOException );
+[9.521s]                                                                [01;35m[K^~~~~[m[K
+[9.522s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0[m[K,
+[9.522s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34[m[K,
+[9.522s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39[m[K:
+[9.522s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.522s]     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.522s]                                                                      [01;35m[K^~~~~[m[K
+[9.522s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.522s]      void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.522s]                                                       [01;35m[K^~~~~[m[K
+[9.522s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.522s]      void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.523s]                                                      [01;35m[K^~~~~[m[K
+[9.523s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.523s]      bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.523s]                                                                     [01;35m[K^~~~~[m[K
+[9.523s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.523s]      void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.523s]                          [01;35m[K^~~~~[m[K
+[9.523s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.523s]      void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.524s]                                [01;35m[K^~~~~[m[K
+[9.524s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.524s]      void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.524s]                                [01;35m[K^~~~~[m[K
+[9.524s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.524s]      ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.524s]                            [01;35m[K^~~~~[m[K
+[9.525s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.525s]  int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[9.525s]                                                                      [01;35m[K^~~~~[m[K
+[9.525s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0[m[K,
+[9.525s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34[m[K,
+[9.525s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39[m[K:
+[9.525s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.525s]      void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.525s]                                       [01;35m[K^~~~~[m[K
+[9.526s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.526s]      void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+[9.526s]                                       [01;35m[K^~~~~[m[K
+[9.526s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.526s]  >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+[9.526s]                                                                      [01;35m[K^~~~~[m[K
+[9.526s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.526s]  LASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[9.564s]                                                                      [01;35m[K^~~~~[m[K
+[9.564s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.564s]  CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[9.564s]                                                                      [01;35m[K^~~~~[m[K
+[9.564s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.564s]  _CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.564s]                                                                      [01;35m[K^~~~~[m[K
+[9.564s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.565s]  BufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+[9.565s]                                                                      [01;35m[K^~~~~[m[K
+[9.565s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.565s]  Monitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.565s]                                                                      [01;35m[K^~~~~[m[K
+[9.565s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.565s]  Monitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.565s]                                                                      [01;35m[K^~~~~[m[K
+[9.565s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.565s]  onitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.565s]                                                                      [01;35m[K^~~~~[m[K
+[9.566s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.566s]  < SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.566s]                                                                      [01;35m[K^~~~~[m[K
+[9.566s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.566s]  < SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+[9.566s]                                                                      [01;35m[K^~~~~[m[K
+[9.566s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.566s]      [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+[9.566s]      [01;35m[K^~~~~[m[K
+[9.566s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34:0[m[K,
+[9.566s]                  from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39[m[K:
+[9.567s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:43:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.567s]  oid GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+[9.567s]                                                                      [01;35m[K^~~~~[m[K
+[9.567s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.567s]      void _flushTCPRecvBuffer( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.567s]                                        [01;35m[K^~~~~[m[K
+[9.567s] In file included from [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:0[m[K:
+[9.567s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:137:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.567s]      void Initialize( const bool disp_banner = true ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+[9.567s]                                                       [01;35m[K^~~~~[m[K
+[9.569s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:141:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.569s]                             const sick_lms_5xx_scan_res_t scan_res ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[9.569s]                                                                      [01;35m[K^~~~~[m[K
+[9.569s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:144:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.569s]      void SetSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[9.569s]                                                                     [01;35m[K^~~~~[m[K
+[9.570s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:147:55:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.570s]      sick_lms_5xx_scan_freq_t GetSickScanFreq( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.570s]                                                        [01;35m[K^~~~~[m[K
+[9.570s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:150:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.570s]      sick_lms_5xx_scan_res_t GetSickScanRes( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.570s]                                                      [01;35m[K^~~~~[m[K
+[9.570s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:153:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.570s]      double GetSickStartAngle( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.570s]                                        [01;35m[K^~~~~[m[K
+[9.570s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:156:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.570s]      double GetSickStopAngle( ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.570s]                                       [01;35m[K^~~~~[m[K
+[9.571s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:159:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.571s]  tSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+[9.571s]                                                                      [01;35m[K^~~~~[m[K
+[9.571s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:173:72:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.571s]                             unsigned int * const dev_status = NULL ) [01;35m[Kthrow[m[K ( SickIOException, SickConfigException, SickTimeoutException );
+[9.571s]                                                                      [01;35m[K^~~~~[m[K
+[9.571s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:176:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.571s]      void Uninitialize( const bool disp_banner = true ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException, SickThreadException );
+[9.571s]                                                         [01;35m[K^~~~~[m[K
+[9.571s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:239:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.571s]      void _setupConnection( ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+[9.572s]                               [01;35m[K^~~~~[m[K
+[9.572s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:242:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.572s]      void _reinitialize( ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+[9.572s]                            [01;35m[K^~~~~[m[K
+[9.572s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:245:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.572s]      void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+[9.572s]                                  [01;35m[K^~~~~[m[K
+[9.572s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:248:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.572s]      void _updateSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[9.572s]                                [01;35m[K^~~~~[m[K
+[9.572s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:251:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.572s]      void _getSickScanConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[9.573s]                                 [01;35m[K^~~~~[m[K
+[9.573s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:256:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.578s]                        const int start_angle, const int stop_angle ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[9.578s]                                                                      [01;35m[K^~~~~[m[K
+[9.578s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:259:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.578s]      void _setAuthorizedClientAccessMode( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickErrorException, SickIOException );
+[9.578s]                                             [01;35m[K^~~~~[m[K
+[9.579s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:262:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.579s]      void _writeToEEPROM( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[9.579s]                             [01;35m[K^~~~~[m[K
+[9.579s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:265:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.579s]     void _sendMessage( const SickLMS5xxMessage &send_message ) const [01;35m[Kthrow[m[K ( SickIOException );
+[9.579s]                                                                      [01;35m[K^~~~~[m[K
+[9.579s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:273:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.580s]                                   const unsigned int num_tries = 1 ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+[9.580s]                                                                      [01;35m[K^~~~~[m[K
+[9.580s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:276:64:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.580s]      void _recvMessage( SickLMS5xxMessage &sick_message ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+[9.580s]                                                                 [01;35m[K^~~~~[m[K
+[9.580s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:279:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.580s]      void _startMeasuring( ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[9.580s]                              [01;35m[K^~~~~[m[K
+[9.580s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:282:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.580s]      void _stopMeasuring( ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[9.580s]                             [01;35m[K^~~~~[m[K
+[9.580s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:285:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.581s]      void _requestDataStream( ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickConfigException, SickIOException );
+[9.581s]                                 [01;35m[K^~~~~[m[K
+[9.581s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:288:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.581s]      void _startStopStreamingMeasurements( bool start ) [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+[9.581s]                                                         [01;35m[K^~~~~[m[K
+[9.581s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:291:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.581s]   unsigned int timeout_value = DEFAULT_SICK_LMS_5XX_STATUS_TIMEOUT ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[9.581s]                                                                      [01;35m[K^~~~~[m[K
+[9.581s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:294:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.581s]  tSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+[9.581s]                                                                      [01;35m[K^~~~~[m[K
+[9.581s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:297:69:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.581s]      void _setSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException );
+[9.582s]                                                                      [01;35m[K^~~~~[m[K
+[9.582s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:300:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.583s]      void _restoreMeasuringMode( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+[9.584s]                                    [01;35m[K^~~~~[m[K
+[9.584s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:74:58:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.585s]    void SickLMS5xx::Initialize( const bool disp_banner  ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException ) {
+[9.585s]                                                           [01;35m[K^~~~~[m[K
+[9.585s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:151:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.585s]                             const sick_lms_5xx_scan_res_t scan_res ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException ) {
+[9.585s]                                                                      [01;35m[K^~~~~[m[K
+[9.585s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:200:20:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.585s]                     [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException )
+[9.585s]                     [01;35m[K^~~~~[m[K
+[9.585s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:248:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.585s]    sick_lms_5xx_scan_freq_t SickLMS5xx::GetSickScanFreq( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[9.585s]                                                                  [01;35m[K^~~~~[m[K
+[9.585s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:263:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.586s]    sick_lms_5xx_scan_res_t SickLMS5xx::GetSickScanRes( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[9.586s]                                                                [01;35m[K^~~~~[m[K
+[9.586s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:278:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.586s]    double SickLMS5xx::GetSickStartAngle( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[9.586s]                                                  [01;35m[K^~~~~[m[K
+[9.586s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:293:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.586s]    double SickLMS5xx::GetSickStopAngle( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[9.586s]                                                 [01;35m[K^~~~~[m[K
+[9.586s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:307:90:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.586s]  tSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException, SickErrorException ) {
+[9.586s]                                                                      [01;35m[K^~~~~[m[K
+[9.586s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:374:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.587s]                                    unsigned int * const dev_status ) [01;35m[Kthrow[m[K ( SickIOException, SickConfigException, SickTimeoutException ) {
+[9.587s]                                                                      [01;35m[K^~~~~[m[K
+[9.587s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:525:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.587s]    void SickLMS5xx::Uninitialize( const bool disp_banner ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException, SickThreadException ){
+[9.587s]                                                            [01;35m[K^~~~~[m[K
+[9.587s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:691:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.587s]    void SickLMS5xx::_setupConnection( ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException ) {
+[9.587s]                                         [01;35m[K^~~~~[m[K
+[9.587s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:798:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.588s]    void SickLMS5xx::_reinitialize( ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException ) {
+[9.588s]                                      [01;35m[K^~~~~[m[K
+[9.588s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:848:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.588s]    void SickLMS5xx::_teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException ) {
+[9.588s]                                            [01;35m[K^~~~~[m[K
+[9.588s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:860:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.588s]    void SickLMS5xx::_updateSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.588s]                                          [01;35m[K^~~~~[m[K
+[9.588s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:926:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.588s]    void SickLMS5xx::_getSickScanConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.588s]                                           [01;35m[K^~~~~[m[K
+[9.589s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1073:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.589s]                        const int start_angle, const int stop_angle ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException ) {
+[9.589s]                                                                      [01;35m[K^~~~~[m[K
+[9.589s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1247:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.589s]    void SickLMS5xx::_setAuthorizedClientAccessMode() [01;35m[Kthrow[m[K( SickTimeoutException, SickErrorException, SickIOException ) {
+[9.589s]                                                      [01;35m[K^~~~~[m[K
+[9.589s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1341:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.589s]    void SickLMS5xx::_writeToEEPROM( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.589s]                                       [01;35m[K^~~~~[m[K
+[9.589s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1415:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.589s]    void SickLMS5xx::_startMeasuring( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.589s]                                        [01;35m[K^~~~~[m[K
+[9.590s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1487:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.590s]    void SickLMS5xx::_stopMeasuring( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.590s]                                       [01;35m[K^~~~~[m[K
+[9.590s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1560:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.590s]    void SickLMS5xx::_requestDataStream( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickConfigException, SickIOException ) {
+[9.590s]                                           [01;35m[K^~~~~[m[K
+[9.590s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1606:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.590s]    void SickLMS5xx::_startStopStreamingMeasurements( bool start ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.590s]                                                                   [01;35m[K^~~~~[m[K
+[9.590s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1684:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.590s]   SickLMS5xx::_checkForMeasuringStatus( unsigned int timeout_value ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.591s]                                                                      [01;35m[K^~~~~[m[K
+[9.591s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1755:91:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.591s]  tSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException, SickErrorException ) {
+[9.591s]                                                                      [01;35m[K^~~~~[m[K
+[9.591s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1884:79:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.591s]  kLMS5xx::_setSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickErrorException )
+[9.591s]                                                                      [01;35m[K^~~~~[m[K
+[9.591s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1966:45:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.591s]    void SickLMS5xx::_restoreMeasuringMode( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+[9.591s]                                              [01;35m[K^~~~~[m[K
+[9.591s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:2054:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.592s]  LMS5xx::_sendMessage( const SickLMS5xxMessage &send_message ) const [01;35m[Kthrow[m[K( SickIOException ) {
+[9.592s]                                                                      [01;35m[K^~~~~[m[K
+[9.592s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:2093:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.592s]                                       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException ) {
+[9.592s]                                                                      [01;35m[K^~~~~[m[K
+[9.592s] [01m[K/home/point001/autoware.ai/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:2131:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+[9.592s]  d SickLMS5xx::_recvMessage( SickLMS5xxMessage &sick_message ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+[9.592s]                                                                      [01;35m[K^~~~~[m[K
+[10.724s] [100%] [32m[1mLinking CXX executable devel/lib/sick_lms5xx/lms511_node[0m
+[10.970s] [100%] Built target lms511_node
+[10.984s] Invoked command in '/home/point001/autoware.ai/build/sick_lms5xx' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_lms5xx -- -j24 -l24
+[11.148s] Invoking command in '/home/point001/autoware.ai/build/sick_lms5xx': /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_lms5xx --target tests -- -j24 -l24
+[11.229s] [35m[1mScanning dependencies of target tests[0m
+[11.249s] Built target tests
+[11.279s] Invoked command in '/home/point001/autoware.ai/build/sick_lms5xx' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_lms5xx --target tests -- -j24 -l24
+[11.433s] Invoking command in '/home/point001/autoware.ai/build/sick_lms5xx': /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_lms5xx --target install -- -j24 -l24
+[11.500s] [  0%] Built target geometry_msgs_generate_messages_py
+[11.530s] [  0%] Built target geometry_msgs_generate_messages_eus
+[11.553s] [  0%] Built target roscpp_generate_messages_nodejs
+[11.575s] [  0%] Built target roscpp_generate_messages_eus
+[11.599s] [  0%] Built target roscpp_generate_messages_lisp
+[11.623s] [  0%] Built target tf_generate_messages_lisp
+[11.655s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[11.680s] [  0%] Built target std_msgs_generate_messages_cpp
+[11.704s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[11.732s] [  0%] Built target tf_generate_messages_py
+[11.760s] [  0%] Built target sensor_msgs_generate_messages_py
+[11.784s] [  0%] Built target tf_generate_messages_nodejs
+[11.806s] [  0%] Built target std_msgs_generate_messages_lisp
+[11.832s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[11.855s] [  0%] Built target sensor_msgs_generate_messages_eus
+[11.884s] [  0%] Built target tf_generate_messages_cpp
+[11.908s] [  0%] Built target std_msgs_generate_messages_nodejs
+[11.926s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[11.946s] [  0%] Built target actionlib_generate_messages_cpp
+[11.969s] [  0%] Built target roscpp_generate_messages_cpp
+[11.994s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[12.018s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[12.044s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[12.068s] [  0%] Built target std_msgs_generate_messages_py
+[12.088s] [  0%] Built target roscpp_generate_messages_py
+[12.109s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[12.130s] [  0%] Built target tf_generate_messages_eus
+[12.152s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[12.177s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[12.198s] [  0%] Built target std_msgs_generate_messages_eus
+[12.219s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[12.243s] [  0%] Built target actionlib_msgs_generate_messages_py
+[12.266s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[12.291s] [  0%] Built target tf2_msgs_generate_messages_eus
+[12.319s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[12.343s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[12.368s] [  0%] Built target actionlib_generate_messages_eus
+[12.391s] [  0%] Built target actionlib_generate_messages_lisp
+[12.414s] [  0%] Built target actionlib_generate_messages_nodejs
+[12.440s] [  0%] Built target actionlib_generate_messages_py
+[12.470s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[12.493s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[12.515s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[12.535s] [  0%] Built target tf2_msgs_generate_messages_py
+[12.559s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[12.595s] [100%] Built target lms511_node
+[12.623s] [36mInstall the project...[0m
+[12.637s] -- Install configuration: "Release"
+[12.638s] -- Installing: /home/point001/autoware.ai/install/sick_lms5xx/lib/pkgconfig/sick_lms5xx.pc
+[12.638s] -- Installing: /home/point001/autoware.ai/install/sick_lms5xx/share/sick_lms5xx/cmake/sick_lms5xxConfig.cmake
+[12.638s] -- Installing: /home/point001/autoware.ai/install/sick_lms5xx/share/sick_lms5xx/cmake/sick_lms5xxConfig-version.cmake
+[12.638s] -- Installing: /home/point001/autoware.ai/install/sick_lms5xx/share/sick_lms5xx/package.xml
+[12.638s] -- Installing: /home/point001/autoware.ai/install/sick_lms5xx/lib/sick_lms5xx/lms511_node
+[12.639s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_lms5xx/lib/sick_lms5xx/lms511_node" to ""
+[12.645s] Invoked command in '/home/point001/autoware.ai/build/sick_lms5xx' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_lms5xx --target install -- -j24 -l24

@@ -1,0 +1,66 @@
+[0.020s] Invoking command in '/home/point001/autoware.ai/build/garmin': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/garmin -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/garmin
+[0.087s] -- The C compiler identification is GNU 7.5.0
+[0.150s] -- The CXX compiler identification is GNU 7.5.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.225s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.225s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++
+[0.618s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.618s] -- Detecting CXX compiler ABI info
+[0.710s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Detecting CXX compile features
+[1.098s] -- Detecting CXX compile features - done
+[1.100s] -- CUDA compilation status: 1.
+[1.101s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/garmin/devel
+[1.101s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.102s] -- This workspace overlays: /home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.116s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.116s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.116s] -- Using Debian Python package layout
+[1.118s] -- Using empy: /usr/bin/empy
+[1.276s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.276s] -- Call enable_testing()
+[1.279s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/garmin/test_results
+[1.300s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.300s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.314s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.315s] -- Looking for pthread.h
+[1.391s] -- Looking for pthread.h - found
+[1.391s] -- Looking for pthread_create
+[1.473s] -- Looking for pthread_create - not found
+[1.474s] -- Looking for pthread_create in pthreads
+[1.540s] -- Looking for pthread_create in pthreads - not found
+[1.540s] -- Looking for pthread_create in pthread
+[1.621s] -- Looking for pthread_create in pthread - found
+[1.622s] -- Found Threads: TRUE  
+[1.627s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.676s] -- catkin 0.7.29
+[1.676s] -- BUILD_SHARED_LIBS is on
+[2.012s] -- Configuring done
+[2.032s] -- Generating done
+[2.038s] -- Build files have been written to: /home/point001/autoware.ai/build/garmin
+[2.046s] Invoked command in '/home/point001/autoware.ai/build/garmin' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/garmin -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/garmin
+[2.047s] Invoking command in '/home/point001/autoware.ai/build/garmin': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/garmin -- -j24 -l24
+[2.104s] [35m[1mScanning dependencies of target garmin_gps_18x_lvc[0m
+[2.127s] [ 50%] [32mBuilding CXX object CMakeFiles/garmin_gps_18x_lvc.dir/src/garmin_gps_18x_lvc.cc.o[0m
+[6.723s] [100%] [32m[1mLinking CXX executable devel/lib/garmin/garmin_gps_18x_lvc[0m
+[6.955s] [100%] Built target garmin_gps_18x_lvc
+[6.972s] Invoked command in '/home/point001/autoware.ai/build/garmin' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/garmin -- -j24 -l24
+[7.034s] Invoking command in '/home/point001/autoware.ai/build/garmin': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/garmin --target tests -- -j24 -l24
+[7.103s] [35m[1mScanning dependencies of target tests[0m
+[7.115s] Built target tests
+[7.131s] Invoked command in '/home/point001/autoware.ai/build/garmin' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/garmin --target tests -- -j24 -l24
+[7.212s] Invoking command in '/home/point001/autoware.ai/build/garmin': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/garmin --target install -- -j24 -l24
+[7.280s] [100%] Built target garmin_gps_18x_lvc
+[7.306s] [36mInstall the project...[0m
+[7.318s] -- Install configuration: "Release"
+[7.318s] -- Installing: /home/point001/autoware.ai/install/garmin/lib/pkgconfig/garmin.pc
+[7.318s] -- Installing: /home/point001/autoware.ai/install/garmin/share/garmin/cmake/garminConfig.cmake
+[7.318s] -- Installing: /home/point001/autoware.ai/install/garmin/share/garmin/cmake/garminConfig-version.cmake
+[7.318s] -- Installing: /home/point001/autoware.ai/install/garmin/share/garmin/package.xml
+[7.319s] -- Installing: /home/point001/autoware.ai/install/garmin/lib/garmin/garmin_gps_18x_lvc
+[7.319s] -- Set runtime path of "/home/point001/autoware.ai/install/garmin/lib/garmin/garmin_gps_18x_lvc" to ""
+[7.323s] Invoked command in '/home/point001/autoware.ai/build/garmin' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/garmin --target install -- -j24 -l24

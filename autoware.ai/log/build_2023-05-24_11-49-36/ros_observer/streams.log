@@ -1,0 +1,73 @@
+[0.092s] Invoking command in '/home/point001/autoware.ai/build/ros_observer': /usr/bin/cmake --build /home/point001/autoware.ai/build/ros_observer -- -j24 -l24
+[0.462s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.462s] [  0%] Built target roscpp_generate_messages_eus
+[0.462s] [  0%] Built target roscpp_generate_messages_py
+[0.462s] [  0%] Built target std_msgs_generate_messages_eus
+[0.462s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.462s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.463s] [  0%] Built target std_msgs_generate_messages_py
+[0.463s] [  0%] Built target roscpp_generate_messages_cpp
+[0.463s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.463s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.463s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.463s] [  0%] Built target roscpp_generate_messages_lisp
+[0.463s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.463s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.463s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.482s] [ 50%] Built target lib_ros_observer
+[0.506s] [100%] Built target ros_observer
+[0.681s] Invoked command in '/home/point001/autoware.ai/build/ros_observer' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ros_observer -- -j24 -l24
+[0.788s] Invoking command in '/home/point001/autoware.ai/build/ros_observer': /usr/bin/cmake --build /home/point001/autoware.ai/build/ros_observer --target tests -- -j24 -l24
+[0.849s] [  0%] Built target roscpp_generate_messages_py
+[0.849s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.849s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.850s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.850s] [  0%] Built target roscpp_generate_messages_cpp
+[0.850s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.850s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.851s] [  0%] Built target roscpp_generate_messages_eus
+[0.853s] [ 33%] Built target gtest
+[0.853s] [ 33%] Built target rosgraph_msgs_generate_messages_py
+[0.853s] [ 33%] Built target std_msgs_generate_messages_eus
+[0.855s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.856s] [ 33%] Built target std_msgs_generate_messages_nodejs
+[0.856s] [ 33%] Built target roscpp_generate_messages_nodejs
+[0.856s] [ 33%] Built target std_msgs_generate_messages_py
+[0.859s] [ 33%] Built target roscpp_generate_messages_lisp
+[0.881s] [ 66%] Built target lib_ros_observer
+[0.908s] [100%] Built target test_ros_observer
+[0.929s] [100%] Built target tests
+[0.994s] Invoked command in '/home/point001/autoware.ai/build/ros_observer' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ros_observer --target tests -- -j24 -l24
+[1.143s] Invoking command in '/home/point001/autoware.ai/build/ros_observer': /usr/bin/cmake --build /home/point001/autoware.ai/build/ros_observer --target install -- -j24 -l24
+[1.204s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.210s] [  0%] Built target roscpp_generate_messages_cpp
+[1.211s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.221s] [  0%] Built target std_msgs_generate_messages_eus
+[1.221s] [  0%] Built target std_msgs_generate_messages_py
+[1.221s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.221s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.225s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.233s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.234s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.235s] [  0%] Built target roscpp_generate_messages_eus
+[1.237s] [  0%] Built target roscpp_generate_messages_py
+[1.238s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.254s] [  0%] Built target roscpp_generate_messages_lisp
+[1.260s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.338s] [ 50%] Built target lib_ros_observer
+[1.370s] [100%] Built target ros_observer
+[1.392s] [36mInstall the project...[0m
+[1.415s] -- Install configuration: "Release"
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/lib/pkgconfig/ros_observer.pc
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/share/ros_observer/cmake/ros_observerConfig.cmake
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/share/ros_observer/cmake/ros_observerConfig-version.cmake
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/share/ros_observer/package.xml
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/include/ros_observer
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/include/ros_observer/lib_ros_observer.h
+[1.416s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/include/ros_observer/ros_observer.h
+[1.417s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/lib/ros_observer/ros_observer
+[1.417s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/lib/liblib_ros_observer.so
+[1.417s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/share/ros_observer/launch
+[1.418s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/share/ros_observer/launch/test.launch
+[1.418s] -- Up-to-date: /home/point001/autoware.ai/install/ros_observer/share/ros_observer/launch/ros_observer.launch
+[1.561s] Invoked command in '/home/point001/autoware.ai/build/ros_observer' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ros_observer --target install -- -j24 -l24

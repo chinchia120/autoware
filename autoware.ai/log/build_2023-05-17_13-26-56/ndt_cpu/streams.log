@@ -1,0 +1,23 @@
+[0.277s] Invoking command in '/home/point001/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu -- -j24 -l24
+[0.621s] [100%] Built target ndt_cpu
+[0.683s] Invoked command in '/home/point001/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu -- -j24 -l24
+[0.782s] Invoking command in '/home/point001/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target tests -- -j24 -l24
+[0.854s] Built target tests
+[0.909s] Invoked command in '/home/point001/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target tests -- -j24 -l24
+[1.031s] Invoking command in '/home/point001/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target install -- -j24 -l24
+[1.127s] [100%] Built target ndt_cpu
+[1.197s] [36mInstall the project...[0m
+[1.199s] -- Install configuration: "Release"
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig/ndt_cpu.pc
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig.cmake
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig-version.cmake
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/share/ndt_cpu/package.xml
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/VoxelGrid.h
+[1.199s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/NormalDistributionsTransform.h
+[1.200s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/debug.h
+[1.203s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/Octree.h
+[1.203s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/Registration.h
+[1.203s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/SymmetricEigenSolver.h
+[1.204s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/lib/libndt_cpu.so
+[1.248s] Invoked command in '/home/point001/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target install -- -j24 -l24

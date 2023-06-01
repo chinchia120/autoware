@@ -1,0 +1,28 @@
+[0.214s] Invoking command in '/home/point001/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vehicle_sim_model -- -j24 -l24
+[0.611s] [  0%] Built target _catkin_empty_exported_target
+[0.611s] [100%] Built target vehicle_sim_model
+[0.818s] Invoked command in '/home/point001/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vehicle_sim_model -- -j24 -l24
+[1.006s] Invoking command in '/home/point001/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vehicle_sim_model --target tests -- -j24 -l24
+[1.205s] [ 22%] Built target gtest
+[1.212s] [ 22%] Built target _catkin_empty_exported_target
+[1.273s] [ 77%] Built target vehicle_sim_model
+[1.339s] [100%] Built target test-vehicle_sim_model
+[1.406s] [100%] Built target tests
+[1.463s] Invoked command in '/home/point001/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vehicle_sim_model --target tests -- -j24 -l24
+[1.765s] Invoking command in '/home/point001/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vehicle_sim_model --target install -- -j24 -l24
+[1.935s] [  0%] Built target _catkin_empty_exported_target
+[2.007s] [100%] Built target vehicle_sim_model
+[2.042s] [36mInstall the project...[0m
+[2.059s] -- Install configuration: "Release"
+[2.060s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/lib/pkgconfig/vehicle_sim_model.pc
+[2.060s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/share/vehicle_sim_model/cmake/vehicle_sim_modelConfig.cmake
+[2.060s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/share/vehicle_sim_model/cmake/vehicle_sim_modelConfig-version.cmake
+[2.060s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/share/vehicle_sim_model/package.xml
+[2.060s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/lib/libvehicle_sim_model.so
+[2.061s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model
+[2.061s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_constant_acceleration.h
+[2.061s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_ideal.h
+[2.061s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_interface.h
+[2.061s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_time_delay.h
+[2.061s] -- Up-to-date: /home/point001/autoware.ai/install/vehicle_sim_model/lib/vehicle_sim_model/fitParamDelayInputModel.py
+[2.068s] Invoked command in '/home/point001/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vehicle_sim_model --target install -- -j24 -l24

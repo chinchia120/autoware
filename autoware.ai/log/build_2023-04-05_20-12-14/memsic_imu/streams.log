@@ -1,0 +1,68 @@
+[0.032s] Invoking command in '/home/point001/autoware.ai/build/memsic_imu': /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/memsic -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/memsic_imu
+[0.166s] -- The C compiler identification is GNU 7.5.0
+[0.295s] -- The CXX compiler identification is GNU 7.5.0
+[0.298s] -- Check for working C compiler: /usr/bin/cc
+[0.418s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.419s] -- Detecting C compiler ABI info
+[0.503s] -- Detecting C compiler ABI info - done
+[0.513s] -- Detecting C compile features
+[0.801s] -- Detecting C compile features - done
+[0.801s] -- Check for working CXX compiler: /usr/bin/c++
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.895s] -- Detecting CXX compiler ABI info
+[1.000s] -- Detecting CXX compiler ABI info - done
+[1.009s] -- Detecting CXX compile features
+[1.946s] -- Detecting CXX compile features - done
+[1.946s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/memsic_imu/devel
+[1.946s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.948s] -- This workspace overlays: /opt/ros/melodic
+[1.964s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.965s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.965s] -- Using Debian Python package layout
+[1.965s] -- Using empy: /usr/bin/empy
+[2.192s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.192s] -- Call enable_testing()
+[2.203s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/memsic_imu/test_results
+[2.226s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.226s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.240s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.243s] -- Looking for pthread.h
+[2.382s] -- Looking for pthread.h - found
+[2.382s] -- Looking for pthread_create
+[2.773s] -- Looking for pthread_create - not found
+[2.773s] -- Looking for pthread_create in pthreads
+[3.115s] -- Looking for pthread_create in pthreads - not found
+[3.115s] -- Looking for pthread_create in pthread
+[3.540s] -- Looking for pthread_create in pthread - found
+[3.541s] -- Found Threads: TRUE  
+[3.546s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.764s] -- catkin 0.7.29
+[3.765s] -- BUILD_SHARED_LIBS is on
+[4.294s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.742s] -- Configuring done
+[4.784s] -- Generating done
+[4.795s] -- Build files have been written to: /home/point001/autoware.ai/build/memsic_imu
+[4.800s] Invoked command in '/home/point001/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/drivers/awf_drivers/memsic -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/memsic_imu
+[4.802s] Invoking command in '/home/point001/autoware.ai/build/memsic_imu': /usr/bin/cmake --build /home/point001/autoware.ai/build/memsic_imu -- -j24 -l24
+[5.020s] [35m[1mScanning dependencies of target vg440_node[0m
+[5.090s] [ 50%] [32mBuilding CXX object CMakeFiles/vg440_node.dir/nodes/vg440/vg440_node.cpp.o[0m
+[11.409s] [100%] [32m[1mLinking CXX executable devel/lib/memsic_imu/vg440_node[0m
+[11.658s] [100%] Built target vg440_node
+[11.677s] Invoked command in '/home/point001/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/memsic_imu -- -j24 -l24
+[11.911s] Invoking command in '/home/point001/autoware.ai/build/memsic_imu': /usr/bin/cmake --build /home/point001/autoware.ai/build/memsic_imu --target tests -- -j24 -l24
+[12.021s] [35m[1mScanning dependencies of target tests[0m
+[12.036s] Built target tests
+[12.050s] Invoked command in '/home/point001/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/memsic_imu --target tests -- -j24 -l24
+[12.274s] Invoking command in '/home/point001/autoware.ai/build/memsic_imu': /usr/bin/cmake --build /home/point001/autoware.ai/build/memsic_imu --target install -- -j24 -l24
+[12.364s] [100%] Built target vg440_node
+[12.391s] [36mInstall the project...[0m
+[12.408s] -- Install configuration: "Release"
+[12.408s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/lib/pkgconfig/memsic_imu.pc
+[12.408s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/share/memsic_imu/cmake/memsic_imuConfig.cmake
+[12.408s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/share/memsic_imu/cmake/memsic_imuConfig-version.cmake
+[12.408s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/share/memsic_imu/package.xml
+[12.408s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/lib/memsic_imu/vg440_node
+[12.408s] -- Set runtime path of "/home/point001/autoware.ai/install/memsic_imu/lib/memsic_imu/vg440_node" to ""
+[12.409s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/share/memsic_imu/launch
+[12.409s] -- Installing: /home/point001/autoware.ai/install/memsic_imu/share/memsic_imu/launch/vg440.launch
+[12.485s] Invoked command in '/home/point001/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/memsic_imu --target install -- -j24 -l24

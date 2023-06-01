@@ -1,0 +1,93 @@
+[0.227s] Invoking command in '/home/point001/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_can_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_can_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/obj_db -- -j24 -l24
+[0.324s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.324s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.324s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.325s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.334s] [  0%] Built target std_msgs_generate_messages_eus
+[0.334s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.335s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[0.336s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.345s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.345s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.345s] [  0%] Built target visualization_msgs_generate_messages_py
+[0.345s] [  0%] Built target roscpp_generate_messages_lisp
+[0.346s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.347s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.351s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.351s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.363s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.371s] [ 33%] Built target obj_db
+[0.371s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.371s] [ 33%] Built target roscpp_generate_messages_cpp
+[0.374s] [ 33%] Built target roscpp_generate_messages_py
+[0.382s] [ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[0.404s] [ 44%] [32m[1mLinking CXX executable devel/lib/obj_db/obj_downloader[0m
+[0.404s] [ 44%] Built target std_msgs_generate_messages_cpp
+[0.406s] [ 44%] Built target std_msgs_generate_messages_py
+[0.421s] [ 44%] Built target visualization_msgs_generate_messages_nodejs
+[0.423s] [ 44%] Built target visualization_msgs_generate_messages_lisp
+[0.424s] [ 44%] Built target autoware_can_msgs_generate_messages_lisp
+[0.429s] [ 44%] Built target roscpp_generate_messages_eus
+[0.435s] [ 44%] Built target geometry_msgs_generate_messages_cpp
+[0.451s] [ 44%] Built target geometry_msgs_generate_messages_lisp
+[0.481s] [ 55%] [32m[1mLinking CXX executable devel/lib/obj_db/obj_uploader[0m
+[0.482s] [ 55%] Built target visualization_msgs_generate_messages_eus
+[0.618s] [ 66%] [32m[1mLinking CXX executable devel/lib/obj_db/can_uploader[0m
+[0.833s] [ 77%] Built target obj_uploader
+[0.861s] [ 88%] Built target obj_downloader
+[0.933s] [100%] Built target can_uploader
+[1.155s] Invoked command in '/home/point001/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_can_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_can_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/obj_db -- -j24 -l24
+[1.383s] Invoking command in '/home/point001/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_can_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_can_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/obj_db --target tests -- -j24 -l24
+[1.440s] Built target tests
+[1.704s] Invoked command in '/home/point001/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_can_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_can_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/obj_db --target tests -- -j24 -l24
+[1.955s] Invoking command in '/home/point001/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_can_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_can_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/obj_db --target install -- -j24 -l24
+[2.057s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.057s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[2.057s] [  0%] Built target std_msgs_generate_messages_eus
+[2.057s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.062s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.062s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.063s] [  0%] Built target roscpp_generate_messages_eus
+[2.063s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.063s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.063s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[2.068s] [  0%] Built target roscpp_generate_messages_lisp
+[2.070s] [ 33%] Built target obj_db
+[2.073s] [ 33%] Built target std_msgs_generate_messages_lisp
+[2.074s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[2.077s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[2.083s] [ 33%] Built target visualization_msgs_generate_messages_py
+[2.091s] [ 33%] Built target roscpp_generate_messages_py
+[2.091s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[2.093s] [ 33%] Built target std_msgs_generate_messages_nodejs
+[2.098s] [ 33%] Built target roscpp_generate_messages_cpp
+[2.104s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[2.113s] [ 33%] Built target autoware_can_msgs_generate_messages_py
+[2.116s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[2.122s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[2.129s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[2.143s] [ 33%] Built target visualization_msgs_generate_messages_eus
+[2.143s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[2.144s] [ 33%] Built target std_msgs_generate_messages_cpp
+[2.148s] [ 33%] Built target geometry_msgs_generate_messages_lisp
+[2.148s] [ 33%] Built target visualization_msgs_generate_messages_lisp
+[2.151s] [ 55%] Built target obj_downloader
+[2.169s] [ 77%] Built target obj_uploader
+[2.181s] [ 77%] Built target std_msgs_generate_messages_py
+[2.245s] [100%] Built target can_uploader
+[2.286s] [36mInstall the project...[0m
+[2.297s] -- Install configuration: "Release"
+[2.297s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/lib/pkgconfig/obj_db.pc
+[2.297s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig.cmake
+[2.297s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig-version.cmake
+[2.297s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/share/obj_db/package.xml
+[2.297s] -- Installing: /home/point001/autoware.ai/install/obj_db/lib/obj_db/can_uploader
+[2.297s] -- Set runtime path of "/home/point001/autoware.ai/install/obj_db/lib/obj_db/can_uploader" to ""
+[2.297s] -- Installing: /home/point001/autoware.ai/install/obj_db/lib/obj_db/obj_uploader
+[2.297s] -- Set runtime path of "/home/point001/autoware.ai/install/obj_db/lib/obj_db/obj_uploader" to ""
+[2.298s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/lib/libobj_db.so
+[2.298s] -- Installing: /home/point001/autoware.ai/install/obj_db/lib/obj_db/obj_downloader
+[2.299s] -- Set runtime path of "/home/point001/autoware.ai/install/obj_db/lib/obj_db/obj_downloader" to ""
+[2.299s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/include/obj_db/include
+[2.299s] -- Up-to-date: /home/point001/autoware.ai/install/obj_db/include/obj_db/include/obj_db.h
+[2.346s] Invoked command in '/home/point001/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/gnss:/home/point001/autoware.ai/install/autoware_can_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/gnss/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/gnss/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/gnss/share:/home/point001/autoware.ai/install/autoware_can_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/obj_db --target install -- -j24 -l24

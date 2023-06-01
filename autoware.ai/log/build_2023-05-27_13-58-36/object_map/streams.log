@@ -1,0 +1,290 @@
+[0.072s] Invoking command in '/home/point001/autoware.ai/build/object_map': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_extension:/home/point001/autoware.ai/install/lanelet2_validation:/home/point001/autoware.ai/install/lanelet2_routing:/home/point001/autoware.ai/install/lanelet2_projection:/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_maps:/home/point001/autoware.ai/install/lanelet2_io:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/amathutils_lib:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_lanelet2_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib:/home/point001/autoware.ai/install/lanelet2_validation/lib:/home/point001/autoware.ai/install/lanelet2_routing/lib:/home/point001/autoware.ai/install/lanelet2_projection/lib:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_io/lib:/home/point001/autoware.ai/install/vector_map/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/home/point001/autoware.ai/install/amathutils_lib/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_extension/share:/home/point001/autoware.ai/install/lanelet2_validation/share:/home/point001/autoware.ai/install/lanelet2_routing/share:/home/point001/autoware.ai/install/lanelet2_projection/share:/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_maps/share:/home/point001/autoware.ai/install/lanelet2_io/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/amathutils_lib/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/object_map -- -j24 -l24
+[0.171s] [  0%] Built target pcl_ros_gencfg
+[0.173s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.193s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[0.198s] [  0%] Built target tf_generate_messages_eus
+[0.202s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.215s] [  0%] Built target nodelet_generate_messages_eus
+[0.218s] [ 11%] Built target laserscan2costmap
+[0.231s] [ 11%] Built target vector_map_msgs_generate_messages_lisp
+[0.233s] [ 11%] Built target bond_generate_messages_eus
+[0.242s] [ 11%] Built target vector_map_msgs_generate_messages_nodejs
+[0.244s] [ 11%] Built target bond_generate_messages_nodejs
+[0.245s] [ 11%] Built target vector_map_msgs_generate_messages_cpp
+[0.246s] [ 11%] Built target vector_map_msgs_generate_messages_eus
+[0.255s] [ 11%] Built target bond_generate_messages_lisp
+[0.263s] [ 22%] Built target object_map_utils_lib
+[0.266s] [ 22%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.267s] [ 22%] Built target dynamic_reconfigure_generate_messages_eus
+[0.282s] [ 22%] Built target bond_generate_messages_py
+[0.282s] [ 22%] Built target nodelet_generate_messages_cpp
+[0.282s] [ 22%] Built target tf2_msgs_generate_messages_cpp
+[0.283s] [ 22%] Built target visualization_msgs_generate_messages_py
+[0.298s] [ 22%] Built target visualization_msgs_generate_messages_nodejs
+[0.301s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[0.306s] [ 22%] Built target vector_map_msgs_generate_messages_py
+[0.307s] [ 22%] Built target dynamic_reconfigure_generate_messages_py
+[0.315s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[0.331s] [ 22%] Built target bond_generate_messages_cpp
+[0.337s] [ 22%] Built target tf2_msgs_generate_messages_py
+[0.340s] [ 22%] Built target tf_generate_messages_py
+[0.342s] [ 22%] Built target visualization_msgs_generate_messages_eus
+[0.376s] [ 22%] Built target tf2_msgs_generate_messages_nodejs
+[0.377s] [ 22%] Built target actionlib_generate_messages_py
+[0.419s] [ 22%] Built target tf_generate_messages_lisp
+[0.419s] [ 22%] Built target roscpp_generate_messages_cpp
+[0.420s] [ 22%] Built target geometry_msgs_generate_messages_py
+[0.421s] [ 22%] Built target nodelet_generate_messages_lisp
+[0.422s] [ 22%] Built target std_msgs_generate_messages_py
+[0.424s] [ 22%] Built target actionlib_generate_messages_cpp
+[0.445s] [ 22%] Built target rosgraph_msgs_generate_messages_eus
+[0.447s] [ 22%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.456s] [ 22%] Built target tf_generate_messages_nodejs
+[0.479s] [ 22%] Built target sensor_msgs_generate_messages_nodejs
+[0.516s] [ 22%] Built target pcl_msgs_generate_messages_eus
+[0.516s] [ 22%] Built target std_msgs_generate_messages_lisp
+[0.517s] [ 22%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.517s] [ 22%] Built target jsk_footstep_msgs_generate_messages_py
+[0.517s] [ 22%] Built target nav_msgs_generate_messages_nodejs
+[0.519s] [ 22%] Built target std_msgs_generate_messages_nodejs
+[0.519s] [ 22%] Built target sensor_msgs_generate_messages_cpp
+[0.519s] [ 22%] Built target nodelet_generate_messages_py
+[0.520s] [ 22%] Built target rosgraph_msgs_generate_messages_cpp
+[0.520s] [ 22%] Built target autoware_msgs_generate_messages_py
+[0.525s] [ 22%] Built target sensor_msgs_generate_messages_py
+[0.528s] [ 22%] Built target geometry_msgs_generate_messages_nodejs
+[0.532s] [ 22%] Built target autoware_msgs_generate_messages_cpp
+[0.535s] [ 22%] Built target sensor_msgs_generate_messages_eus
+[0.543s] [ 22%] Built target topic_tools_generate_messages_cpp
+[0.547s] [ 22%] Built target jsk_recognition_msgs_generate_messages_py
+[0.550s] [ 22%] Built target geometry_msgs_generate_messages_eus
+[0.551s] [ 22%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.563s] [ 22%] Built target roscpp_generate_messages_nodejs
+[0.594s] [ 22%] Built target std_msgs_generate_messages_cpp
+[0.600s] [ 22%] Built target actionlib_generate_messages_lisp
+[0.621s] [ 22%] Built target actionlib_generate_messages_eus
+[0.630s] [ 22%] Built target topic_tools_generate_messages_eus
+[0.633s] [ 22%] Built target geometry_msgs_generate_messages_lisp
+[0.638s] [ 22%] Built target pcl_msgs_generate_messages_py
+[0.662s] [ 22%] Built target autoware_msgs_generate_messages_lisp
+[0.672s] [ 22%] Built target pcl_msgs_generate_messages_cpp
+[0.680s] [ 22%] Built target tf2_msgs_generate_messages_eus
+[0.685s] [ 22%] Built target visualization_msgs_generate_messages_lisp
+[0.693s] [ 22%] Built target autoware_msgs_generate_messages_nodejs
+[0.697s] [ 22%] Built target std_msgs_generate_messages_eus
+[0.700s] [ 22%] Built target grid_map_msgs_generate_messages_lisp
+[0.701s] [ 22%] Built target nav_msgs_generate_messages_eus
+[0.715s] [ 22%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.726s] [ 22%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.727s] [ 22%] Built target visualization_msgs_generate_messages_cpp
+[0.729s] [ 22%] Built target autoware_msgs_generate_messages_eus
+[0.731s] [ 22%] Built target geometry_msgs_generate_messages_cpp
+[0.750s] [ 22%] Built target grid_map_msgs_generate_messages_nodejs
+[0.750s] [ 22%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.750s] [ 22%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.759s] [ 22%] Built target std_srvs_generate_messages_cpp
+[0.764s] [ 22%] Built target actionlib_msgs_generate_messages_py
+[0.769s] [ 22%] Built target std_srvs_generate_messages_eus
+[0.780s] [ 22%] Built target actionlib_msgs_generate_messages_lisp
+[0.785s] [ 22%] Built target roscpp_generate_messages_lisp
+[0.786s] [ 22%] Built target nav_msgs_generate_messages_cpp
+[0.786s] [ 22%] Built target rosgraph_msgs_generate_messages_py
+[0.794s] [ 22%] Built target rosgraph_msgs_generate_messages_lisp
+[0.798s] [ 22%] Built target actionlib_msgs_generate_messages_eus
+[0.801s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_py
+[0.808s] [ 22%] Built target roscpp_generate_messages_eus
+[0.813s] [ 22%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.813s] [ 22%] Built target roscpp_generate_messages_py
+[0.825s] [ 22%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.825s] [ 22%] Built target grid_map_msgs_generate_messages_py
+[0.833s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[0.835s] [ 22%] Built target nav_msgs_generate_messages_py
+[0.838s] [ 22%] Built target grid_map_msgs_generate_messages_eus
+[0.843s] [ 22%] Built target sensor_msgs_generate_messages_lisp
+[0.846s] [ 22%] Built target pcl_msgs_generate_messages_nodejs
+[0.847s] [ 22%] Built target nav_msgs_generate_messages_lisp
+[0.850s] [ 22%] Built target grid_map_msgs_generate_messages_cpp
+[0.853s] [ 22%] Built target _catkin_empty_exported_target
+[0.855s] [ 22%] Built target tf2_msgs_generate_messages_lisp
+[0.859s] [ 22%] Built target topic_tools_generate_messages_py
+[0.862s] [ 22%] Built target topic_tools_generate_messages_nodejs
+[0.864s] [ 22%] Built target std_srvs_generate_messages_nodejs
+[0.872s] [ 22%] Built target actionlib_generate_messages_nodejs
+[0.877s] [ 22%] Built target actionlib_msgs_generate_messages_cpp
+[0.879s] [ 22%] Built target dynamic_reconfigure_gencfg
+[0.881s] [ 22%] Built target std_srvs_generate_messages_lisp
+[0.886s] [ 22%] Built target std_srvs_generate_messages_py
+[0.890s] [ 22%] Built target pcl_msgs_generate_messages_lisp
+[0.895s] [ 22%] Built target topic_tools_generate_messages_lisp
+[0.900s] [ 22%] Built target nodelet_topic_tools_gencfg
+[0.907s] [ 33%] Built target wayarea2grid_lib
+[0.909s] [ 33%] Built target tf_generate_messages_cpp
+[0.913s] [ 33%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.915s] [ 33%] Built target actionlib_msgs_generate_messages_nodejs
+[0.924s] [ 44%] Built target grid_map_filter_lib
+[0.929s] [ 55%] Built target wayarea2grid_lanelet2_lib
+[0.962s] [ 66%] Built target wayarea2grid
+[0.977s] [ 77%] Built target potential_field
+[0.984s] [ 88%] Built target grid_map_filter
+[1.001s] [100%] Built target wayarea2grid_lanelet2
+[1.025s] Invoked command in '/home/point001/autoware.ai/build/object_map' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_extension:/home/point001/autoware.ai/install/lanelet2_validation:/home/point001/autoware.ai/install/lanelet2_routing:/home/point001/autoware.ai/install/lanelet2_projection:/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_maps:/home/point001/autoware.ai/install/lanelet2_io:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/amathutils_lib:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_lanelet2_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib:/home/point001/autoware.ai/install/lanelet2_validation/lib:/home/point001/autoware.ai/install/lanelet2_routing/lib:/home/point001/autoware.ai/install/lanelet2_projection/lib:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_io/lib:/home/point001/autoware.ai/install/vector_map/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/home/point001/autoware.ai/install/amathutils_lib/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_extension/share:/home/point001/autoware.ai/install/lanelet2_validation/share:/home/point001/autoware.ai/install/lanelet2_routing/share:/home/point001/autoware.ai/install/lanelet2_projection/share:/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_maps/share:/home/point001/autoware.ai/install/lanelet2_io/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/amathutils_lib/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/object_map -- -j24 -l24
+[1.126s] Invoking command in '/home/point001/autoware.ai/build/object_map': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_extension:/home/point001/autoware.ai/install/lanelet2_validation:/home/point001/autoware.ai/install/lanelet2_routing:/home/point001/autoware.ai/install/lanelet2_projection:/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_maps:/home/point001/autoware.ai/install/lanelet2_io:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/amathutils_lib:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_lanelet2_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib:/home/point001/autoware.ai/install/lanelet2_validation/lib:/home/point001/autoware.ai/install/lanelet2_routing/lib:/home/point001/autoware.ai/install/lanelet2_projection/lib:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_io/lib:/home/point001/autoware.ai/install/vector_map/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/home/point001/autoware.ai/install/amathutils_lib/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_extension/share:/home/point001/autoware.ai/install/lanelet2_validation/share:/home/point001/autoware.ai/install/lanelet2_routing/share:/home/point001/autoware.ai/install/lanelet2_projection/share:/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_maps/share:/home/point001/autoware.ai/install/lanelet2_io/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/amathutils_lib/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/object_map --target tests -- -j24 -l24
+[1.215s] Built target tests
+[1.230s] Invoked command in '/home/point001/autoware.ai/build/object_map' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_extension:/home/point001/autoware.ai/install/lanelet2_validation:/home/point001/autoware.ai/install/lanelet2_routing:/home/point001/autoware.ai/install/lanelet2_projection:/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_maps:/home/point001/autoware.ai/install/lanelet2_io:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/amathutils_lib:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_lanelet2_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib:/home/point001/autoware.ai/install/lanelet2_validation/lib:/home/point001/autoware.ai/install/lanelet2_routing/lib:/home/point001/autoware.ai/install/lanelet2_projection/lib:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_io/lib:/home/point001/autoware.ai/install/vector_map/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/home/point001/autoware.ai/install/amathutils_lib/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_extension/share:/home/point001/autoware.ai/install/lanelet2_validation/share:/home/point001/autoware.ai/install/lanelet2_routing/share:/home/point001/autoware.ai/install/lanelet2_projection/share:/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_maps/share:/home/point001/autoware.ai/install/lanelet2_io/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/amathutils_lib/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/object_map --target tests -- -j24 -l24
+[1.752s] Invoking command in '/home/point001/autoware.ai/build/object_map': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_extension:/home/point001/autoware.ai/install/lanelet2_validation:/home/point001/autoware.ai/install/lanelet2_routing:/home/point001/autoware.ai/install/lanelet2_projection:/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_maps:/home/point001/autoware.ai/install/lanelet2_io:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/amathutils_lib:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_lanelet2_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib:/home/point001/autoware.ai/install/lanelet2_validation/lib:/home/point001/autoware.ai/install/lanelet2_routing/lib:/home/point001/autoware.ai/install/lanelet2_projection/lib:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_io/lib:/home/point001/autoware.ai/install/vector_map/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/home/point001/autoware.ai/install/amathutils_lib/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_extension/share:/home/point001/autoware.ai/install/lanelet2_validation/share:/home/point001/autoware.ai/install/lanelet2_routing/share:/home/point001/autoware.ai/install/lanelet2_projection/share:/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_maps/share:/home/point001/autoware.ai/install/lanelet2_io/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/amathutils_lib/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/object_map --target install -- -j24 -l24
+[1.818s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[1.826s] [  0%] Built target bond_generate_messages_py
+[1.826s] [  0%] Built target tf_generate_messages_eus
+[1.826s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[1.826s] [  0%] Built target vector_map_msgs_generate_messages_py
+[1.826s] [  0%] Built target bond_generate_messages_nodejs
+[1.826s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[1.826s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[1.827s] [  0%] Built target pcl_ros_gencfg
+[1.829s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[1.829s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[1.830s] [  0%] Built target bond_generate_messages_eus
+[1.830s] [  0%] Built target bond_generate_messages_lisp
+[1.830s] [  0%] Built target bond_generate_messages_cpp
+[1.830s] [  0%] Built target nodelet_generate_messages_cpp
+[1.832s] [  0%] Built target nodelet_generate_messages_nodejs
+[1.832s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[1.835s] [  0%] Built target nodelet_generate_messages_eus
+[1.842s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[1.842s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[1.844s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[1.853s] [ 11%] Built target object_map_utils_lib
+[1.853s] [ 22%] Built target laserscan2costmap
+[1.865s] [ 22%] Built target tf_generate_messages_lisp
+[1.868s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[1.869s] [ 22%] Built target visualization_msgs_generate_messages_py
+[1.870s] [ 22%] Built target sensor_msgs_generate_messages_nodejs
+[1.872s] [ 22%] Built target rosgraph_msgs_generate_messages_eus
+[1.874s] [ 22%] Built target tf_generate_messages_py
+[1.879s] [ 22%] Built target tf_generate_messages_nodejs
+[1.879s] [ 22%] Built target visualization_msgs_generate_messages_eus
+[1.886s] [ 22%] Built target actionlib_generate_messages_py
+[1.886s] [ 22%] Built target pcl_msgs_generate_messages_eus
+[1.886s] [ 22%] Built target roscpp_generate_messages_cpp
+[1.886s] [ 22%] Built target tf2_msgs_generate_messages_cpp
+[1.892s] [ 22%] Built target dynamic_reconfigure_generate_messages_cpp
+[1.893s] [ 22%] Built target tf2_msgs_generate_messages_py
+[1.893s] [ 22%] Built target autoware_msgs_generate_messages_py
+[1.896s] [ 22%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.896s] [ 22%] Built target std_msgs_generate_messages_nodejs
+[1.896s] [ 22%] Built target jsk_recognition_msgs_generate_messages_lisp
+[1.897s] [ 22%] Built target geometry_msgs_generate_messages_py
+[1.899s] [ 22%] Built target actionlib_generate_messages_cpp
+[1.902s] [ 22%] Built target tf2_msgs_generate_messages_nodejs
+[1.904s] [ 22%] Built target std_msgs_generate_messages_py
+[1.907s] [ 22%] Built target visualization_msgs_generate_messages_nodejs
+[1.910s] [ 22%] Built target nodelet_generate_messages_lisp
+[1.913s] [ 22%] Built target autoware_msgs_generate_messages_cpp
+[1.930s] [ 22%] Built target sensor_msgs_generate_messages_cpp
+[1.930s] [ 22%] Built target sensor_msgs_generate_messages_py
+[1.931s] [ 22%] Built target topic_tools_generate_messages_cpp
+[1.931s] [ 22%] Built target jsk_recognition_msgs_generate_messages_py
+[1.931s] [ 22%] Built target rosgraph_msgs_generate_messages_cpp
+[1.932s] [ 22%] Built target jsk_footstep_msgs_generate_messages_py
+[1.932s] [ 22%] Built target geometry_msgs_generate_messages_eus
+[1.934s] [ 22%] Built target std_msgs_generate_messages_cpp
+[1.943s] [ 22%] Built target geometry_msgs_generate_messages_nodejs
+[1.944s] [ 22%] Built target std_msgs_generate_messages_lisp
+[1.944s] [ 22%] Built target geometry_msgs_generate_messages_lisp
+[1.944s] [ 22%] Built target nodelet_generate_messages_py
+[1.944s] [ 22%] Built target sensor_msgs_generate_messages_eus
+[1.945s] [ 22%] Built target roscpp_generate_messages_nodejs
+[1.946s] [ 22%] Built target pcl_msgs_generate_messages_py
+[1.948s] [ 22%] Built target autoware_msgs_generate_messages_eus
+[1.948s] [ 22%] Built target nav_msgs_generate_messages_nodejs
+[1.948s] [ 22%] Built target pcl_msgs_generate_messages_cpp
+[1.948s] [ 22%] Built target actionlib_generate_messages_eus
+[1.949s] [ 22%] Built target actionlib_generate_messages_lisp
+[1.950s] [ 22%] Built target topic_tools_generate_messages_eus
+[1.952s] [ 22%] Built target autoware_msgs_generate_messages_lisp
+[1.954s] [ 22%] Built target geometry_msgs_generate_messages_cpp
+[1.956s] [ 22%] Built target visualization_msgs_generate_messages_lisp
+[1.973s] [ 22%] Built target actionlib_msgs_generate_messages_lisp
+[1.979s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_py
+[1.979s] [ 22%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.980s] [ 22%] Built target grid_map_msgs_generate_messages_lisp
+[1.981s] [ 22%] Built target std_srvs_generate_messages_cpp
+[1.982s] [ 22%] Built target grid_map_msgs_generate_messages_eus
+[1.982s] [ 22%] Built target roscpp_generate_messages_lisp
+[1.989s] [ 22%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.989s] [ 22%] Built target std_srvs_generate_messages_eus
+[1.992s] [ 22%] Built target rosgraph_msgs_generate_messages_py
+[1.993s] [ 22%] Built target roscpp_generate_messages_eus
+[1.995s] [ 22%] Built target actionlib_msgs_generate_messages_eus
+[2.010s] [ 22%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[2.011s] [ 22%] Built target grid_map_msgs_generate_messages_cpp
+[2.012s] [ 22%] Built target grid_map_msgs_generate_messages_py
+[2.015s] [ 22%] Built target roscpp_generate_messages_py
+[2.016s] [ 22%] Built target pcl_msgs_generate_messages_nodejs
+[2.021s] [ 22%] Built target sensor_msgs_generate_messages_lisp
+[2.025s] [ 22%] Built target dynamic_reconfigure_gencfg
+[2.028s] [ 22%] Built target _catkin_empty_exported_target
+[2.032s] [ 22%] Built target nav_msgs_generate_messages_py
+[2.036s] [ 22%] Built target tf2_msgs_generate_messages_lisp
+[2.036s] [ 22%] Built target nav_msgs_generate_messages_cpp
+[2.042s] [ 22%] Built target jsk_recognition_msgs_generate_messages_cpp
+[2.043s] [ 22%] Built target nav_msgs_generate_messages_lisp
+[2.043s] [ 22%] Built target std_srvs_generate_messages_lisp
+[2.049s] [ 22%] Built target std_srvs_generate_messages_nodejs
+[2.049s] [ 22%] Built target topic_tools_generate_messages_lisp
+[2.053s] [ 22%] Built target std_srvs_generate_messages_py
+[2.060s] [ 22%] Built target nodelet_topic_tools_gencfg
+[2.068s] [ 22%] Built target topic_tools_generate_messages_nodejs
+[2.070s] [ 22%] Built target topic_tools_generate_messages_py
+[2.071s] [ 22%] Built target actionlib_msgs_generate_messages_nodejs
+[2.074s] [ 22%] Built target rosgraph_msgs_generate_messages_lisp
+[2.075s] [ 22%] Built target tf_generate_messages_cpp
+[2.076s] [ 22%] Built target actionlib_msgs_generate_messages_cpp
+[2.078s] [ 22%] Built target jsk_footstep_msgs_generate_messages_cpp
+[2.095s] [ 22%] Built target actionlib_generate_messages_nodejs
+[2.108s] [ 22%] Built target pcl_msgs_generate_messages_lisp
+[2.109s] [ 22%] Built target jsk_footstep_msgs_generate_messages_lisp
+[2.113s] [ 22%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[2.114s] [ 22%] Built target grid_map_msgs_generate_messages_nodejs
+[2.118s] [ 22%] Built target visualization_msgs_generate_messages_cpp
+[2.121s] [ 33%] Built target wayarea2grid_lib
+[2.125s] [ 33%] Built target tf2_msgs_generate_messages_eus
+[2.134s] [ 44%] Built target grid_map_filter_lib
+[2.134s] [ 44%] Built target actionlib_msgs_generate_messages_py
+[2.144s] [ 44%] Built target jsk_footstep_msgs_generate_messages_eus
+[2.147s] [ 55%] Built target wayarea2grid_lanelet2_lib
+[2.151s] [ 55%] Built target nav_msgs_generate_messages_eus
+[2.156s] [ 55%] Built target std_msgs_generate_messages_eus
+[2.166s] [ 55%] Built target autoware_msgs_generate_messages_nodejs
+[2.176s] [ 66%] Built target wayarea2grid
+[2.189s] [ 77%] Built target grid_map_filter
+[2.197s] [ 88%] Built target wayarea2grid_lanelet2
+[2.210s] [100%] Built target potential_field
+[2.230s] [36mInstall the project...[0m
+[2.238s] -- Install configuration: "Release"
+[2.239s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/pkgconfig/object_map.pc
+[2.239s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/cmake/object_mapConfig.cmake
+[2.239s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/cmake/object_mapConfig-version.cmake
+[2.239s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/package.xml
+[2.239s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/object_map/wayarea2grid
+[2.239s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/libwayarea2grid_lib.so
+[2.240s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/object_map/wayarea2grid_lanelet2
+[2.246s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/libwayarea2grid_lanelet2_lib.so
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/libgrid_map_filter_lib.so
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/object_map/grid_map_filter
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/object_map/potential_field
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/object_map/laserscan2costmap
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/lib/libobject_map_utils_lib.so
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch/laserscan2costmap.launch
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch/wayarea2grid_option.launch
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch/potential_field.launch
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch/wayarea2grid.launch
+[2.247s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch/grid_map_filter.launch
+[2.248s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/launch/wayarea2grid_lanelet2.launch
+[2.248s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/include/object_map
+[2.248s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/include/object_map/object_map_utils.hpp
+[2.248s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/config
+[2.248s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/config/grid_map_filter.yaml
+[2.248s] -- Up-to-date: /home/point001/autoware.ai/install/object_map/share/object_map/config/potential.yaml
+[2.306s] Invoked command in '/home/point001/autoware.ai/build/object_map' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/lanelet2_extension:/home/point001/autoware.ai/install/lanelet2_validation:/home/point001/autoware.ai/install/lanelet2_routing:/home/point001/autoware.ai/install/lanelet2_projection:/home/point001/autoware.ai/install/lanelet2_traffic_rules:/home/point001/autoware.ai/install/lanelet2_maps:/home/point001/autoware.ai/install/lanelet2_io:/home/point001/autoware.ai/install/vector_map:/home/point001/autoware.ai/install/lanelet2_core:/home/point001/autoware.ai/install/amathutils_lib:/home/point001/autoware.ai/install/vector_map_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_lanelet2_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib:/home/point001/autoware.ai/install/lanelet2_validation/lib:/home/point001/autoware.ai/install/lanelet2_routing/lib:/home/point001/autoware.ai/install/lanelet2_projection/lib:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib:/home/point001/autoware.ai/install/lanelet2_io/lib:/home/point001/autoware.ai/install/vector_map/lib:/home/point001/autoware.ai/install/lanelet2_core/lib:/home/point001/autoware.ai/install/amathutils_lib/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map/lib/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/lanelet2_extension/share:/home/point001/autoware.ai/install/lanelet2_validation/share:/home/point001/autoware.ai/install/lanelet2_routing/share:/home/point001/autoware.ai/install/lanelet2_projection/share:/home/point001/autoware.ai/install/lanelet2_traffic_rules/share:/home/point001/autoware.ai/install/lanelet2_maps/share:/home/point001/autoware.ai/install/lanelet2_io/share:/home/point001/autoware.ai/install/vector_map/share:/home/point001/autoware.ai/install/lanelet2_core/share:/home/point001/autoware.ai/install/amathutils_lib/share:/home/point001/autoware.ai/install/vector_map_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_lanelet2_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/object_map --target install -- -j24 -l24

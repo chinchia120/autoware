@@ -1,0 +1,68 @@
+[0.348s] Invoking command in '/home/point001/autoware.ai/build/fastvirtualscan': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/visualization/fastvirtualscan -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/fastvirtualscan
+[0.976s] -- The C compiler identification is GNU 7.5.0
+[1.327s] -- The CXX compiler identification is GNU 7.5.0
+[1.333s] -- Check for working C compiler: /usr/bin/cc
+[1.802s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.802s] -- Detecting C compiler ABI info
+[2.570s] -- Detecting C compiler ABI info - done
+[2.584s] -- Detecting C compile features
+[4.613s] -- Detecting C compile features - done
+[4.617s] -- Check for working CXX compiler: /usr/bin/c++
+[5.315s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.316s] -- Detecting CXX compiler ABI info
+[5.918s] -- Detecting CXX compiler ABI info - done
+[5.928s] -- Detecting CXX compile features
+[7.668s] -- Detecting CXX compile features - done
+[7.669s] -- CUDA compilation status: 1.
+[7.670s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/fastvirtualscan/devel
+[7.671s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[7.671s] -- This workspace overlays: /home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[7.694s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[7.694s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[7.695s] -- Using Debian Python package layout
+[7.695s] -- Using empy: /usr/bin/empy
+[7.882s] -- Using CATKIN_ENABLE_TESTING: ON
+[7.882s] -- Call enable_testing()
+[7.900s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/fastvirtualscan/test_results
+[7.919s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[7.919s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[7.962s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[7.962s] -- Looking for pthread.h
+[8.070s] -- Looking for pthread.h - found
+[8.071s] -- Looking for pthread_create
+[8.185s] -- Looking for pthread_create - not found
+[8.185s] -- Looking for pthread_create in pthreads
+[8.268s] -- Looking for pthread_create in pthreads - not found
+[8.268s] -- Looking for pthread_create in pthread
+[8.368s] -- Looking for pthread_create in pthread - found
+[8.369s] -- Found Threads: TRUE  
+[8.373s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[8.424s] -- catkin 0.7.29
+[8.424s] -- BUILD_SHARED_LIBS is on
+[8.778s] -- Configuring done
+[8.799s] -- Generating done
+[8.803s] -- Build files have been written to: /home/point001/autoware.ai/build/fastvirtualscan
+[8.809s] Invoked command in '/home/point001/autoware.ai/build/fastvirtualscan' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/visualization/fastvirtualscan -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/fastvirtualscan
+[8.813s] Invoking command in '/home/point001/autoware.ai/build/fastvirtualscan': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/fastvirtualscan -- -j24 -l24
+[8.947s] [35m[1mScanning dependencies of target fastvirtualscan[0m
+[8.993s] [ 50%] [32mBuilding CXX object CMakeFiles/fastvirtualscan.dir/FastVirtualScan/fastvirtualscan.cpp.o[0m
+[11.796s] [100%] [32m[1mLinking CXX shared library devel/lib/libfastvirtualscan.so[0m
+[12.125s] [100%] Built target fastvirtualscan
+[12.145s] Invoked command in '/home/point001/autoware.ai/build/fastvirtualscan' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/fastvirtualscan -- -j24 -l24
+[12.862s] Invoking command in '/home/point001/autoware.ai/build/fastvirtualscan': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/fastvirtualscan --target tests -- -j24 -l24
+[13.177s] [35m[1mScanning dependencies of target tests[0m
+[13.345s] Built target tests
+[13.443s] Invoked command in '/home/point001/autoware.ai/build/fastvirtualscan' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/fastvirtualscan --target tests -- -j24 -l24
+[14.600s] Invoking command in '/home/point001/autoware.ai/build/fastvirtualscan': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/fastvirtualscan --target install -- -j24 -l24
+[14.992s] [100%] Built target fastvirtualscan
+[15.115s] [36mInstall the project...[0m
+[15.136s] -- Install configuration: "Release"
+[15.136s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig/fastvirtualscan.pc
+[15.137s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/share/fastvirtualscan/cmake/fastvirtualscanConfig.cmake
+[15.137s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/share/fastvirtualscan/cmake/fastvirtualscanConfig-version.cmake
+[15.137s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/share/fastvirtualscan/package.xml
+[15.137s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/include/fastvirtualscan
+[15.137s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/include/fastvirtualscan/fastvirtualscan.h
+[15.138s] -- Installing: /home/point001/autoware.ai/install/fastvirtualscan/lib/libfastvirtualscan.so
+[15.138s] -- Set runtime path of "/home/point001/autoware.ai/install/fastvirtualscan/lib/libfastvirtualscan.so" to ""
+[15.143s] Invoked command in '/home/point001/autoware.ai/build/fastvirtualscan' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/fastvirtualscan --target install -- -j24 -l24

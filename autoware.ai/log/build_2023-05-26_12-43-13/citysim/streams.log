@@ -1,0 +1,88 @@
+[0.410s] Invoking command in '/home/point001/autoware.ai/build/citysim': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/citysim -- -j24 -l24
+[0.847s] [  8%] [34m[1mAutomatic MOC for target TrafficLightsGUIPlugin[0m
+[0.857s] [ 16%] [34m[1mAutomatic MOC for target LensFlareVisualPlugin[0m
+[0.865s] [ 25%] [34m[1mAutomatic MOC for target BloomVisualPlugin[0m
+[0.959s] [ 25%] Built target LensFlareVisualPlugin_autogen
+[0.972s] [ 25%] Built target TrafficLightsGUIPlugin_autogen
+[0.992s] [ 25%] Built target BloomVisualPlugin_autogen
+[1.059s] [ 50%] Built target LensFlareVisualPlugin
+[1.076s] [ 75%] Built target BloomVisualPlugin
+[1.080s] [100%] Built target TrafficLightsGUIPlugin
+[1.269s] Invoked command in '/home/point001/autoware.ai/build/citysim' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/citysim -- -j24 -l24
+[1.495s] Invoking command in '/home/point001/autoware.ai/build/citysim': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/citysim --target install -- -j24 -l24
+[1.576s] [  8%] [34m[1mAutomatic MOC for target LensFlareVisualPlugin[0m
+[1.581s] [ 16%] [34m[1mAutomatic MOC for target BloomVisualPlugin[0m
+[1.581s] [ 25%] [34m[1mAutomatic MOC for target TrafficLightsGUIPlugin[0m
+[1.604s] [ 25%] Built target LensFlareVisualPlugin_autogen
+[1.610s] [ 25%] Built target BloomVisualPlugin_autogen
+[1.611s] [ 25%] Built target TrafficLightsGUIPlugin_autogen
+[1.653s] [ 50%] Built target LensFlareVisualPlugin
+[1.672s] [ 75%] Built target BloomVisualPlugin
+[1.725s] [100%] Built target TrafficLightsGUIPlugin
+[1.774s] [36mInstall the project...[0m
+[1.791s] -- Install configuration: "Release"
+[1.791s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/setup.sh
+[1.792s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim/setup.sh
+[1.793s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/lib/citysim-0/plugins/libLensFlareVisualPlugin.so
+[1.793s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/lib/citysim-0/plugins/libBloomVisualPlugin.so
+[1.794s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so
+[1.799s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor
+[1.799s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/model.config
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/model.sdf
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_b.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_red_shirt.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_green_shirt.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_walking.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_a.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_blue_shirt.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_running.dae
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials
+[1.800s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures/forest.jpg
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain.jpg
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain (original).jpg
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/model.config
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/model.sdf
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh_below.dae
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_lf.jpg
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_up.jpg
+[1.801s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds.jpg
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_dn.jpg
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/License and source soil_sand_0045_01.txt
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/soil_sand_0045_01.jpg
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_rt.jpg
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/normals.dds
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_bk.jpg
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_fr.jpg
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs
+[1.802s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.frag
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.vert
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/scripts
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/scripts/ocean.material
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh.dae
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh-simple.dae
+[1.803s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/model.config
+[1.807s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh.blend
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/models/ocean/model.sdf
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/worlds/citysim_gazebo7.world
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/worlds/citysim_gazebo9.world
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/worlds/rendering.world
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/worlds/simple_city.world
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.material
+[1.808s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/citysim.material
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.compositor
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/StdQuad_vp.program
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/Bloom2_ps20.glsl
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/BlurH_ps20.glsl
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/BlurV_ps20.glsl
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/Blur_vs.glsl
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/BrightBloom2_ps20.glsl
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/StdQuad_Tex2a_vp.glsl
+[1.809s] -- Up-to-date: /home/point001/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/StdQuad_vp.glsl
+[1.957s] Invoked command in '/home/point001/autoware.ai/build/citysim' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/citysim --target install -- -j24 -l24

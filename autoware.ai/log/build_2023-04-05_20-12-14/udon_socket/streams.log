@@ -1,0 +1,139 @@
+[0.031s] Invoking command in '/home/point001/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/udon_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/udon_socket
+[0.098s] -- The C compiler identification is GNU 7.5.0
+[0.161s] -- The CXX compiler identification is GNU 7.5.0
+[0.166s] -- Check for working C compiler: /usr/bin/cc
+[0.238s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.239s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.329s] -- Detecting C compile features
+[0.558s] -- Detecting C compile features - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.645s] -- Detecting CXX compiler ABI info
+[0.730s] -- Detecting CXX compiler ABI info - done
+[0.739s] -- Detecting CXX compile features
+[1.114s] -- Detecting CXX compile features - done
+[1.116s] -- CUDA compilation status: 1.
+[1.117s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/udon_socket/devel
+[1.117s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/tablet_socket_msgs;/home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.117s] -- This workspace overlays: /home/point001/autoware.ai/install/tablet_socket_msgs;/home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.133s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.133s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.133s] -- Using Debian Python package layout
+[1.134s] -- Using empy: /usr/bin/empy
+[1.292s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.292s] -- Call enable_testing()
+[1.295s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/udon_socket/test_results
+[1.316s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.316s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.330s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.331s] -- Looking for pthread.h
+[1.406s] -- Looking for pthread.h - found
+[1.410s] -- Looking for pthread_create
+[1.484s] -- Looking for pthread_create - not found
+[1.485s] -- Looking for pthread_create in pthreads
+[1.554s] -- Looking for pthread_create in pthreads - not found
+[1.555s] -- Looking for pthread_create in pthread
+[1.631s] -- Looking for pthread_create in pthread - found
+[1.632s] -- Found Threads: TRUE  
+[1.638s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.685s] -- catkin 0.7.29
+[1.685s] -- BUILD_SHARED_LIBS is on
+[2.029s] -- Configuring done
+[2.054s] -- Generating done
+[2.058s] -- Build files have been written to: /home/point001/autoware.ai/build/udon_socket
+[2.063s] Invoked command in '/home/point001/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/udon_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/udon_socket
+[2.068s] Invoking command in '/home/point001/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/udon_socket -- -j24 -l24
+[2.126s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[2.137s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.150s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[2.162s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.173s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[2.186s] [  0%] Built target std_msgs_generate_messages_eus
+[2.208s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[2.216s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.226s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[2.238s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.252s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[2.264s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.282s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[2.296s] [  0%] Built target roscpp_generate_messages_py
+[2.308s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[2.322s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.333s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[2.348s] [  0%] Built target std_msgs_generate_messages_py
+[2.360s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[2.371s] [  0%] Built target roscpp_generate_messages_eus
+[2.385s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[2.398s] [  0%] Built target roscpp_generate_messages_lisp
+[2.410s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[2.423s] [  0%] Built target roscpp_generate_messages_cpp
+[2.435s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[2.446s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.456s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[2.468s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[2.477s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[2.494s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[2.502s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[2.516s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.528s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[2.539s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.549s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[2.564s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[2.579s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[2.592s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[2.603s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[2.614s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[2.626s] [35m[1mScanning dependencies of target udon[0m
+[2.646s] [ 16%] [32mBuilding CXX object CMakeFiles/udon.dir/lib/udon_socket/udon.cpp.o[0m
+[2.695s] [ 33%] [32m[1mLinking CXX shared library devel/lib/libudon.so[0m
+[2.739s] [ 33%] Built target udon
+[2.752s] [35m[1mScanning dependencies of target udon_sender[0m
+[2.774s] [ 50%] [32mBuilding CXX object CMakeFiles/udon_sender.dir/nodes/udon_sender/udon_sender.cpp.o[0m
+[7.320s] [ 66%] [32m[1mLinking CXX executable devel/lib/udon_socket/udon_sender[0m
+[7.595s] [ 66%] Built target udon_sender
+[7.610s] [35m[1mScanning dependencies of target udon_receiver[0m
+[7.634s] [ 83%] [32mBuilding CXX object CMakeFiles/udon_receiver.dir/nodes/udon_receiver/udon_receiver.cpp.o[0m
+[9.422s] [100%] [32m[1mLinking CXX executable devel/lib/udon_socket/udon_receiver[0m
+[9.649s] [100%] Built target udon_receiver
+[9.663s] Invoked command in '/home/point001/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/udon_socket -- -j24 -l24
+[9.753s] Invoking command in '/home/point001/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/udon_socket --target tests -- -j24 -l24
+[9.824s] [35m[1mScanning dependencies of target tests[0m
+[9.838s] Built target tests
+[9.856s] Invoked command in '/home/point001/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/udon_socket --target tests -- -j24 -l24
+[9.931s] Invoking command in '/home/point001/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/udon_socket --target install -- -j24 -l24
+[9.995s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[10.020s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[10.046s] [  0%] Built target std_msgs_generate_messages_eus
+[10.076s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[10.101s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[10.124s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[10.154s] [  0%] Built target roscpp_generate_messages_py
+[10.178s] [  0%] Built target roscpp_generate_messages_nodejs
+[10.204s] [  0%] Built target std_msgs_generate_messages_py
+[10.228s] [  0%] Built target roscpp_generate_messages_eus
+[10.253s] [  0%] Built target roscpp_generate_messages_lisp
+[10.279s] [  0%] Built target roscpp_generate_messages_cpp
+[10.308s] [  0%] Built target std_msgs_generate_messages_cpp
+[10.331s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[10.355s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[10.386s] [  0%] Built target std_msgs_generate_messages_lisp
+[10.419s] [  0%] Built target std_msgs_generate_messages_nodejs
+[10.450s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[10.492s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[10.517s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[10.545s] [ 33%] Built target udon
+[10.577s] [ 66%] Built target udon_sender
+[10.613s] [100%] Built target udon_receiver
+[10.637s] [36mInstall the project...[0m
+[10.650s] -- Install configuration: "Release"
+[10.650s] -- Installing: /home/point001/autoware.ai/install/udon_socket/lib/pkgconfig/udon_socket.pc
+[10.651s] -- Installing: /home/point001/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig.cmake
+[10.651s] -- Installing: /home/point001/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig-version.cmake
+[10.651s] -- Installing: /home/point001/autoware.ai/install/udon_socket/share/udon_socket/package.xml
+[10.651s] -- Installing: /home/point001/autoware.ai/install/udon_socket/lib/libudon.so
+[10.651s] -- Installing: /home/point001/autoware.ai/install/udon_socket/lib/udon_socket/udon_receiver
+[10.651s] -- Set runtime path of "/home/point001/autoware.ai/install/udon_socket/lib/udon_socket/udon_receiver" to ""
+[10.651s] -- Installing: /home/point001/autoware.ai/install/udon_socket/lib/udon_socket/udon_sender
+[10.652s] -- Set runtime path of "/home/point001/autoware.ai/install/udon_socket/lib/udon_socket/udon_sender" to ""
+[10.656s] Invoked command in '/home/point001/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/tablet_socket_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/udon_socket --target install -- -j24 -l24

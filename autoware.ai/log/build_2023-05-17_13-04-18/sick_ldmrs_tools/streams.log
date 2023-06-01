@@ -1,0 +1,233 @@
+[0.151s] Invoking command in '/home/point001/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver:/home/point001/autoware.ai/install/sick_ldmrs_msgs:/home/point001/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/share:/home/point001/autoware.ai/install/sick_ldmrs_msgs/share:/home/point001/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_ldmrs_tools -- -j24 -l24
+[0.424s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[0.436s] [  0%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[0.446s] [  0%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[0.448s] [  0%] Built target topic_tools_generate_messages_nodejs
+[0.450s] [  0%] Built target sick_ldmrs_msgs_generate_messages_py
+[0.452s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.463s] [  0%] Built target visualization_msgs_generate_messages_eus
+[0.463s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.465s] [  0%] Built target actionlib_generate_messages_cpp
+[0.468s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.470s] [  0%] Built target roscpp_generate_messages_cpp
+[0.475s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.475s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.482s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.483s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.486s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[0.499s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.499s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.502s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.520s] [  0%] Built target actionlib_generate_messages_py
+[0.526s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.541s] [  0%] Built target visualization_msgs_generate_messages_py
+[0.558s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.561s] [  0%] Built target bond_generate_messages_lisp
+[0.578s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.587s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.591s] [  0%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[0.602s] [  0%] Built target pcl_ros_gencfg
+[0.607s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.619s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.619s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.623s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.623s] [  0%] Built target bond_generate_messages_eus
+[0.642s] [  0%] Built target std_srvs_generate_messages_eus
+[0.642s] [  0%] Built target std_msgs_generate_messages_py
+[0.647s] [  0%] Built target nodelet_generate_messages_py
+[0.649s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.651s] [  0%] Built target sick_ldmrs_msgs_generate_messages_eus
+[0.660s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.676s] [  0%] Built target roscpp_generate_messages_py
+[0.678s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.692s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.699s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.717s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.720s] [  0%] Built target roscpp_generate_messages_lisp
+[0.721s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.729s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.736s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[0.741s] [  0%] Built target tf_generate_messages_py
+[0.741s] [  0%] Built target topic_tools_generate_messages_eus
+[0.759s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.786s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.804s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.807s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.808s] [  0%] Built target nodelet_generate_messages_cpp
+[0.814s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.830s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.848s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.849s] [  0%] Built target nodelet_generate_messages_eus
+[0.854s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.882s] [  0%] Built target bond_generate_messages_py
+[0.882s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.883s] [  0%] Built target nodelet_generate_messages_lisp
+[0.892s] [  0%] Built target std_msgs_generate_messages_eus
+[0.893s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.910s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.921s] [  0%] Built target bond_generate_messages_cpp
+[0.921s] [  0%] Built target topic_tools_generate_messages_lisp
+[0.948s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.954s] [  0%] Built target roscpp_generate_messages_eus
+[0.956s] [  0%] Built target std_srvs_generate_messages_py
+[0.964s] [  0%] Built target topic_tools_generate_messages_py
+[0.967s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.976s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.988s] [  0%] Built target nodelet_topic_tools_gencfg
+[0.988s] [  0%] Built target tf_generate_messages_eus
+[0.992s] [  0%] Built target actionlib_generate_messages_lisp
+[0.999s] [  0%] Built target bond_generate_messages_nodejs
+[1.004s] [  0%] Built target std_srvs_generate_messages_cpp
+[1.013s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.026s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.026s] [  0%] Built target tf_generate_messages_cpp
+[1.030s] [  0%] Built target actionlib_generate_messages_eus
+[1.030s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[1.042s] [  0%] Built target tf_generate_messages_nodejs
+[1.055s] [  0%] Built target pcl_msgs_generate_messages_py
+[1.086s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.119s] [  0%] Built target tf_generate_messages_lisp
+[1.226s] [  6%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_object_marker[0m
+[1.227s] [ 12%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_remove_background[0m
+[1.237s] [ 18%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_filter_layer[0m
+[1.248s] [ 25%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_all_layer_assembler[0m
+[1.249s] [ 31%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_filter_last[0m
+[1.256s] [ 37%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_filter_first[0m
+[1.264s] [ 43%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_make_organized[0m
+[1.299s] [ 50%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_print_resolution[0m
+[2.835s] [ 56%] Built target sick_ldmrs_object_marker
+[3.352s] [ 62%] Built target sick_ldmrs_filter_last
+[3.368s] [ 68%] Built target sick_ldmrs_print_resolution
+[3.418s] [ 75%] Built target sick_ldmrs_filter_layer
+[3.601s] [ 81%] Built target sick_ldmrs_filter_first
+[4.039s] [ 87%] Built target sick_ldmrs_make_organized
+[4.210s] [ 93%] Built target sick_ldmrs_remove_background
+[4.280s] [100%] Built target sick_ldmrs_all_layer_assembler
+[4.344s] Invoked command in '/home/point001/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver:/home/point001/autoware.ai/install/sick_ldmrs_msgs:/home/point001/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/share:/home/point001/autoware.ai/install/sick_ldmrs_msgs/share:/home/point001/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_ldmrs_tools -- -j24 -l24
+[6.091s] Invoking command in '/home/point001/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver:/home/point001/autoware.ai/install/sick_ldmrs_msgs:/home/point001/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/share:/home/point001/autoware.ai/install/sick_ldmrs_msgs/share:/home/point001/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_ldmrs_tools --target tests -- -j24 -l24
+[6.263s] Built target tests
+[6.298s] Invoked command in '/home/point001/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver:/home/point001/autoware.ai/install/sick_ldmrs_msgs:/home/point001/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/share:/home/point001/autoware.ai/install/sick_ldmrs_msgs/share:/home/point001/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_ldmrs_tools --target tests -- -j24 -l24
+[7.824s] Invoking command in '/home/point001/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver:/home/point001/autoware.ai/install/sick_ldmrs_msgs:/home/point001/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/share:/home/point001/autoware.ai/install/sick_ldmrs_msgs/share:/home/point001/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_ldmrs_tools --target install -- -j24 -l24
+[8.118s] [  0%] Built target tf2_msgs_generate_messages_py
+[8.139s] [  0%] Built target pcl_ros_gencfg
+[8.140s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[8.145s] [  0%] Built target visualization_msgs_generate_messages_py
+[8.145s] [  0%] Built target tf2_msgs_generate_messages_eus
+[8.152s] [  0%] Built target visualization_msgs_generate_messages_eus
+[8.154s] [  0%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[8.155s] [  0%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[8.159s] [  0%] Built target topic_tools_generate_messages_nodejs
+[8.160s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[8.162s] [  0%] Built target sick_ldmrs_msgs_generate_messages_py
+[8.163s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[8.165s] [  0%] Built target actionlib_msgs_generate_messages_py
+[8.170s] [  0%] Built target actionlib_generate_messages_py
+[8.172s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[8.175s] [  0%] Built target geometry_msgs_generate_messages_py
+[8.183s] [  0%] Built target pcl_msgs_generate_messages_eus
+[8.200s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[8.202s] [  0%] Built target actionlib_generate_messages_cpp
+[8.205s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[8.209s] [  0%] Built target roscpp_generate_messages_cpp
+[8.224s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[8.233s] [  0%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[8.244s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[8.248s] [  0%] Built target sensor_msgs_generate_messages_eus
+[8.249s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[8.249s] [  0%] Built target std_msgs_generate_messages_nodejs
+[8.251s] [  0%] Built target roscpp_generate_messages_lisp
+[8.252s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[8.256s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[8.271s] [  0%] Built target std_srvs_generate_messages_eus
+[8.277s] [  0%] Built target bond_generate_messages_eus
+[8.278s] [  0%] Built target nodelet_generate_messages_py
+[8.283s] [  0%] Built target bond_generate_messages_lisp
+[8.288s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[8.289s] [  0%] Built target sick_ldmrs_msgs_generate_messages_eus
+[8.301s] [  0%] Built target sensor_msgs_generate_messages_py
+[8.301s] [  0%] Built target std_msgs_generate_messages_lisp
+[8.304s] [  0%] Built target roscpp_generate_messages_nodejs
+[8.311s] [  0%] Built target std_msgs_generate_messages_cpp
+[8.313s] [  0%] Built target nodelet_generate_messages_nodejs
+[8.323s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[8.336s] [  0%] Built target geometry_msgs_generate_messages_eus
+[8.341s] [  0%] Built target std_msgs_generate_messages_py
+[8.342s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[8.342s] [  0%] Built target topic_tools_generate_messages_cpp
+[8.347s] [  0%] Built target topic_tools_generate_messages_eus
+[8.352s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[8.357s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[8.363s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[8.363s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[8.365s] [  0%] Built target roscpp_generate_messages_py
+[8.378s] [  0%] Built target std_msgs_generate_messages_eus
+[8.380s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[8.380s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[8.398s] [  0%] Built target tf_generate_messages_py
+[8.398s] [  0%] Built target std_srvs_generate_messages_nodejs
+[8.401s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[8.403s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[8.403s] [  0%] Built target actionlib_generate_messages_lisp
+[8.404s] [  0%] Built target bond_generate_messages_py
+[8.404s] [  0%] Built target dynamic_reconfigure_gencfg
+[8.416s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[8.420s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[8.439s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[8.439s] [  0%] Built target bond_generate_messages_cpp
+[8.440s] [  0%] Built target topic_tools_generate_messages_lisp
+[8.443s] [  0%] Built target nodelet_topic_tools_gencfg
+[8.445s] [  0%] Built target nodelet_generate_messages_eus
+[8.448s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[8.448s] [  0%] Built target std_srvs_generate_messages_cpp
+[8.455s] [  0%] Built target roscpp_generate_messages_eus
+[8.466s] [  0%] Built target nodelet_generate_messages_cpp
+[8.467s] [  0%] Built target bond_generate_messages_nodejs
+[8.474s] [  0%] Built target tf_generate_messages_cpp
+[8.477s] [  0%] Built target pcl_msgs_generate_messages_py
+[8.482s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[8.482s] [  0%] Built target actionlib_generate_messages_nodejs
+[8.483s] [  0%] Built target std_srvs_generate_messages_lisp
+[8.487s] [  0%] Built target std_srvs_generate_messages_py
+[8.488s] [  0%] Built target tf_generate_messages_eus
+[8.489s] [  0%] Built target topic_tools_generate_messages_py
+[8.493s] [  0%] Built target nodelet_generate_messages_lisp
+[8.503s] [  0%] Built target tf_generate_messages_nodejs
+[8.504s] [  0%] Built target tf_generate_messages_lisp
+[8.504s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[8.510s] [  0%] Built target actionlib_generate_messages_eus
+[8.517s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[8.569s] [ 12%] Built target sick_ldmrs_make_organized
+[8.569s] [ 25%] Built target sick_ldmrs_filter_first
+[8.573s] [ 37%] Built target sick_ldmrs_print_resolution
+[8.574s] [ 50%] Built target sick_ldmrs_remove_background
+[8.576s] [ 62%] Built target sick_ldmrs_all_layer_assembler
+[8.576s] [ 75%] Built target sick_ldmrs_filter_layer
+[8.580s] [100%] Built target sick_ldmrs_object_marker
+[8.580s] [100%] Built target sick_ldmrs_filter_last
+[8.614s] [36mInstall the project...[0m
+[8.626s] -- Install configuration: "Release"
+[8.626s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/pkgconfig/sick_ldmrs_tools.pc
+[8.627s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/cmake/sick_ldmrs_toolsConfig.cmake
+[8.627s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/cmake/sick_ldmrs_toolsConfig-version.cmake
+[8.627s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/package.xml
+[8.627s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_object_marker
+[8.627s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_object_marker" to ""
+[8.628s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_layer
+[8.628s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_layer" to ""
+[8.628s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_first
+[8.629s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_first" to ""
+[8.629s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_last
+[8.630s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_last" to ""
+[8.630s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_all_layer_assembler
+[8.630s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_all_layer_assembler" to ""
+[8.630s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_make_organized
+[8.630s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_make_organized" to ""
+[8.631s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_remove_background
+[8.631s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_remove_background" to ""
+[8.631s] -- Installing: /home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_print_resolution
+[8.631s] -- Set runtime path of "/home/point001/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_print_resolution" to ""
+[8.631s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/config
+[8.631s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/config/sick_ldmrs.rviz
+[8.631s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/launch
+[8.631s] -- Up-to-date: /home/point001/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/launch/sick_ldmrs_demo.launch
+[8.675s] Invoked command in '/home/point001/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver:/home/point001/autoware.ai/install/sick_ldmrs_msgs:/home/point001/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/sick_ldmrs_driver/share:/home/point001/autoware.ai/install/sick_ldmrs_msgs/share:/home/point001/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/sick_ldmrs_tools --target install -- -j24 -l24

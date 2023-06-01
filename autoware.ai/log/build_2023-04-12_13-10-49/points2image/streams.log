@@ -1,0 +1,236 @@
+[0.293s] Invoking command in '/home/point001/autoware.ai/build/points2image': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/rosinterface:/home/point001/autoware.ai/install/fastvirtualscan:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/point001/autoware.ai/install/rosinterface/lib:/home/point001/autoware.ai/install/fastvirtualscan/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/rosinterface/lib/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/rosinterface/share:/home/point001/autoware.ai/install/fastvirtualscan/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/points2image -- -j24 -l24
+[0.384s] [  0%] Built target std_msgs_generate_messages_py
+[0.399s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.399s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.400s] [  0%] Built target topic_tools_generate_messages_nodejs
+[0.418s] [  0%] Built target tf_generate_messages_nodejs
+[0.418s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.418s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.425s] [  0%] Built target actionlib_generate_messages_py
+[0.434s] [  0%] Built target bond_generate_messages_lisp
+[0.435s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.435s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.435s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.435s] [  0%] Built target std_srvs_generate_messages_py
+[0.435s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.435s] [  0%] Built target roscpp_generate_messages_cpp
+[0.435s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.435s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.442s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.442s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.445s] [  0%] Built target actionlib_generate_messages_cpp
+[0.450s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.454s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.456s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.459s] [  0%] Built target tf_generate_messages_lisp
+[0.462s] [  0%] Built target topic_tools_generate_messages_eus
+[0.470s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.478s] [  0%] Built target tf_generate_messages_py
+[0.478s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.479s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.482s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.482s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.483s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.493s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.497s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.503s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.507s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.519s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.521s] [  0%] Built target actionlib_generate_messages_lisp
+[0.526s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.537s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.538s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.550s] [  0%] Built target topic_tools_generate_messages_lisp
+[0.550s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.550s] [  0%] Built target actionlib_generate_messages_eus
+[0.554s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.555s] [  0%] Built target nodelet_generate_messages_py
+[0.556s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.568s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.573s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.573s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.578s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.578s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.582s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.598s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.605s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.606s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.606s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.617s] [  0%] Built target tf_generate_messages_cpp
+[0.622s] [  0%] Built target std_msgs_generate_messages_eus
+[0.622s] [  0%] Built target nodelet_generate_messages_lisp
+[0.623s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.635s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.649s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.656s] [  0%] Built target tf_generate_messages_eus
+[0.657s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.657s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.658s] [  0%] Built target roscpp_generate_messages_py
+[0.658s] [  0%] Built target roscpp_generate_messages_lisp
+[0.658s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.662s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.673s] [  0%] Built target pcl_ros_gencfg
+[0.674s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.678s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.685s] [  0%] Built target std_srvs_generate_messages_eus
+[0.687s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.688s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.690s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.691s] [  0%] Built target roscpp_generate_messages_eus
+[0.706s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.706s] [  0%] Built target bond_generate_messages_eus
+[0.708s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.711s] [  0%] Built target nodelet_generate_messages_cpp
+[0.711s] [  0%] Built target topic_tools_generate_messages_py
+[0.713s] [  0%] Built target nodelet_generate_messages_eus
+[0.720s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.720s] [  0%] Built target bond_generate_messages_cpp
+[0.726s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.726s] [  0%] Built target bond_generate_messages_nodejs
+[0.726s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.730s] [  0%] Built target _catkin_empty_exported_target
+[0.730s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.733s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.735s] [  4%] [34m[1mAutomatic MOC for target vscan2linelist[0m
+[0.743s] [  4%] Built target bond_generate_messages_py
+[0.757s] [  4%] Built target nodelet_topic_tools_gencfg
+[0.766s] [  4%] Built target vscan2linelist_autogen
+[0.791s] [  9%] [34m[1mAutomatic MOC for target points_image[0m
+[0.812s] [ 22%] Built target vscan2linelist
+[0.825s] [ 22%] Built target points_image_autogen
+[0.854s] [ 36%] Built target points_image
+[0.880s] [ 40%] [34m[1mAutomatic MOC for target vscan2image[0m
+[0.888s] [ 45%] [34m[1mAutomatic MOC for target points2vscan[0m
+[0.891s] [ 50%] [34m[1mAutomatic MOC for target points2image[0m
+[0.914s] [ 50%] Built target points2image_autogen
+[0.922s] [ 50%] Built target points2vscan_autogen
+[0.944s] [ 50%] Built target vscan2image_autogen
+[1.026s] [ 63%] Built target points2image
+[1.052s] [ 86%] Built target points2vscan
+[1.106s] [100%] Built target vscan2image
+[1.353s] Invoked command in '/home/point001/autoware.ai/build/points2image' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/rosinterface:/home/point001/autoware.ai/install/fastvirtualscan:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/point001/autoware.ai/install/rosinterface/lib:/home/point001/autoware.ai/install/fastvirtualscan/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/rosinterface/lib/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/rosinterface/share:/home/point001/autoware.ai/install/fastvirtualscan/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/points2image -- -j24 -l24
+[1.708s] Invoking command in '/home/point001/autoware.ai/build/points2image': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/rosinterface:/home/point001/autoware.ai/install/fastvirtualscan:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/point001/autoware.ai/install/rosinterface/lib:/home/point001/autoware.ai/install/fastvirtualscan/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/rosinterface/lib/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/rosinterface/share:/home/point001/autoware.ai/install/fastvirtualscan/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/points2image --target tests -- -j24 -l24
+[1.967s] Built target tests
+[2.094s] Invoked command in '/home/point001/autoware.ai/build/points2image' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/rosinterface:/home/point001/autoware.ai/install/fastvirtualscan:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/point001/autoware.ai/install/rosinterface/lib:/home/point001/autoware.ai/install/fastvirtualscan/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/rosinterface/lib/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/rosinterface/share:/home/point001/autoware.ai/install/fastvirtualscan/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/points2image --target tests -- -j24 -l24
+[2.549s] Invoking command in '/home/point001/autoware.ai/build/points2image': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/rosinterface:/home/point001/autoware.ai/install/fastvirtualscan:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/point001/autoware.ai/install/rosinterface/lib:/home/point001/autoware.ai/install/fastvirtualscan/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/rosinterface/lib/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/rosinterface/share:/home/point001/autoware.ai/install/fastvirtualscan/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/points2image --target install -- -j24 -l24
+[2.663s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.663s] [  0%] Built target tf2_msgs_generate_messages_py
+[2.670s] [  0%] Built target std_srvs_generate_messages_py
+[2.670s] [  0%] Built target actionlib_generate_messages_py
+[2.670s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.670s] [  0%] Built target topic_tools_generate_messages_eus
+[2.671s] [  0%] Built target tf_generate_messages_nodejs
+[2.672s] [  0%] Built target bond_generate_messages_lisp
+[2.674s] [  0%] Built target actionlib_generate_messages_cpp
+[2.675s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[2.689s] [  0%] Built target std_msgs_generate_messages_py
+[2.689s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.689s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.689s] [  0%] Built target std_srvs_generate_messages_lisp
+[2.689s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[2.690s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[2.690s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.690s] [  0%] Built target roscpp_generate_messages_cpp
+[2.690s] [  0%] Built target tf_generate_messages_lisp
+[2.691s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.691s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[2.692s] [  0%] Built target topic_tools_generate_messages_cpp
+[2.696s] [  0%] Built target topic_tools_generate_messages_nodejs
+[2.702s] [  0%] Built target tf2_msgs_generate_messages_eus
+[2.709s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[2.712s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[2.717s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.717s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.720s] [  0%] Built target sensor_msgs_generate_messages_py
+[2.725s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[2.726s] [  0%] Built target tf_generate_messages_py
+[2.728s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.728s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[2.729s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.730s] [  0%] Built target nodelet_generate_messages_py
+[2.730s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.734s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.740s] [  0%] Built target pcl_msgs_generate_messages_py
+[2.741s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.746s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[2.746s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.754s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[2.754s] [  0%] Built target actionlib_generate_messages_lisp
+[2.754s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.773s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[2.774s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[2.780s] [  0%] Built target topic_tools_generate_messages_lisp
+[2.788s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[2.789s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[2.790s] [  0%] Built target actionlib_generate_messages_eus
+[2.790s] [  0%] Built target autoware_msgs_generate_messages_eus
+[2.793s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.796s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.820s] [  0%] Built target nodelet_generate_messages_lisp
+[2.820s] [  0%] Built target std_msgs_generate_messages_eus
+[2.820s] [  0%] Built target tf_generate_messages_cpp
+[2.820s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[2.820s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[2.821s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.821s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[2.821s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[2.836s] [  0%] Built target nodelet_generate_messages_nodejs
+[2.841s] [  0%] Built target std_srvs_generate_messages_cpp
+[2.849s] [  0%] Built target tf_generate_messages_eus
+[2.849s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.850s] [  0%] Built target actionlib_generate_messages_nodejs
+[2.850s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[2.850s] [  0%] Built target autoware_msgs_generate_messages_py
+[2.860s] [  0%] Built target roscpp_generate_messages_lisp
+[2.860s] [  0%] Built target bond_generate_messages_eus
+[2.860s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[2.862s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.862s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[2.872s] [  0%] Built target pcl_ros_gencfg
+[2.872s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.877s] [  0%] Built target dynamic_reconfigure_gencfg
+[2.878s] [  0%] Built target roscpp_generate_messages_eus
+[2.882s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[2.892s] [  0%] Built target std_srvs_generate_messages_eus
+[2.892s] [  0%] Built target nodelet_generate_messages_cpp
+[2.892s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[2.892s] [  0%] Built target roscpp_generate_messages_py
+[2.896s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.896s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[2.897s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.903s] [  0%] Built target bond_generate_messages_nodejs
+[2.903s] [  0%] Built target bond_generate_messages_cpp
+[2.912s] [  0%] Built target std_srvs_generate_messages_nodejs
+[2.912s] [  0%] Built target bond_generate_messages_py
+[2.913s] [  0%] Built target topic_tools_generate_messages_py
+[2.913s] [  4%] [34m[1mAutomatic MOC for target vscan2linelist[0m
+[2.913s] [  4%] Built target actionlib_msgs_generate_messages_nodejs
+[2.913s] [  4%] Built target nodelet_topic_tools_gencfg
+[2.916s] [  4%] Built target nodelet_generate_messages_eus
+[2.918s] [  4%] Built target _catkin_empty_exported_target
+[2.945s] [  4%] Built target vscan2linelist_autogen
+[2.953s] [  9%] [34m[1mAutomatic MOC for target points_image[0m
+[2.982s] [  9%] Built target points_image_autogen
+[2.990s] [ 22%] Built target vscan2linelist
+[3.010s] [ 36%] Built target points_image
+[3.042s] [ 40%] [34m[1mAutomatic MOC for target points2vscan[0m
+[3.064s] [ 45%] [34m[1mAutomatic MOC for target vscan2image[0m
+[3.070s] [ 50%] [34m[1mAutomatic MOC for target points2image[0m
+[3.093s] [ 50%] Built target vscan2image_autogen
+[3.102s] [ 50%] Built target points2vscan_autogen
+[3.138s] [ 50%] Built target points2image_autogen
+[3.189s] [ 63%] Built target vscan2image
+[3.253s] [ 77%] Built target points2image
+[3.284s] [100%] Built target points2vscan
+[3.355s] [36mInstall the project...[0m
+[3.373s] -- Install configuration: "Release"
+[3.374s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/lib/pkgconfig/points2image.pc
+[3.374s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/share/points2image/cmake/points2imageConfig.cmake
+[3.374s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/share/points2image/cmake/points2imageConfig-version.cmake
+[3.374s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/share/points2image/package.xml
+[3.376s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/lib/libpoints_image.so
+[3.377s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/lib/points2image/vscan2linelist
+[3.377s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/lib/points2image/vscan2image
+[3.377s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/lib/points2image/points2image
+[3.377s] -- Up-to-date: /home/point001/autoware.ai/install/points2image/lib/points2image/points2vscan
+[3.386s] Invoked command in '/home/point001/autoware.ai/build/points2image' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/rosinterface:/home/point001/autoware.ai/install/fastvirtualscan:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/point001/autoware.ai/install/rosinterface/lib:/home/point001/autoware.ai/install/fastvirtualscan/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/rosinterface/lib/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/rosinterface/share:/home/point001/autoware.ai/install/fastvirtualscan/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/points2image --target install -- -j24 -l24

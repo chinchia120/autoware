@@ -1,0 +1,68 @@
+[0.092s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/oculus_socket
+[0.546s] -- The C compiler identification is GNU 7.5.0
+[0.796s] -- The CXX compiler identification is GNU 7.5.0
+[0.801s] -- Check for working C compiler: /usr/bin/cc
+[1.227s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.228s] -- Detecting C compiler ABI info
+[1.721s] -- Detecting C compiler ABI info - done
+[1.732s] -- Detecting C compile features
+[3.055s] -- Detecting C compile features - done
+[3.057s] -- Check for working CXX compiler: /usr/bin/c++
+[3.325s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.325s] -- Detecting CXX compiler ABI info
+[3.699s] -- Detecting CXX compiler ABI info - done
+[3.709s] -- Detecting CXX compile features
+[4.644s] -- Detecting CXX compile features - done
+[4.659s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/oculus_socket/devel
+[4.660s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[4.660s] -- This workspace overlays: /opt/ros/melodic
+[4.684s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.685s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.685s] -- Using Debian Python package layout
+[4.691s] -- Using empy: /usr/bin/empy
+[4.877s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.877s] -- Call enable_testing()
+[4.893s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/oculus_socket/test_results
+[4.917s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.917s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.936s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.942s] -- Looking for pthread.h
+[5.076s] -- Looking for pthread.h - found
+[5.076s] -- Looking for pthread_create
+[5.287s] -- Looking for pthread_create - not found
+[5.288s] -- Looking for pthread_create in pthreads
+[5.468s] -- Looking for pthread_create in pthreads - not found
+[5.468s] -- Looking for pthread_create in pthread
+[5.637s] -- Looking for pthread_create in pthread - found
+[5.637s] -- Found Threads: TRUE  
+[5.642s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.687s] -- catkin 0.7.29
+[5.688s] -- BUILD_SHARED_LIBS is on
+[6.644s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[7.200s] -- Configuring done
+[7.244s] -- Generating done
+[7.258s] -- Build files have been written to: /home/point001/autoware.ai/build/oculus_socket
+[7.287s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/oculus_socket
+[7.293s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[7.355s] [35m[1mScanning dependencies of target oculus_sender[0m
+[7.431s] [ 50%] [32mBuilding CXX object CMakeFiles/oculus_sender.dir/nodes/oculus_sender/oculus_sender.cpp.o[0m
+[15.107s] [100%] [32m[1mLinking CXX executable devel/lib/oculus_socket/oculus_sender[0m
+[15.607s] [100%] Built target oculus_sender
+[15.619s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket -- -j24 -l24
+[15.746s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[15.817s] [35m[1mScanning dependencies of target tests[0m
+[15.829s] Built target tests
+[15.849s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target tests -- -j24 -l24
+[15.991s] Invoking command in '/home/point001/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24
+[16.071s] [100%] Built target oculus_sender
+[16.100s] [36mInstall the project...[0m
+[16.117s] -- Install configuration: "Release"
+[16.117s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[16.117s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[16.117s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[16.117s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[16.118s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[16.118s] -- Set runtime path of "/home/point001/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender" to ""
+[16.118s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[16.118s] -- Installing: /home/point001/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[16.161s] Invoked command in '/home/point001/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/oculus_socket --target install -- -j24 -l24

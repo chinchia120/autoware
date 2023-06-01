@@ -1,0 +1,59 @@
+[0.074s] Invoking command in '/home/point001/autoware.ai/build/marker_downsampler': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/marker_downsampler
+[0.172s] -- The C compiler identification is GNU 7.5.0
+[0.271s] -- The CXX compiler identification is GNU 7.5.0
+[0.284s] -- Check for working C compiler: /usr/bin/cc
+[0.446s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.447s] -- Detecting C compiler ABI info
+[0.535s] -- Detecting C compiler ABI info - done
+[0.548s] -- Detecting C compile features
+[0.818s] -- Detecting C compile features - done
+[0.825s] -- Check for working CXX compiler: /usr/bin/c++
+[0.917s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.917s] -- Detecting CXX compiler ABI info
+[1.017s] -- Detecting CXX compiler ABI info - done
+[1.025s] -- Detecting CXX compile features
+[1.852s] -- Detecting CXX compile features - done
+[1.854s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/marker_downsampler/devel
+[1.854s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.855s] -- This workspace overlays: /opt/ros/melodic
+[1.873s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.874s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.874s] -- Using Debian Python package layout
+[1.874s] -- Using empy: /usr/bin/empy
+[2.098s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.104s] -- Call enable_testing()
+[2.117s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/marker_downsampler/test_results
+[2.117s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.118s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.145s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.146s] -- Looking for pthread.h
+[2.331s] -- Looking for pthread.h - found
+[2.331s] -- Looking for pthread_create
+[2.516s] -- Looking for pthread_create - not found
+[2.517s] -- Looking for pthread_create in pthreads
+[2.822s] -- Looking for pthread_create in pthreads - not found
+[2.822s] -- Looking for pthread_create in pthread
+[3.186s] -- Looking for pthread_create in pthread - found
+[3.187s] -- Found Threads: TRUE  
+[3.192s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.301s] -- catkin 0.7.29
+[3.301s] -- BUILD_SHARED_LIBS is on
+[4.318s] -- Configuring done
+[4.338s] -- Generating done
+[4.356s] -- Build files have been written to: /home/point001/autoware.ai/build/marker_downsampler
+[4.371s] Invoked command in '/home/point001/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/marker_downsampler
+[4.372s] Invoking command in '/home/point001/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/point001/autoware.ai/build/marker_downsampler -- -j24 -l24
+[4.506s] Invoked command in '/home/point001/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/marker_downsampler -- -j24 -l24
+[5.271s] Invoking command in '/home/point001/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/point001/autoware.ai/build/marker_downsampler --target tests -- -j24 -l24
+[5.663s] [35m[1mScanning dependencies of target tests[0m
+[5.751s] Built target tests
+[5.813s] Invoked command in '/home/point001/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/marker_downsampler --target tests -- -j24 -l24
+[7.054s] Invoking command in '/home/point001/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/point001/autoware.ai/build/marker_downsampler --target install -- -j24 -l24
+[7.377s] [36mInstall the project...[0m
+[7.429s] -- Install configuration: "Release"
+[7.430s] -- Installing: /home/point001/autoware.ai/install/marker_downsampler/lib/pkgconfig/marker_downsampler.pc
+[7.430s] -- Installing: /home/point001/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig.cmake
+[7.430s] -- Installing: /home/point001/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig-version.cmake
+[7.430s] -- Installing: /home/point001/autoware.ai/install/marker_downsampler/share/marker_downsampler/package.xml
+[7.430s] -- Installing: /home/point001/autoware.ai/install/marker_downsampler/lib/marker_downsampler/app.py
+[7.439s] Invoked command in '/home/point001/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/marker_downsampler --target install -- -j24 -l24

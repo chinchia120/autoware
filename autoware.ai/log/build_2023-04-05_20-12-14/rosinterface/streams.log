@@ -1,0 +1,78 @@
+[0.236s] Invoking command in '/home/point001/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/visualization/rosinterface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/rosinterface
+[0.639s] -- The C compiler identification is GNU 7.5.0
+[1.203s] -- The CXX compiler identification is GNU 7.5.0
+[1.208s] -- Check for working C compiler: /usr/bin/cc
+[1.903s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.904s] -- Detecting C compiler ABI info
+[2.341s] -- Detecting C compiler ABI info - done
+[2.351s] -- Detecting C compile features
+[4.133s] -- Detecting C compile features - done
+[4.137s] -- Check for working CXX compiler: /usr/bin/c++
+[4.800s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.800s] -- Detecting CXX compiler ABI info
+[5.336s] -- Detecting CXX compiler ABI info - done
+[5.346s] -- Detecting CXX compile features
+[6.460s] -- Detecting CXX compile features - done
+[6.467s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[6.469s] -- CUDA compilation status: 1.
+[6.470s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/rosinterface/devel
+[6.470s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[6.470s] -- This workspace overlays: /home/point001/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[6.491s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[6.491s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[6.491s] -- Using Debian Python package layout
+[6.491s] -- Using empy: /usr/bin/empy
+[6.713s] -- Using CATKIN_ENABLE_TESTING: ON
+[6.714s] -- Call enable_testing()
+[6.718s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/rosinterface/test_results
+[6.740s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[6.740s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[6.753s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[6.754s] -- Looking for pthread.h
+[6.860s] -- Looking for pthread.h - found
+[6.860s] -- Looking for pthread_create
+[6.952s] -- Looking for pthread_create - not found
+[6.952s] -- Looking for pthread_create in pthreads
+[7.040s] -- Looking for pthread_create in pthreads - not found
+[7.040s] -- Looking for pthread_create in pthread
+[7.129s] -- Looking for pthread_create in pthread - found
+[7.129s] -- Found Threads: TRUE  
+[7.133s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[7.180s] -- catkin 0.7.29
+[7.180s] -- BUILD_SHARED_LIBS is on
+[7.401s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[7.890s] -- Configuring done
+[7.921s] -- Generating done
+[7.929s] -- Build files have been written to: /home/point001/autoware.ai/build/rosinterface
+[7.936s] Invoked command in '/home/point001/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/visualization/rosinterface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/rosinterface
+[7.941s] Invoking command in '/home/point001/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/rosinterface -- -j24 -l24
+[8.116s] [35m[1mScanning dependencies of target rosinterface_autogen[0m
+[8.146s] [ 16%] [34m[1mAutomatic MOC for target rosinterface[0m
+[8.211s] [ 16%] Built target rosinterface_autogen
+[8.232s] [ 33%] [34m[1mGenerating include/rosinterface/moc_rosinterface.cpp[0m
+[9.274s] [35m[1mScanning dependencies of target rosinterface[0m
+[9.375s] [ 50%] [32mBuilding CXX object CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o[0m
+[9.424s] [ 66%] [32mBuilding CXX object CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o[0m
+[9.431s] [ 83%] [32mBuilding CXX object CMakeFiles/rosinterface.dir/rosinterface_autogen/mocs_compilation.cpp.o[0m
+[17.013s] [100%] [32m[1mLinking CXX shared library devel/lib/librosinterface.so[0m
+[17.365s] [100%] Built target rosinterface
+[17.389s] Invoked command in '/home/point001/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/rosinterface -- -j24 -l24
+[17.961s] Invoking command in '/home/point001/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/rosinterface --target tests -- -j24 -l24
+[18.076s] [35m[1mScanning dependencies of target tests[0m
+[18.100s] Built target tests
+[18.116s] Invoked command in '/home/point001/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/rosinterface --target tests -- -j24 -l24
+[18.369s] Invoking command in '/home/point001/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/rosinterface --target install -- -j24 -l24
+[18.452s] [ 16%] [34m[1mAutomatic MOC for target rosinterface[0m
+[18.478s] [ 16%] Built target rosinterface_autogen
+[18.523s] [100%] Built target rosinterface
+[18.550s] [36mInstall the project...[0m
+[18.562s] -- Install configuration: "Release"
+[18.562s] -- Installing: /home/point001/autoware.ai/install/rosinterface/lib/pkgconfig/rosinterface.pc
+[18.562s] -- Installing: /home/point001/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+[18.562s] -- Installing: /home/point001/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+[18.563s] -- Installing: /home/point001/autoware.ai/install/rosinterface/share/rosinterface/package.xml
+[18.563s] -- Installing: /home/point001/autoware.ai/install/rosinterface/include/rosinterface
+[18.563s] -- Installing: /home/point001/autoware.ai/install/rosinterface/include/rosinterface/rosinterface.h
+[18.563s] -- Installing: /home/point001/autoware.ai/install/rosinterface/lib/librosinterface.so
+[18.570s] -- Set runtime path of "/home/point001/autoware.ai/install/rosinterface/lib/librosinterface.so" to ""
+[18.573s] Invoked command in '/home/point001/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/rosinterface --target install -- -j24 -l24

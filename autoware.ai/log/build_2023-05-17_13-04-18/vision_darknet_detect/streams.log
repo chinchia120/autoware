@@ -1,0 +1,154 @@
+[0.185s] Invoking command in '/home/point001/autoware.ai/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vision_darknet_detect -- -j24 -l24
+[0.497s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.503s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.526s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.526s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.537s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.539s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.539s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.539s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.546s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.554s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.555s] [  0%] Built target roscpp_generate_messages_lisp
+[0.560s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[0.560s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.572s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.573s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.582s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.589s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.589s] [  0%] Built target roscpp_generate_messages_py
+[0.604s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.610s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.624s] [  0%] Built target std_msgs_generate_messages_eus
+[0.625s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[0.626s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.662s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.686s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.691s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.708s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.741s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.742s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.750s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.751s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.764s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.779s] [  0%] Built target std_msgs_generate_messages_py
+[0.782s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[0.785s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.787s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.798s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.798s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.798s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.799s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.803s] [  0%] Built target roscpp_generate_messages_eus
+[0.807s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.823s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.828s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[0.841s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.845s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[0.889s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.889s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.889s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.889s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.910s] [  0%] Built target roscpp_generate_messages_cpp
+[0.923s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.924s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.926s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.945s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.046s] [  1%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_deconvolutional_kernels.cu.o[0m
+[1.048s] [  3%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_maxpool_layer_kernels.cu.o[0m
+[1.061s] [  5%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_dropout_layer_kernels.cu.o[0m
+[1.062s] [  7%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_im2col_kernels.cu.o[0m
+[1.067s] [  8%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_blas_kernels.cu.o[0m
+[1.081s] [ 10%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_avgpool_layer_kernels.cu.o[0m
+[1.087s] [ 12%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_crop_layer_kernels.cu.o[0m
+[1.087s] [ 14%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_convolutional_kernels.cu.o[0m
+[1.093s] [ 15%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_col2im_kernels.cu.o[0m
+[1.094s] [ 17%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_activation_kernels.cu.o[0m
+[3.461s] [ 19%] [32m[1mLinking CXX shared library devel/lib/libvision_darknet_detect_lib.so[0m
+[3.735s] [ 94%] Built target vision_darknet_detect_lib
+[3.830s] [ 96%] [32m[1mLinking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect[0m
+[4.710s] [100%] Built target vision_darknet_detect
+[4.805s] Invoked command in '/home/point001/autoware.ai/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vision_darknet_detect -- -j24 -l24
+[8.180s] Invoking command in '/home/point001/autoware.ai/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vision_darknet_detect --target tests -- -j24 -l24
+[8.598s] Built target tests
+[8.770s] Invoked command in '/home/point001/autoware.ai/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vision_darknet_detect --target tests -- -j24 -l24
+[11.333s] Invoking command in '/home/point001/autoware.ai/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vision_darknet_detect --target install -- -j24 -l24
+[11.542s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[11.560s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[11.563s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[11.565s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[11.566s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[11.567s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[11.570s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[11.571s] [  0%] Built target roscpp_generate_messages_lisp
+[11.575s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[11.582s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[11.582s] [  0%] Built target sensor_msgs_generate_messages_eus
+[11.593s] [  0%] Built target pcl_msgs_generate_messages_eus
+[11.604s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[11.615s] [  0%] Built target pcl_msgs_generate_messages_py
+[11.616s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[11.617s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[11.636s] [  0%] Built target actionlib_msgs_generate_messages_py
+[11.640s] [  0%] Built target roscpp_generate_messages_py
+[11.641s] [  0%] Built target std_msgs_generate_messages_nodejs
+[11.644s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[11.655s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[11.660s] [  0%] Built target std_msgs_generate_messages_lisp
+[11.677s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[11.682s] [  0%] Built target std_msgs_generate_messages_eus
+[11.696s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[11.707s] [  0%] Built target std_msgs_generate_messages_py
+[11.707s] [  0%] Built target std_msgs_generate_messages_cpp
+[11.709s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[11.718s] [  0%] Built target autoware_msgs_generate_messages_py
+[11.723s] [  0%] Built target autoware_msgs_generate_messages_eus
+[11.725s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[11.726s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[11.728s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[11.731s] [  0%] Built target roscpp_generate_messages_eus
+[11.736s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[11.747s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[11.754s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[11.755s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[11.756s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[11.761s] [  0%] Built target sensor_msgs_generate_messages_py
+[11.766s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[11.769s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[11.788s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[11.795s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[11.803s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[11.818s] [  0%] Built target roscpp_generate_messages_nodejs
+[11.833s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[11.840s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[11.842s] [  0%] Built target geometry_msgs_generate_messages_py
+[11.844s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[11.849s] [  0%] Built target geometry_msgs_generate_messages_eus
+[11.850s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[11.859s] [  0%] Built target roscpp_generate_messages_cpp
+[11.862s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[11.875s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[12.087s] [ 94%] Built target vision_darknet_detect_lib
+[12.282s] [100%] Built target vision_darknet_detect
+[12.343s] [36mInstall the project...[0m
+[12.355s] -- Install configuration: "Release"
+[12.357s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+[12.357s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+[12.357s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+[12.357s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+[12.357s] -- Installing: /home/point001/autoware.ai/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+[12.365s] -- Set runtime path of "/home/point001/autoware.ai/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so" to ""
+[12.365s] -- Installing: /home/point001/autoware.ai/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+[12.366s] -- Set runtime path of "/home/point001/autoware.ai/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect" to ""
+[12.366s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch
+[12.366s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+[12.366s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+[12.366s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg/
+[12.366s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+[12.366s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg
+[12.367s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+[12.367s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+[12.367s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+[12.367s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+[12.367s] -- Up-to-date: /home/point001/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+[12.407s] Invoked command in '/home/point001/autoware.ai/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/vision_darknet_detect --target install -- -j24 -l24

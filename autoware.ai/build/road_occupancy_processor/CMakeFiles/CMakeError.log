@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb59f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb59f.dir/build.make CMakeFiles/cmTC_fb59f.dir/build
+make[1]: Entering directory '/home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb59f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fb59f.dir/CheckSymbolExists.c.o   -c /home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fb59f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb59f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb59f.dir/CheckSymbolExists.c.o  -o cmTC_fb59f 
+CMakeFiles/cmTC_fb59f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fb59f.dir/build.make:97: recipe for target 'cmTC_fb59f' failed
+make[1]: *** [cmTC_fb59f] Error 1
+make[1]: Leaving directory '/home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fb59f/fast' failed
+make: *** [cmTC_fb59f/fast] Error 2
+
+File /home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea8da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea8da.dir/build.make CMakeFiles/cmTC_ea8da.dir/build
+make[1]: Entering directory '/home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea8da.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea8da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea8da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea8da.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ea8da.dir/CheckFunctionExists.c.o  -o cmTC_ea8da -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ea8da.dir/build.make:97: recipe for target 'cmTC_ea8da' failed
+make[1]: *** [cmTC_ea8da] Error 1
+make[1]: Leaving directory '/home/point001/autoware.ai/build/road_occupancy_processor/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea8da/fast' failed
+make: *** [cmTC_ea8da/fast] Error 2
+
+

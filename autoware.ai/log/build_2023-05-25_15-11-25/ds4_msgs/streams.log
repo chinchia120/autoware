@@ -1,0 +1,67 @@
+[0.092s] Invoking command in '/home/point001/autoware.ai/build/ds4_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/ds4_msgs -- -j24 -l24
+[0.420s] [  0%] Built target std_msgs_generate_messages_eus
+[0.422s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.457s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.482s] [  0%] Built target std_msgs_generate_messages_py
+[0.510s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.562s] [  0%] Built target _ds4_msgs_generate_messages_check_deps_DS4
+[0.620s] [ 28%] Built target ds4_msgs_generate_messages_py
+[0.621s] [ 42%] Built target ds4_msgs_generate_messages_nodejs
+[0.631s] [ 57%] Built target ds4_msgs_generate_messages_cpp
+[0.635s] [ 85%] Built target ds4_msgs_generate_messages_eus
+[0.653s] [100%] Built target ds4_msgs_generate_messages_lisp
+[0.681s] [100%] Built target ds4_msgs_generate_messages
+[0.717s] Invoked command in '/home/point001/autoware.ai/build/ds4_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ds4_msgs -- -j24 -l24
+[0.838s] Invoking command in '/home/point001/autoware.ai/build/ds4_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/ds4_msgs --target tests -- -j24 -l24
+[0.902s] Built target tests
+[0.970s] Invoked command in '/home/point001/autoware.ai/build/ds4_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ds4_msgs --target tests -- -j24 -l24
+[1.114s] Invoking command in '/home/point001/autoware.ai/build/ds4_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/ds4_msgs --target install -- -j24 -l24
+[1.185s] [  0%] Built target std_msgs_generate_messages_eus
+[1.185s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.185s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.186s] [  0%] Built target std_msgs_generate_messages_py
+[1.187s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.224s] [  0%] Built target _ds4_msgs_generate_messages_check_deps_DS4
+[1.284s] [ 14%] Built target ds4_msgs_generate_messages_nodejs
+[1.289s] [ 42%] Built target ds4_msgs_generate_messages_py
+[1.300s] [ 57%] Built target ds4_msgs_generate_messages_cpp
+[1.301s] [ 71%] Built target ds4_msgs_generate_messages_lisp
+[1.316s] [100%] Built target ds4_msgs_generate_messages_eus
+[1.334s] [100%] Built target ds4_msgs_generate_messages
+[1.355s] [36mInstall the project...[0m
+[1.364s] -- Install configuration: "Release"
+[1.364s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/ds4_msgs/msg/DS4.msg
+[1.364s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgs-msg-paths.cmake
+[1.365s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/include/ds4_msgs
+[1.365s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/include/ds4_msgs/DS4.h
+[1.365s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs
+[1.365s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs/manifest.l
+[1.365s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs/msg
+[1.365s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs/msg/DS4.l
+[1.368s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/_package_DS4.lisp
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/_package.lisp
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/DS4.lisp
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/ds4_msgs-msg.asd
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/_index.js
+[1.369s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/msg
+[1.370s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/msg/_index.js
+[1.370s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/msg/DS4.js
+[1.385s] Listing /home/point001/autoware.ai/build/ds4_msgs/devel/lib/python2.7/dist-packages/ds4_msgs ...
+[1.385s] Listing /home/point001/autoware.ai/build/ds4_msgs/devel/lib/python2.7/dist-packages/ds4_msgs/msg ...
+[1.385s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs
+[1.385s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg
+[1.388s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/_DS4.pyc
+[1.388s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/__init__.py
+[1.388s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/__init__.pyc
+[1.389s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/_DS4.py
+[1.389s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/__init__.py
+[1.390s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/__init__.pyc
+[1.390s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/lib/pkgconfig/ds4_msgs.pc
+[1.390s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgs-msg-extras.cmake
+[1.390s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgsConfig.cmake
+[1.390s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgsConfig-version.cmake
+[1.390s] -- Up-to-date: /home/point001/autoware.ai/install/ds4_msgs/share/ds4_msgs/package.xml
+[1.525s] Invoked command in '/home/point001/autoware.ai/build/ds4_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ds4_msgs --target install -- -j24 -l24

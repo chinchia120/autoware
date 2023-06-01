@@ -1,0 +1,60 @@
+[0.122s] Invoking command in '/home/point001/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/kitti_box_publisher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/kitti_box_publisher
+[0.308s] -- The C compiler identification is GNU 7.5.0
+[0.531s] -- The CXX compiler identification is GNU 7.5.0
+[0.545s] -- Check for working C compiler: /usr/bin/cc
+[1.162s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.162s] -- Detecting C compiler ABI info
+[1.760s] -- Detecting C compiler ABI info - done
+[1.787s] -- Detecting C compile features
+[2.917s] -- Detecting C compile features - done
+[2.919s] -- Check for working CXX compiler: /usr/bin/c++
+[3.281s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.281s] -- Detecting CXX compiler ABI info
+[3.659s] -- Detecting CXX compiler ABI info - done
+[3.662s] -- Detecting CXX compile features
+[4.873s] -- Detecting CXX compile features - done
+[4.874s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/kitti_box_publisher/devel
+[4.875s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+[4.875s] -- This workspace overlays: /home/point001/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+[4.917s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.918s] -- Using Debian Python package layout
+[4.919s] -- Using empy: /usr/bin/empy
+[5.105s] -- Using CATKIN_ENABLE_TESTING: ON
+[5.105s] -- Call enable_testing()
+[5.112s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/kitti_box_publisher/test_results
+[5.133s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[5.133s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[5.152s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[5.153s] -- Looking for pthread.h
+[5.308s] -- Looking for pthread.h - found
+[5.309s] -- Looking for pthread_create
+[5.561s] -- Looking for pthread_create - not found
+[5.561s] -- Looking for pthread_create in pthreads
+[5.721s] -- Looking for pthread_create in pthreads - not found
+[5.721s] -- Looking for pthread_create in pthread
+[5.909s] -- Looking for pthread_create in pthread - found
+[5.910s] -- Found Threads: TRUE  
+[5.915s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.988s] -- catkin 0.7.29
+[5.989s] -- BUILD_SHARED_LIBS is on
+[6.293s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[6.559s] -- Configuring done
+[6.583s] -- Generating done
+[6.591s] -- Build files have been written to: /home/point001/autoware.ai/build/kitti_box_publisher
+[6.597s] Invoked command in '/home/point001/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/kitti_box_publisher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/kitti_box_publisher
+[6.600s] Invoking command in '/home/point001/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/kitti_box_publisher -- -j24 -l24
+[6.687s] Invoked command in '/home/point001/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/kitti_box_publisher -- -j24 -l24
+[6.963s] Invoking command in '/home/point001/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/kitti_box_publisher --target tests -- -j24 -l24
+[7.041s] [35m[1mScanning dependencies of target tests[0m
+[7.056s] Built target tests
+[7.071s] Invoked command in '/home/point001/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/kitti_box_publisher --target tests -- -j24 -l24
+[7.294s] Invoking command in '/home/point001/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/kitti_box_publisher --target install -- -j24 -l24
+[7.360s] [36mInstall the project...[0m
+[7.374s] -- Install configuration: "Release"
+[7.375s] -- Installing: /home/point001/autoware.ai/install/kitti_box_publisher/lib/pkgconfig/kitti_box_publisher.pc
+[7.375s] -- Installing: /home/point001/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig.cmake
+[7.375s] -- Installing: /home/point001/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig-version.cmake
+[7.376s] -- Installing: /home/point001/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/package.xml
+[7.376s] -- Installing: /home/point001/autoware.ai/install/kitti_box_publisher/lib/kitti_box_publisher/kitti_box_publisher.py
+[7.379s] Invoked command in '/home/point001/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/kitti_box_publisher --target install -- -j24 -l24

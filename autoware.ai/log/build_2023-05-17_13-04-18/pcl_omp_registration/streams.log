@@ -1,0 +1,24 @@
+[0.194s] Invoking command in '/home/point001/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/point001/autoware.ai/build/pcl_omp_registration -- -j24 -l24
+[0.575s] [ 50%] [32m[1mLinking CXX shared library devel/lib/libpcl_omp_registration.so[0m
+[5.595s] [100%] Built target pcl_omp_registration
+[5.679s] Invoked command in '/home/point001/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/pcl_omp_registration -- -j24 -l24
+[6.031s] Invoking command in '/home/point001/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/point001/autoware.ai/build/pcl_omp_registration --target tests -- -j24 -l24
+[6.255s] Built target tests
+[6.306s] Invoked command in '/home/point001/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/pcl_omp_registration --target tests -- -j24 -l24
+[6.531s] Invoking command in '/home/point001/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/point001/autoware.ai/build/pcl_omp_registration --target install -- -j24 -l24
+[6.614s] [100%] Built target pcl_omp_registration
+[6.658s] [36mInstall the project...[0m
+[6.679s] -- Install configuration: "Release"
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig/pcl_omp_registration.pc
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/share/pcl_omp_registration/cmake/pcl_omp_registrationConfig.cmake
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/share/pcl_omp_registration/cmake/pcl_omp_registrationConfig-version.cmake
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/share/pcl_omp_registration/package.xml
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/ndt.h
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/impl
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/impl/registration.hpp
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/impl/ndt.hpp
+[6.680s] -- Up-to-date: /home/point001/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/registration.h
+[6.680s] -- Installing: /home/point001/autoware.ai/install/pcl_omp_registration/lib/libpcl_omp_registration.so
+[6.680s] -- Set runtime path of "/home/point001/autoware.ai/install/pcl_omp_registration/lib/libpcl_omp_registration.so" to ""
+[6.828s] Invoked command in '/home/point001/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/pcl_omp_registration --target install -- -j24 -l24

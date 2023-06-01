@@ -1,0 +1,78 @@
+[0.280s] Invoking command in '/home/point001/autoware.ai/build/twist2odom': /usr/bin/cmake --build /home/point001/autoware.ai/build/twist2odom -- -j24 -l24
+[0.451s] [  0%] Built target roscpp_generate_messages_cpp
+[0.454s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.454s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.454s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[0.454s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.456s] [  0%] Built target nav_msgs_generate_messages_py
+[0.458s] [  0%] Built target nav_msgs_generate_messages_eus
+[0.462s] [  0%] Built target std_msgs_generate_messages_eus
+[0.463s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.463s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.465s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.466s] [  0%] Built target nav_msgs_generate_messages_cpp
+[0.466s] [  0%] Built target nav_msgs_generate_messages_lisp
+[0.466s] [  0%] Built target roscpp_generate_messages_lisp
+[0.469s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.469s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.477s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.477s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.477s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.477s] [  0%] Built target std_msgs_generate_messages_py
+[0.477s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.477s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.477s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.480s] [  0%] Built target roscpp_generate_messages_py
+[0.492s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.497s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.499s] [  0%] Built target roscpp_generate_messages_eus
+[0.499s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.502s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.503s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.547s] [100%] Built target twist2odom
+[0.711s] Invoked command in '/home/point001/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/twist2odom -- -j24 -l24
+[1.293s] Invoking command in '/home/point001/autoware.ai/build/twist2odom': /usr/bin/cmake --build /home/point001/autoware.ai/build/twist2odom --target tests -- -j24 -l24
+[1.774s] [ 40%] Built target gtest
+[1.848s] [100%] Built target twist2odom_test
+[1.888s] [100%] Built target tests
+[1.969s] Invoked command in '/home/point001/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/twist2odom --target tests -- -j24 -l24
+[2.430s] Invoking command in '/home/point001/autoware.ai/build/twist2odom': /usr/bin/cmake --build /home/point001/autoware.ai/build/twist2odom --target install -- -j24 -l24
+[2.552s] [  0%] Built target std_msgs_generate_messages_py
+[2.561s] [  0%] Built target roscpp_generate_messages_py
+[2.564s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.567s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.573s] [  0%] Built target nav_msgs_generate_messages_py
+[2.573s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.573s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.576s] [  0%] Built target roscpp_generate_messages_lisp
+[2.585s] [  0%] Built target nav_msgs_generate_messages_eus
+[2.585s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.586s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.586s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.590s] [  0%] Built target roscpp_generate_messages_cpp
+[2.594s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.594s] [  0%] Built target nav_msgs_generate_messages_cpp
+[2.596s] [  0%] Built target std_msgs_generate_messages_eus
+[2.596s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.602s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[2.602s] [  0%] Built target nav_msgs_generate_messages_lisp
+[2.603s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.607s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.607s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.615s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.618s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.624s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.637s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.638s] [  0%] Built target roscpp_generate_messages_eus
+[2.639s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.640s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.646s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.727s] [100%] Built target twist2odom
+[2.773s] [36mInstall the project...[0m
+[2.796s] -- Install configuration: "Release"
+[2.796s] -- Up-to-date: /home/point001/autoware.ai/install/twist2odom/lib/pkgconfig/twist2odom.pc
+[2.796s] -- Up-to-date: /home/point001/autoware.ai/install/twist2odom/share/twist2odom/cmake/twist2odomConfig.cmake
+[2.796s] -- Up-to-date: /home/point001/autoware.ai/install/twist2odom/share/twist2odom/cmake/twist2odomConfig-version.cmake
+[2.796s] -- Up-to-date: /home/point001/autoware.ai/install/twist2odom/share/twist2odom/package.xml
+[2.796s] -- Up-to-date: /home/point001/autoware.ai/install/twist2odom/lib/twist2odom/twist2odom
+[2.884s] Invoked command in '/home/point001/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/twist2odom --target install -- -j24 -l24

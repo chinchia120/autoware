@@ -1,0 +1,34 @@
+[0.153s] Invoking command in '/home/point001/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/map_tools -- -j24 -l24
+[0.228s] [ 14%] Built target pcd_filter
+[0.229s] [ 28%] Built target pcd2csv
+[0.229s] [ 42%] Built target pcd_grid_divider
+[0.229s] [ 57%] Built target csv2pcd
+[0.230s] [ 71%] Built target pcd_arealist
+[0.230s] [ 85%] Built target map_extender
+[0.230s] [100%] Built target pcd_binarizer
+[0.401s] Invoked command in '/home/point001/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/map_tools -- -j24 -l24
+[0.953s] Invoking command in '/home/point001/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/map_tools --target tests -- -j24 -l24
+[1.205s] Built target tests
+[1.393s] Invoked command in '/home/point001/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/map_tools --target tests -- -j24 -l24
+[1.892s] Invoking command in '/home/point001/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/map_tools --target install -- -j24 -l24
+[2.018s] [ 14%] Built target csv2pcd
+[2.025s] [ 28%] Built target pcd_filter
+[2.027s] [ 42%] Built target pcd_grid_divider
+[2.038s] [ 57%] Built target pcd_binarizer
+[2.038s] [ 71%] Built target pcd2csv
+[2.040s] [ 85%] Built target pcd_arealist
+[2.047s] [100%] Built target map_extender
+[2.068s] [36mInstall the project...[0m
+[2.080s] -- Install configuration: "Release"
+[2.080s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/pkgconfig/map_tools.pc
+[2.080s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig.cmake
+[2.080s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig-version.cmake
+[2.080s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/share/map_tools/package.xml
+[2.080s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/csv2pcd
+[2.081s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/map_extender
+[2.081s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/pcd2csv
+[2.082s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/pcd_arealist
+[2.082s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/pcd_binarizer
+[2.083s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/pcd_filter
+[2.084s] -- Up-to-date: /home/point001/autoware.ai/install/map_tools/lib/map_tools/pcd_grid_divider
+[2.190s] Invoked command in '/home/point001/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/map_tools --target install -- -j24 -l24

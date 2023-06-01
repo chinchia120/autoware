@@ -1,0 +1,1079 @@
+[0.095s] Invoking command in '/home/point001/autoware.ai/build/autoware_msgs': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/messages/autoware_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_msgs
+[0.169s] -- The C compiler identification is GNU 7.5.0
+[0.214s] -- The CXX compiler identification is GNU 7.5.0
+[0.221s] -- Check for working C compiler: /usr/bin/cc
+[0.297s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.297s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.382s] -- Detecting C compile features
+[0.610s] -- Detecting C compile features - done
+[0.613s] -- Check for working CXX compiler: /usr/bin/c++
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.693s] -- Detecting CXX compiler ABI info
+[0.778s] -- Detecting CXX compiler ABI info - done
+[0.787s] -- Detecting CXX compile features
+[1.162s] -- Detecting CXX compile features - done
+[1.164s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/autoware_msgs/devel
+[1.165s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.165s] -- This workspace overlays: /opt/ros/melodic
+[1.179s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.179s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.180s] -- Using Debian Python package layout
+[1.180s] -- Using empy: /usr/bin/empy
+[1.330s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.330s] -- Call enable_testing()
+[1.332s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/autoware_msgs/test_results
+[1.360s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.360s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.366s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.367s] -- Looking for pthread.h
+[1.447s] -- Looking for pthread.h - found
+[1.447s] -- Looking for pthread_create
+[1.525s] -- Looking for pthread_create - not found
+[1.526s] -- Looking for pthread_create in pthreads
+[1.591s] -- Looking for pthread_create in pthreads - not found
+[1.591s] -- Looking for pthread_create in pthread
+[1.662s] -- Looking for pthread_create in pthread - found
+[1.663s] -- Found Threads: TRUE  
+[1.668s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.712s] -- catkin 0.7.29
+[1.712s] -- BUILD_SHARED_LIBS is on
+[1.867s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.168s] -- autoware_msgs: 52 messages, 1 services
+[2.460s] -- Configuring done
+[2.563s] -- Generating done
+[2.580s] -- Build files have been written to: /home/point001/autoware.ai/build/autoware_msgs
+[2.682s] Invoked command in '/home/point001/autoware.ai/build/autoware_msgs' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/messages/autoware_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_msgs
+[2.686s] Invoking command in '/home/point001/autoware.ai/build/autoware_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_msgs -- -j24 -l24
+[3.165s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_IndicatorCmd[0m
+[3.165s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_RemoteCmd[0m
+[3.186s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_DetectedObject[0m
+[3.192s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_RecognizeLightState[0m
+[3.200s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_Lane[0m
+[3.209s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[3.214s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_VscanTracked[0m
+[3.217s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_SyncTimeDiff[0m
+[3.224s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ColorSet[0m
+[3.226s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_WaypointState[0m
+[3.234s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_State[0m
+[3.239s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_DetectedObjectArray[0m
+[3.239s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ScanImage[0m
+[3.242s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageRectRanged[0m
+[3.246s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[3.271s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[3.273s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ProjectionMatrix[0m
+[3.286s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[3.297s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_Waypoint[0m
+[3.328s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_NDTStat[0m
+[3.328s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_CloudClusterArray[0m
+[3.328s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ICPStat[0m
+[3.328s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_VehicleCmd[0m
+[3.331s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ObjLabel[0m
+[3.361s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.361s] [  0%] Built target std_msgs_generate_messages_py
+[3.386s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.395s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_RecognizeLightState
+[3.406s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_Gear[0m
+[3.406s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.464s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_IndicatorCmd
+[3.519s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_WaypointState
+[3.532s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_State
+[3.539s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SyncTimeDiff
+[3.540s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_TunedResult[0m
+[3.544s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ColorSet
+[3.560s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ProjectionMatrix
+[3.572s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ObjLabel
+[3.572s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_TrafficLight[0m
+[3.573s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DetectedObject
+[3.584s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ScanImage
+[3.594s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DetectedObjectArray
+[3.595s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VscanTracked
+[3.596s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Lane
+[3.596s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_RemoteCmd
+[3.601s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_VehicleStatus[0m
+[3.605s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_NDTStat
+[3.605s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageRectRanged
+[3.607s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_CloudClusterArray
+[3.635s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ControlCommandStamped[0m
+[3.643s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ValueSet[0m
+[3.651s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_Centroids[0m
+[3.655s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageObjRanged[0m
+[3.671s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_SyncTimeMonitor[0m
+[3.693s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_AccelCmd[0m
+[3.693s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_LaneArray[0m
+[3.694s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_TrafficLightResult[0m
+[3.787s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Waypoint
+[3.787s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_BrakeCmd[0m
+[3.787s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ICPStat
+[3.787s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_SteerCmd[0m
+[3.787s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Gear
+[3.787s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_Signals[0m
+[3.787s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleCmd
+[3.788s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageObj[0m
+[3.788s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_StateCmd[0m
+[3.802s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ControlCommand[0m
+[3.811s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_VscanTrackedArray[0m
+[3.812s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleStatus
+[3.907s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageRect[0m
+[3.916s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_TrafficLightResultArray[0m
+[3.916s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ValueSet
+[3.930s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_CloudCluster[0m
+[3.957s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjRanged
+[3.970s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ExtractedPosition[0m
+[3.971s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLightResult
+[3.971s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SyncTimeMonitor
+[3.973s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_AccelCmd
+[3.984s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageObjects[0m
+[4.007s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ControlCommandStamped
+[4.012s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SteerCmd
+[4.057s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageObjTracked[0m
+[4.057s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TunedResult
+[4.058s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VscanTrackedArray
+[4.059s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLight
+[4.061s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Signals
+[4.062s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ObjPose[0m
+[4.062s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObj
+[4.068s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ControlCommand
+[4.077s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_GeometricRectangle[0m
+[4.079s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_StateCmd
+[4.090s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_AdjustXY[0m
+[4.116s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_LampCmd[0m
+[4.124s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Centroids
+[4.125s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLightResultArray
+[4.157s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.158s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_VehicleLocation[0m
+[4.166s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_DTLane[0m
+[4.177s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[4.178s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[4.190s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.194s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_LaneArray
+[4.198s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_ImageLaneObjects[0m
+[4.200s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_CloudCluster
+[4.204s] [35m[1mScanning dependencies of target _autoware_msgs_generate_messages_check_deps_PointsImage[0m
+[4.206s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[4.239s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[4.250s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[4.257s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.259s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[4.263s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_BrakeCmd
+[4.264s] [  0%] Built target std_msgs_generate_messages_eus
+[4.266s] [  0%] Built target sensor_msgs_generate_messages_eus
+[4.273s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ExtractedPosition
+[4.279s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[4.288s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ObjPose
+[4.298s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[4.300s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[4.310s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[4.312s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[4.343s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.343s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[4.344s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.358s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjects
+[4.358s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.358s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[4.358s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjTracked
+[4.359s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageRect
+[4.359s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[4.359s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DTLane
+[4.359s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[4.380s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_LampCmd
+[4.380s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageLaneObjects
+[4.382s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_AdjustXY
+[4.394s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[4.394s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[4.394s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.409s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.419s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleLocation
+[4.425s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_GeometricRectangle
+[4.431s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.435s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[4.435s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.494s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.494s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.546s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_PointsImage
+[4.595s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[4.607s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[4.619s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[4.634s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[4.645s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[4.658s] [  0%] [34m[1mGenerating Python from MSG autoware_msgs/VehicleCmd[0m
+[4.663s] [  1%] [34m[1mGenerating Python from MSG autoware_msgs/AccelCmd[0m
+[4.667s] [  1%] [34m[1mGenerating Javascript code from autoware_msgs/ObjLabel.msg[0m
+[4.669s] [  1%] [34m[1mGenerating Javascript code from autoware_msgs/Lane.msg[0m
+[4.680s] [  2%] [34m[1mGenerating Javascript code from autoware_msgs/VehicleStatus.msg[0m
+[4.680s] [  2%] [34m[1mGenerating Javascript code from autoware_msgs/IndicatorCmd.msg[0m
+[4.695s] [  3%] [34m[1mGenerating Javascript code from autoware_msgs/AdjustXY.msg[0m
+[4.714s] [  3%] [34m[1mGenerating Javascript code from autoware_msgs/Signals.msg[0m
+[4.715s] [  3%] [34m[1mGenerating Javascript code from autoware_msgs/State.msg[0m
+[4.717s] [  3%] [34m[1mGenerating Javascript code from autoware_msgs/VehicleCmd.msg[0m
+[4.717s] [  3%] [34m[1mGenerating Javascript code from autoware_msgs/WaypointState.msg[0m
+[4.736s] [  3%] [34m[1mGenerating Javascript code from autoware_msgs/VscanTracked.msg[0m
+[4.737s] [  4%] [34m[1mGenerating Javascript code from autoware_msgs/ValueSet.msg[0m
+[4.742s] [  4%] [34m[1mGenerating Javascript code from autoware_msgs/SteerCmd.msg[0m
+[4.759s] [  4%] [34m[1mGenerating Javascript code from autoware_msgs/TrafficLightResult.msg[0m
+[4.760s] [  4%] [34m[1mGenerating Lisp code from autoware_msgs/VehicleCmd.msg[0m
+[4.762s] [  5%] [34m[1mGenerating Javascript code from autoware_msgs/AccelCmd.msg[0m
+[4.763s] [  5%] [34m[1mGenerating Javascript code from autoware_msgs/DTLane.msg[0m
+[4.763s] [  6%] [34m[1mGenerating EusLisp code from autoware_msgs/VehicleCmd.msg[0m
+[4.764s] [  7%] [34m[1mGenerating Javascript code from autoware_msgs/ControlCommandStamped.msg[0m
+[4.765s] [  7%] [34m[1mGenerating Javascript code from autoware_msgs/ControlCommand.msg[0m
+[4.769s] [  8%] [34m[1mGenerating Javascript code from autoware_msgs/BrakeCmd.msg[0m
+[4.771s] [  9%] [34m[1mGenerating Javascript code from autoware_msgs/ImageObj.msg[0m
+[4.782s] [  9%] [34m[1mGenerating C++ code from autoware_msgs/VehicleCmd.msg[0m
+[4.821s] [  9%] [34m[1mGenerating Lisp code from autoware_msgs/VscanTracked.msg[0m
+[4.839s] [  9%] [34m[1mGenerating C++ code from autoware_msgs/AccelCmd.msg[0m
+[4.849s] [  9%] [34m[1mGenerating Javascript code from autoware_msgs/RemoteCmd.msg[0m
+[4.862s] [ 10%] [34m[1mGenerating C++ code from autoware_msgs/VscanTracked.msg[0m
+[4.869s] [ 11%] [34m[1mGenerating Lisp code from autoware_msgs/AccelCmd.msg[0m
+[4.893s] [ 12%] [34m[1mGenerating Lisp code from autoware_msgs/AdjustXY.msg[0m
+[4.897s] [ 12%] [34m[1mGenerating Lisp code from autoware_msgs/IndicatorCmd.msg[0m
+[4.922s] [ 12%] [34m[1mGenerating Lisp code from autoware_msgs/DTLane.msg[0m
+[4.960s] [ 12%] [34m[1mGenerating EusLisp code from autoware_msgs/AccelCmd.msg[0m
+[4.960s] [ 12%] [34m[1mGenerating Javascript code from autoware_msgs/TrafficLightResultArray.msg[0m
+[4.964s] [ 13%] [34m[1mGenerating Lisp code from autoware_msgs/VehicleStatus.msg[0m
+[4.976s] [ 13%] [34m[1mGenerating Lisp code from autoware_msgs/State.msg[0m
+[4.981s] [ 13%] [34m[1mGenerating Lisp code from autoware_msgs/WaypointState.msg[0m
+[4.990s] [ 13%] [34m[1mGenerating Lisp code from autoware_msgs/ObjLabel.msg[0m
+[4.995s] [ 13%] [34m[1mGenerating C++ code from autoware_msgs/WaypointState.msg[0m
+[5.001s] [ 14%] [34m[1mGenerating Javascript code from autoware_msgs/SyncTimeMonitor.msg[0m
+[5.026s] [ 14%] [34m[1mGenerating Javascript code from autoware_msgs/ImageObjects.msg[0m
+[5.034s] [ 14%] [34m[1mGenerating Javascript code from autoware_msgs/Waypoint.msg[0m
+[5.065s] [ 15%] [34m[1mGenerating Lisp code from autoware_msgs/BrakeCmd.msg[0m
+[5.077s] [ 16%] [34m[1mGenerating Javascript code from autoware_msgs/ImageRectRanged.msg[0m
+[5.083s] [ 17%] [34m[1mGenerating Javascript code from autoware_msgs/LaneArray.msg[0m
+[5.102s] [ 17%] [34m[1mGenerating Javascript code from autoware_msgs/ImageObjTracked.msg[0m
+[5.113s] [ 17%] [34m[1mGenerating Lisp code from autoware_msgs/Lane.msg[0m
+[5.125s] [ 18%] [34m[1mGenerating Lisp code from autoware_msgs/ValueSet.msg[0m
+[5.190s] [ 18%] [34m[1mGenerating Javascript code from autoware_msgs/ImageRect.msg[0m
+[5.250s] [ 19%] [34m[1mGenerating Lisp code from autoware_msgs/ControlCommandStamped.msg[0m
+[5.252s] [ 19%] [34m[1mGenerating Lisp code from autoware_msgs/TrafficLightResult.msg[0m
+[5.261s] [ 19%] [34m[1mGenerating Lisp code from autoware_msgs/Signals.msg[0m
+[5.305s] [ 19%] [34m[1mGenerating Javascript code from autoware_msgs/Centroids.msg[0m
+[5.305s] [ 20%] [34m[1mGenerating EusLisp code from autoware_msgs/VscanTracked.msg[0m
+[5.314s] [ 20%] [34m[1mGenerating Lisp code from autoware_msgs/SteerCmd.msg[0m
+[5.317s] [ 20%] [34m[1mGenerating Lisp code from autoware_msgs/ControlCommand.msg[0m
+[5.472s] [ 20%] [34m[1mGenerating Python from MSG autoware_msgs/VscanTracked[0m
+[5.472s] [ 21%] [34m[1mGenerating Javascript code from autoware_msgs/StateCmd.msg[0m
+[5.472s] [ 22%] [34m[1mGenerating Lisp code from autoware_msgs/ImageObj.msg[0m
+[5.472s] [ 22%] [34m[1mGenerating Lisp code from autoware_msgs/RemoteCmd.msg[0m
+[5.472s] [ 22%] [34m[1mGenerating Python from MSG autoware_msgs/WaypointState[0m
+[5.472s] [ 22%] [34m[1mGenerating Javascript code from autoware_msgs/VehicleLocation.msg[0m
+[5.473s] [ 22%] [34m[1mGenerating EusLisp code from autoware_msgs/WaypointState.msg[0m
+[5.479s] [ 22%] [34m[1mGenerating Javascript code from autoware_msgs/TrafficLight.msg[0m
+[5.498s] [ 22%] [34m[1mGenerating Lisp code from autoware_msgs/Waypoint.msg[0m
+[5.510s] [ 22%] [34m[1mGenerating Javascript code from autoware_msgs/NDTStat.msg[0m
+[5.531s] [ 22%] [34m[1mGenerating C++ code from autoware_msgs/AdjustXY.msg[0m
+[5.532s] [ 22%] [34m[1mGenerating Javascript code from autoware_msgs/TunedResult.msg[0m
+[5.544s] [ 23%] [34m[1mGenerating Lisp code from autoware_msgs/SyncTimeMonitor.msg[0m
+[5.595s] [ 23%] [34m[1mGenerating Lisp code from autoware_msgs/ImageObjTracked.msg[0m
+[5.596s] [ 23%] [34m[1mGenerating Lisp code from autoware_msgs/TrafficLightResultArray.msg[0m
+[5.601s] [ 25%] [34m[1mGenerating Javascript code from autoware_msgs/ExtractedPosition.msg[0m
+[5.665s] [ 26%] [34m[1mGenerating Lisp code from autoware_msgs/ImageRectRanged.msg[0m
+[5.678s] [ 26%] [34m[1mGenerating Lisp code from autoware_msgs/ImageObjects.msg[0m
+[5.678s] [ 27%] [34m[1mGenerating C++ code from autoware_msgs/IndicatorCmd.msg[0m
+[5.698s] [ 27%] [34m[1mGenerating Lisp code from autoware_msgs/ImageRect.msg[0m
+[5.700s] [ 28%] [34m[1mGenerating EusLisp code from autoware_msgs/IndicatorCmd.msg[0m
+[5.704s] [ 29%] [34m[1mGenerating Lisp code from autoware_msgs/LaneArray.msg[0m
+[5.707s] [ 29%] [34m[1mGenerating EusLisp code from autoware_msgs/AdjustXY.msg[0m
+[5.737s] [ 29%] [34m[1mGenerating Javascript code from autoware_msgs/GeometricRectangle.msg[0m
+[5.747s] [ 30%] [34m[1mGenerating Javascript code from autoware_msgs/Gear.msg[0m
+[5.782s] [ 30%] [34m[1mGenerating Lisp code from autoware_msgs/Centroids.msg[0m
+[5.804s] [ 31%] [34m[1mGenerating Lisp code from autoware_msgs/StateCmd.msg[0m
+[5.833s] [ 31%] [34m[1mGenerating Lisp code from autoware_msgs/VehicleLocation.msg[0m
+[5.847s] [ 31%] [34m[1mGenerating C++ code from autoware_msgs/DTLane.msg[0m
+[5.877s] [ 31%] [34m[1mGenerating Lisp code from autoware_msgs/TrafficLight.msg[0m
+[5.893s] [ 32%] [34m[1mGenerating Lisp code from autoware_msgs/ExtractedPosition.msg[0m
+[5.901s] [ 32%] [34m[1mGenerating Javascript code from autoware_msgs/ImageLaneObjects.msg[0m
+[5.914s] [ 32%] [34m[1mGenerating Lisp code from autoware_msgs/NDTStat.msg[0m
+[5.923s] [ 32%] [34m[1mGenerating Javascript code from autoware_msgs/CloudClusterArray.msg[0m
+[5.930s] [ 33%] [34m[1mGenerating Javascript code from autoware_msgs/ProjectionMatrix.msg[0m
+[5.953s] [ 33%] [34m[1mGenerating EusLisp code from autoware_msgs/DTLane.msg[0m
+[5.962s] [ 33%] [34m[1mGenerating Lisp code from autoware_msgs/TunedResult.msg[0m
+[5.964s] [ 33%] [34m[1mGenerating Javascript code from autoware_msgs/LampCmd.msg[0m
+[6.012s] [ 34%] [34m[1mGenerating Javascript code from autoware_msgs/ScanImage.msg[0m
+[6.047s] [ 34%] [34m[1mGenerating Javascript code from autoware_msgs/CloudCluster.msg[0m
+[6.051s] [ 34%] [34m[1mGenerating Lisp code from autoware_msgs/GeometricRectangle.msg[0m
+[6.091s] [ 34%] [34m[1mGenerating Lisp code from autoware_msgs/ImageLaneObjects.msg[0m
+[6.091s] [ 35%] [34m[1mGenerating Lisp code from autoware_msgs/Gear.msg[0m
+[6.093s] [ 35%] [34m[1mGenerating EusLisp code from autoware_msgs/VehicleStatus.msg[0m
+[6.132s] [ 36%] [34m[1mGenerating Javascript code from autoware_msgs/DetectedObject.msg[0m
+[6.161s] [ 36%] [34m[1mGenerating Lisp code from autoware_msgs/CloudClusterArray.msg[0m
+[6.180s] [ 37%] [34m[1mGenerating Lisp code from autoware_msgs/ProjectionMatrix.msg[0m
+[6.281s] [ 38%] [34m[1mGenerating Python from MSG autoware_msgs/AdjustXY[0m
+[6.322s] [ 38%] [34m[1mGenerating Javascript code from autoware_msgs/ObjPose.msg[0m
+[6.322s] [ 40%] [34m[1mGenerating Javascript code from autoware_msgs/SyncTimeDiff.msg[0m
+[6.370s] [ 40%] [34m[1mGenerating Javascript code from autoware_msgs/ColorSet.msg[0m
+[6.379s] [ 38%] [34m[1mGenerating Lisp code from autoware_msgs/LampCmd.msg[0m
+[6.379s] [ 38%] [34m[1mGenerating Javascript code from autoware_msgs/VscanTrackedArray.msg[0m
+[6.379s] [ 38%] [34m[1mGenerating Javascript code from autoware_msgs/DetectedObjectArray.msg[0m
+[6.379s] [ 39%] [34m[1mGenerating Lisp code from autoware_msgs/ScanImage.msg[0m
+[6.379s] [ 39%] [34m[1mGenerating C++ code from autoware_msgs/VehicleStatus.msg[0m
+[6.421s] [ 40%] [34m[1mGenerating Javascript code from autoware_msgs/PointsImage.msg[0m
+[6.425s] [ 40%] [34m[1mGenerating Lisp code from autoware_msgs/CloudCluster.msg[0m
+[6.430s] [ 41%] [34m[1mGenerating Javascript code from autoware_msgs/ICPStat.msg[0m
+[6.525s] [ 41%] [34m[1mGenerating Javascript code from autoware_msgs/ImageObjRanged.msg[0m
+[6.551s] [ 41%] [34m[1mGenerating Lisp code from autoware_msgs/VscanTrackedArray.msg[0m
+[6.563s] [ 42%] [34m[1mGenerating Lisp code from autoware_msgs/DetectedObject.msg[0m
+[6.570s] [ 42%] [34m[1mGenerating Lisp code from autoware_msgs/DetectedObjectArray.msg[0m
+[6.570s] [ 43%] [34m[1mGenerating Javascript code from autoware_msgs/RecognizeLightState.srv[0m
+[6.585s] [ 44%] [34m[1mGenerating Python from MSG autoware_msgs/VehicleStatus[0m
+[6.596s] [ 44%] [34m[1mGenerating Lisp code from autoware_msgs/ObjPose.msg[0m
+[6.602s] [ 44%] [34m[1mGenerating Python from MSG autoware_msgs/IndicatorCmd[0m
+[6.618s] [ 44%] [34m[1mGenerating Python from MSG autoware_msgs/DTLane[0m
+[6.626s] [ 45%] [34m[1mGenerating Lisp code from autoware_msgs/SyncTimeDiff.msg[0m
+[6.637s] [ 45%] [34m[1mGenerating Lisp code from autoware_msgs/ColorSet.msg[0m
+[6.659s] [ 46%] [34m[1mGenerating Lisp code from autoware_msgs/ICPStat.msg[0m
+[6.664s] [ 47%] [34m[1mGenerating EusLisp code from autoware_msgs/State.msg[0m
+[6.666s] [ 48%] [34m[1mGenerating C++ code from autoware_msgs/State.msg[0m
+[6.701s] [ 48%] [34m[1mGenerating Lisp code from autoware_msgs/PointsImage.msg[0m
+[6.702s] [ 48%] [34m[1mGenerating EusLisp code from autoware_msgs/ObjLabel.msg[0m
+[6.703s] [ 48%] [34m[1mGenerating C++ code from autoware_msgs/ObjLabel.msg[0m
+[6.704s] [ 48%] [34m[1mGenerating Lisp code from autoware_msgs/ImageObjRanged.msg[0m
+[6.704s] [ 50%] [34m[1mGenerating C++ code from autoware_msgs/Lane.msg[0m
+[6.704s] [ 51%] [34m[1mGenerating Lisp code from autoware_msgs/RecognizeLightState.srv[0m
+[6.721s] [ 51%] [34m[1mGenerating Python from MSG autoware_msgs/ObjLabel[0m
+[6.726s] [ 51%] [34m[1mGenerating Python from MSG autoware_msgs/State[0m
+[6.754s] [ 51%] [34m[1mGenerating C++ code from autoware_msgs/BrakeCmd.msg[0m
+[6.803s] [ 51%] [34m[1mGenerating EusLisp code from autoware_msgs/BrakeCmd.msg[0m
+[6.805s] [ 52%] [34m[1mGenerating Python from MSG autoware_msgs/BrakeCmd[0m
+[6.845s] [ 52%] [34m[1mGenerating Python from MSG autoware_msgs/Lane[0m
+[6.892s] [ 52%] [34m[1mGenerating C++ code from autoware_msgs/ValueSet.msg[0m
+[6.913s] [ 52%] Built target autoware_msgs_generate_messages_nodejs
+[6.921s] [ 53%] [34m[1mGenerating Python from MSG autoware_msgs/ValueSet[0m
+[6.935s] [ 54%] [34m[1mGenerating C++ code from autoware_msgs/TrafficLightResult.msg[0m
+[6.935s] [ 54%] [34m[1mGenerating Python from MSG autoware_msgs/Signals[0m
+[6.958s] [ 54%] [34m[1mGenerating Python from MSG autoware_msgs/TrafficLightResult[0m
+[6.984s] [ 54%] [34m[1mGenerating C++ code from autoware_msgs/Signals.msg[0m
+[6.990s] [ 55%] [34m[1mGenerating Python from MSG autoware_msgs/ControlCommandStamped[0m
+[7.002s] [ 55%] Built target autoware_msgs_generate_messages_lisp
+[7.093s] [ 55%] [34m[1mGenerating C++ code from autoware_msgs/ControlCommandStamped.msg[0m
+[7.094s] [ 56%] [34m[1mGenerating C++ code from autoware_msgs/ControlCommand.msg[0m
+[7.117s] [ 56%] [34m[1mGenerating C++ code from autoware_msgs/SteerCmd.msg[0m
+[7.118s] [ 56%] [34m[1mGenerating C++ code from autoware_msgs/ImageObj.msg[0m
+[7.120s] [ 57%] [34m[1mGenerating C++ code from autoware_msgs/RemoteCmd.msg[0m
+[7.169s] [ 57%] [34m[1mGenerating Python from MSG autoware_msgs/ControlCommand[0m
+[7.179s] [ 58%] [34m[1mGenerating EusLisp code from autoware_msgs/Lane.msg[0m
+[7.377s] [ 58%] [34m[1mGenerating C++ code from autoware_msgs/TrafficLightResultArray.msg[0m
+[7.468s] [ 58%] [34m[1mGenerating Python from MSG autoware_msgs/SteerCmd[0m
+[7.509s] [ 58%] [34m[1mGenerating Python from MSG autoware_msgs/RemoteCmd[0m
+[7.509s] [ 59%] [34m[1mGenerating Python from MSG autoware_msgs/ImageObj[0m
+[7.545s] [ 59%] [34m[1mGenerating C++ code from autoware_msgs/SyncTimeMonitor.msg[0m
+[7.557s] [ 60%] [34m[1mGenerating C++ code from autoware_msgs/Waypoint.msg[0m
+[7.570s] [ 60%] [34m[1mGenerating Python from MSG autoware_msgs/ImageObjects[0m
+[7.570s] [ 60%] [34m[1mGenerating Python from MSG autoware_msgs/TrafficLightResultArray[0m
+[7.571s] [ 61%] [34m[1mGenerating Python from MSG autoware_msgs/SyncTimeMonitor[0m
+[7.580s] [ 61%] [34m[1mGenerating Python from MSG autoware_msgs/Waypoint[0m
+[7.605s] [ 62%] [34m[1mGenerating Python from MSG autoware_msgs/ImageRectRanged[0m
+[7.606s] [ 62%] [34m[1mGenerating C++ code from autoware_msgs/ImageRectRanged.msg[0m
+[7.633s] [ 62%] [34m[1mGenerating C++ code from autoware_msgs/ImageObjects.msg[0m
+[7.642s] [ 63%] [34m[1mGenerating C++ code from autoware_msgs/ImageObjTracked.msg[0m
+[7.642s] [ 63%] [34m[1mGenerating C++ code from autoware_msgs/LaneArray.msg[0m
+[7.651s] [ 63%] [34m[1mGenerating Python from MSG autoware_msgs/ImageObjTracked[0m
+[7.711s] [ 64%] [34m[1mGenerating C++ code from autoware_msgs/ImageRect.msg[0m
+[7.728s] [ 65%] [34m[1mGenerating Python from MSG autoware_msgs/LaneArray[0m
+[7.826s] [ 65%] [34m[1mGenerating EusLisp code from autoware_msgs/ValueSet.msg[0m
+[7.896s] [ 65%] [34m[1mGenerating Python from MSG autoware_msgs/ImageRect[0m
+[7.896s] [ 65%] [34m[1mGenerating C++ code from autoware_msgs/Centroids.msg[0m
+[7.921s] [ 65%] [34m[1mGenerating C++ code from autoware_msgs/StateCmd.msg[0m
+[7.924s] [ 65%] [34m[1mGenerating Python from MSG autoware_msgs/Centroids[0m
+[7.937s] [ 66%] [34m[1mGenerating Python from MSG autoware_msgs/StateCmd[0m
+[7.942s] [ 67%] [34m[1mGenerating EusLisp code from autoware_msgs/TrafficLightResult.msg[0m
+[7.974s] [ 68%] [34m[1mGenerating C++ code from autoware_msgs/VehicleLocation.msg[0m
+[8.098s] [ 68%] [34m[1mGenerating Python from MSG autoware_msgs/VehicleLocation[0m
+[8.098s] [ 68%] [34m[1mGenerating EusLisp code from autoware_msgs/Signals.msg[0m
+[8.236s] [ 68%] [34m[1mGenerating Python from MSG autoware_msgs/TrafficLight[0m
+[8.268s] [ 68%] [34m[1mGenerating C++ code from autoware_msgs/TrafficLight.msg[0m
+[8.293s] [ 68%] [34m[1mGenerating C++ code from autoware_msgs/ExtractedPosition.msg[0m
+[8.303s] [ 69%] [34m[1mGenerating Python from MSG autoware_msgs/ExtractedPosition[0m
+[8.364s] [ 69%] [34m[1mGenerating EusLisp code from autoware_msgs/ControlCommandStamped.msg[0m
+[8.374s] [ 69%] [34m[1mGenerating Python from MSG autoware_msgs/NDTStat[0m
+[8.433s] [ 70%] [34m[1mGenerating C++ code from autoware_msgs/NDTStat.msg[0m
+[8.465s] [ 70%] [34m[1mGenerating Python from MSG autoware_msgs/TunedResult[0m
+[8.477s] [ 71%] [34m[1mGenerating EusLisp code from autoware_msgs/ControlCommand.msg[0m
+[8.498s] [ 72%] [34m[1mGenerating Python from MSG autoware_msgs/Gear[0m
+[8.499s] [ 72%] [34m[1mGenerating Python from MSG autoware_msgs/GeometricRectangle[0m
+[8.506s] [ 72%] [34m[1mGenerating C++ code from autoware_msgs/TunedResult.msg[0m
+[8.533s] [ 72%] [34m[1mGenerating C++ code from autoware_msgs/Gear.msg[0m
+[8.559s] [ 72%] [34m[1mGenerating C++ code from autoware_msgs/ProjectionMatrix.msg[0m
+[8.564s] [ 73%] [34m[1mGenerating C++ code from autoware_msgs/CloudClusterArray.msg[0m
+[8.571s] [ 75%] [34m[1mGenerating EusLisp code from autoware_msgs/SteerCmd.msg[0m
+[8.571s] [ 75%] [34m[1mGenerating C++ code from autoware_msgs/GeometricRectangle.msg[0m
+[8.574s] [ 75%] [34m[1mGenerating C++ code from autoware_msgs/ImageLaneObjects.msg[0m
+[8.699s] [ 75%] [34m[1mGenerating C++ code from autoware_msgs/ScanImage.msg[0m
+[8.720s] [ 75%] [34m[1mGenerating C++ code from autoware_msgs/CloudCluster.msg[0m
+[8.753s] [ 75%] [34m[1mGenerating C++ code from autoware_msgs/DetectedObject.msg[0m
+[8.755s] [ 76%] [34m[1mGenerating C++ code from autoware_msgs/LampCmd.msg[0m
+[8.819s] [ 77%] [34m[1mGenerating C++ code from autoware_msgs/VscanTrackedArray.msg[0m
+[8.840s] [ 78%] [34m[1mGenerating Python from MSG autoware_msgs/ProjectionMatrix[0m
+[8.847s] [ 78%] [34m[1mGenerating Python from MSG autoware_msgs/ImageLaneObjects[0m
+[8.899s] [ 78%] [34m[1mGenerating Python from MSG autoware_msgs/CloudClusterArray[0m
+[8.935s] [ 78%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageObj.msg[0m
+[9.046s] [ 79%] [34m[1mGenerating EusLisp code from autoware_msgs/RemoteCmd.msg[0m
+[9.052s] [ 80%] [34m[1mGenerating Python from MSG autoware_msgs/ScanImage[0m
+[9.061s] [ 81%] [34m[1mGenerating EusLisp code from autoware_msgs/Waypoint.msg[0m
+[9.088s] [ 81%] [34m[1mGenerating EusLisp code from autoware_msgs/SyncTimeMonitor.msg[0m
+[9.108s] [ 81%] [34m[1mGenerating EusLisp code from autoware_msgs/TrafficLightResultArray.msg[0m
+[9.118s] [ 81%] [34m[1mGenerating C++ code from autoware_msgs/DetectedObjectArray.msg[0m
+[9.128s] [ 81%] [34m[1mGenerating C++ code from autoware_msgs/SyncTimeDiff.msg[0m
+[9.199s] [ 82%] [34m[1mGenerating C++ code from autoware_msgs/ObjPose.msg[0m
+[9.200s] [ 82%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageObjects.msg[0m
+[9.256s] [ 82%] [34m[1mGenerating Python from MSG autoware_msgs/LampCmd[0m
+[9.298s] [ 82%] [34m[1mGenerating Python from MSG autoware_msgs/CloudCluster[0m
+[9.299s] [ 82%] [34m[1mGenerating C++ code from autoware_msgs/ColorSet.msg[0m
+[9.311s] [ 82%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageRectRanged.msg[0m
+[9.328s] [ 82%] [34m[1mGenerating C++ code from autoware_msgs/ImageObjRanged.msg[0m
+[9.338s] [ 83%] [34m[1mGenerating Python from MSG autoware_msgs/DetectedObject[0m
+[9.341s] [ 83%] [34m[1mGenerating Python from MSG autoware_msgs/VscanTrackedArray[0m
+[9.348s] [ 84%] [34m[1mGenerating C++ code from autoware_msgs/PointsImage.msg[0m
+[9.358s] [ 84%] [34m[1mGenerating C++ code from autoware_msgs/RecognizeLightState.srv[0m
+[9.358s] [ 84%] [34m[1mGenerating C++ code from autoware_msgs/ICPStat.msg[0m
+[9.383s] [ 85%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageObjTracked.msg[0m
+[9.395s] [ 85%] [34m[1mGenerating Python from MSG autoware_msgs/DetectedObjectArray[0m
+[9.400s] [ 85%] [34m[1mGenerating EusLisp code from autoware_msgs/LaneArray.msg[0m
+[9.407s] [ 85%] [34m[1mGenerating EusLisp code from autoware_msgs/Centroids.msg[0m
+[9.426s] [ 86%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageRect.msg[0m
+[9.486s] [ 87%] [34m[1mGenerating Python from MSG autoware_msgs/ICPStat[0m
+[9.531s] [ 88%] [34m[1mGenerating Python from MSG autoware_msgs/SyncTimeDiff[0m
+[9.531s] [ 88%] [34m[1mGenerating Python from MSG autoware_msgs/ObjPose[0m
+[9.565s] [ 88%] [34m[1mGenerating Python from MSG autoware_msgs/PointsImage[0m
+[9.565s] [ 88%] [34m[1mGenerating Python from MSG autoware_msgs/ColorSet[0m
+[9.575s] [ 88%] [34m[1mGenerating Python from MSG autoware_msgs/ImageObjRanged[0m
+[9.613s] [ 89%] [34m[1mGenerating EusLisp code from autoware_msgs/VehicleLocation.msg[0m
+[9.614s] [ 89%] [34m[1mGenerating EusLisp code from autoware_msgs/StateCmd.msg[0m
+[9.669s] [ 90%] [34m[1mGenerating Python code from SRV autoware_msgs/RecognizeLightState[0m
+[9.693s] [ 90%] [34m[1mGenerating EusLisp code from autoware_msgs/TrafficLight.msg[0m
+[9.694s] [ 90%] [34m[1mGenerating EusLisp code from autoware_msgs/ExtractedPosition.msg[0m
+[9.731s] [ 91%] [34m[1mGenerating EusLisp code from autoware_msgs/NDTStat.msg[0m
+[9.771s] [ 91%] [34m[1mGenerating EusLisp code from autoware_msgs/TunedResult.msg[0m
+[9.791s] [ 91%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageLaneObjects.msg[0m
+[9.808s] [ 92%] [34m[1mGenerating EusLisp code from autoware_msgs/GeometricRectangle.msg[0m
+[9.837s] [ 92%] [34m[1mGenerating EusLisp code from autoware_msgs/ProjectionMatrix.msg[0m
+[9.838s] [ 92%] [34m[1mGenerating EusLisp code from autoware_msgs/Gear.msg[0m
+[9.851s] [ 93%] [34m[1mGenerating EusLisp code from autoware_msgs/CloudClusterArray.msg[0m
+[9.863s] [ 93%] [34m[1mGenerating EusLisp code from autoware_msgs/ScanImage.msg[0m
+[9.916s] [ 94%] [34m[1mGenerating EusLisp code from autoware_msgs/LampCmd.msg[0m
+[10.003s] [ 94%] Built target autoware_msgs_generate_messages_cpp
+[10.004s] [ 94%] [34m[1mGenerating EusLisp code from autoware_msgs/SyncTimeDiff.msg[0m
+[10.004s] [ 94%] [34m[1mGenerating EusLisp code from autoware_msgs/DetectedObjectArray.msg[0m
+[10.020s] [ 95%] [34m[1mGenerating EusLisp code from autoware_msgs/ObjPose.msg[0m
+[10.036s] [ 95%] [34m[1mGenerating EusLisp code from autoware_msgs/ColorSet.msg[0m
+[10.047s] [ 95%] [34m[1mGenerating EusLisp code from autoware_msgs/CloudCluster.msg[0m
+[10.057s] [ 95%] [34m[1mGenerating EusLisp code from autoware_msgs/DetectedObject.msg[0m
+[10.058s] [ 96%] [34m[1mGenerating EusLisp code from autoware_msgs/VscanTrackedArray.msg[0m
+[10.071s] [ 97%] [34m[1mGenerating EusLisp code from autoware_msgs/PointsImage.msg[0m
+[10.076s] [ 97%] [34m[1mGenerating EusLisp code from autoware_msgs/ICPStat.msg[0m
+[10.077s] [ 97%] [34m[1mGenerating EusLisp code from autoware_msgs/RecognizeLightState.srv[0m
+[10.096s] [ 98%] [34m[1mGenerating EusLisp manifest code for autoware_msgs[0m
+[10.155s] [ 98%] [34m[1mGenerating EusLisp code from autoware_msgs/ImageObjRanged.msg[0m
+[10.256s] [ 98%] [34m[1mGenerating Python msg __init__.py for autoware_msgs[0m
+[10.256s] [100%] [34m[1mGenerating Python srv __init__.py for autoware_msgs[0m
+[10.617s] [100%] Built target autoware_msgs_generate_messages_py
+[11.033s] [100%] Built target autoware_msgs_generate_messages_eus
+[11.049s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages[0m
+[11.084s] [100%] Built target autoware_msgs_generate_messages
+[11.202s] Invoked command in '/home/point001/autoware.ai/build/autoware_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_msgs -- -j24 -l24
+[11.526s] Invoking command in '/home/point001/autoware.ai/build/autoware_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_msgs --target tests -- -j24 -l24
+[11.614s] [35m[1mScanning dependencies of target tests[0m
+[11.625s] Built target tests
+[11.639s] Invoked command in '/home/point001/autoware.ai/build/autoware_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_msgs --target tests -- -j24 -l24
+[11.859s] Invoking command in '/home/point001/autoware.ai/build/autoware_msgs': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_msgs --target install -- -j24 -l24
+[11.947s] [  0%] Built target geometry_msgs_generate_messages_py
+[11.976s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[11.988s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ColorSet
+[12.004s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ObjLabel
+[12.005s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DetectedObject
+[12.006s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SyncTimeDiff
+[12.013s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VscanTracked
+[12.014s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DetectedObjectArray
+[12.015s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ICPStat
+[12.034s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_WaypointState
+[12.039s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ScanImage
+[12.045s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ProjectionMatrix
+[12.047s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_CloudClusterArray
+[12.048s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_RecognizeLightState
+[12.069s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLight
+[12.074s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageRectRanged
+[12.081s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Gear
+[12.091s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_State
+[12.118s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_LaneArray
+[12.128s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ControlCommandStamped
+[12.151s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Waypoint
+[12.170s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleStatus
+[12.172s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjRanged
+[12.173s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_AccelCmd
+[12.179s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ValueSet
+[12.182s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ControlCommand
+[12.189s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Centroids
+[12.199s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLightResult
+[12.202s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TunedResult
+[12.207s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Signals
+[12.216s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VscanTrackedArray
+[12.229s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObj
+[12.238s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SteerCmd
+[12.258s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ExtractedPosition
+[12.275s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLightResultArray
+[12.307s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_CloudCluster
+[12.307s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SyncTimeMonitor
+[12.312s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_GeometricRectangle
+[12.312s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_StateCmd
+[12.312s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjects
+[12.319s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjTracked
+[12.328s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageRect
+[12.331s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ObjPose
+[12.336s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_AdjustXY
+[12.348s] [  0%] Built target geometry_msgs_generate_messages_eus
+[12.369s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleLocation
+[12.374s] [  0%] Built target std_msgs_generate_messages_eus
+[12.411s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[12.421s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[12.421s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_PointsImage
+[12.433s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_LampCmd
+[12.445s] [  0%] Built target std_msgs_generate_messages_lisp
+[12.450s] [  0%] Built target std_msgs_generate_messages_cpp
+[12.455s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[12.467s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageLaneObjects
+[12.474s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DTLane
+[12.485s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[12.492s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[12.496s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_BrakeCmd
+[12.503s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[12.508s] [  0%] Built target sensor_msgs_generate_messages_py
+[12.514s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[12.527s] [  0%] Built target std_msgs_generate_messages_nodejs
+[12.530s] [  0%] Built target sensor_msgs_generate_messages_eus
+[12.540s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[12.549s] [  0%] Built target std_msgs_generate_messages_py
+[12.553s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[12.558s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[12.563s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleCmd
+[12.572s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_IndicatorCmd
+[12.581s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_RemoteCmd
+[12.595s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_NDTStat
+[12.603s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Lane
+[12.692s] [ 18%] Built target autoware_msgs_generate_messages_cpp
+[12.695s] [ 39%] Built target autoware_msgs_generate_messages_py
+[12.703s] [ 60%] Built target autoware_msgs_generate_messages_eus
+[12.709s] [ 80%] Built target autoware_msgs_generate_messages_nodejs
+[12.714s] [100%] Built target autoware_msgs_generate_messages_lisp
+[12.754s] [100%] Built target autoware_msgs_generate_messages
+[12.797s] [36mInstall the project...[0m
+[12.824s] -- Install configuration: "Release"
+[12.824s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/AccelCmd.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/AdjustXY.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/BrakeCmd.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/Centroids.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/CloudCluster.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/CloudClusterArray.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ColorSet.msg
+[12.825s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ControlCommand.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ControlCommandStamped.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/DTLane.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/DetectedObject.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/DetectedObjectArray.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ExtractedPosition.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/Gear.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/GeometricRectangle.msg
+[12.826s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ICPStat.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageLaneObjects.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageObj.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageObjRanged.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageObjTracked.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageObjects.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageRect.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ImageRectRanged.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/IndicatorCmd.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/LampCmd.msg
+[12.827s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/Lane.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/LaneArray.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/NDTStat.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ObjLabel.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ObjPose.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/PointsImage.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ProjectionMatrix.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/RemoteCmd.msg
+[12.828s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ScanImage.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/Signals.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/State.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/StateCmd.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/SteerCmd.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/SyncTimeDiff.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/SyncTimeMonitor.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/TrafficLight.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/TrafficLightResult.msg
+[12.829s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/TrafficLightResultArray.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/TunedResult.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/ValueSet.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/VehicleCmd.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/VehicleLocation.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/VehicleStatus.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/VscanTracked.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/VscanTrackedArray.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/Waypoint.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/msg/WaypointState.msg
+[12.830s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/srv/RecognizeLightState.srv
+[12.831s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/cmake/autoware_msgs-msg-paths.cmake
+[12.831s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs
+[12.831s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/Waypoint.h
+[12.831s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/CloudCluster.h
+[12.831s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ObjLabel.h
+[12.831s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/RecognizeLightState.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ScanImage.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/NDTStat.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/Gear.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/TunedResult.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/GeometricRectangle.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ProjectionMatrix.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/AdjustXY.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageRectRanged.h
+[12.832s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/StateCmd.h
+[12.833s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/DetectedObject.h
+[12.833s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/CloudClusterArray.h
+[12.833s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/LaneArray.h
+[12.833s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/RemoteCmd.h
+[12.833s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/SteerCmd.h
+[12.833s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/Lane.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/RecognizeLightStateRequest.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ValueSet.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/VehicleCmd.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/DTLane.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ControlCommand.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/SyncTimeDiff.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/WaypointState.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/Signals.h
+[12.834s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/VscanTracked.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/Centroids.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ICPStat.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/TrafficLight.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/SyncTimeMonitor.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/VehicleLocation.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageObjTracked.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/LampCmd.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/RecognizeLightStateResponse.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ObjPose.h
+[12.835s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/State.h
+[12.836s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/VehicleStatus.h
+[12.836s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/VscanTrackedArray.h
+[12.841s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/PointsImage.h
+[12.841s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/TrafficLightResultArray.h
+[12.841s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageObj.h
+[12.841s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ControlCommandStamped.h
+[12.841s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/IndicatorCmd.h
+[12.841s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/AccelCmd.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ColorSet.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/BrakeCmd.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/TrafficLightResult.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageObjRanged.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageLaneObjects.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageRect.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/DetectedObjectArray.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ImageObjects.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/include/autoware_msgs/ExtractedPosition.h
+[12.842s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/srv
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/srv/RecognizeLightState.l
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/manifest.l
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ExtractedPosition.l
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/CloudClusterArray.l
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ControlCommand.l
+[12.843s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ICPStat.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/StateCmd.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageObjects.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ControlCommandStamped.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/SteerCmd.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageObj.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/VscanTrackedArray.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/Lane.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ObjLabel.l
+[12.844s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageRect.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/GeometricRectangle.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/AccelCmd.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/BrakeCmd.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ProjectionMatrix.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/VscanTracked.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/Gear.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/WaypointState.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/IndicatorCmd.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageObjTracked.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/VehicleStatus.l
+[12.845s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/TrafficLight.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/SyncTimeMonitor.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/DetectedObject.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/SyncTimeDiff.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/VehicleLocation.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/Waypoint.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/LampCmd.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageLaneObjects.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/Signals.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/TrafficLightResult.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ScanImage.l
+[12.846s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/DTLane.l
+[12.848s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/DetectedObjectArray.l
+[12.848s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageRectRanged.l
+[12.848s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/Centroids.l
+[12.848s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/PointsImage.l
+[12.848s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/RemoteCmd.l
+[12.848s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/CloudCluster.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/State.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/NDTStat.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/VehicleCmd.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/AdjustXY.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ValueSet.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ImageObjRanged.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/LaneArray.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/TunedResult.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ColorSet.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/TrafficLightResultArray.l
+[12.849s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/roseus/ros/autoware_msgs/msg/ObjPose.l
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/srv
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/srv/_package_RecognizeLightState.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/srv/_package.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/srv/RecognizeLightState.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/srv/autoware_msgs-srv.asd
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ICPStat.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_VehicleStatus.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/RemoteCmd.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ScanImage.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageObjRanged.lisp
+[12.850s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ProjectionMatrix.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/Signals.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/TunedResult.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/Centroids.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_LaneArray.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ValueSet.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/Lane.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ScanImage.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageRect.lisp
+[12.851s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_DTLane.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageLaneObjects.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_StateCmd.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/VehicleLocation.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_AccelCmd.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_WaypointState.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ControlCommandStamped.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/GeometricRectangle.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ExtractedPosition.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageObjects.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/TrafficLightResultArray.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageObj.lisp
+[12.852s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ColorSet.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/TrafficLight.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/DetectedObject.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageObjects.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/CloudClusterArray.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_GeometricRectangle.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageObj.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/VehicleCmd.lisp
+[12.853s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_Centroids.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_TrafficLightResultArray.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/SyncTimeDiff.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageRectRanged.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/WaypointState.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageObjTracked.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ObjLabel.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_DetectedObject.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/IndicatorCmd.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/VehicleStatus.lisp
+[12.854s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageRectRanged.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/DetectedObjectArray.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageObjRanged.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_DetectedObjectArray.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ColorSet.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageObjTracked.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/CloudCluster.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/LaneArray.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ControlCommand.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_Lane.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_NDTStat.lisp
+[12.855s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_IndicatorCmd.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_Signals.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/SyncTimeMonitor.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ValueSet.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/Waypoint.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_TrafficLightResult.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_CloudCluster.lisp
+[12.856s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/autoware_msgs-msg.asd
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ExtractedPosition.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_SyncTimeDiff.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/SteerCmd.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_PointsImage.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/TrafficLightResult.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/AdjustXY.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/DTLane.lisp
+[12.857s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/AccelCmd.lisp
+[12.858s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_VehicleCmd.lisp
+[12.858s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_LampCmd.lisp
+[12.858s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_State.lisp
+[12.858s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_TrafficLight.lisp
+[12.858s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/BrakeCmd.lisp
+[12.858s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/Gear.lisp
+[12.859s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/StateCmd.lisp
+[12.859s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ObjPose.lisp
+[12.859s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ProjectionMatrix.lisp
+[12.859s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_RemoteCmd.lisp
+[12.860s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ImageLaneObjects.lisp
+[12.862s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_SteerCmd.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ControlCommand.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/VscanTracked.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ObjPose.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_Gear.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_Waypoint.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_CloudClusterArray.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ObjLabel.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ImageRect.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/NDTStat.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_VscanTracked.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/PointsImage.lisp
+[12.863s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_VscanTrackedArray.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_TunedResult.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_ICPStat.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/ControlCommandStamped.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_SyncTimeMonitor.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/VscanTrackedArray.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_AdjustXY.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/LampCmd.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/State.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_VehicleLocation.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/common-lisp/ros/autoware_msgs/msg/_package_BrakeCmd.lisp
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs
+[12.864s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/srv
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/srv/_index.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/srv/RecognizeLightState.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/_index.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/TrafficLightResult.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/PointsImage.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ICPStat.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/Centroids.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/State.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/IndicatorCmd.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/VehicleStatus.js
+[12.865s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/TrafficLight.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/CloudCluster.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/_index.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ExtractedPosition.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/LampCmd.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageRect.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/CloudClusterArray.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/Signals.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/DTLane.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/DetectedObject.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/RemoteCmd.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/WaypointState.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageRectRanged.js
+[12.866s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/VehicleCmd.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageObjTracked.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ObjLabel.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/AdjustXY.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/StateCmd.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/NDTStat.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ControlCommand.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/Lane.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageObjRanged.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ScanImage.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ValueSet.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ControlCommandStamped.js
+[12.867s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ColorSet.js
+[12.868s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/SteerCmd.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/TunedResult.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageLaneObjects.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/VscanTrackedArray.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/DetectedObjectArray.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageObj.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/BrakeCmd.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/LaneArray.js
+[12.873s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ObjPose.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/Waypoint.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/SyncTimeMonitor.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/Gear.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/AccelCmd.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ProjectionMatrix.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/TrafficLightResultArray.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/VscanTracked.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/VehicleLocation.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/SyncTimeDiff.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/ImageObjects.js
+[12.874s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/gennodejs/ros/autoware_msgs/msg/GeometricRectangle.js
+[12.970s] Listing /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/__init__.py ...
+[12.971s] Listing /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_AccelCmd.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_AdjustXY.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_BrakeCmd.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_Centroids.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_CloudCluster.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_CloudClusterArray.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ColorSet.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ControlCommand.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ControlCommandStamped.py ...
+[12.971s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_DTLane.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_DetectedObject.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_DetectedObjectArray.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ExtractedPosition.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_Gear.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_GeometricRectangle.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ICPStat.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageLaneObjects.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObj.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjRanged.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjTracked.py ...
+[12.972s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjects.py ...
+[12.973s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageRect.py ...
+[12.973s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageRectRanged.py ...
+[12.973s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_IndicatorCmd.py ...
+[12.973s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_LampCmd.py ...
+[12.973s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_Lane.py ...
+[12.974s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_LaneArray.py ...
+[12.974s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_NDTStat.py ...
+[12.974s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ObjLabel.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ObjPose.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_PointsImage.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ProjectionMatrix.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_RemoteCmd.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ScanImage.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_Signals.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_State.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_StateCmd.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_SteerCmd.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_SyncTimeDiff.py ...
+[13.001s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_SyncTimeMonitor.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLight.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLightResult.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLightResultArray.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_TunedResult.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_ValueSet.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleCmd.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleLocation.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleStatus.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_VscanTracked.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_VscanTrackedArray.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_Waypoint.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/_WaypointState.py ...
+[13.002s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/msg/__init__.py ...
+[13.003s] Listing /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/srv ...
+[13.003s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/srv/_RecognizeLightState.py ...
+[13.003s] Compiling /home/point001/autoware.ai/build/autoware_msgs/devel/lib/python2.7/dist-packages/autoware_msgs/srv/__init__.py ...
+[13.013s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs
+[13.013s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/srv
+[13.014s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/srv/_RecognizeLightState.pyc
+[13.014s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/srv/_RecognizeLightState.py
+[13.014s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/srv/__init__.py
+[13.014s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/srv/__init__.pyc
+[13.014s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg
+[13.014s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ScanImage.py
+[13.015s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObj.py
+[13.015s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_SteerCmd.py
+[13.015s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ExtractedPosition.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ControlCommand.pyc
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_CloudCluster.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageRectRanged.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_CloudClusterArray.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_DTLane.pyc
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleLocation.pyc
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_StateCmd.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageRect.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageLaneObjects.py
+[13.016s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VscanTrackedArray.py
+[13.038s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ObjPose.pyc
+[13.038s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ValueSet.pyc
+[13.038s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLightResultArray.py
+[13.038s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ControlCommandStamped.pyc
+[13.038s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_DetectedObjectArray.pyc
+[13.039s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLightResult.py
+[13.039s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_LampCmd.pyc
+[13.039s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageLaneObjects.pyc
+[13.039s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_AccelCmd.pyc
+[13.039s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjects.py
+[13.039s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_SyncTimeMonitor.py
+[13.045s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VscanTracked.pyc
+[13.045s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_GeometricRectangle.pyc
+[13.045s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Gear.py
+[13.046s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ColorSet.pyc
+[13.046s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_PointsImage.pyc
+[13.046s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_State.py
+[13.047s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_BrakeCmd.py
+[13.047s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLightResult.pyc
+[13.048s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_SyncTimeDiff.py
+[13.052s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_LampCmd.py
+[13.052s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Signals.pyc
+[13.053s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TunedResult.pyc
+[13.053s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_DetectedObject.pyc
+[13.053s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_RemoteCmd.py
+[13.053s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjects.pyc
+[13.053s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ControlCommandStamped.py
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_State.pyc
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ObjLabel.pyc
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleLocation.py
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TunedResult.py
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_GeometricRectangle.py
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageRect.pyc
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ControlCommand.py
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/__init__.py
+[13.054s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_CloudClusterArray.pyc
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_IndicatorCmd.pyc
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_DetectedObjectArray.py
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_DTLane.py
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjTracked.pyc
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjRanged.pyc
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Signals.py
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_WaypointState.py
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleCmd.py
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Waypoint.pyc
+[13.055s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_IndicatorCmd.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageRectRanged.pyc
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ProjectionMatrix.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Waypoint.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLight.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ColorSet.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_SteerCmd.pyc
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VscanTracked.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Centroids.py
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ICPStat.pyc
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_NDTStat.pyc
+[13.056s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ObjLabel.py
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_PointsImage.py
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_LaneArray.py
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_LaneArray.pyc
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleStatus.py
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_DetectedObject.py
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ObjPose.py
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Centroids.pyc
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObj.pyc
+[13.057s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ICPStat.py
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_SyncTimeMonitor.pyc
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLightResultArray.pyc
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ValueSet.py
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/__init__.pyc
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ExtractedPosition.pyc
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Lane.py
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_AdjustXY.py
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_CloudCluster.pyc
+[13.058s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ScanImage.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VscanTrackedArray.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_NDTStat.py
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_RemoteCmd.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjRanged.py
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_TrafficLight.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_AccelCmd.py
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_AdjustXY.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_StateCmd.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Lane.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_SyncTimeDiff.pyc
+[13.059s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleStatus.pyc
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_VehicleCmd.pyc
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ImageObjTracked.py
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_ProjectionMatrix.pyc
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_Gear.pyc
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_BrakeCmd.pyc
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/msg/_WaypointState.pyc
+[13.060s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/__init__.py
+[13.061s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages/autoware_msgs/__init__.pyc
+[13.061s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig/autoware_msgs.pc
+[13.061s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/cmake/autoware_msgs-msg-extras.cmake
+[13.061s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/cmake/autoware_msgsConfig.cmake
+[13.061s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/cmake/autoware_msgsConfig-version.cmake
+[13.061s] -- Installing: /home/point001/autoware.ai/install/autoware_msgs/share/autoware_msgs/package.xml
+[13.065s] Invoked command in '/home/point001/autoware.ai/build/autoware_msgs' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_msgs --target install -- -j24 -l24

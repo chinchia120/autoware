@@ -1,0 +1,19 @@
+[0.282s] Invoking command in '/home/point001/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_tku -- -j24 -l24
+[0.619s] [100%] Built target ndt_tku
+[0.662s] Invoked command in '/home/point001/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_tku -- -j24 -l24
+[0.748s] Invoking command in '/home/point001/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_tku --target tests -- -j24 -l24
+[0.814s] Built target tests
+[0.882s] Invoked command in '/home/point001/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_tku --target tests -- -j24 -l24
+[0.989s] Invoking command in '/home/point001/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_tku --target install -- -j24 -l24
+[1.042s] [100%] Built target ndt_tku
+[1.061s] [36mInstall the project...[0m
+[1.083s] -- Install configuration: "Release"
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig/ndt_tku.pc
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig.cmake
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig-version.cmake
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/share/ndt_tku/package.xml
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/lib/libndt_tku.so
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/include
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/include/ndt.h
+[1.084s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_tku/include/algebra.h
+[1.195s] Invoked command in '/home/point001/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_tku --target install -- -j24 -l24

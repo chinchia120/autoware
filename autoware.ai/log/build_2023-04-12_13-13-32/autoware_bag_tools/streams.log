@@ -1,0 +1,78 @@
+[0.259s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools -- -j24 -l24
+[0.850s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[0.850s] [  0%] Built target std_msgs_generate_messages_eus
+[0.850s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[0.850s] [  0%] Built target roscpp_generate_messages_cpp
+[0.850s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.850s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.850s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.850s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.850s] [  0%] Built target nmea_msgs_generate_messages_py
+[0.850s] [  0%] Built target roscpp_generate_messages_py
+[0.851s] [  0%] Built target std_srvs_generate_messages_eus
+[0.851s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.851s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.851s] [  0%] Built target topic_tools_generate_messages_py
+[0.851s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.851s] [  0%] Built target roscpp_generate_messages_lisp
+[0.851s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.852s] [  0%] Built target std_msgs_generate_messages_py
+[0.852s] [  0%] Built target roscpp_generate_messages_eus
+[0.852s] [  0%] Built target std_srvs_generate_messages_py
+[0.852s] [  0%] Built target topic_tools_generate_messages_eus
+[0.852s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.857s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.859s] [  0%] Built target nmea_msgs_generate_messages_eus
+[0.864s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[0.867s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.925s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.952s] [  0%] Built target topic_tools_generate_messages_nodejs
+[0.953s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.958s] [  0%] Built target topic_tools_generate_messages_lisp
+[1.054s] [100%] Built target nmea2kml
+[1.116s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools -- -j24 -l24
+[1.291s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target tests -- -j24 -l24
+[1.406s] Built target tests
+[1.465s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target tests -- -j24 -l24
+[1.712s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target install -- -j24 -l24
+[1.837s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[1.837s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.837s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.837s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.837s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.838s] [  0%] Built target nmea_msgs_generate_messages_py
+[1.838s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.838s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.838s] [  0%] Built target roscpp_generate_messages_eus
+[1.838s] [  0%] Built target roscpp_generate_messages_lisp
+[1.838s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.838s] [  0%] Built target std_msgs_generate_messages_eus
+[1.839s] [  0%] Built target nmea_msgs_generate_messages_eus
+[1.839s] [  0%] Built target roscpp_generate_messages_cpp
+[1.842s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.842s] [  0%] Built target roscpp_generate_messages_py
+[1.842s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[1.848s] [  0%] Built target topic_tools_generate_messages_eus
+[1.852s] [  0%] Built target std_msgs_generate_messages_py
+[1.860s] [  0%] Built target std_srvs_generate_messages_eus
+[1.861s] [  0%] Built target topic_tools_generate_messages_py
+[1.863s] [  0%] Built target std_srvs_generate_messages_cpp
+[1.863s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[1.863s] [  0%] Built target std_srvs_generate_messages_nodejs
+[1.874s] [  0%] Built target std_srvs_generate_messages_lisp
+[1.877s] [  0%] Built target std_srvs_generate_messages_py
+[1.877s] [  0%] Built target topic_tools_generate_messages_nodejs
+[1.887s] [  0%] Built target topic_tools_generate_messages_cpp
+[1.888s] [  0%] Built target topic_tools_generate_messages_lisp
+[1.888s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.962s] [100%] Built target nmea2kml
+[1.985s] [36mInstall the project...[0m
+[1.992s] -- Install configuration: "Release"
+[1.992s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/lib/pkgconfig/autoware_bag_tools.pc
+[1.992s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig.cmake
+[1.993s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig-version.cmake
+[1.993s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/package.xml
+[1.993s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/change_frame_id.py
+[1.993s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/replace_msg_time_with_hdr.py
+[1.993s] -- Up-to-date: /home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/nmea2kml
+[2.174s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target install -- -j24 -l24

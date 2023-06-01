@@ -1,0 +1,159 @@
+[0.081s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/autoware_bag_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_bag_tools
+[0.153s] -- The C compiler identification is GNU 7.5.0
+[0.209s] -- The CXX compiler identification is GNU 7.5.0
+[0.214s] -- Check for working C compiler: /usr/bin/cc
+[0.291s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.292s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.372s] -- Detecting C compile features
+[0.606s] -- Detecting C compile features - done
+[0.609s] -- Check for working CXX compiler: /usr/bin/c++
+[0.691s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.691s] -- Detecting CXX compiler ABI info
+[0.780s] -- Detecting CXX compiler ABI info - done
+[0.790s] -- Detecting CXX compile features
+[1.156s] -- Detecting CXX compile features - done
+[1.158s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/autoware_bag_tools/devel
+[1.158s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.158s] -- This workspace overlays: /opt/ros/melodic
+[1.173s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.175s] -- Using Debian Python package layout
+[1.175s] -- Using empy: /usr/bin/empy
+[1.326s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.326s] -- Call enable_testing()
+[1.328s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/autoware_bag_tools/test_results
+[1.348s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.348s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.362s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.363s] -- Looking for pthread.h
+[1.439s] -- Looking for pthread.h - found
+[1.440s] -- Looking for pthread_create
+[1.514s] -- Looking for pthread_create - not found
+[1.515s] -- Looking for pthread_create in pthreads
+[1.573s] -- Looking for pthread_create in pthreads - not found
+[1.573s] -- Looking for pthread_create in pthread
+[1.654s] -- Looking for pthread_create in pthread - found
+[1.655s] -- Found Threads: TRUE  
+[1.659s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.702s] -- catkin 0.7.29
+[1.702s] -- BUILD_SHARED_LIBS is on
+[1.986s] -- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+[2.120s] -- Configuring done
+[2.141s] -- Generating done
+[2.145s] -- Build files have been written to: /home/point001/autoware.ai/build/autoware_bag_tools
+[2.190s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/utilities/autoware_bag_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_bag_tools
+[2.191s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools -- -j24 -l24
+[2.240s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[2.241s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[2.241s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[2.241s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[2.242s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[2.245s] [35m[1mScanning dependencies of target nmea_msgs_generate_messages_nodejs[0m
+[2.245s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[2.246s] [35m[1mScanning dependencies of target nmea_msgs_generate_messages_lisp[0m
+[2.248s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[2.249s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[2.250s] [35m[1mScanning dependencies of target nmea_msgs_generate_messages_py[0m
+[2.250s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[2.251s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[2.251s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[2.252s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[2.254s] [35m[1mScanning dependencies of target nmea_msgs_generate_messages_cpp[0m
+[2.255s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[2.256s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[2.257s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[2.257s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[2.257s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[2.257s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[2.258s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[2.261s] [35m[1mScanning dependencies of target nmea_msgs_generate_messages_eus[0m
+[2.264s] [  0%] Built target std_srvs_generate_messages_eus
+[2.265s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.267s] [  0%] Built target topic_tools_generate_messages_py
+[2.267s] [  0%] Built target std_msgs_generate_messages_eus
+[2.267s] [  0%] Built target roscpp_generate_messages_eus
+[2.273s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[2.273s] [  0%] Built target nmea_msgs_generate_messages_py
+[2.276s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.282s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.282s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.282s] [  0%] Built target std_srvs_generate_messages_cpp
+[2.282s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.283s] [  0%] Built target std_msgs_generate_messages_py
+[2.283s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[2.283s] [  0%] Built target topic_tools_generate_messages_eus
+[2.285s] [  0%] Built target roscpp_generate_messages_cpp
+[2.287s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.288s] [  0%] Built target roscpp_generate_messages_py
+[2.292s] [  0%] Built target roscpp_generate_messages_lisp
+[2.292s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[2.292s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[2.292s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.292s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[2.293s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.297s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[2.298s] [  0%] Built target nmea_msgs_generate_messages_eus
+[2.299s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[2.305s] [  0%] Built target std_srvs_generate_messages_nodejs
+[2.306s] [  0%] Built target std_srvs_generate_messages_py
+[2.306s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[2.310s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[2.322s] [  0%] Built target topic_tools_generate_messages_cpp
+[2.328s] [  0%] Built target std_srvs_generate_messages_lisp
+[2.328s] [  0%] Built target topic_tools_generate_messages_lisp
+[2.328s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.340s] [  0%] Built target topic_tools_generate_messages_nodejs
+[2.370s] [35m[1mScanning dependencies of target nmea2kml[0m
+[2.391s] [ 33%] [32mBuilding CXX object CMakeFiles/nmea2kml.dir/nodes/nmea2kml/ReadNMEASentence.cpp.o[0m
+[2.407s] [ 66%] [32mBuilding CXX object CMakeFiles/nmea2kml.dir/nodes/nmea2kml/nmea2kml.cpp.o[0m
+[11.935s] [100%] [32m[1mLinking CXX executable devel/lib/autoware_bag_tools/nmea2kml[0m
+[12.250s] [100%] Built target nmea2kml
+[12.309s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools -- -j24 -l24
+[12.892s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target tests -- -j24 -l24
+[13.025s] [35m[1mScanning dependencies of target tests[0m
+[13.055s] Built target tests
+[13.069s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target tests -- -j24 -l24
+[13.744s] Invoking command in '/home/point001/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target install -- -j24 -l24
+[13.982s] [  0%] Built target topic_tools_generate_messages_py
+[14.012s] [  0%] Built target std_msgs_generate_messages_cpp
+[14.019s] [  0%] Built target std_msgs_generate_messages_py
+[14.019s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[14.021s] [  0%] Built target std_msgs_generate_messages_nodejs
+[14.024s] [  0%] Built target std_msgs_generate_messages_eus
+[14.025s] [  0%] Built target roscpp_generate_messages_cpp
+[14.026s] [  0%] Built target topic_tools_generate_messages_eus
+[14.044s] [  0%] Built target nmea_msgs_generate_messages_py
+[14.050s] [  0%] Built target std_msgs_generate_messages_lisp
+[14.127s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[14.144s] [  0%] Built target std_srvs_generate_messages_nodejs
+[14.148s] [  0%] Built target topic_tools_generate_messages_cpp
+[14.158s] [  0%] Built target std_srvs_generate_messages_lisp
+[14.173s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[14.178s] [  0%] Built target topic_tools_generate_messages_lisp
+[14.183s] [  0%] Built target topic_tools_generate_messages_nodejs
+[14.192s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[14.194s] [  0%] Built target std_srvs_generate_messages_eus
+[14.195s] [  0%] Built target std_srvs_generate_messages_py
+[14.230s] [  0%] Built target std_srvs_generate_messages_cpp
+[14.234s] [  0%] Built target nmea_msgs_generate_messages_eus
+[14.241s] [  0%] Built target roscpp_generate_messages_py
+[14.274s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[14.303s] [  0%] Built target roscpp_generate_messages_eus
+[14.334s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[14.344s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[14.344s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[14.344s] [  0%] Built target roscpp_generate_messages_lisp
+[14.392s] [  0%] Built target roscpp_generate_messages_nodejs
+[14.592s] [100%] Built target nmea2kml
+[14.715s] [36mInstall the project...[0m
+[14.771s] -- Install configuration: "Release"
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/lib/pkgconfig/autoware_bag_tools.pc
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig.cmake
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig-version.cmake
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/package.xml
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/change_frame_id.py
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/replace_msg_time_with_hdr.py
+[14.771s] -- Installing: /home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/nmea2kml
+[14.772s] -- Set runtime path of "/home/point001/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/nmea2kml" to ""
+[14.803s] Invoked command in '/home/point001/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_bag_tools --target install -- -j24 -l24

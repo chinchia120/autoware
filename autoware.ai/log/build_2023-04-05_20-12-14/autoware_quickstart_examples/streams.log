@@ -1,0 +1,69 @@
+[0.096s] Invoking command in '/home/point001/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/documentation/autoware_quickstart_examples -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_quickstart_examples
+[0.459s] -- The C compiler identification is GNU 7.5.0
+[0.953s] -- The CXX compiler identification is GNU 7.5.0
+[0.958s] -- Check for working C compiler: /usr/bin/cc
+[1.554s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.555s] -- Detecting C compiler ABI info
+[2.156s] -- Detecting C compiler ABI info - done
+[2.164s] -- Detecting C compile features
+[3.259s] -- Detecting C compile features - done
+[3.259s] -- Check for working CXX compiler: /usr/bin/c++
+[3.394s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.394s] -- Detecting CXX compiler ABI info
+[3.531s] -- Detecting CXX compiler ABI info - done
+[3.541s] -- Detecting CXX compile features
+[4.058s] -- Detecting CXX compile features - done
+[4.058s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/autoware_quickstart_examples/devel
+[4.058s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[4.058s] -- This workspace overlays: /opt/ros/melodic
+[4.070s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.071s] -- Using Debian Python package layout
+[4.071s] -- Using empy: /usr/bin/empy
+[4.235s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.235s] -- Call enable_testing()
+[4.237s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/autoware_quickstart_examples/test_results
+[4.257s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.257s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.271s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.272s] -- Looking for pthread.h
+[4.369s] -- Looking for pthread.h - found
+[4.371s] -- Looking for pthread_create
+[4.609s] -- Looking for pthread_create - not found
+[4.609s] -- Looking for pthread_create in pthreads
+[4.771s] -- Looking for pthread_create in pthreads - not found
+[4.772s] -- Looking for pthread_create in pthread
+[5.060s] -- Looking for pthread_create in pthread - found
+[5.061s] -- Found Threads: TRUE  
+[5.066s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.133s] -- catkin 0.7.29
+[5.133s] -- BUILD_SHARED_LIBS is on
+[5.441s] -- Configuring done
+[5.453s] -- Generating done
+[5.454s] -- Build files have been written to: /home/point001/autoware.ai/build/autoware_quickstart_examples
+[5.472s] Invoked command in '/home/point001/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake /home/point001/autoware.ai/src/autoware/documentation/autoware_quickstart_examples -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/autoware_quickstart_examples
+[5.485s] Invoking command in '/home/point001/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_quickstart_examples -- -j24 -l24
+[5.561s] Invoked command in '/home/point001/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_quickstart_examples -- -j24 -l24
+[5.634s] Invoking command in '/home/point001/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_quickstart_examples --target tests -- -j24 -l24
+[5.799s] [35m[1mScanning dependencies of target tests[0m
+[5.871s] Built target tests
+[5.925s] Invoked command in '/home/point001/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_quickstart_examples --target tests -- -j24 -l24
+[6.377s] Invoking command in '/home/point001/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_quickstart_examples --target install -- -j24 -l24
+[6.663s] [36mInstall the project...[0m
+[6.723s] -- Install configuration: "Release"
+[6.724s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/lib/pkgconfig/autoware_quickstart_examples.pc
+[6.724s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig.cmake
+[6.724s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig-version.cmake
+[6.724s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/package.xml
+[6.724s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch
+[6.724s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo
+[6.725s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_sensing.launch
+[6.725s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_motion_planning.launch
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_detection.launch
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_localization.launch
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_map.launch
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_mission_planning.launch
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/default.rviz
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/README.md
+[6.727s] -- Installing: /home/point001/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/tf_local.launch
+[6.744s] Invoked command in '/home/point001/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake --build /home/point001/autoware.ai/build/autoware_quickstart_examples --target install -- -j24 -l24

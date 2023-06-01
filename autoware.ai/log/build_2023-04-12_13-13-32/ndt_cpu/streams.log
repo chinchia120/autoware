@@ -1,0 +1,23 @@
+[0.206s] Invoking command in '/home/point001/autoware.ai/build/ndt_cpu': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu -- -j24 -l24
+[0.801s] [100%] Built target ndt_cpu
+[0.991s] Invoked command in '/home/point001/autoware.ai/build/ndt_cpu' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu -- -j24 -l24
+[1.160s] Invoking command in '/home/point001/autoware.ai/build/ndt_cpu': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target tests -- -j24 -l24
+[1.274s] Built target tests
+[1.297s] Invoked command in '/home/point001/autoware.ai/build/ndt_cpu' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target tests -- -j24 -l24
+[1.480s] Invoking command in '/home/point001/autoware.ai/build/ndt_cpu': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target install -- -j24 -l24
+[1.586s] [100%] Built target ndt_cpu
+[1.627s] [36mInstall the project...[0m
+[1.646s] -- Install configuration: "Release"
+[1.647s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig/ndt_cpu.pc
+[1.647s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig.cmake
+[1.647s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig-version.cmake
+[1.647s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/share/ndt_cpu/package.xml
+[1.651s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu
+[1.651s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/VoxelGrid.h
+[1.652s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/NormalDistributionsTransform.h
+[1.652s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/debug.h
+[1.652s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/Octree.h
+[1.652s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/Registration.h
+[1.652s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/include/ndt_cpu/SymmetricEigenSolver.h
+[1.652s] -- Up-to-date: /home/point001/autoware.ai/install/ndt_cpu/lib/libndt_cpu.so
+[1.752s] Invoked command in '/home/point001/autoware.ai/build/ndt_cpu' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/point001/autoware.ai/build/ndt_cpu --target install -- -j24 -l24

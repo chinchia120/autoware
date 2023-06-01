@@ -1,0 +1,235 @@
+[0.186s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lanelet2_core
+[0.682s] -- The C compiler identification is GNU 7.5.0
+[0.995s] -- The CXX compiler identification is GNU 7.5.0
+[1.000s] -- Check for working C compiler: /usr/bin/cc
+[1.659s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.660s] -- Detecting C compiler ABI info
+[2.202s] -- Detecting C compiler ABI info - done
+[2.214s] -- Detecting C compile features
+[3.582s] -- Detecting C compile features - done
+[3.586s] -- Check for working CXX compiler: /usr/bin/c++
+[3.830s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.830s] -- Detecting CXX compiler ABI info
+[3.967s] -- Detecting CXX compiler ABI info - done
+[3.979s] -- Detecting CXX compile features
+[4.533s] -- Detecting CXX compile features - done
+[4.537s] -- MRT_ARCH not set and X86 target detected (x86_64)
+[4.538s] -- Setting -march to sandybridge
+[4.869s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.973s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.974s] -- Found OpenMP: TRUE (found version "4.5")  
+[4.980s] -- Performing Test FLAG_AVAILABLE
+[5.163s] -- Performing Test FLAG_AVAILABLE - Success
+[5.165s] -- Using CATKIN_DEVEL_PREFIX: /home/point001/autoware.ai/build/lanelet2_core/devel
+[5.165s] -- Using CMAKE_PREFIX_PATH: /home/point001/autoware.ai/install/mrt_cmake_modules;/opt/ros/melodic
+[5.165s] -- This workspace overlays: /home/point001/autoware.ai/install/mrt_cmake_modules;/opt/ros/melodic
+[5.190s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[5.190s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[5.190s] -- Using Debian Python package layout
+[5.190s] -- Using empy: /usr/bin/empy
+[5.366s] -- Using CATKIN_ENABLE_TESTING: ON
+[5.367s] -- Call enable_testing()
+[5.373s] -- Using CATKIN_TEST_RESULTS_DIR: /home/point001/autoware.ai/build/lanelet2_core/test_results
+[5.438s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[5.438s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[5.473s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[5.473s] -- Looking for pthread.h
+[5.724s] -- Looking for pthread.h - found
+[5.726s] -- Looking for pthread_create
+[5.902s] -- Looking for pthread_create - found
+[5.903s] -- Found Threads: TRUE  
+[5.904s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.986s] -- catkin 0.7.29
+[5.986s] -- BUILD_SHARED_LIBS is on
+[6.738s] -- Boost version: 1.65.1
+[6.738s] -- Found the following Boost libraries:
+[6.738s] --   wserialization
+[6.739s] --   thread
+[6.739s] --   random
+[6.739s] --   serialization
+[6.739s] --   log_setup
+[6.739s] --   prg_exec_monitor
+[6.739s] --   wave
+[6.739s] --   system
+[6.739s] --   signals
+[6.739s] --   chrono
+[6.739s] --   filesystem
+[6.739s] --   locale
+[6.740s] --   timer
+[6.740s] --   date_time
+[6.740s] --   regex
+[6.740s] --   graph
+[6.740s] --   program_options
+[6.740s] --   unit_test_framework
+[6.740s] --   log
+[6.740s] --   atomic
+[7.147s] -- Adding library "lanelet2_core" with source src/Attribute.cpp;src/BasicRegulatoryElements.cpp;src/Lanelet.cpp;src/LaneletMap.cpp;src/LaneletSequence.cpp;src/LineStringGeometry.cpp;src/RegulatoryElement.cpp;src/RegulatoryElementGeometry.cpp
+[7.148s] -- Marking targets "lanelet2_core" of package "lanelet2_core" for installation
+[7.148s] -- Marking HEADER FILES in "include" folder of package "lanelet2_core" for installation
+[7.148s] -- Marking SHARED CONTENT FOLDER "res" of package "lanelet2_core" for installation
+[7.148s] -- Marking SHARED CONTENT FOLDER "doc" of package "lanelet2_core" for installation
+[7.149s] -- Adding gtest unittest "lanelet2_core-test_area-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.151s] -- Adding gtest unittest "lanelet2_core-test_attribute-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.152s] -- Adding gtest unittest "lanelet2_core-test_lanelet-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.154s] -- Adding gtest unittest "lanelet2_core-test_lanelet_map-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.155s] -- Adding gtest unittest "lanelet2_core-test_lanelet_map_geometry-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.157s] -- Adding gtest unittest "lanelet2_core-test_lanelet_or_area-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.158s] -- Adding gtest unittest "lanelet2_core-test_lanelet_sequence-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.159s] -- Adding gtest unittest "lanelet2_core-test_linestring-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.161s] -- Adding gtest unittest "lanelet2_core-test_point-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.177s] -- Adding gtest unittest "lanelet2_core-test_polygon-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.179s] -- Adding gtest unittest "lanelet2_core-test_regulatory_element-test" with working dir /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[7.180s] -- Adding nosetests in folder test
+[7.183s] -- Configuring done
+[7.433s] -- Generating done
+[7.458s] -- Build files have been written to: /home/point001/autoware.ai/build/lanelet2_core
+[7.475s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/point001/autoware.ai/src/vendor/lanelet2/lanelet2_core -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/point001/autoware.ai/install/lanelet2_core
+[7.476s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core -- -j24 -l24
+[7.787s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[7.869s] [  0%] Built target _catkin_empty_exported_target
+[7.953s] [35m[1mScanning dependencies of target lanelet2_core[0m
+[8.026s] [ 11%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/Attribute.cpp.o[0m
+[8.032s] [ 22%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/BasicRegulatoryElements.cpp.o[0m
+[8.034s] [ 33%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/RegulatoryElementGeometry.cpp.o[0m
+[8.036s] [ 44%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/LineStringGeometry.cpp.o[0m
+[8.042s] [ 55%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/LaneletSequence.cpp.o[0m
+[8.048s] [ 66%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/LaneletMap.cpp.o[0m
+[8.061s] [ 77%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/Lanelet.cpp.o[0m
+[8.061s] [ 88%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/RegulatoryElement.cpp.o[0m
+[37.090s] [100%] [32m[1mLinking CXX shared library devel/lib/liblanelet2_core.so[0m
+[37.194s] [100%] Built target lanelet2_core
+[37.217s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core -- -j24 -l24
+[37.380s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target tests -- -j24 -l24
+[37.457s] [35m[1mScanning dependencies of target gtest[0m
+[37.478s] [  2%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[42.595s] [  5%] [32m[1mLinking CXX shared library libgtest.so[0m
+[42.645s] [  5%] Built target gtest
+[42.668s] [  5%] Built target _catkin_empty_exported_target
+[42.680s] [35m[1mScanning dependencies of target gtest_main[0m
+[42.697s] [  8%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[43.291s] [ 11%] [32m[1mLinking CXX shared library libgtest_main.so[0m
+[43.338s] [ 11%] Built target gtest_main
+[43.382s] [ 37%] Built target lanelet2_core
+[43.398s] [35m[1mScanning dependencies of target lanelet2_core-test_polygon-test[0m
+[43.452s] [ 40%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_polygon-test.dir/test/test_polygon.cpp.o[0m
+[57.147s] [ 42%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_polygon-test[0m
+[57.254s] [ 42%] Built target lanelet2_core-test_polygon-test
+[57.266s] [35m[1mScanning dependencies of target lanelet2_core-test_linestring-test[0m
+[57.317s] [ 45%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_linestring-test.dir/test/test_linestring.cpp.o[0m
+[81.138s] [ 48%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_linestring-test[0m
+[81.235s] [ 48%] Built target lanelet2_core-test_linestring-test
+[81.249s] [35m[1mScanning dependencies of target lanelet2_core-test_attribute-test[0m
+[81.249s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_sequence-test[0m
+[81.252s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_or_area-test[0m
+[81.272s] [ 51%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_attribute-test.dir/test/test_attribute.cpp.o[0m
+[81.308s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_sequence-test.dir/test/test_lanelet_sequence.cpp.o[0m
+[81.308s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_or_area-test.dir/test/test_lanelet_or_area.cpp.o[0m
+[83.907s] [ 60%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_attribute-test[0m
+[83.983s] [ 60%] Built target lanelet2_core-test_attribute-test
+[83.999s] [35m[1mScanning dependencies of target lanelet2_core-test_point-test[0m
+[84.007s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_map-test[0m
+[84.063s] [ 62%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_point-test.dir/test/test_point.cpp.o[0m
+[84.077s] [ 65%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_map-test.dir/test/test_lanelet_map.cpp.o[0m
+[86.446s] [ 68%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_or_area-test[0m
+[86.724s] [ 68%] Built target lanelet2_core-test_lanelet_or_area-test
+[88.801s] [ 71%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_sequence-test[0m
+[88.987s] [ 71%] Built target lanelet2_core-test_lanelet_sequence-test
+[89.440s] [ 74%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_point-test[0m
+[89.523s] [ 74%] Built target lanelet2_core-test_point-test
+[93.806s] [ 77%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_map-test[0m
+[93.880s] [ 77%] Built target lanelet2_core-test_lanelet_map-test
+[93.892s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet-test[0m
+[93.939s] [ 80%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet-test.dir/test/test_lanelet.cpp.o[0m
+[105.485s] [ 82%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet-test[0m
+[105.551s] [ 82%] Built target lanelet2_core-test_lanelet-test
+[105.562s] [35m[1mScanning dependencies of target lanelet2_core-test_area-test[0m
+[105.562s] [35m[1mScanning dependencies of target lanelet2_core-test_regulatory_element-test[0m
+[105.611s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_regulatory_element-test.dir/test/test_regulatory_element.cpp.o[0m
+[105.612s] [ 88%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_area-test.dir/test/test_area.cpp.o[0m
+[112.902s] [ 91%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_regulatory_element-test[0m
+[112.971s] [ 91%] Built target lanelet2_core-test_regulatory_element-test
+[112.983s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_map_geometry-test[0m
+[113.033s] [ 94%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_map_geometry-test.dir/test/test_lanelet_map_geometry.cpp.o[0m
+[118.302s] [ 97%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_area-test[0m
+[118.383s] [ 97%] Built target lanelet2_core-test_area-test
+[130.591s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_map_geometry-test[0m
+[130.664s] [100%] Built target lanelet2_core-test_lanelet_map_geometry-test
+[130.674s] [35m[1mScanning dependencies of target tests[0m
+[130.685s] [100%] Built target tests
+[130.699s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target tests -- -j24 -l24
+[130.757s] Invoking command in '/home/point001/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target install -- -j24 -l24
+[130.810s] [  0%] Built target _catkin_empty_exported_target
+[130.854s] [100%] Built target lanelet2_core
+[130.875s] [36mInstall the project...[0m
+[130.884s] -- Install configuration: "Release"
+[130.884s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/lib/pkgconfig/lanelet2_core.pc
+[130.885s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig.cmake
+[130.885s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig-version.cmake
+[130.885s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/package.xml
+[130.885s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/lib/liblanelet2_core.so
+[130.887s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core
+[130.887s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/Attribute.h
+[130.887s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives
+[130.887s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Area.h
+[130.887s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LineStringOrPolygon.h
+[130.887s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LaneletOrArea.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LaneletSequence.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/CompoundPolygon.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Traits.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/GPSPoint.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/CompoundLineString.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Point.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LineString.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Primitive.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/BoundingBox.h
+[130.888s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Lanelet.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/BasicRegulatoryElements.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/RegulatoryElement.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Polygon.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Area.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/GeometryHelper.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Point.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/LineString.h
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl
+[130.889s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Area.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/LineString.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Lanelet.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Polygon.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/LaneletMap.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/BoundingBox.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Lanelet.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/RegulatoryElement.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Polygon.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/LaneletMap.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/Forward.h
+[130.890s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/Exceptions.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/ReverseAndForwardIterator.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Units.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/TransformIterator.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/CompoundIterator.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Utilities.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Optional.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/HybridMap.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/include/lanelet2_core/LaneletMap.h
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/res
+[130.891s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/res/qtcreator_debugging_helpers.py
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/res/lanelet_gdb.py
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LaneletAndAreaTagging.md
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LaneletPrimitives.md
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/area.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/regulatory_element.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/max_hose_problem_small.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/linestring.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/architecture.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/lanelet.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/lanelet2_example_image.png
+[130.892s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/RegulatoryElementTagging.md
+[130.893s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/GeometryPrimer.md
+[130.893s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/Lanelet1Compability.md
+[130.893s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LinestringTagging.md
+[130.893s] -- Installing: /home/point001/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/Architecture.md
+[130.894s] Invoked command in '/home/point001/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lanelet2_core --target install -- -j24 -l24
