@@ -1,0 +1,357 @@
+[0.264s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer -- -j24 -l24
+[0.406s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.413s] [  0%] Built target velodyne_msgs_generate_messages_cpp
+[0.413s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.413s] [  0%] Built target nodelet_generate_messages_cpp
+[0.420s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.420s] [  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[0.421s] [  0%] Built target pcl_ros_gencfg
+[0.421s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.422s] [  0%] Built target tf_generate_messages_eus
+[0.431s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.431s] [  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[0.432s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[0.434s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.439s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.443s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[0.447s] [  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[0.447s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.449s] [  0%] Built target velodyne_pointcloud_gencfg
+[0.450s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.453s] [  0%] Built target rviz_generate_messages_nodejs
+[0.465s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.467s] [  0%] Built target nodelet_generate_messages_py
+[0.471s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.477s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[0.477s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.480s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.504s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.504s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.505s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.507s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.508s] [  0%] Built target tf_generate_messages_cpp
+[0.511s] [  0%] Built target people_msgs_generate_messages_nodejs
+[0.513s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.514s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[0.520s] [  0%] Built target actionlib_generate_messages_eus
+[0.532s] [  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[0.548s] [  0%] Built target jsk_recognition_utils_gencfg
+[0.548s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.548s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.550s] [  0%] Built target roscpp_generate_messages_eus
+[0.550s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.550s] [  0%] Built target jsk_rviz_plugins_gencfg
+[0.554s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.556s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.556s] [  0%] Built target topic_tools_generate_messages_py
+[0.560s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.565s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.571s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[0.572s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[0.574s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[0.576s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.585s] [  0%] Built target rviz_generate_messages_lisp
+[0.586s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[0.592s] [  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[0.599s] [  0%] Built target std_msgs_generate_messages_py
+[0.600s] [  0%] Built target bond_generate_messages_nodejs
+[0.601s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.603s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.607s] [  0%] Built target map_msgs_generate_messages_nodejs
+[0.610s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.611s] [  0%] Built target nav_msgs_generate_messages_cpp
+[0.618s] [  0%] Built target std_msgs_generate_messages_eus
+[0.618s] [  0%] Built target nodelet_generate_messages_lisp
+[0.621s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.623s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.624s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.644s] [  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[0.648s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.649s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.649s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.653s] [  0%] Built target roscpp_generate_messages_lisp
+[0.654s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.656s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.665s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.671s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.672s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.675s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[0.677s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.686s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[0.688s] [  0%] Built target nav_msgs_generate_messages_lisp
+[0.688s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[0.688s] [  0%] Built target actionlib_generate_messages_lisp
+[0.688s] [  0%] Built target topic_tools_generate_messages_lisp
+[0.688s] [  0%] Built target std_srvs_generate_messages_eus
+[0.690s] [  0%] Built target nodelet_topic_tools_gencfg
+[0.690s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.690s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[0.696s] [  0%] Built target jsk_hark_msgs_generate_messages_eus
+[0.701s] [  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[0.701s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.706s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.709s] [  0%] Built target jsk_rviz_plugins_generate_messages_py
+[0.718s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.725s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.725s] [  0%] Built target tf_generate_messages_nodejs
+[0.725s] [  0%] Built target roscpp_generate_messages_cpp
+[0.725s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.727s] [  0%] Built target roscpp_generate_messages_py
+[0.731s] [  0%] Built target nodelet_generate_messages_eus
+[0.732s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.733s] [  0%] Built target nav_msgs_generate_messages_py
+[0.735s] [  0%] Built target bond_generate_messages_py
+[0.735s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.736s] [  0%] Built target bond_generate_messages_lisp
+[0.738s] [  0%] Built target bond_generate_messages_cpp
+[0.739s] [  0%] Built target std_srvs_generate_messages_py
+[0.750s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.750s] [  0%] Built target map_msgs_generate_messages_eus
+[0.750s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.750s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[0.753s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.762s] [  0%] Built target topic_tools_generate_messages_nodejs
+[0.769s] [  0%] Built target bond_generate_messages_eus
+[0.769s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.769s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.769s] [  0%] Built target tf_generate_messages_py
+[0.774s] [  0%] Built target actionlib_generate_messages_py
+[0.774s] [  0%] Built target tf_generate_messages_lisp
+[0.782s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.782s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.789s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[0.789s] [  0%] Built target people_msgs_generate_messages_eus
+[0.790s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.790s] [  0%] Built target map_msgs_generate_messages_cpp
+[0.793s] [  0%] Built target visualization_msgs_generate_messages_eus
+[0.795s] [  0%] Built target topic_tools_generate_messages_eus
+[0.801s] [  0%] Built target people_msgs_generate_messages_lisp
+[0.801s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.809s] [  0%] Built target visualization_msgs_generate_messages_py
+[0.812s] [  0%] Built target rviz_generate_messages_eus
+[0.813s] [  0%] Built target map_msgs_generate_messages_lisp
+[0.813s] [  0%] Built target people_msgs_generate_messages_cpp
+[0.814s] [  0%] Built target nav_msgs_generate_messages_eus
+[0.817s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.821s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[0.821s] [  0%] Built target velodyne_msgs_generate_messages_eus
+[0.821s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.825s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[0.825s] [  0%] Built target velodyne_msgs_generate_messages_py
+[0.827s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.827s] [  0%] Built target rviz_generate_messages_cpp
+[0.828s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[0.833s] [  0%] Built target velodyne_driver_gencfg
+[0.840s] [  0%] Built target velodyne_msgs_generate_messages_lisp
+[0.843s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[0.843s] [  0%] Built target actionlib_generate_messages_cpp
+[0.843s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[0.851s] [  0%] Built target jsk_hark_msgs_generate_messages_py
+[0.854s] [  0%] Built target rviz_generate_messages_py
+[0.855s] [  0%] Built target velodyne_msgs_generate_messages_nodejs
+[0.855s] [  0%] Built target people_msgs_generate_messages_py
+[0.869s] [  0%] Built target map_msgs_generate_messages_py
+[0.978s] [ 10%] Built target ndt_mapping
+[0.987s] [ 20%] Built target ndt_matching
+[0.988s] [ 30%] Built target ndt_matching_tku
+[0.998s] [ 40%] Built target mapping
+[1.001s] [ 50%] Built target approximate_ndt_mapping
+[1.010s] [ 60%] Built target icp_matching
+[1.012s] [ 70%] Built target queue_counter
+[1.025s] [ 80%] Built target ndt_mapping_tku
+[1.046s] [ 90%] Built target ndt_matching_monitor_lib
+[1.138s] [100%] Built target ndt_matching_monitor
+[1.170s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer -- -j24 -l24
+[1.876s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target tests -- -j24 -l24
+[2.150s] [ 50%] Built target gtest
+[2.312s] [100%] Built target test_launch_ndt_matching
+[2.409s] [100%] Built target tests
+[2.457s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target tests -- -j24 -l24
+[3.216s] Invoking command in '/home/point001/autoware.ai/build/lidar_localizer': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target install -- -j24 -l24
+[3.351s] [  0%] Built target tf_generate_messages_eus
+[3.351s] [  0%] Built target velodyne_msgs_generate_messages_cpp
+[3.351s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[3.351s] [  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[3.351s] [  0%] Built target pcl_ros_gencfg
+[3.351s] [  0%] Built target pcl_msgs_generate_messages_py
+[3.351s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.352s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[3.356s] [  0%] Built target nodelet_generate_messages_cpp
+[3.356s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.357s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[3.357s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.357s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[3.357s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[3.358s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.358s] [  0%] Built target velodyne_pointcloud_gencfg
+[3.359s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[3.359s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.359s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[3.364s] [  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[3.366s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.366s] [  0%] Built target rviz_generate_messages_nodejs
+[3.367s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.370s] [  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[3.381s] [  0%] Built target actionlib_generate_messages_nodejs
+[3.382s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.382s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.391s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.391s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.393s] [  0%] Built target tf_generate_messages_cpp
+[3.393s] [  0%] Built target people_msgs_generate_messages_nodejs
+[3.393s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.393s] [  0%] Built target jsk_recognition_utils_gencfg
+[3.393s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[3.393s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.395s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[3.396s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[3.396s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[3.396s] [  0%] Built target nodelet_generate_messages_py
+[3.397s] [  0%] Built target jsk_rviz_plugins_gencfg
+[3.399s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.399s] [  0%] Built target actionlib_generate_messages_eus
+[3.401s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.401s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.402s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.404s] [  0%] Built target rviz_generate_messages_lisp
+[3.411s] [  0%] Built target roscpp_generate_messages_eus
+[3.411s] [  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[3.412s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.412s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.417s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[3.420s] [  0%] Built target bond_generate_messages_nodejs
+[3.426s] [  0%] Built target std_msgs_generate_messages_py
+[3.426s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[3.427s] [  0%] Built target map_msgs_generate_messages_nodejs
+[3.427s] [  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[3.429s] [  0%] Built target std_msgs_generate_messages_eus
+[3.434s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.435s] [  0%] Built target std_srvs_generate_messages_cpp
+[3.435s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.436s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.436s] [  0%] Built target nodelet_generate_messages_lisp
+[3.436s] [  0%] Built target roscpp_generate_messages_lisp
+[3.436s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.436s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.438s] [  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[3.444s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.444s] [  0%] Built target topic_tools_generate_messages_py
+[3.444s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[3.445s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[3.450s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.450s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[3.450s] [  0%] Built target nav_msgs_generate_messages_cpp
+[3.450s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[3.450s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.457s] [  0%] Built target nav_msgs_generate_messages_lisp
+[3.457s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.460s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[3.461s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[3.462s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.462s] [  0%] Built target topic_tools_generate_messages_lisp
+[3.462s] [  0%] Built target actionlib_generate_messages_lisp
+[3.462s] [  0%] Built target std_srvs_generate_messages_eus
+[3.465s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[3.465s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.471s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.471s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.471s] [  0%] Built target tf_generate_messages_nodejs
+[3.474s] [  0%] Built target nodelet_topic_tools_gencfg
+[3.474s] [  0%] Built target jsk_hark_msgs_generate_messages_eus
+[3.475s] [  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[3.475s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.479s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.480s] [  0%] Built target roscpp_generate_messages_py
+[3.483s] [  0%] Built target nav_msgs_generate_messages_py
+[3.484s] [  0%] Built target dynamic_reconfigure_gencfg
+[3.484s] [  0%] Built target jsk_rviz_plugins_generate_messages_py
+[3.484s] [  0%] Built target roscpp_generate_messages_cpp
+[3.484s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.490s] [  0%] Built target nodelet_generate_messages_eus
+[3.490s] [  0%] Built target bond_generate_messages_cpp
+[3.491s] [  0%] Built target std_srvs_generate_messages_lisp
+[3.492s] [  0%] Built target bond_generate_messages_py
+[3.492s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.510s] [  0%] Built target map_msgs_generate_messages_eus
+[3.510s] [  0%] Built target std_srvs_generate_messages_nodejs
+[3.510s] [  0%] Built target topic_tools_generate_messages_cpp
+[3.510s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[3.511s] [  0%] Built target tf_generate_messages_lisp
+[3.512s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.512s] [  0%] Built target bond_generate_messages_lisp
+[3.515s] [  0%] Built target nodelet_generate_messages_nodejs
+[3.515s] [  0%] Built target topic_tools_generate_messages_eus
+[3.517s] [  0%] Built target std_srvs_generate_messages_py
+[3.525s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.526s] [  0%] Built target tf_generate_messages_py
+[3.534s] [  0%] Built target tf2_msgs_generate_messages_py
+[3.534s] [  0%] Built target map_msgs_generate_messages_cpp
+[3.534s] [  0%] Built target tf2_msgs_generate_messages_eus
+[3.537s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.550s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[3.550s] [  0%] Built target actionlib_generate_messages_py
+[3.552s] [  0%] Built target topic_tools_generate_messages_nodejs
+[3.555s] [  0%] Built target bond_generate_messages_eus
+[3.556s] [  0%] Built target visualization_msgs_generate_messages_eus
+[3.567s] [  0%] Built target people_msgs_generate_messages_cpp
+[3.567s] [  0%] Built target visualization_msgs_generate_messages_py
+[3.567s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[3.567s] [  0%] Built target map_msgs_generate_messages_lisp
+[3.572s] [  0%] Built target people_msgs_generate_messages_lisp
+[3.582s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[3.582s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[3.583s] [  0%] Built target velodyne_driver_gencfg
+[3.583s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[3.588s] [  0%] Built target rviz_generate_messages_eus
+[3.588s] [  0%] Built target rviz_generate_messages_py
+[3.588s] [  0%] Built target rviz_generate_messages_cpp
+[3.595s] [  0%] Built target nav_msgs_generate_messages_eus
+[3.596s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[3.596s] [  0%] Built target velodyne_msgs_generate_messages_py
+[3.605s] [  0%] Built target velodyne_msgs_generate_messages_nodejs
+[3.610s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[3.611s] [  0%] Built target people_msgs_generate_messages_eus
+[3.613s] [  0%] Built target velodyne_msgs_generate_messages_lisp
+[3.623s] [  0%] Built target velodyne_msgs_generate_messages_eus
+[3.628s] [  0%] Built target map_msgs_generate_messages_py
+[3.628s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.629s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[3.630s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[3.635s] [  0%] Built target actionlib_generate_messages_cpp
+[3.646s] [  0%] Built target people_msgs_generate_messages_py
+[3.648s] [  0%] Built target jsk_hark_msgs_generate_messages_py
+[3.714s] [ 10%] Built target queue_counter
+[3.717s] [ 20%] Built target ndt_mapping
+[3.723s] [ 40%] Built target ndt_matching
+[3.723s] [ 40%] Built target ndt_matching_tku
+[3.727s] [ 50%] Built target mapping
+[3.733s] [ 60%] Built target ndt_matching_monitor_lib
+[3.738s] [ 70%] Built target ndt_mapping_tku
+[3.740s] [ 80%] Built target approximate_ndt_mapping
+[3.740s] [ 90%] Built target icp_matching
+[3.781s] [100%] Built target ndt_matching_monitor
+[3.808s] [36mInstall the project...[0m
+[3.817s] -- Install configuration: "Release"
+[3.817s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/pkgconfig/lidar_localizer.pc
+[3.817s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/cmake/lidar_localizerConfig.cmake
+[3.817s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/cmake/lidar_localizerConfig-version.cmake
+[3.817s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/package.xml
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/approximate_ndt_mapping
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/icp_matching
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/mapping
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_mapping
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_mapping_tku
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_matching
+[3.818s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/ndt_matching_monitor
+[3.819s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/libndt_matching_monitor_lib.so
+[3.822s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/lib/lidar_localizer/queue_counter
+[3.822s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch
+[3.822s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_monitor.launch
+[3.822s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping_tku.launch
+[3.822s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku.launch
+[3.823s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching.launch
+[3.823s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku_org.launch
+[3.823s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/approximate_ndt_mapping.launch
+[3.823s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping.launch
+[3.823s] -- Up-to-date: /home/point001/autoware.ai/install/lidar_localizer/share/lidar_localizer/launch/icp_matching.launch
+[3.872s] Invoked command in '/home/point001/autoware.ai/build/lidar_localizer' returned '0': CMAKE_PREFIX_PATH=/home/point001/autoware.ai/install/ndt_gpu:/home/point001/autoware.ai/install/autoware_health_checker:/home/point001/autoware.ai/install/ros_observer:/home/point001/autoware.ai/install/pcl_omp_registration:/home/point001/autoware.ai/install/ndt_tku:/home/point001/autoware.ai/install/ndt_cpu:/home/point001/autoware.ai/install/autoware_system_msgs:/home/point001/autoware.ai/install/autoware_msgs:/home/point001/autoware.ai/install/autoware_config_msgs:/home/point001/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib:/home/point001/autoware.ai/install/autoware_health_checker/lib:/home/point001/autoware.ai/install/ros_observer/lib:/home/point001/autoware.ai/install/pcl_omp_registration/lib:/home/point001/autoware.ai/install/ndt_tku/lib:/home/point001/autoware.ai/install/ndt_cpu/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.0/lib64 PKG_CONFIG_PATH=/home/point001/autoware.ai/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_gpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ros_observer/lib/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/point001/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/point001/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/point001/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/point001/autoware.ai/install/ndt_gpu/share:/home/point001/autoware.ai/install/autoware_health_checker/share:/home/point001/autoware.ai/install/ros_observer/share:/home/point001/autoware.ai/install/pcl_omp_registration/share:/home/point001/autoware.ai/install/ndt_tku/share:/home/point001/autoware.ai/install/ndt_cpu/share:/home/point001/autoware.ai/install/autoware_system_msgs/share:/home/point001/autoware.ai/install/autoware_msgs/share:/home/point001/autoware.ai/install/autoware_config_msgs/share:/home/point001/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/point001/autoware.ai/build/lidar_localizer --target install -- -j24 -l24
